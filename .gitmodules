@@ -7,3 +7,6 @@
 [submodule "UD_Bavarian-MaiBaam"]
 	path = UD_Bavarian-MaiBaam
 	url = https://github.com/UniversalDependencies/UD_Bavarian-MaiBaam.git
+[submodule "BarNER"]
+	path = BarNER
+	url = https://github.com/mainlp/BarNER.git
