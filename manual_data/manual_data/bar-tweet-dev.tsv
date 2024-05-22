@@ -1,0 +1,9021 @@
+# newdoc id = bar_tweet_1605176258652143616
+# sent_id = bar_tweet_1605176258652143616-1
+# text = @mention Danke Dia .
+@mention	O
+Danke	O
+Dia	O
+.	O
+
+# sent_id = bar_tweet_1605176258652143616-2
+# text = Liabn Gruaß vom Michi . ❄️ 🤗
+Liabn	O
+Gruaß	O
+vom	O
+Michi	B-PER
+.	O
+❄️	O
+🤗	O
+
+# newdoc id = bar_tweet_790767196679114752
+# sent_id = bar_tweet_790767196679114752-1
+# text = Wer woas wos i dua , der ko iatz amoi schmunzeln ....
+Wer	O
+woas	O
+wos	O
+i	O
+dua	O
+,	O
+der	O
+ko	O
+iatz	O
+amoi	O
+schmunzeln	O
+....	O
+
+# sent_id = bar_tweet_790767196679114752-2
+# text = I mach iatz dann mein " Befähigungsnachweis für Flurförderz Flurförderzeuge "
+I	O
+mach	O
+iatz	O
+dann	O
+mein	O
+"	O
+Befähigungsnachweis	O
+für	O
+Flurförderz	O
+Flurförderzeuge	O
+"	O
+
+# newdoc id = bar_tweet_1654545032794238976
+# sent_id = bar_tweet_1654545032794238976-1
+# text = @mention Sehr liab 💙 danke !
+@mention	O
+Sehr	O
+liab	O
+💙	O
+danke	O
+!	O
+
+# newdoc id = bar_tweet_334294186608164865
+# sent_id = bar_tweet_334294186608164865-1
+# text = Haut's fei im Pfingsturlaub ned z'vui Geld naus .
+Haut's	O
+fei	O
+im	O
+Pfingsturlaub	B-EVENTpart
+ned	O
+z'vui	O
+Geld	O
+naus	O
+.	O
+
+# sent_id = bar_tweet_334294186608164865-2
+# text = Mia arbadn scho eifrig an de neia Designs für die näxte ... http://t.co/GQtYlZQNaJ
+Mia	O
+arbadn	O
+scho	O
+eifrig	O
+an	O
+de	O
+neia	O
+Designs	O
+für	O
+die	O
+näxte	O
+...	O
+http://t.co/GQtYlZQNaJ	O
+
+# newdoc id = bar_tweet_600347018997825536
+# sent_id = bar_tweet_600347018997825536-1
+# text = Für eich arbadn mia sogar in Zeitraffer !
+Für	O
+eich	O
+arbadn	O
+mia	O
+sogar	O
+in	O
+Zeitraffer	O
+!	O
+
+# newdoc id = bar_tweet_1399609025415745536
+# sent_id = bar_tweet_1399609025415745536-1
+# text = @mention Da Dochta ois erdenklich guade zum Geburtsdog 🎁 🎂 🎉
+@mention	O
+Da	O
+Dochta	O
+ois	O
+erdenklich	O
+guade	O
+zum	O
+Geburtsdog	O
+🎁	O
+🎂	O
+🎉	O
+
+# newdoc id = bar_tweet_346967283681353729
+# sent_id = bar_tweet_346967283681353729-1
+# text = Oiso wer heit ned an Biergoatn geht is schee bläd .
+Oiso	O
+wer	O
+heit	O
+ned	O
+an	O
+Biergoatn	O
+geht	O
+is	O
+schee	O
+bläd	O
+.	O
+
+# newdoc id = bar_tweet_969301435279126528
+# sent_id = bar_tweet_969301435279126528-1
+# text = I schaug mia grod de Aufnahme vom #Nockherberg o. I muas ja ehrlich song , dass mia de Kinseherin ned feijn werd ....
+I	O
+schaug	O
+mia	O
+grod	O
+de	O
+Aufnahme	O
+vom	O
+#Nockherberg	B-LOC
+o.	O
+I	O
+muas	O
+ja	O
+ehrlich	O
+song	O
+,	O
+dass	O
+mia	O
+de	O
+Kinseherin	B-PER
+ned	O
+feijn	O
+werd	O
+....	O
+
+# sent_id = bar_tweet_969301435279126528-2
+# text = So recht lacha kon i bei dera einfach ned .
+So	O
+recht	O
+lacha	O
+kon	O
+i	O
+bei	O
+dera	O
+einfach	O
+ned	O
+.	O
+
+# newdoc id = bar_tweet_1639977435977359360
+# sent_id = bar_tweet_1639977435977359360-1
+# text = Ois machas , Verbrenner vabiatn , Gebäudesanierung vorschreim , Länder abmahnen ...
+Ois	O
+machas	O
+,	O
+Verbrenner	O
+vabiatn	O
+,	O
+Gebäudesanierung	O
+vorschreim	O
+,	O
+Länder	O
+abmahnen	O
+...	O
+
+# sent_id = bar_tweet_1639977435977359360-2
+# text = De EU !
+De	O
+EU	B-ORG
+!	O
+
+# sent_id = bar_tweet_1639977435977359360-3
+# text = Aba de scheiß SOMMERZEIT kenna's ned abschaffa ! 😡 * gähn * 😡
+Aba	O
+de	O
+scheiß	O
+SOMMERZEIT	O
+kenna's	O
+ned	O
+abschaffa	O
+!	O
+😡	O
+*	O
+gähn	O
+*	O
+😡	O
+
+# newdoc id = bar_tweet_1436643649673117700
+# sent_id = bar_tweet_1436643649673117700-1
+# text = @mention dachen ( dacheln ) is aa a echt bairisches Wort 👍 Des derf ned untergeh .
+@mention	O
+dachen	O
+(	O
+dacheln	O
+)	O
+is	O
+aa	O
+a	O
+echt	O
+bairisches	B-LANGderiv
+Wort	O
+👍	O
+Des	O
+derf	O
+ned	O
+untergeh	O
+.	O
+
+# sent_id = bar_tweet_1436643649673117700-2
+# text = #rote_liste_bairisch Außerdem gibts noch „ krampfeln “ für klauen .
+#rote_liste_bairisch	O
+Außerdem	O
+gibts	O
+noch	O
+„	O
+krampfeln	O
+“	O
+für	O
+klauen	O
+.	O
+
+# newdoc id = bar_tweet_1528850316401291265
+# sent_id = bar_tweet_1528850316401291265-1
+# text = @mention @mention Is ois okei !
+@mention	O
+@mention	O
+Is	O
+ois	O
+okei	O
+!	O
+
+# sent_id = bar_tweet_1528850316401291265-3
+# text = Deswegan brauch ma ka Maske mehr ! 👍
+Deswegan	O
+brauch	O
+ma	O
+ka	O
+Maske	O
+mehr	O
+!	O
+👍	O
+
+# sent_id = bar_tweet_1528850316401291265-4
+# text = I waas jo ned ! : Es kummts immer so mit de Pseudo-wissenschofftlichen Argumente umme .
+I	O
+waas	O
+jo	O
+ned	O
+!	O
+:	O
+Es	O
+kummts	O
+immer	O
+so	O
+mit	O
+de	O
+Pseudo-wissenschofftlichen	O
+Argumente	O
+umme	O
+.	O
+
+# sent_id = bar_tweet_1528850316401291265-5
+# text = BiTtE wOs StImMt NeD mIT eIcH ??
+BiTtE	O
+wOs	O
+StImMt	O
+NeD	O
+mIT	O
+eIcH	O
+??	O
+
+# newdoc id = bar_tweet_1640289430970695683
+# sent_id = bar_tweet_1640289430970695683-1
+# text = @mention Oba wirklich sowos oba a 😉 😁
+@mention	O
+Oba	O
+wirklich	O
+sowos	O
+oba	O
+a	O
+😉	O
+😁	O
+
+# newdoc id = bar_tweet_1179131282007187457
+# sent_id = bar_tweet_1179131282007187457-1
+# text = @mention Is nierd sur wichtig , dai leit gwerna se dror , dann kinnts des etzad immer sur macha
+@mention	O
+Is	O
+nierd	O
+sur	O
+wichtig	O
+,	O
+dai	O
+leit	O
+gwerna	O
+se	O
+dror	O
+,	O
+dann	O
+kinnts	O
+des	O
+etzad	O
+immer	O
+sur	O
+macha	O
+
+# newdoc id = bar_tweet_1351677683948777473
+# sent_id = bar_tweet_1351677683948777473-1
+# text = @mention Seit wann wird ma vo Rouladen , Gulasch , Rinderfilet , R-Braten gwambad ?
+@mention	O
+Seit	O
+wann	O
+wird	O
+ma	O
+vo	O
+Rouladen	O
+,	O
+Gulasch	O
+,	O
+Rinderfilet	O
+,	O
+R-Braten	O
+gwambad	O
+?	O
+
+# sent_id = bar_tweet_1351677683948777473-2
+# text = Des liegt doch meistens an de Beilagen . 😇 😁
+Des	O
+liegt	O
+doch	O
+meistens	O
+an	O
+de	O
+Beilagen	O
+.	O
+😇	O
+😁	O
+
+# newdoc id = bar_tweet_1656633068403187713
+# sent_id = bar_tweet_1656633068403187713-1
+# text = @mention Na ihr Lieabn Griasst des hots gmoant
+@mention	O
+Na	O
+ihr	O
+Lieabn	O
+Griasst	O
+des	O
+hots	O
+gmoant	O
+
+# newdoc id = bar_tweet_1656060396980035584
+# sent_id = bar_tweet_1656060396980035584-1
+# text = Im Heabsd då schdeabsd .
+Im	O
+Heabsd	O
+då	O
+schdeabsd	O
+.	O
+
+# newdoc id = bar_tweet_1290664421342224385
+# sent_id = bar_tweet_1290664421342224385-1
+# text = @mention I druck eich d' Dama .
+@mention	O
+I	O
+druck	O
+eich	O
+d'	O
+Dama	O
+.	O
+
+# newdoc id = bar_tweet_1401944531789135876
+# sent_id = bar_tweet_1401944531789135876-1
+# text = @mention @mention Sog's aber ned weida 😂
+@mention	O
+@mention	O
+Sog's	O
+aber	O
+ned	O
+weida	O
+😂	O
+
+# newdoc id = bar_tweet_1182918816587767808
+# sent_id = bar_tweet_1182918816587767808-1
+# text = @mention An scheena Guadn Morgn wünsch i Eich 🌞 ☕️ 🌞
+@mention	O
+An	O
+scheena	O
+Guadn	O
+Morgn	O
+wünsch	O
+i	O
+Eich	O
+🌞	O
+☕️	O
+🌞	O
+
+# newdoc id = bar_tweet_1172417402170011648
+# sent_id = bar_tweet_1172417402170011648-1
+# text = Au weh zwick , Des ko net sei , So a Ungschick , Ei ei ei .
+Au	O
+weh	O
+zwick	O
+,	O
+Des	O
+ko	O
+net	O
+sei	O
+,	O
+So	O
+a	O
+Ungschick	O
+,	O
+Ei	O
+ei	O
+ei	O
+.	O
+
+# sent_id = bar_tweet_1172417402170011648-2
+# text = Da #gstanzlfreitag Is heit - koa Entn , Bloss dass i ‘ s sog - Om Freidag den DREIZEHNTN !
+Da	O
+#gstanzlfreitag	O
+Is	O
+heit	O
+-	O
+koa	O
+Entn	O
+,	O
+Bloss	O
+dass	O
+i	O
+‘	O
+s	O
+sog	O
+-	O
+Om	O
+Freidag	O
+den	O
+DREIZEHNTN	O
+!	O
+
+# newdoc id = bar_tweet_1633193853359366144
+# sent_id = bar_tweet_1633193853359366144-1
+# text = So , auch heute keine #Schreibstube , dafür nochad in d #Amtsstube !
+So	O
+,	O
+auch	O
+heute	O
+keine	O
+#Schreibstube	O
+,	O
+dafür	O
+nochad	O
+in	O
+d	O
+#Amtsstube	O
+!	O
+
+# sent_id = bar_tweet_1633193853359366144-2
+# text = Mit dem Aufheera vo meiner Schreiberei distanzier I mi !
+Mit	O
+dem	O
+Aufheera	O
+vo	O
+meiner	O
+Schreiberei	O
+distanzier	O
+I	O
+mi	O
+!	O
+
+# newdoc id = bar_tweet_1570670650150518785
+# sent_id = bar_tweet_1570670650150518785-1
+# text = Geh i aufd #Wiesn , geh i ned ?
+Geh	O
+i	O
+aufd	O
+#Wiesn	B-EVENT
+,	O
+geh	O
+i	O
+ned	O
+?	O
+
+# sent_id = bar_tweet_1570670650150518785-2
+# text = Find i ‘ s griabig , find i ‘ s bled ?
+Find	O
+i	O
+‘	O
+s	O
+griabig	O
+,	O
+find	O
+i	O
+‘	O
+s	O
+bled	O
+?	O
+
+# sent_id = bar_tweet_1570670650150518785-3
+# text = Kommt drauf o , wer auf maane Wadln stiert , Dann schau ma hoid wos no passiert . 🍺
+Kommt	O
+drauf	O
+o	O
+,	O
+wer	O
+auf	O
+maane	O
+Wadln	O
+stiert	O
+,	O
+Dann	O
+schau	O
+ma	O
+hoid	O
+wos	O
+no	O
+passiert	O
+.	O
+🍺	O
+
+# sent_id = bar_tweet_1570670650150518785-4
+# text = #gstanzlfreitag #oktoberfest
+#gstanzlfreitag	O
+#oktoberfest	B-EVENT
+
+# newdoc id = bar_tweet_1623373899789439004
+# sent_id = bar_tweet_1623373899789439004-1
+# text = @mention Dankschee 💫
+@mention	O
+Dankschee	O
+💫	O
+
+# newdoc id = bar_tweet_1505079009209720833
+# sent_id = bar_tweet_1505079009209720833-1
+# text = @mention Woahrlich …
+@mention	O
+Woahrlich	O
+…	O
+
+# newdoc id = bar_tweet_777206667641511944
+# sent_id = bar_tweet_777206667641511944-1
+# text = Au weh zwick .
+Au	O
+weh	O
+zwick	O
+.	O
+
+# sent_id = bar_tweet_777206667641511944-2
+# text = Wennst näha kimmst , is Woaheit a grobs Viach .
+Wennst	O
+näha	O
+kimmst	O
+,	O
+is	O
+Woaheit	O
+a	O
+grobs	O
+Viach	O
+.	O
+
+# sent_id = bar_tweet_777206667641511944-3
+# text = #Wiesn
+#Wiesn	B-EVENT
+
+# newdoc id = bar_tweet_1594617596468420609
+# sent_id = bar_tweet_1594617596468420609-1
+# text = @mention i hob se scho au globt , so ises it 😉 dia händ letzten Mittwoch zu 5. um die 100 Gsteck / Adventskranz gmacht und am Sonntag auf'm Adventsbazar ( vom KiGa ) nach der Kirche verkauft .
+@mention	O
+i	O
+hob	O
+se	O
+scho	O
+au	O
+globt	O
+,	O
+so	O
+ises	O
+it	O
+😉	O
+dia	O
+händ	O
+letzten	O
+Mittwoch	O
+zu	O
+5.	O
+um	O
+die	O
+100	O
+Gsteck	O
+/	O
+Adventskranz	O
+gmacht	O
+und	O
+am	O
+Sonntag	O
+auf'm	O
+Adventsbazar	O
+(	O
+vom	O
+KiGa	O
+)	O
+nach	O
+der	O
+Kirche	O
+verkauft	O
+.	O
+
+# newdoc id = bar_tweet_351343926524903426
+# sent_id = bar_tweet_351343926524903426-1
+# text = Bissl a Blosmusi .
+Bissl	O
+a	O
+Blosmusi	O
+.	O
+
+# sent_id = bar_tweet_351343926524903426-2
+# text = Aus da Stod . http://t.co/AodewlSQcL ( Den Teil zw. 2:40 und 3:00 unterschreib i ! ) http://t.co/8LN6nkmj6l
+Aus	O
+da	O
+Stod	O
+.	O
+http://t.co/AodewlSQcL	O
+(	O
+Den	O
+Teil	O
+zw.	O
+2:40	O
+und	O
+3:00	O
+unterschreib	O
+i	O
+!	O
+)	O
+http://t.co/8LN6nkmj6l	O
+
+# sent_id = bar_tweet_1404934303486726145-2
+# text = Schlafts guad ! https://t.co/XiJaaYno04
+Schlafts	O
+guad	O
+!	O
+https://t.co/XiJaaYno04	O
+
+# newdoc id = bar_tweet_1653741947700367361
+# sent_id = bar_tweet_1653741947700367361-1
+# text = Bis morgen dürft Hr Euch überlegen , was das heißt : I hoff , dass dia Buebe vom #VfB heit koine Daddrmenndla send , sondr dass se hoannig , rämpfeg ond bressant fuasslet bis se fidlesabe send .
+Bis	O
+morgen	O
+dürft	O
+Hr	O
+Euch	O
+überlegen	O
+,	O
+was	O
+das	O
+heißt	O
+:	O
+I	O
+hoff	O
+,	O
+dass	O
+dia	O
+Buebe	O
+vom	O
+#VfB	B-ORG
+heit	O
+koine	O
+Daddrmenndla	O
+send	O
+,	O
+sondr	O
+dass	O
+se	O
+hoannig	O
+,	O
+rämpfeg	O
+ond	O
+bressant	O
+fuasslet	O
+bis	O
+se	O
+fidlesabe	O
+send	O
+.	O
+
+# newdoc id = bar_tweet_1499673037318279168
+# sent_id = bar_tweet_1499673037318279168-1
+# text = @mention Griaß di und guatn Morgeeeeeeeen , mei lieabe Gela !
+@mention	O
+Griaß	O
+di	O
+und	O
+guatn	O
+Morgeeeeeeeen	O
+,	O
+mei	O
+lieabe	O
+Gela	B-PER
+!	O
+
+# sent_id = bar_tweet_1499673037318279168-2
+# text = I wünsch da a an coolen Freida .
+I	O
+wünsch	O
+da	O
+a	O
+an	O
+coolen	O
+Freida	O
+.	O
+
+# sent_id = bar_tweet_1499673037318279168-3
+# text = Hob vü Spaß und los das recht guat gei , gö Gela 🌹 ☀️ 😘 😘 😘 ☀️ 🌹 .
+Hob	O
+vü	O
+Spaß	O
+und	O
+los	O
+das	O
+recht	O
+guat	O
+gei	O
+,	O
+gö	O
+Gela	B-PER
+🌹	O
+☀️	O
+😘	O
+😘	O
+😘	O
+☀️	O
+🌹	O
+.	O
+
+# newdoc id = bar_tweet_1574355243567030272
+# sent_id = bar_tweet_1574355243567030272-1
+# text = @mention @mention Grias eich , ja des vagessn de Leit leicht , dass aa no wos anders gibt ois wia eicher Hauptstadt .
+@mention	O
+@mention	O
+Grias	O
+eich	O
+,	O
+ja	O
+des	O
+vagessn	O
+de	O
+Leit	O
+leicht	O
+,	O
+dass	O
+aa	O
+no	O
+wos	O
+anders	O
+gibt	O
+ois	O
+wia	O
+eicher	O
+Hauptstadt	O
+.	O
+
+# sent_id = bar_tweet_1574355243567030272-2
+# text = Und der Balkan geht eh bis kurz vor Pasing ;)
+Und	O
+der	O
+Balkan	B-LOC
+geht	O
+eh	O
+bis	O
+kurz	O
+vor	O
+Pasing	B-LOC
+;)	O
+
+# newdoc id = bar_tweet_1653247135968550912
+# sent_id = bar_tweet_1653247135968550912-1
+# text = Gud Moing ins Voglheisl ! 🍀
+Gud	O
+Moing	O
+ins	O
+Voglheisl	O
+!	O
+🍀	O
+
+# sent_id = bar_tweet_1653247135968550912-2
+# text = So schnell san 10 Doch umme und da Wahnsinn gäiht weider !
+So	O
+schnell	O
+san	O
+10	O
+Doch	O
+umme	O
+und	O
+da	O
+Wahnsinn	O
+gäiht	O
+weider	O
+!	O
+
+# sent_id = bar_tweet_1653247135968550912-3
+# text = Guad , dass ma ner 4 Doch oarban mäin !
+Guad	O
+,	O
+dass	O
+ma	O
+ner	O
+4	O
+Doch	O
+oarban	O
+mäin	O
+!	O
+
+# sent_id = bar_tweet_1653247135968550912-4
+# text = An guadn Start wünsch i eich ! https://t.co/LwRvsdZ0m4
+An	O
+guadn	O
+Start	O
+wünsch	O
+i	O
+eich	O
+!	O
+https://t.co/LwRvsdZ0m4	O
+
+# newdoc id = bar_tweet_1324962221135433729
+# sent_id = bar_tweet_1324962221135433729-1
+# text = @mention Gud Moing M Dankschee der Nachfrage .
+@mention	O
+Gud	O
+Moing	O
+M	O
+Dankschee	O
+der	O
+Nachfrage	O
+.	O
+
+# sent_id = bar_tweet_1324962221135433729-2
+# text = Nach oana Woch konn i no ned vui song .
+Nach	O
+oana	O
+Woch	O
+konn	O
+i	O
+no	O
+ned	O
+vui	O
+song	O
+.	O
+
+# sent_id = bar_tweet_1324962221135433729-3
+# text = Nur sovui das interessant , abwechslungsreich und spannend is .
+Nur	O
+sovui	O
+das	O
+interessant	O
+,	O
+abwechslungsreich	O
+und	O
+spannend	O
+is	O
+.	O
+
+# sent_id = bar_tweet_1324962221135433729-4
+# text = Kollegen und Chef san schwar in Ordnung und da AG seijba schaugt auf seine Leid .
+Kollegen	O
+und	O
+Chef	O
+san	O
+schwar	O
+in	O
+Ordnung	O
+und	O
+da	O
+AG	O
+seijba	O
+schaugt	O
+auf	O
+seine	O
+Leid	O
+.	O
+
+# sent_id = bar_tweet_1324962221135433729-5
+# text = Noch 40 Stund is wirklich Wochnend !
+Noch	O
+40	O
+Stund	O
+is	O
+wirklich	O
+Wochnend	O
+!	O
+
+# newdoc id = bar_tweet_1520269681692712960
+# sent_id = bar_tweet_1520269681692712960-1
+# text = @mention So gfoit ma des . 👍🏼 ☕️
+@mention	O
+So	O
+gfoit	O
+ma	O
+des	O
+.	O
+👍🏼	O
+☕️	O
+
+# sent_id = bar_tweet_1520269681692712960-2
+# text = Griaß üban Brenner und Brav bleim . 😃 🤗
+Griaß	O
+üban	O
+Brenner	B-LOC
+und	O
+Brav	O
+bleim	O
+.	O
+😃	O
+🤗	O
+
+# sent_id = bar_tweet_1527327080270004225-2
+# text = Liabn Gruaß vom Michi . 🤗
+Liabn	O
+Gruaß	O
+vom	O
+Michi	B-PER
+.	O
+🤗	O
+
+# newdoc id = bar_tweet_1646545118147629056
+# sent_id = bar_tweet_1646545118147629056-1
+# text = @mention Manchsmoi verschwinden Tweets mitten beim Schreiben , wannst zwischen de Buachstobm a Emotikon neibaun wuist ...
+@mention	O
+Manchsmoi	O
+verschwinden	O
+Tweets	O
+mitten	O
+beim	O
+Schreiben	O
+,	O
+wannst	O
+zwischen	O
+de	O
+Buachstobm	O
+a	O
+Emotikon	O
+neibaun	O
+wuist	O
+...	O
+
+# sent_id = bar_tweet_1646545118147629056-2
+# text = Oda i schreib de Auflösung vom #Wochenendrätsel in an Kommentar , und schicks ab , scho is's im Nirwana .
+Oda	O
+i	O
+schreib	O
+de	O
+Auflösung	O
+vom	O
+#Wochenendrätsel	O
+in	O
+an	O
+Kommentar	O
+,	O
+und	O
+schicks	O
+ab	O
+,	O
+scho	O
+is's	O
+im	O
+Nirwana	O
+.	O
+
+# sent_id = bar_tweet_1646545118147629056-3
+# text = Vielleicht rächt si do a Programmierer ...
+Vielleicht	O
+rächt	O
+si	O
+do	O
+a	O
+Programmierer	O
+...	O
+
+# newdoc id = bar_tweet_1058779787706187781
+# sent_id = bar_tweet_1058779787706187781-1
+# text = @mention Du kennst ja wirklich jeden Berg und a jedn Stoa 😜 Wia gfeut dir mei neie Haum ?
+@mention	O
+Du	O
+kennst	O
+ja	O
+wirklich	O
+jeden	O
+Berg	O
+und	O
+a	O
+jedn	O
+Stoa	O
+😜	O
+Wia	O
+gfeut	O
+dir	O
+mei	O
+neie	O
+Haum	O
+?	O
+
+# sent_id = bar_tweet_1058779787706187781-2
+# text = Gestern z' Minga kafft ...
+Gestern	O
+z'	O
+Minga	B-LOC
+kafft	O
+...	O
+
+# sent_id = bar_tweet_1058779787706187781-3
+# text = Ergebnis noach 6 Stundn shoppen mit der Tochter - bin heit nu fertig 🙈
+Ergebnis	O
+noach	O
+6	O
+Stundn	O
+shoppen	O
+mit	O
+der	O
+Tochter	O
+-	O
+bin	O
+heit	O
+nu	O
+fertig	O
+🙈	O
+
+# newdoc id = bar_tweet_1591331357048832001
+# sent_id = bar_tweet_1591331357048832001-1
+# text = @mention @mention Wer it 🤪 Wobei ma natürlich sage muas : Sowas däts huit numma geabe .
+@mention	O
+@mention	O
+Wer	O
+it	O
+🤪	O
+Wobei	O
+ma	O
+natürlich	O
+sage	O
+muas	O
+:	O
+Sowas	O
+däts	O
+huit	O
+numma	O
+geabe	O
+.	O
+
+# sent_id = bar_tweet_1591331357048832001-2
+# text = Detmols war ma allui Maschinentechnisch no gar it grüstet solche Schneemassen glei zu Verfahre , huitzdag wird ja glei Vollgas geabe mit allem was zur Verfügung stoht .
+Detmols	O
+war	O
+ma	O
+allui	O
+Maschinentechnisch	O
+no	O
+gar	O
+it	O
+grüstet	O
+solche	O
+Schneemassen	O
+glei	O
+zu	O
+Verfahre	O
+,	O
+huitzdag	O
+wird	O
+ja	O
+glei	O
+Vollgas	O
+geabe	O
+mit	O
+allem	O
+was	O
+zur	O
+Verfügung	O
+stoht	O
+.	O
+
+# newdoc id = bar_tweet_1630272389547274243
+# sent_id = bar_tweet_1630272389547274243-1
+# text = RT @mention : @mention Des is aa a Geländerwagen ! 😂
+RT	O
+@mention	O
+:	O
+@mention	O
+Des	O
+is	O
+aa	O
+a	O
+Geländerwagen	O
+!	O
+😂	O
+
+# newdoc id = bar_tweet_1186309387649998848
+# sent_id = bar_tweet_1186309387649998848-1
+# text = @mention Des wor ma damals da laibste Job bei dern netsch ja , des eigenverantwortliche orwan , des kanne einfach ja !
+@mention	O
+Des	O
+wor	O
+ma	O
+damals	O
+da	O
+laibste	O
+Job	O
+bei	O
+dern	O
+netsch	O
+ja	O
+,	O
+des	O
+eigenverantwortliche	O
+orwan	O
+,	O
+des	O
+kanne	O
+einfach	O
+ja	O
+!	O
+
+# newdoc id = bar_tweet_1658542308143374336
+# sent_id = bar_tweet_1658542308143374336-1
+# text = Heind zum #Feierabend wieder amol #buntgekleckst #alcoholinks und #Tusche https://t.co/LYKuMLAKMX
+Heind	O
+zum	O
+#Feierabend	O
+wieder	O
+amol	O
+#buntgekleckst	O
+#alcoholinks	O
+und	O
+#Tusche	O
+https://t.co/LYKuMLAKMX	O
+
+# newdoc id = bar_tweet_1643976138832887811
+# sent_id = bar_tweet_1643976138832887811-1
+# text = @mention Dank da schee .
+@mention	O
+Dank	O
+da	O
+schee	O
+.	O
+
+# newdoc id = bar_tweet_848953506463535104
+# sent_id = bar_tweet_848953506463535104-1
+# text = Da Schädl .
+Da	O
+Schädl	O
+.	O
+
+# sent_id = bar_tweet_848953506463535104-2
+# text = #vomboawegboarisch #bavaria #weißblau #totenkopf #skull #edelweiss https://t.co/6sPKsvOWnI
+#vomboawegboarisch	B-LANGpart
+#bavaria	B-LOC
+#weißblau	O
+#totenkopf	O
+#skull	O
+#edelweiss	O
+https://t.co/6sPKsvOWnI	O
+
+# newdoc id = bar_tweet_1655186786010669057
+# sent_id = bar_tweet_1655186786010669057-1
+# text = An Geruhsamen Sonndog Nochmittdog wünsch .
+An	O
+Geruhsamen	O
+Sonndog	O
+Nochmittdog	O
+wünsch	O
+.	O
+
+# sent_id = bar_tweet_1655186786010669057-2
+# text = Danksche an jeden Einzelnen von Eich für Rts und de Lieabn Griass an mi. 🤗 👇 Ob an Twitterlein oda Tierfreund mit ❤️ 🤗 🤗 .
+Danksche	O
+an	O
+jeden	O
+Einzelnen	O
+von	O
+Eich	O
+für	O
+Rts	O
+und	O
+de	O
+Lieabn	O
+Griass	O
+an	O
+mi.	O
+🤗	O
+👇	O
+Ob	O
+an	O
+Twitterlein	B-ORGderiv
+oda	O
+Tierfreund	O
+mit	O
+❤️	O
+🤗	O
+🤗	O
+.	O
+
+# sent_id = bar_tweet_1655186786010669057-3
+# text = LIEABE GRIASS 😉 👋 https://t.co/OwcKyAm7hY
+LIEABE	O
+GRIASS	O
+😉	O
+👋	O
+https://t.co/OwcKyAm7hY	O
+
+# newdoc id = bar_tweet_1459116098863906816
+# sent_id = bar_tweet_1459116098863906816-1
+# text = was för a tat söll i mr als nöchstes stecha ?
+was	O
+för	O
+a	O
+tat	O
+söll	O
+i	O
+mr	O
+als	O
+nöchstes	O
+stecha	O
+?	O
+
+# newdoc id = bar_tweet_1097270455902318592
+# sent_id = bar_tweet_1097270455902318592-1
+# text = @mention Da legst di nieda , döes schaut fei guad aus .
+@mention	O
+Da	O
+legst	O
+di	O
+nieda	O
+,	O
+döes	O
+schaut	O
+fei	O
+guad	O
+aus	O
+.	O
+
+# sent_id = bar_tweet_1097270455902318592-2
+# text = Kompliment an de kuche , lassts öes eich schmecka !
+Kompliment	O
+an	O
+de	O
+kuche	O
+,	O
+lassts	O
+öes	O
+eich	O
+schmecka	O
+!	O
+
+# sent_id = bar_tweet_1097270455902318592-3
+# text = #dawuidlds
+#dawuidlds	O
+
+# newdoc id = bar_tweet_1519898632945815555
+# sent_id = bar_tweet_1519898632945815555-1
+# text = @mention Bravs Deandl . 😇
+@mention	O
+Bravs	O
+Deandl	O
+.	O
+😇	O
+
+# sent_id = bar_tweet_1519898632945815555-2
+# text = Ind Heh mim Kaffää und eini mit uns ins Wochnend , Claudia . 🌹 ☕️
+Ind	O
+Heh	O
+mim	O
+Kaffää	O
+und	O
+eini	O
+mit	O
+uns	O
+ins	O
+Wochnend	O
+,	O
+Claudia	B-PER
+.	O
+🌹	O
+☕️	O
+
+# newdoc id = bar_tweet_1620119144996954113
+# sent_id = bar_tweet_1620119144996954113-1
+# text = @mention @mention @mention @mention am besten isch do ja de Hagrid ( großer Fan links oben im grünen Pullover ) leider hauter nachm ersten Song ab , hätt dem dia ganze Zeit zuschaue kinne 😆
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+am	O
+besten	O
+isch	O
+do	O
+ja	O
+de	O
+Hagrid	B-PER
+(	O
+großer	O
+Fan	O
+links	O
+oben	O
+im	O
+grünen	O
+Pullover	O
+)	O
+leider	O
+hauter	O
+nachm	O
+ersten	O
+Song	O
+ab	O
+,	O
+hätt	O
+dem	O
+dia	O
+ganze	O
+Zeit	O
+zuschaue	O
+kinne	O
+😆	O
+
+# newdoc id = bar_tweet_941536108445405185
+# sent_id = bar_tweet_941536108445405185-1
+# text = Moing Minga , Servus aus Mönchengladbach , heijd um 15:25 Uhr steig i in Fliaga noch Minga eij ....
+Moing	O
+Minga	B-LOC
+,	O
+Servus	O
+aus	O
+Mönchengladbach	B-LOC
+,	O
+heijd	O
+um	O
+15:25	O
+Uhr	O
+steig	O
+i	O
+in	O
+Fliaga	O
+noch	O
+Minga	B-LOC
+eij	O
+....	O
+
+# sent_id = bar_tweet_941536108445405185-2
+# text = Do davor stengan no 2 Meetings und in Minga am Flughafen na a no Oans ....
+Do	O
+davor	O
+stengan	O
+no	O
+2	O
+Meetings	O
+und	O
+in	O
+Minga	B-LOC
+am	O
+Flughafen	O
+na	O
+a	O
+no	O
+Oans	O
+....	O
+
+# sent_id = bar_tweet_941536108445405185-3
+# text = #Businesskasperl de luxe
+#Businesskasperl	O
+de	O
+luxe	O
+
+# newdoc id = bar_tweet_1654723820245098498
+# sent_id = bar_tweet_1654723820245098498-1
+# text = @mention Guad Moang Martina 🍀 ☕
+@mention	O
+Guad	O
+Moang	O
+Martina	B-PER
+🍀	O
+☕	O
+
+# newdoc id = bar_tweet_1653837925807693848
+# sent_id = bar_tweet_1653837925807693848-1
+# text = @mention Guade Nocht 💙 🌙
+@mention	O
+Guade	O
+Nocht	O
+💙	O
+🌙	O
+
+# newdoc id = bar_tweet_1642162298973310977
+# sent_id = bar_tweet_1642162298973310977-1
+# text = @mention @mention Ah geeeee Fabi is 1. April da musst durch 😂 😂 😂
+@mention	O
+@mention	O
+Ah	O
+geeeee	O
+Fabi	B-PER
+is	O
+1.	O
+April	O
+da	O
+musst	O
+durch	O
+😂	O
+😂	O
+😂	O
+
+# newdoc id = bar_tweet_1028543819116101633
+# sent_id = bar_tweet_1028543819116101633-1
+# text = @mention Dahoam wenn Oana vorm ersten Kaffää mit Dir redn woin dadad , dadadsd'n daschlong woin 😊
+@mention	O
+Dahoam	O
+wenn	O
+Oana	O
+vorm	O
+ersten	O
+Kaffää	O
+mit	O
+Dir	O
+redn	O
+woin	O
+dadad	O
+,	O
+dadadsd'n	O
+daschlong	O
+woin	O
+😊	O
+
+# newdoc id = bar_tweet_1316269264928735233
+# sent_id = bar_tweet_1316269264928735233-1
+# text = @mention Mogst an Kaffää ?
+@mention	O
+Mogst	O
+an	O
+Kaffää	O
+?	O
+
+# newdoc id = bar_tweet_1632371620806381571
+# sent_id = bar_tweet_1632371620806381571-1
+# text = @mention @mention Ob ma's auf oamoi ißt , oda drei Doog lang ...
+@mention	O
+@mention	O
+Ob	O
+ma's	O
+auf	O
+oamoi	O
+ißt	O
+,	O
+oda	O
+drei	O
+Doog	O
+lang	O
+...	O
+
+# sent_id = bar_tweet_1632371620806381571-2
+# text = De Kalorien bleim de gleicha ! 😉
+De	O
+Kalorien	O
+bleim	O
+de	O
+gleicha	O
+!	O
+😉	O
+
+# newdoc id = bar_tweet_1586490871423328259
+# sent_id = bar_tweet_1586490871423328259-1
+# text = @mention @mention @mention Nachdem s' uns 210 Stund' gstoin ham , kriang ma oane zruck .
+@mention	O
+@mention	O
+@mention	O
+Nachdem	O
+s'	O
+uns	O
+210	O
+Stund'	O
+gstoin	O
+ham	O
+,	O
+kriang	O
+ma	O
+oane	O
+zruck	O
+.	O
+
+# sent_id = bar_tweet_1586490871423328259-2
+# text = Des is wia mit de " Geschenke " vo de Politika : Z'erscht miaß ma jeds Monat 1000 Euro Steuern zoin , und nacha kriang ma oa moi 300 Euro , de ma aa no' vasteiern miaßn !
+Des	O
+is	O
+wia	O
+mit	O
+de	O
+"	O
+Geschenke	O
+"	O
+vo	O
+de	O
+Politika	O
+:	O
+Z'erscht	O
+miaß	O
+ma	O
+jeds	O
+Monat	O
+1000	O
+Euro	O
+Steuern	O
+zoin	O
+,	O
+und	O
+nacha	O
+kriang	O
+ma	O
+oa	O
+moi	O
+300	O
+Euro	O
+,	O
+de	O
+ma	O
+aa	O
+no'	O
+vasteiern	O
+miaßn	O
+!	O
+
+# newdoc id = bar_tweet_1520319521076269056
+# sent_id = bar_tweet_1520319521076269056-1
+# text = @mention I rach goa ned , des werd da natürliche Verfall von an Menschn in de Berg sei . 😵‍💫
+@mention	O
+I	O
+rach	O
+goa	O
+ned	O
+,	O
+des	O
+werd	O
+da	O
+natürliche	O
+Verfall	O
+von	O
+an	O
+Menschn	O
+in	O
+de	O
+Berg	O
+sei	O
+.	O
+😵‍💫	O
+
+# newdoc id = bar_tweet_1521369118364123136
+# sent_id = bar_tweet_1521369118364123136-1
+# text = @mention Griaß di und guatn Morgen , mein ganz lieber Freund Jens !
+@mention	O
+Griaß	O
+di	O
+und	O
+guatn	O
+Morgen	O
+,	O
+mein	O
+ganz	O
+lieber	O
+Freund	O
+Jens	B-PER
+!	O
+
+# newdoc id = bar_tweet_603153739415977984
+# sent_id = bar_tweet_603153739415977984-1
+# text = @mention wenn dann hoasst des LKS ( Semme ) und ned LKW ( Weckla ) , mia san ja koane Frank'n , groad in Straubing
+@mention	O
+wenn	O
+dann	O
+hoasst	O
+des	O
+LKS	O
+(	O
+Semme	O
+)	O
+und	O
+ned	O
+LKW	O
+(	O
+Weckla	O
+)	O
+,	O
+mia	O
+san	O
+ja	O
+koane	O
+Frank'n	B-LOCderiv
+,	O
+groad	O
+in	O
+Straubing	B-LOC
+
+# newdoc id = bar_tweet_1313403238012551168
+# sent_id = bar_tweet_1313403238012551168-1
+# text = @mention @mention @mention Des mecht i doch schwar hoffa !
+@mention	O
+@mention	O
+@mention	O
+Des	O
+mecht	O
+i	O
+doch	O
+schwar	O
+hoffa	O
+!	O
+
+# sent_id = bar_tweet_1313403238012551168-2
+# text = Denn wenn der Herr Wengermayer moi wieder in Münchner Gefilde unterwegs is , dann miass ma scho a Hoibe dringa .
+Denn	O
+wenn	O
+der	O
+Herr	O
+Wengermayer	B-PER
+moi	O
+wieder	O
+in	O
+Münchner	B-LOCderiv
+Gefilde	O
+unterwegs	O
+is	O
+,	O
+dann	O
+miass	O
+ma	O
+scho	O
+a	O
+Hoibe	O
+dringa	O
+.	O
+
+# newdoc id = bar_tweet_1650092740695269377
+# sent_id = bar_tweet_1650092740695269377-1
+# text = RT @mention : https://t.co/NSFhzvEycq an Olle Lieabn Brummi Fahrer Schrott und Gebühren freie Fahrt wünsch .
+RT	O
+@mention	O
+:	O
+https://t.co/NSFhzvEycq	O
+an	O
+Olle	O
+Lieabn	O
+Brummi	O
+Fahrer	O
+Schrott	O
+und	O
+Gebühren	O
+freie	O
+Fahrt	O
+wünsch	O
+.	O
+
+# sent_id = bar_tweet_1650092740695269377-2
+# text = Und Danksche für Eichere Bem …
+Und	O
+Danksche	O
+für	O
+Eichere	O
+Bem	O
+…	O
+
+# newdoc id = bar_tweet_1436066552298737668
+# sent_id = bar_tweet_1436066552298737668-1
+# text = @mention @mention Du konnst aa vo Lenggrias naufgeh .
+@mention	O
+@mention	O
+Du	O
+konnst	O
+aa	O
+vo	O
+Lenggrias	B-LOC
+naufgeh	O
+.	O
+
+# newdoc id = bar_tweet_672723907208695808
+# sent_id = bar_tweet_672723907208695808-1
+# text = Es kemman bessere Zeiten auf uns zua : Samstag und Sonntag .
+Es	O
+kemman	O
+bessere	O
+Zeiten	O
+auf	O
+uns	O
+zua	O
+:	O
+Samstag	O
+und	O
+Sonntag	O
+.	O
+
+# sent_id = bar_tweet_672723907208695808-2
+# text = Ab ins Wochnend , sich gern ham lassn .
+Ab	O
+ins	O
+Wochnend	O
+,	O
+sich	O
+gern	O
+ham	O
+lassn	O
+.	O
+
+# newdoc id = bar_tweet_1330646947779260418
+# sent_id = bar_tweet_1330646947779260418-1
+# text = @mention Guads Nachtal der Herr . 🌜 😊
+@mention	O
+Guads	O
+Nachtal	O
+der	O
+Herr	O
+.	O
+🌜	O
+😊	O
+
+# newdoc id = bar_tweet_291427075280211969
+# sent_id = bar_tweet_291427075280211969-1
+# text = @mention nanan des geht nd so ela !
+@mention	O
+nanan	O
+des	O
+geht	O
+nd	O
+so	O
+ela	B-PER
+!	O
+
+# sent_id = bar_tweet_291427075280211969-2
+# text = Mathe checken mehr leid nd !
+Mathe	O
+checken	O
+mehr	O
+leid	O
+nd	O
+!	O
+
+# sent_id = bar_tweet_291427075280211969-3
+# text = Aber du bist die anzige die nd wei . mog !
+Aber	O
+du	O
+bist	O
+die	O
+anzige	O
+die	O
+nd	O
+wei	O
+.	O
+mog	O
+!	O
+
+# newdoc id = bar_tweet_1651209390664368129
+# sent_id = bar_tweet_1651209390664368129-1
+# text = @mention Des war a Schälmesser ( scho bei meiner Oma ) , isch oans ( bei mir ) und werd oiwei oans bleim ( bis hi zu meine no ausstehenden Urururenkerl ) 😉
+@mention	O
+Des	O
+war	O
+a	O
+Schälmesser	O
+(	O
+scho	O
+bei	O
+meiner	O
+Oma	O
+)	O
+,	O
+isch	O
+oans	O
+(	O
+bei	O
+mir	O
+)	O
+und	O
+werd	O
+oiwei	O
+oans	O
+bleim	O
+(	O
+bis	O
+hi	O
+zu	O
+meine	O
+no	O
+ausstehenden	O
+Urururenkerl	O
+)	O
+😉	O
+
+# newdoc id = bar_tweet_903968569343569920
+# sent_id = bar_tweet_903968569343569920-1
+# text = I hob gestern de neijen Lehrbuam erklärt , dass ma koa Kappe bei Büroarbad braucht ....
+I	O
+hob	O
+gestern	O
+de	O
+neijen	O
+Lehrbuam	O
+erklärt	O
+,	O
+dass	O
+ma	O
+koa	O
+Kappe	O
+bei	O
+Büroarbad	O
+braucht	O
+....	O
+
+# newdoc id = bar_tweet_1304002276118401028
+# sent_id = bar_tweet_1304002276118401028-1
+# text = @mention Grundsätzlich hob i de installiert , weil de App mir sogd , wo und wann a Straßensperrung is .
+@mention	O
+Grundsätzlich	O
+hob	O
+i	O
+de	O
+installiert	O
+,	O
+weil	O
+de	O
+App	O
+mir	O
+sogd	O
+,	O
+wo	O
+und	O
+wann	O
+a	O
+Straßensperrung	O
+is	O
+.	O
+
+# sent_id = bar_tweet_1304002276118401028-2
+# text = Jetz gibts hoid no Updates zu Corona .
+Jetz	O
+gibts	O
+hoid	O
+no	O
+Updates	O
+zu	O
+Corona	O
+.	O
+
+# newdoc id = bar_tweet_1225426654614425600
+# sent_id = bar_tweet_1225426654614425600-1
+# text = @mention I glab i muaß wirklich moi im Innviertel vorbeikumma 🤤
+@mention	O
+I	O
+glab	O
+i	O
+muaß	O
+wirklich	O
+moi	O
+im	O
+Innviertel	B-LOC
+vorbeikumma	O
+🤤	O
+
+# newdoc id = bar_tweet_1333892548646072330
+# sent_id = bar_tweet_1333892548646072330-1
+# text = Bassd scho .
+Bassd	O
+scho	O
+.	O
+
+# sent_id = bar_tweet_1333892548646072330-3
+# text = Samstag de Dosen richtig herwichsen is vui wichtiger . 💪
+Samstag	O
+de	O
+Dosen	O
+richtig	O
+herwichsen	O
+is	O
+vui	O
+wichtiger	O
+.	O
+💪	O
+
+# newdoc id = bar_tweet_1662136430490009619
+# sent_id = bar_tweet_1662136430490009619-1
+# text = @mention Dankschee 🍻
+@mention	O
+Dankschee	O
+🍻	O
+
+# newdoc id = bar_tweet_1621081153154453504
+# sent_id = bar_tweet_1621081153154453504-1
+# text = @mention Gaadzeeeen 🥰
+@mention	O
+Gaadzeeeen	O
+🥰	O
+
+# newdoc id = bar_tweet_1656505831653875713
+# sent_id = bar_tweet_1656505831653875713-1
+# text = De is so foasd , dass mar a Schdickl Brot dazua essn muaß , wenn mas oschaud .
+De	O
+is	O
+so	O
+foasd	O
+,	O
+dass	O
+mar	O
+a	O
+Schdickl	O
+Brot	O
+dazua	O
+essn	O
+muaß	O
+,	O
+wenn	O
+mas	O
+oschaud	O
+.	O
+
+# newdoc id = bar_tweet_1659272814438883343
+# sent_id = bar_tweet_1659272814438883343-1
+# text = neine afd nocht is
+neine	O
+afd	O
+nocht	O
+is	O
+
+# newdoc id = bar_tweet_1658736781943005184
+# sent_id = bar_tweet_1658736781943005184-1
+# text = hoiwe zehne vormiddog is
+hoiwe	O
+zehne	O
+vormiddog	O
+is	O
+
+# newdoc id = bar_tweet_1216361812628733957
+# sent_id = bar_tweet_1216361812628733957-1
+# text = @mention Haha ! 😄 na mei marco nimmer , houd mei beate in da Schwangerschaft wahrscheinlich doch a weng zfül rotwein gsoffm 😄
+@mention	O
+Haha	O
+!	O
+😄	O
+na	O
+mei	O
+marco	B-PER
+nimmer	O
+,	O
+houd	O
+mei	O
+beate	O
+in	O
+da	O
+Schwangerschaft	O
+wahrscheinlich	O
+doch	O
+a	O
+weng	O
+zfül	O
+rotwein	O
+gsoffm	O
+😄	O
+
+# newdoc id = bar_tweet_1539266229810212864
+# sent_id = bar_tweet_1539266229810212864-1
+# text = @mention Den Eltern herzlichen Glückwunsch und vui scheene Stundn mit da Kloan und da Oma und am Opa vui Freid mim drittn Enkal 🍀 ✊🏼
+@mention	O
+Den	O
+Eltern	O
+herzlichen	O
+Glückwunsch	O
+und	O
+vui	O
+scheene	O
+Stundn	O
+mit	O
+da	O
+Kloan	O
+und	O
+da	O
+Oma	O
+und	O
+am	O
+Opa	O
+vui	O
+Freid	O
+mim	O
+drittn	O
+Enkal	O
+🍀	O
+✊🏼	O
+
+# newdoc id = bar_tweet_1559092115258445826
+# sent_id = bar_tweet_1559092115258445826-1
+# text = @mention Moagn ☕️ 🙄
+@mention	O
+Moagn	O
+☕️	O
+🙄	O
+
+# newdoc id = bar_tweet_1645502567072534529
+# sent_id = bar_tweet_1645502567072534529-1
+# text = @mention Hmm - durchdruckte sind au sauguat .
+@mention	O
+Hmm	O
+-	O
+durchdruckte	O
+sind	O
+au	O
+sauguat	O
+.	O
+
+# sent_id = bar_tweet_1645502567072534529-2
+# text = Bsonders mit Soß , do sind se mir liaber wia d ‘ Knöpfla .
+Bsonders	O
+mit	O
+Soß	O
+,	O
+do	O
+sind	O
+se	O
+mir	O
+liaber	O
+wia	O
+d	O
+‘	O
+Knöpfla	O
+.	O
+
+# newdoc id = bar_tweet_811080212595228672
+# sent_id = bar_tweet_811080212595228672-1
+# text = Moing Minga .
+Moing	O
+Minga	B-LOC
+.	O
+
+# sent_id = bar_tweet_811080212595228672-2
+# text = Normal is der heijdige Dog ned und grod desweng : seids freindlich zuananda !
+Normal	O
+is	O
+der	O
+heijdige	O
+Dog	O
+ned	O
+und	O
+grod	O
+desweng	O
+:	O
+seids	O
+freindlich	O
+zuananda	O
+!	O
+
+# newdoc id = bar_tweet_942379672226226177
+# sent_id = bar_tweet_942379672226226177-1
+# text = @mention Wia ?
+@mention	O
+Wia	O
+?	O
+
+# sent_id = bar_tweet_942379672226226177-2
+# text = Des muas sofort bassiern sunsd kimmd ma de Kloa ja ned in d' Schui 😁 😁
+Des	O
+muas	O
+sofort	O
+bassiern	O
+sunsd	O
+kimmd	O
+ma	O
+de	O
+Kloa	O
+ja	O
+ned	O
+in	O
+d'	O
+Schui	O
+😁	O
+😁	O
+
+# newdoc id = bar_tweet_1566428747829579779
+# sent_id = bar_tweet_1566428747829579779-1
+# text = Bisserl Roadbiken mid meim Rennradl ...... 🌞 🌞 🌞 🌞 🤍 💙
+Bisserl	O
+Roadbiken	O
+mid	O
+meim	O
+Rennradl	O
+......	O
+🌞	O
+🌞	O
+🌞	O
+🌞	O
+🤍	O
+💙	O
+
+# sent_id = bar_tweet_1566428747829579779-2
+# text = Des is da Weg ☝️ 🚴‍♂️ 🚴‍♂️ 🚴‍♂️ 🚴‍♂️ 🚴‍♂️ https://t.co/yVUrQCpxEi
+Des	O
+is	O
+da	O
+Weg	O
+☝️	O
+🚴‍♂️	O
+🚴‍♂️	O
+🚴‍♂️	O
+🚴‍♂️	O
+🚴‍♂️	O
+https://t.co/yVUrQCpxEi	O
+
+# newdoc id = bar_tweet_764872830961983488
+# sent_id = bar_tweet_764872830961983488-1
+# text = @mention ja mei , er hods ham miassn , muas ers a aushoidn 😂 😂
+@mention	O
+ja	O
+mei	O
+,	O
+er	O
+hods	O
+ham	O
+miassn	O
+,	O
+muas	O
+ers	O
+a	O
+aushoidn	O
+😂	O
+😂	O
+
+# newdoc id = bar_tweet_807614309127831557
+# sent_id = bar_tweet_807614309127831557-1
+# text = Liawa @mention der Artikel is echt guad , nur des Wort " lächerlich " g'heard do ned nei .
+Liawa	O
+@mention	O
+der	O
+Artikel	O
+is	O
+echt	O
+guad	O
+,	O
+nur	O
+des	O
+Wort	O
+"	O
+lächerlich	O
+"	O
+g'heard	O
+do	O
+ned	O
+nei	O
+.	O
+
+# newdoc id = bar_tweet_1310256136130625542
+# sent_id = bar_tweet_1310256136130625542-1
+# text = @mention Des is klar , des ghead dazua , aber ihr werd’s es scho richtig macha und wert sei , sunst daad as ned 👍
+@mention	O
+Des	O
+is	O
+klar	O
+,	O
+des	O
+ghead	O
+dazua	O
+,	O
+aber	O
+ihr	O
+werd’s	O
+es	O
+scho	O
+richtig	O
+macha	O
+und	O
+wert	O
+sei	O
+,	O
+sunst	O
+daad	O
+as	O
+ned	O
+👍	O
+
+# newdoc id = bar_tweet_1650934117737832456
+# sent_id = bar_tweet_1650934117737832456-1
+# text = Is Heiligdreikine ( 06. 01. ) häi und klar , gibds vui Wein dees Jåhr .
+Is	O
+Heiligdreikine	O
+(	O
+06.	O
+01.	O
+)	O
+häi	O
+und	O
+klar	O
+,	O
+gibds	O
+vui	O
+Wein	O
+dees	O
+Jåhr	O
+.	O
+
+# newdoc id = bar_tweet_1403952127500816384
+# sent_id = bar_tweet_1403952127500816384-1
+# text = An scheena Guadn Morgn wünsch i Eich , und an scheena Sonndog dazua 🌞 🌞 🌞 As Wedda suit bassn ! https://t.co/ZJYvsCKuw8
+An	O
+scheena	O
+Guadn	O
+Morgn	O
+wünsch	O
+i	O
+Eich	O
+,	O
+und	O
+an	O
+scheena	O
+Sonndog	O
+dazua	O
+🌞	O
+🌞	O
+🌞	O
+As	O
+Wedda	O
+suit	O
+bassn	O
+!	O
+https://t.co/ZJYvsCKuw8	O
+
+# newdoc id = bar_tweet_1656551348232507395
+# sent_id = bar_tweet_1656551348232507395-1
+# text = @mention Danke liabe Monika 🌺 💚
+@mention	O
+Danke	O
+liabe	O
+Monika	B-PER
+🌺	O
+💚	O
+
+# newdoc id = bar_tweet_753995096526295040
+# sent_id = bar_tweet_753995096526295040-1
+# text = Sogds amoi , wer hod eigentlich der Menschheit ins Hirn gschissn ?
+Sogds	O
+amoi	O
+,	O
+wer	O
+hod	O
+eigentlich	O
+der	O
+Menschheit	O
+ins	O
+Hirn	O
+gschissn	O
+?	O
+
+# sent_id = bar_tweet_753995096526295040-2
+# text = Kenna de Deppen ned einfach so spaziern geh ?
+Kenna	O
+de	O
+Deppen	O
+ned	O
+einfach	O
+so	O
+spaziern	O
+geh	O
+?	O
+
+# newdoc id = bar_tweet_1647873334141435904
+# sent_id = bar_tweet_1647873334141435904-1
+# text = De wo Gesundheitlich Angeschlagen san von ganzen Lieben ❤️ und a 🤗 dazua . https://t.co/Bf9qVnFN4y
+De	O
+wo	O
+Gesundheitlich	O
+Angeschlagen	O
+san	O
+von	O
+ganzen	O
+Lieben	O
+❤️	O
+und	O
+a	O
+🤗	O
+dazua	O
+.	O
+https://t.co/Bf9qVnFN4y	O
+
+# newdoc id = bar_tweet_1657234382267228160
+# sent_id = bar_tweet_1657234382267228160-1
+# text = sechse in da frua is
+sechse	O
+in	O
+da	O
+frua	O
+is	O
+
+# newdoc id = bar_tweet_1404395390187802628
+# sent_id = bar_tweet_1404395390187802628-1
+# text = RT @mention : Zwengs oana Dringlichkeit fetzt da Michi gråd mim Zug in sei gliabte Hoamatstadt . 😃
+RT	O
+@mention	O
+:	O
+Zwengs	O
+oana	O
+Dringlichkeit	O
+fetzt	O
+da	O
+Michi	B-PER
+gråd	O
+mim	O
+Zug	O
+in	O
+sei	O
+gliabte	O
+Hoamatstadt	O
+.	O
+😃	O
+
+# sent_id = bar_tweet_1404395390187802628-2
+# text = Oiso Obacht gebn in München , da valore …
+Oiso	O
+Obacht	O
+gebn	O
+in	O
+München	B-LOC
+,	O
+da	O
+valore	O
+…	O
+
+# newdoc id = bar_tweet_1510282721490345988
+# sent_id = bar_tweet_1510282721490345988-1
+# text = @mention Koa Fuaßboi gschaut heid ?
+@mention	O
+Koa	O
+Fuaßboi	O
+gschaut	O
+heid	O
+?	O
+
+# newdoc id = bar_tweet_328156638546624512
+# sent_id = bar_tweet_328156638546624512-1
+# text = Soundcheck in Linz heid mit'm Jo Strauss ois Support .
+Soundcheck	O
+in	O
+Linz	B-LOC
+heid	O
+mit'm	O
+Jo	B-PER
+Strauss	I-PER
+ois	O
+Support	O
+.	O
+
+# sent_id = bar_tweet_328156638546624512-2
+# text = Einlass is um 19:30 Uhr Heid hau ma wieder oan ausse :) ... http://t.co/PS9TlQkhET
+Einlass	O
+is	O
+um	O
+19:30	O
+Uhr	O
+Heid	O
+hau	O
+ma	O
+wieder	O
+oan	O
+ausse	O
+:)	O
+...	O
+http://t.co/PS9TlQkhET	O
+
+# newdoc id = bar_tweet_1642964938284048384
+# sent_id = bar_tweet_1642964938284048384-1
+# text = Zeitlang derf ma hobn .
+Zeitlang	O
+derf	O
+ma	O
+hobn	O
+.	O
+
+# sent_id = bar_tweet_1642964938284048384-2
+# text = Zeitlang , des hoisst , dass es passt , guad doud , dass es fehlt ….. https://t.co/kAGAvPJB4G
+Zeitlang	O
+,	O
+des	O
+hoisst	O
+,	O
+dass	O
+es	O
+passt	O
+,	O
+guad	O
+doud	O
+,	O
+dass	O
+es	O
+fehlt	O
+…..	O
+https://t.co/kAGAvPJB4G	O
+
+# newdoc id = bar_tweet_364391215896072193
+# sent_id = bar_tweet_364391215896072193-1
+# text = Und i hätt gmoant in Bad Tölz is d' Welt noch in Ordnung .
+Und	O
+i	O
+hätt	O
+gmoant	O
+in	O
+Bad	B-LOC
+Tölz	I-LOC
+is	O
+d'	O
+Welt	O
+noch	O
+in	O
+Ordnung	O
+.	O
+
+# sent_id = bar_tweet_364391215896072193-2
+# text = Aber kloane Madln s' Radl klauen is echt armselig .
+Aber	O
+kloane	O
+Madln	O
+s'	O
+Radl	O
+klauen	O
+is	O
+echt	O
+armselig	O
+.	O
+
+# sent_id = bar_tweet_364391215896072193-3
+# text = Da ... http://t.co/8dr3y8yrOC
+Da	O
+...	O
+http://t.co/8dr3y8yrOC	O
+
+# newdoc id = bar_tweet_1021832822087184384
+# sent_id = bar_tweet_1021832822087184384-1
+# text = @mention Dreizeadausndkwadradmedda mid da Hend gossn .....
+@mention	O
+Dreizeadausndkwadradmedda	O
+mid	O
+da	O
+Hend	O
+gossn	O
+.....	O
+
+# sent_id = bar_tweet_1021832822087184384-2
+# text = Do hosd da meara wia a Maß vadeand ....
+Do	O
+hosd	O
+da	O
+meara	O
+wia	O
+a	O
+Maß	O
+vadeand	O
+....	O
+
+# newdoc id = bar_tweet_843019591530037248
+# sent_id = bar_tweet_843019591530037248-1
+# text = Da Baggerfahrer is do. https://t.co/3KsRnvj7Id https://t.co/fHheiA03Bs
+Da	O
+Baggerfahrer	O
+is	O
+do.	O
+https://t.co/3KsRnvj7Id	O
+https://t.co/fHheiA03Bs	O
+
+# sent_id = bar_tweet_1399810298081681409-2
+# text = Übertreib net glei .
+Übertreib	O
+net	O
+glei	O
+.	O
+
+# newdoc id = bar_tweet_1645430041763880962
+# sent_id = bar_tweet_1645430041763880962-1
+# text = @mention Na , des is a Fliaga vo da Swiss Flight Services gwen .
+@mention	O
+Na	O
+,	O
+des	O
+is	O
+a	O
+Fliaga	O
+vo	O
+da	O
+Swiss	B-ORG
+Flight	I-ORG
+Services	I-ORG
+gwen	O
+.	O
+
+# sent_id = bar_tweet_1645430041763880962-2
+# text = De fliang normalerweis gegn Geld vo A nach B , in dem Fall war's ned ganz da direkte Weg , vielleicht hod da Taxifahrer vom Fredl Fesl umgschuit auf Pilot ...
+De	O
+fliang	O
+normalerweis	O
+gegn	O
+Geld	O
+vo	O
+A	O
+nach	O
+B	O
+,	O
+in	O
+dem	O
+Fall	O
+war's	O
+ned	O
+ganz	O
+da	O
+direkte	O
+Weg	O
+,	O
+vielleicht	O
+hod	O
+da	O
+Taxifahrer	O
+vom	O
+Fredl	B-PER
+Fesl	I-PER
+umgschuit	O
+auf	O
+Pilot	O
+...	O
+
+# newdoc id = bar_tweet_1643922467088392192
+# sent_id = bar_tweet_1643922467088392192-1
+# text = Mehra Greadonnerschdoog geht ned : Maultaschen ( " Herrgottsbscheißerla " ) in Kreitersoß' mit Schnittlauch oomdriba und steirische Kirbiskern .
+Mehra	O
+Greadonnerschdoog	O
+geht	O
+ned	O
+:	O
+Maultaschen	O
+(	O
+"	O
+Herrgottsbscheißerla	O
+"	O
+)	O
+in	O
+Kreitersoß'	O
+mit	O
+Schnittlauch	O
+oomdriba	O
+und	O
+steirische	B-LOCderiv
+Kirbiskern	O
+.	O
+
+# sent_id = bar_tweet_1643922467088392192-2
+# text = 5 vo de 7 Kreiter san aus am Gartn !
+5	O
+vo	O
+de	O
+7	O
+Kreiter	O
+san	O
+aus	O
+am	O
+Gartn	O
+!	O
+
+# sent_id = bar_tweet_1643922467088392192-3
+# text = Es waaradn 6 gwen , wann de Bädasui an Winter ibalebt hätt , hod's aba ned . https://t.co/Wmujx0qlsZ
+Es	O
+waaradn	O
+6	O
+gwen	O
+,	O
+wann	O
+de	O
+Bädasui	O
+an	O
+Winter	O
+ibalebt	O
+hätt	O
+,	O
+hod's	O
+aba	O
+ned	O
+.	O
+https://t.co/Wmujx0qlsZ	O
+
+# sent_id = bar_tweet_767655312170123264-2
+# text = So kurz vor da Wiesn muaß i Eich heid unbedingt mein neia Trachtenrock von Trachtenamazonen ... https://t.co/DXkgscRmL6
+So	O
+kurz	O
+vor	O
+da	O
+Wiesn	B-EVENT
+muaß	O
+i	O
+Eich	O
+heid	O
+unbedingt	O
+mein	O
+neia	O
+Trachtenrock	O
+von	O
+Trachtenamazonen	B-ORGpart
+...	O
+https://t.co/DXkgscRmL6	O
+
+# newdoc id = bar_tweet_1244259731335786498
+# sent_id = bar_tweet_1244259731335786498-1
+# text = @mention Griass Di Measse Dia , dito 🍀 ☺️
+@mention	O
+Griass	O
+Di	O
+Measse	O
+Dia	O
+,	O
+dito	O
+🍀	O
+☺️	O
+
+# newdoc id = bar_tweet_1532063702144679936
+# sent_id = bar_tweet_1532063702144679936-1
+# text = @mention Griaß di und an supa schein Obnd , mei lieabe Gela !
+@mention	O
+Griaß	O
+di	O
+und	O
+an	O
+supa	O
+schein	O
+Obnd	O
+,	O
+mei	O
+lieabe	O
+Gela	B-PER
+!	O
+
+# sent_id = bar_tweet_1532063702144679936-2
+# text = I Dank da recht narrisch 😘 😘 😘 !
+I	O
+Dank	O
+da	O
+recht	O
+narrisch	O
+😘	O
+😘	O
+😘	O
+!	O
+
+# sent_id = bar_tweet_1532063702144679936-3
+# text = Moch da du a a voi a Scheins Pfingstwochenend und genieße ois wos da an lieabe Sachen passiert .
+Moch	O
+da	O
+du	O
+a	O
+a	O
+voi	O
+a	O
+Scheins	O
+Pfingstwochenend	B-EVENTpart
+und	O
+genieße	O
+ois	O
+wos	O
+da	O
+an	O
+lieabe	O
+Sachen	O
+passiert	O
+.	O
+
+# sent_id = bar_tweet_1532063702144679936-4
+# text = Los di fest drucka und los das recht guat gei , gö Gela 🤗 🌸 😘 😘 😘 🌸 😘 🤗 !
+Los	O
+di	O
+fest	O
+drucka	O
+und	O
+los	O
+das	O
+recht	O
+guat	O
+gei	O
+,	O
+gö	O
+Gela	B-PER
+🤗	O
+🌸	O
+😘	O
+😘	O
+😘	O
+🌸	O
+😘	O
+🤗	O
+!	O
+
+# newdoc id = bar_tweet_1646206741212807176
+# sent_id = bar_tweet_1646206741212807176-1
+# text = Eigentlich san mia Bayern ja aa quasi mediterran .
+Eigentlich	O
+san	O
+mia	O
+Bayern	B-LOC
+ja	O
+aa	O
+quasi	O
+mediterran	O
+.	O
+
+# sent_id = bar_tweet_1646206741212807176-2
+# text = San hoit bloß a boor Berg zwischen uns und am Mittelmeer .
+San	O
+hoit	O
+bloß	O
+a	O
+boor	O
+Berg	O
+zwischen	O
+uns	O
+und	O
+am	O
+Mittelmeer	O
+.	O
+
+# sent_id = bar_tweet_1646206741212807176-3
+# text = Leberkaas mit spanische Chili , griechische Oliven und Weinblätter , und Genoveser Basilikum vom Fensterbreddl . https://t.co/rk5cmI9aYm
+Leberkaas	O
+mit	O
+spanische	B-LOCderiv
+Chili	O
+,	O
+griechische	B-LOCderiv
+Oliven	O
+und	O
+Weinblätter	O
+,	O
+und	O
+Genoveser	B-LOCderiv
+Basilikum	O
+vom	O
+Fensterbreddl	O
+.	O
+https://t.co/rk5cmI9aYm	O
+
+# newdoc id = bar_tweet_1317205318397558784
+# sent_id = bar_tweet_1317205318397558784-1
+# text = @mention Um de Uhrzeit körperliche Ertüchtigungen grod no im Fernseh - geh Sportsfreindal . 😉 😁
+@mention	O
+Um	O
+de	O
+Uhrzeit	O
+körperliche	O
+Ertüchtigungen	O
+grod	O
+no	O
+im	O
+Fernseh	O
+-	O
+geh	O
+Sportsfreindal	O
+.	O
+😉	O
+😁	O
+
+# newdoc id = bar_tweet_1570054127807500292
+# sent_id = bar_tweet_1570054127807500292-1
+# text = Hobt ‘ s des mim Bier a scho gmocht ?
+Hobt	O
+‘	O
+s	O
+des	O
+mim	O
+Bier	O
+a	O
+scho	O
+gmocht	O
+?	O
+
+# sent_id = bar_tweet_1570054127807500292-2
+# text = Des is ja so mei persönliche Droge , gell .
+Des	O
+is	O
+ja	O
+so	O
+mei	O
+persönliche	O
+Droge	O
+,	O
+gell	O
+.	O
+
+# sent_id = bar_tweet_1570054127807500292-3
+# text = Oba a Bier alloa wead ja ned so schlimm sei ?
+Oba	O
+a	O
+Bier	O
+alloa	O
+wead	O
+ja	O
+ned	O
+so	O
+schlimm	O
+sei	O
+?	O
+
+# sent_id = bar_tweet_1570054127807500292-4
+# text = Oda ? 🍺 https://t.co/D23TxVtaAf
+Oda	O
+?	O
+🍺	O
+https://t.co/D23TxVtaAf	O
+
+# newdoc id = bar_tweet_1188458685309292545
+# sent_id = bar_tweet_1188458685309292545-1
+# text = @mention servus ferdl
+@mention	O
+servus	O
+ferdl	B-PER
+
+# newdoc id = bar_tweet_1649371865700335619
+# sent_id = bar_tweet_1649371865700335619-1
+# text = A poor Blerme für jeden Einzelnen von Eich . https://t.co/jDtzi6HM9F
+A	O
+poor	O
+Blerme	O
+für	O
+jeden	O
+Einzelnen	O
+von	O
+Eich	O
+.	O
+https://t.co/jDtzi6HM9F	O
+
+# newdoc id = bar_tweet_1015610611567296513
+# sent_id = bar_tweet_1015610611567296513-1
+# text = Mei , so schee #fb https://t.co/GSfB2zbzBy
+Mei	O
+,	O
+so	O
+schee	O
+#fb	O
+https://t.co/GSfB2zbzBy	O
+
+# newdoc id = bar_tweet_1052288050175377408
+# sent_id = bar_tweet_1052288050175377408-1
+# text = @mention klingt recht guad … vom REWE ( Achtung : Werbung , weil depperte Markenwerbung ) ?
+@mention	O
+klingt	O
+recht	O
+guad	O
+…	O
+vom	O
+REWE	B-ORG
+(	O
+Achtung	O
+:	O
+Werbung	O
+,	O
+weil	O
+depperte	O
+Markenwerbung	O
+)	O
+?	O
+
+# sent_id = bar_tweet_1052288050175377408-2
+# text = Dann wird i moi schaung , dass i ma sowas bsorg , wenn i demnächst in München bin .
+Dann	O
+wird	O
+i	O
+moi	O
+schaung	O
+,	O
+dass	O
+i	O
+ma	O
+sowas	O
+bsorg	O
+,	O
+wenn	O
+i	O
+demnächst	O
+in	O
+München	B-LOC
+bin	O
+.	O
+
+# sent_id = bar_tweet_1052288050175377408-4
+# text = Termin steht , die Alex und da Jürgen scharren scho mit de Hufe :-) Ois weitere dann per Messenger :-)
+Termin	O
+steht	O
+,	O
+die	O
+Alex	B-PER
+und	O
+da	O
+Jürgen	B-PER
+scharren	O
+scho	O
+mit	O
+de	O
+Hufe	O
+:-)	O
+Ois	O
+weitere	O
+dann	O
+per	O
+Messenger	O
+:-)	O
+
+# newdoc id = bar_tweet_1624541613421633536
+# sent_id = bar_tweet_1624541613421633536-1
+# text = @mention De vakaffa oam den letzten Dreck .
+@mention	O
+De	O
+vakaffa	O
+oam	O
+den	O
+letzten	O
+Dreck	O
+.	O
+
+# sent_id = bar_tweet_1624541613421633536-2
+# text = Vo de letzten vier Zwievi warn zwoa faulig .
+Vo	O
+de	O
+letzten	O
+vier	O
+Zwievi	O
+warn	O
+zwoa	O
+faulig	O
+.	O
+
+# sent_id = bar_tweet_1624541613421633536-3
+# text = Host vo außn ned gseing .
+Host	O
+vo	O
+außn	O
+ned	O
+gseing	O
+.	O
+
+# sent_id = bar_tweet_1624541613421633536-4
+# text = Na' schneidst as auf und na' stinkt's !
+Na'	O
+schneidst	O
+as	O
+auf	O
+und	O
+na'	O
+stinkt's	O
+!	O
+
+# newdoc id = bar_tweet_1136182638002225153
+# sent_id = bar_tweet_1136182638002225153-1
+# text = @mention Derf i glaub i ned 😳
+@mention	O
+Derf	O
+i	O
+glaub	O
+i	O
+ned	O
+😳	O
+
+# newdoc id = bar_tweet_1366419754647494662
+# sent_id = bar_tweet_1366419754647494662-1
+# text = @mention @mention Und zwischa uns , Nicklas : I hob mei G'laber unter doine beschdn und erinnerungswürdigschdn Moment neigschobn , des wer' i immer mit dira verbindn . 's wor a Ehrn di zum kommentiarn , und obwohl du in Ruhestond bisch , hoff i immernu dass i dich wiada in am professioneln Spiel seh .
+@mention	O
+@mention	O
+Und	O
+zwischa	O
+uns	O
+,	O
+Nicklas	B-PER
+:	O
+I	O
+hob	O
+mei	O
+G'laber	O
+unter	O
+doine	O
+beschdn	O
+und	O
+erinnerungswürdigschdn	O
+Moment	O
+neigschobn	O
+,	O
+des	O
+wer'	O
+i	O
+immer	O
+mit	O
+dira	O
+verbindn	O
+.	O
+'s	O
+wor	O
+a	O
+Ehrn	O
+di	O
+zum	O
+kommentiarn	O
+,	O
+und	O
+obwohl	O
+du	O
+in	O
+Ruhestond	O
+bisch	O
+,	O
+hoff	O
+i	O
+immernu	O
+dass	O
+i	O
+dich	O
+wiada	O
+in	O
+am	O
+professioneln	O
+Spiel	O
+seh	O
+.	O
+
+# newdoc id = bar_tweet_1143973066021773312
+# sent_id = bar_tweet_1143973066021773312-1
+# text = @mention @mention @mention Mei jüngster Sohn hod in da Schul in da Kantine Fischstäbchen mit Apfelkompott zum essen bekommen , Wer’s mog i niad
+@mention	O
+@mention	O
+@mention	O
+Mei	O
+jüngster	O
+Sohn	O
+hod	O
+in	O
+da	O
+Schul	O
+in	O
+da	O
+Kantine	O
+Fischstäbchen	O
+mit	O
+Apfelkompott	O
+zum	O
+essen	O
+bekommen	O
+,	O
+Wer’s	O
+mog	O
+i	O
+niad	O
+
+# newdoc id = bar_tweet_1406884708324102146
+# sent_id = bar_tweet_1406884708324102146-1
+# text = @mention Kreiz sagglzement ....
+@mention	O
+Kreiz	O
+sagglzement	O
+....	O
+
+# sent_id = bar_tweet_1406884708324102146-2
+# text = Ham de ned moi in der Klinik an PCR ?
+Ham	O
+de	O
+ned	O
+moi	O
+in	O
+der	O
+Klinik	O
+an	O
+PCR	O
+?	O
+
+# sent_id = bar_tweet_1406884708324102146-3
+# text = Dann brachad ma de op ned glei obsong 😤 Wia lang derfst etz auf an neia Termin wartn ?
+Dann	O
+brachad	O
+ma	O
+de	O
+op	O
+ned	O
+glei	O
+obsong	O
+😤	O
+Wia	O
+lang	O
+derfst	O
+etz	O
+auf	O
+an	O
+neia	O
+Termin	O
+wartn	O
+?	O
+
+# sent_id = bar_tweet_1406884708324102146-4
+# text = Huift Finger kühlen ned ?
+Huift	O
+Finger	O
+kühlen	O
+ned	O
+?	O
+
+# newdoc id = bar_tweet_1664003393310928897
+# sent_id = bar_tweet_1664003393310928897-1
+# text = @mention @mention Ja birte ?
+@mention	O
+@mention	O
+Ja	O
+birte	O
+?	O
+
+# sent_id = bar_tweet_1440916894903644160-2
+# text = Des konnst macha wia da Dachdecker .
+Des	O
+konnst	O
+macha	O
+wia	O
+da	O
+Dachdecker	O
+.	O
+
+# newdoc id = bar_tweet_1643234499906420739
+# sent_id = bar_tweet_1643234499906420739-1
+# text = @mention @mention Des Freid mi a
+@mention	O
+@mention	O
+Des	O
+Freid	O
+mi	O
+a	O
+
+# newdoc id = bar_tweet_1655594889902530561
+# sent_id = bar_tweet_1655594889902530561-1
+# text = Zeh Fix do Juckts https://t.co/m2Q8k2ZmhT
+Zeh	O
+Fix	O
+do	O
+Juckts	O
+https://t.co/m2Q8k2ZmhT	O
+
+# newdoc id = bar_tweet_857989304009859072
+# sent_id = bar_tweet_857989304009859072-1
+# text = Des Bodenpersonal vom Lufthamster in Berlin Tegel is unfreindlich und gelangweilt , dass schlimmer ned gähd , Schamts Eich @mention
+Des	O
+Bodenpersonal	O
+vom	O
+Lufthamster	O
+in	O
+Berlin	B-LOC
+Tegel	B-LOC
+is	O
+unfreindlich	O
+und	O
+gelangweilt	O
+,	O
+dass	O
+schlimmer	O
+ned	O
+gähd	O
+,	O
+Schamts	O
+Eich	O
+@mention	O
+
+# newdoc id = bar_tweet_291929211944456193
+# sent_id = bar_tweet_291929211944456193-1
+# text = @mention @mention @mention duad mir voil lad !
+@mention	O
+@mention	O
+@mention	O
+duad	O
+mir	O
+voil	O
+lad	O
+!	O
+
+# sent_id = bar_tweet_291929211944456193-2
+# text = Kann i do irgendwas zur entschädigung machen ? ^^
+Kann	O
+i	O
+do	O
+irgendwas	O
+zur	O
+entschädigung	O
+machen	O
+?	O
+^^	O
+
+# newdoc id = bar_tweet_1651201036562972675
+# sent_id = bar_tweet_1651201036562972675-1
+# text = @mention Guad Mittdog 🤗 👋 😊 ☕ ☕ ☕ ☕ 🍀
+@mention	O
+Guad	O
+Mittdog	O
+🤗	O
+👋	O
+😊	O
+☕	O
+☕	O
+☕	O
+☕	O
+🍀	O
+
+# newdoc id = bar_tweet_1299307172095033344
+# sent_id = bar_tweet_1299307172095033344-1
+# text = @mention @mention Hob meine wichtigsten Freind auf Threema oder Signal migriert .
+@mention	O
+@mention	O
+Hob	O
+meine	O
+wichtigsten	O
+Freind	O
+auf	O
+Threema	B-ORG
+oder	O
+Signal	B-ORG
+migriert	O
+.	O
+
+# sent_id = bar_tweet_1299307172095033344-2
+# text = Der Rest konn mi via SMS erreichen .
+Der	O
+Rest	O
+konn	O
+mi	O
+via	O
+SMS	O
+erreichen	O
+.	O
+
+# sent_id = bar_tweet_1299307172095033344-3
+# text = Basst scho .
+Basst	O
+scho	O
+.	O
+
+# sent_id = bar_tweet_1299307172095033344-4
+# text = Signal hod wiederum den Vorteil , dass ma song konn , installier da des einfach ois SMS-App .
+Signal	B-ORG
+hod	O
+wiederum	O
+den	O
+Vorteil	O
+,	O
+dass	O
+ma	O
+song	O
+konn	O
+,	O
+installier	O
+da	O
+des	O
+einfach	O
+ois	O
+SMS-App	O
+.	O
+
+# newdoc id = bar_tweet_1121460204909023232
+# sent_id = bar_tweet_1121460204909023232-1
+# text = Vom Seehaus bis zum Siebenbrunn is's schee zum draußen sitzen Wenns #Sommer werd - mitsamt an Hund und de ( zwoabeinigen ) " Miezen " ! - ;)) #münchen https://t.co/gANjW4e4wj
+Vom	O
+Seehaus	B-LOC
+bis	O
+zum	O
+Siebenbrunn	B-LOC
+is's	O
+schee	O
+zum	O
+draußen	O
+sitzen	O
+Wenns	O
+#Sommer	O
+werd	O
+-	O
+mitsamt	O
+an	O
+Hund	O
+und	O
+de	O
+(	O
+zwoabeinigen	O
+)	O
+"	O
+Miezen	O
+"	O
+!	O
+-	O
+;))	O
+#münchen	B-LOC
+https://t.co/gANjW4e4wj	O
+
+# sent_id = bar_tweet_1659963833601990659-2
+# text = Friahras wara friedlich . https://t.co/uo9VdUcbEk
+Friahras	O
+wara	O
+friedlich	O
+.	O
+https://t.co/uo9VdUcbEk	O
+
+# newdoc id = bar_tweet_326242577785442305
+# sent_id = bar_tweet_326242577785442305-1
+# text = Des is a Wochenstart nach meim Gschmack !
+Des	O
+is	O
+a	O
+Wochenstart	O
+nach	O
+meim	O
+Gschmack	O
+!	O
+
+# sent_id = bar_tweet_326242577785442305-2
+# text = Viiiiieleeeen Dank für de scheene Schnapszoi , ihr seids einsame Spitze ! ♥ http://t.co/dAaJeUElZC
+Viiiiieleeeen	O
+Dank	O
+für	O
+de	O
+scheene	O
+Schnapszoi	O
+,	O
+ihr	O
+seids	O
+einsame	O
+Spitze	O
+!	O
+♥	O
+http://t.co/dAaJeUElZC	O
+
+# newdoc id = bar_tweet_1626624649202106372
+# sent_id = bar_tweet_1626624649202106372-1
+# text = @mention Dankschee Sven 🍻
+@mention	O
+Dankschee	O
+Sven	B-PER
+🍻	O
+
+# newdoc id = bar_tweet_1505784934060941312
+# sent_id = bar_tweet_1505784934060941312-1
+# text = @mention Griaß di und guatn Morgeeeeeeeen , mei lieabe Jo Jo !
+@mention	O
+Griaß	O
+di	O
+und	O
+guatn	O
+Morgeeeeeeeen	O
+,	O
+mei	O
+lieabe	O
+Jo	B-PER
+Jo	I-PER
+!	O
+
+# sent_id = bar_tweet_1505784934060941312-2
+# text = Hob du a an recht guatn Montog und a erstklassige Wocha mit vü scheina Zeit .
+Hob	O
+du	O
+a	O
+an	O
+recht	O
+guatn	O
+Montog	O
+und	O
+a	O
+erstklassige	O
+Wocha	O
+mit	O
+vü	O
+scheina	O
+Zeit	O
+.	O
+
+# sent_id = bar_tweet_1505784934060941312-3
+# text = Los das recht guat gei , gö Jo Jo 🌹 🍀 😘 😘 😘 😘 🍀 🌹 .
+Los	O
+das	O
+recht	O
+guat	O
+gei	O
+,	O
+gö	O
+Jo	B-PER
+Jo	I-PER
+🌹	O
+🍀	O
+😘	O
+😘	O
+😘	O
+😘	O
+🍀	O
+🌹	O
+.	O
+
+# newdoc id = bar_tweet_677021607680983041
+# sent_id = bar_tweet_677021607680983041-1
+# text = Mit Türchen Nr. 16 mecht i Eich heid a neues Münchner Label vorschdäin : Munich Rockstars !
+Mit	O
+Türchen	O
+Nr.	O
+16	O
+mecht	O
+i	O
+Eich	O
+heid	O
+a	O
+neues	O
+Münchner	B-LOCderiv
+Label	O
+vorschdäin	O
+:	O
+Munich	B-ORG
+Rockstars	I-ORG
+!	O
+
+# newdoc id = bar_tweet_41081476334358528
+# sent_id = bar_tweet_41081476334358528-1
+# text = merci Ansbach - a schmissige Gaudi ....
+merci	O
+Ansbach	B-LOC
+-	O
+a	O
+schmissige	O
+Gaudi	O
+....	O
+
+# newdoc id = bar_tweet_1660341858474622981
+# sent_id = bar_tweet_1660341858474622981-1
+# text = Des erinnert mi an de #FDP : Z'erscht dagegen sei , dann dafir stimma , und danoch song , daß's oiwei dageng gwen san . 🤯
+Des	O
+erinnert	O
+mi	O
+an	O
+de	O
+#FDP	B-ORG
+:	O
+Z'erscht	O
+dagegen	O
+sei	O
+,	O
+dann	O
+dafir	O
+stimma	O
+,	O
+und	O
+danoch	O
+song	O
+,	O
+daß's	O
+oiwei	O
+dageng	O
+gwen	O
+san	O
+.	O
+🤯	O
+
+# newdoc id = bar_tweet_1601873835174891521
+# sent_id = bar_tweet_1601873835174891521-1
+# text = @mention @mention @mention @mention Du muaßt as ja wissn .
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+Du	O
+muaßt	O
+as	O
+ja	O
+wissn	O
+.	O
+
+# sent_id = bar_tweet_1601873835174891521-2
+# text = Wohn i do oda du ?
+Wohn	O
+i	O
+do	O
+oda	O
+du	O
+?	O
+
+# newdoc id = bar_tweet_1573594718969151489
+# sent_id = bar_tweet_1573594718969151489-1
+# text = @mention @mention Gud Moing ihr zwoa !
+@mention	O
+@mention	O
+Gud	O
+Moing	O
+ihr	O
+zwoa	O
+!	O
+
+# sent_id = bar_tweet_1573594718969151489-2
+# text = Nix Couch ☝🏽 Heid is bayernweit de lange Nacht der Feuerwehr 🚒 An scheena und gmiadlichn Dog Eich trotzdem ☕️
+Nix	O
+Couch	O
+☝🏽	O
+Heid	O
+is	O
+bayernweit	B-LOCpart
+de	O
+lange	O
+Nacht	O
+der	O
+Feuerwehr	O
+🚒	O
+An	O
+scheena	O
+und	O
+gmiadlichn	O
+Dog	O
+Eich	O
+trotzdem	O
+☕️	O
+
+# newdoc id = bar_tweet_1656993014324109313
+# sent_id = bar_tweet_1656993014324109313-1
+# text = @mention Danke liabe Lydi 💚 des is mei über 100 Joahr oide Fichte 🌲 Vor 2 Joahr hot ‘ s an Blitzschlag überlebt 🙏 wir san so froh , doss ma ‘ s no haum 🌲 💚
+@mention	O
+Danke	O
+liabe	O
+Lydi	B-PER
+💚	O
+des	O
+is	O
+mei	O
+über	O
+100	O
+Joahr	O
+oide	O
+Fichte	O
+🌲	O
+Vor	O
+2	O
+Joahr	O
+hot	O
+‘	O
+s	O
+an	O
+Blitzschlag	O
+überlebt	O
+🙏	O
+wir	O
+san	O
+so	O
+froh	O
+,	O
+doss	O
+ma	O
+‘	O
+s	O
+no	O
+haum	O
+🌲	O
+💚	O
+
+# newdoc id = bar_tweet_523209615962824705
+# sent_id = bar_tweet_523209615962824705-1
+# text = Da ralf und da wiggerl , Des deaf ja ned sei , Fahrn sich de zwoa , Ganz schee übers mei . // @mention @mention #gstanzlfreitag
+Da	O
+ralf	B-PER
+und	O
+da	O
+wiggerl	B-PER
+,	O
+Des	O
+deaf	O
+ja	O
+ned	O
+sei	O
+,	O
+Fahrn	O
+sich	O
+de	O
+zwoa	O
+,	O
+Ganz	O
+schee	O
+übers	O
+mei	O
+.	O
+//	O
+@mention	O
+@mention	O
+#gstanzlfreitag	O
+
+# newdoc id = bar_tweet_1635586596627005447
+# sent_id = bar_tweet_1635586596627005447-1
+# text = @mention @mention Weil I so bleed war und echt am Afang gmaont ho , des isch Microsoft , jetzt bloß no oa Sach zum Regeln , wann Amazon endlich reagiert
+@mention	O
+@mention	O
+Weil	O
+I	O
+so	O
+bleed	O
+war	O
+und	O
+echt	O
+am	O
+Afang	O
+gmaont	O
+ho	O
+,	O
+des	O
+isch	O
+Microsoft	B-ORG
+,	O
+jetzt	O
+bloß	O
+no	O
+oa	O
+Sach	O
+zum	O
+Regeln	O
+,	O
+wann	O
+Amazon	B-ORG
+endlich	O
+reagiert	O
+
+# newdoc id = bar_tweet_1193079565024927750
+# sent_id = bar_tweet_1193079565024927750-1
+# text = @mention @mention @mention @mention @mention Des dad se guad o ‘ hean , so a kloans treffa warad ned schlecht .
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+Des	O
+dad	O
+se	O
+guad	O
+o	O
+‘	O
+hean	O
+,	O
+so	O
+a	O
+kloans	O
+treffa	O
+warad	O
+ned	O
+schlecht	O
+.	O
+
+# sent_id = bar_tweet_1193079565024927750-2
+# text = Aaaaaaaaba bissal weid weg , warn üba 2Std Fahrzeit 😫
+Aaaaaaaaba	O
+bissal	O
+weid	O
+weg	O
+,	O
+warn	O
+üba	O
+2Std	O
+Fahrzeit	O
+😫	O
+
+# newdoc id = bar_tweet_1238874202565902339
+# sent_id = bar_tweet_1238874202565902339-1
+# text = @mention Griass Di JoJo , des is momentan ois schei ..... , i wünsch Eich das ois guad geht ! 🍀 🍀 🍀 🍀
+@mention	O
+Griass	O
+Di	O
+JoJo	B-PER
+,	O
+des	O
+is	O
+momentan	O
+ois	O
+schei	O
+.....	O
+,	O
+i	O
+wünsch	O
+Eich	O
+das	O
+ois	O
+guad	O
+geht	O
+!	O
+🍀	O
+🍀	O
+🍀	O
+🍀	O
+
+# newdoc id = bar_tweet_1382911646457327616
+# sent_id = bar_tweet_1382911646457327616-1
+# text = @mention Bei uns riachts noch Odl und Gülle . ☺️
+@mention	O
+Bei	O
+uns	O
+riachts	O
+noch	O
+Odl	O
+und	O
+Gülle	O
+.	O
+☺️	O
+
+# sent_id = bar_tweet_1382911646457327616-2
+# text = An scheena Guadn Morgn wünsch i ‘ da ☕️ ☕️
+An	O
+scheena	O
+Guadn	O
+Morgn	O
+wünsch	O
+i	O
+‘	O
+da	O
+☕️	O
+☕️	O
+
+# newdoc id = bar_tweet_1433106216537006089
+# sent_id = bar_tweet_1433106216537006089-1
+# text = @mention @mention Echt schee gmacht , Karin 👍
+@mention	O
+@mention	O
+Echt	O
+schee	O
+gmacht	O
+,	O
+Karin	B-PER
+👍	O
+
+# sent_id = bar_tweet_1624376344480997376-2
+# text = Beim @mention is andasrum : Er is scho im gelobten Land , wer muaß nacha sterbm ?
+Beim	O
+@mention	O
+is	O
+andasrum	O
+:	O
+Er	O
+is	O
+scho	O
+im	O
+gelobten	O
+Land	O
+,	O
+wer	O
+muaß	O
+nacha	O
+sterbm	O
+?	O
+
+# newdoc id = bar_tweet_1619067276455727104
+# sent_id = bar_tweet_1619067276455727104-1
+# text = Auf d’ Nacht nomol #Buntstudie nomol mit #alcoholinks #buntgekleckst Ja , wenn ma halt Zeit hod und es zum entspannen guad doud . https://t.co/qoQHcfYN8w
+Auf	O
+d’	O
+Nacht	O
+nomol	O
+#Buntstudie	O
+nomol	O
+mit	O
+#alcoholinks	O
+#buntgekleckst	O
+Ja	O
+,	O
+wenn	O
+ma	O
+halt	O
+Zeit	O
+hod	O
+und	O
+es	O
+zum	O
+entspannen	O
+guad	O
+doud	O
+.	O
+https://t.co/qoQHcfYN8w	O
+
+# newdoc id = bar_tweet_1542916697799249926
+# sent_id = bar_tweet_1542916697799249926-1
+# text = Wissts es no , beim BER drobm , was hamma mia da glacht Aber ob's Minga mit da zwoatn Stammstreckn etzad besser macht ?
+Wissts	O
+es	O
+no	O
+,	O
+beim	O
+BER	B-LOC
+drobm	O
+,	O
+was	O
+hamma	O
+mia	O
+da	O
+glacht	O
+Aber	O
+ob's	O
+Minga	B-LOC
+mit	O
+da	O
+zwoatn	O
+Stammstreckn	O
+etzad	O
+besser	O
+macht	O
+?	O
+
+# sent_id = bar_tweet_1542916697799249926-2
+# text = #gstanzlfreitag
+#gstanzlfreitag	O
+
+# newdoc id = bar_tweet_1627534900076154880
+# sent_id = bar_tweet_1627534900076154880-1
+# text = Gud Moing ins Voglheisl 🍀 Derf ab heind wieder Urlaubsvertretung machn .
+Gud	O
+Moing	O
+ins	O
+Voglheisl	O
+🍀	O
+Derf	O
+ab	O
+heind	O
+wieder	O
+Urlaubsvertretung	O
+machn	O
+.	O
+
+# sent_id = bar_tweet_1627534900076154880-2
+# text = Teilzeitfachkraft fia Lagerlogistik 🙈 Kummts guad durchn Rosenmontoch 👍🏻 Tätäää 🥳 https://t.co/G58itA0STe
+Teilzeitfachkraft	O
+fia	O
+Lagerlogistik	O
+🙈	O
+Kummts	O
+guad	O
+durchn	O
+Rosenmontoch	B-EVENT
+👍🏻	O
+Tätäää	O
+🥳	O
+https://t.co/G58itA0STe	O
+
+# newdoc id = bar_tweet_296161143746093056
+# sent_id = bar_tweet_296161143746093056-1
+# text = A Baggl Fotzn is glei aufgrissn !
+A	O
+Baggl	O
+Fotzn	O
+is	O
+glei	O
+aufgrissn	O
+!	O
+
+# newdoc id = bar_tweet_1597290853936279554
+# sent_id = bar_tweet_1597290853936279554-1
+# text = @mention @mention Ja hoi 🙌🏻
+@mention	O
+@mention	O
+Ja	O
+hoi	O
+🙌🏻	O
+
+# newdoc id = bar_tweet_1194704563825184768
+# sent_id = bar_tweet_1194704563825184768-1
+# text = RT @mention : Da Summa is umma .
+RT	O
+@mention	O
+:	O
+Da	O
+Summa	O
+is	O
+umma	O
+.	O
+
+# newdoc id = bar_tweet_1152168350056898562
+# sent_id = bar_tweet_1152168350056898562-1
+# text = RT @mention : @mention Moin moin nach Bayerns 👋🏻 👋🏻 😁 😁 ☕ ☕ ☕
+RT	O
+@mention	O
+:	O
+@mention	O
+Moin	O
+moin	O
+nach	O
+Bayerns	B-LOC
+👋🏻	O
+👋🏻	O
+😁	O
+😁	O
+☕	O
+☕	O
+☕	O
+
+# newdoc id = bar_tweet_1494202916130856967
+# sent_id = bar_tweet_1494202916130856967-1
+# text = @mention Griaß di und guatn Morgeeeeeeeen , mei lieaba Patrick !
+@mention	O
+Griaß	O
+di	O
+und	O
+guatn	O
+Morgeeeeeeeen	O
+,	O
+mei	O
+lieaba	O
+Patrick	B-PER
+!	O
+
+# sent_id = bar_tweet_1494202916130856967-2
+# text = Hab einen erstklassigen und einen mega coolen Donnerstag mit vielen schönen Sachen 🤗 🍀 ☀️ 🤜🏼 🤛🏼 ☀️ 🍀 🤗 .
+Hab	O
+einen	O
+erstklassigen	O
+und	O
+einen	O
+mega	O
+coolen	O
+Donnerstag	O
+mit	O
+vielen	O
+schönen	O
+Sachen	O
+🤗	O
+🍀	O
+☀️	O
+🤜🏼	O
+🤛🏼	O
+☀️	O
+🍀	O
+🤗	O
+.	O
+
+# newdoc id = bar_tweet_1655187311737356288
+# sent_id = bar_tweet_1655187311737356288-1
+# text = Herlich Willkommen de wo Folgen .
+Herlich	O
+Willkommen	O
+de	O
+wo	O
+Folgen	O
+.	O
+
+# sent_id = bar_tweet_1655187311737356288-2
+# text = Danksche und an Gemütli Sonndog Nochmittdog wünsch . 🤗 😉 👋 👇 https://t.co/pgPRD4CIXA
+Danksche	O
+und	O
+an	O
+Gemütli	O
+Sonndog	O
+Nochmittdog	O
+wünsch	O
+.	O
+🤗	O
+😉	O
+👋	O
+👇	O
+https://t.co/pgPRD4CIXA	O
+
+# newdoc id = bar_tweet_1386010735344500741
+# sent_id = bar_tweet_1386010735344500741-1
+# text = I speib glei .
+I	O
+speib	O
+glei	O
+.	O
+
+# sent_id = bar_tweet_1386010735344500741-2
+# text = Zefix .
+Zefix	O
+.	O
+
+# newdoc id = bar_tweet_1654629719264882691
+# sent_id = bar_tweet_1654629719264882691-1
+# text = hoiwe zwoa in da nocht is
+hoiwe	O
+zwoa	O
+in	O
+da	O
+nocht	O
+is	O
+
+# newdoc id = bar_tweet_1558013240860450816
+# sent_id = bar_tweet_1558013240860450816-1
+# text = RT @mention : #gstanzlfreitag Am Montoch is Feierdoch , des is ganz gwiss !
+RT	O
+@mention	O
+:	O
+#gstanzlfreitag	O
+Am	O
+Montoch	O
+is	O
+Feierdoch	O
+,	O
+des	O
+is	O
+ganz	O
+gwiss	O
+!	O
+
+# sent_id = bar_tweet_1558013240860450816-2
+# text = Und wenn’s bei dir niad so is , lebst halt niad im Paradies !
+Und	O
+wenn’s	O
+bei	O
+dir	O
+niad	O
+so	O
+is	O
+,	O
+lebst	O
+halt	O
+niad	O
+im	O
+Paradies	O
+!	O
+
+# sent_id = bar_tweet_626352873450901506-2
+# text = De san sauguad !
+De	O
+san	O
+sauguad	O
+!	O
+
+# sent_id = bar_tweet_626352873450901506-3
+# text = I bin auf jedn Foi do ! http://t.co/XAWHeZorIE
+I	O
+bin	O
+auf	O
+jedn	O
+Foi	O
+do	O
+!	O
+http://t.co/XAWHeZorIE	O
+
+# newdoc id = bar_tweet_1467514134275186689
+# sent_id = bar_tweet_1467514134275186689-1
+# text = 🍴 A bissl a Speck , a Happl Kööch ( = Wirsing-Kopf ) - Mahlzeit ! 😋 https://t.co/vHWDLk7N0O
+🍴	O
+A	O
+bissl	O
+a	O
+Speck	O
+,	O
+a	O
+Happl	O
+Kööch	O
+(	O
+=	O
+Wirsing-Kopf	O
+)	O
+-	O
+Mahlzeit	O
+!	O
+😋	O
+https://t.co/vHWDLk7N0O	O
+
+# newdoc id = bar_tweet_781177823826436096
+# sent_id = bar_tweet_781177823826436096-1
+# text = @mention a gscheijde Pries vo am guadn Schmeij mog i scho awa der Teergstank pfui Deijfe 😀 @mention
+@mention	O
+a	O
+gscheijde	O
+Pries	O
+vo	O
+am	O
+guadn	O
+Schmeij	O
+mog	O
+i	O
+scho	O
+awa	O
+der	O
+Teergstank	O
+pfui	O
+Deijfe	O
+😀	O
+@mention	O
+
+# newdoc id = bar_tweet_742079705663295488
+# sent_id = bar_tweet_742079705663295488-1
+# text = RT @mention : Und drum woll ma alle neber Boateng wohnen !!! ⚽
+RT	O
+@mention	O
+:	O
+Und	O
+drum	O
+woll	O
+ma	O
+alle	O
+neber	O
+Boateng	B-PER
+wohnen	O
+!!!	O
+⚽	O
+
+# newdoc id = bar_tweet_1586010370954887168
+# sent_id = bar_tweet_1586010370954887168-1
+# text = @mention bist heit aa sakrisch in Form 💪
+@mention	O
+bist	O
+heit	O
+aa	O
+sakrisch	O
+in	O
+Form	O
+💪	O
+
+# newdoc id = bar_tweet_1639188300303826944
+# sent_id = bar_tweet_1639188300303826944-1
+# text = @mention Dank dia Stoffl .
+@mention	O
+Dank	O
+dia	O
+Stoffl	B-PER
+.	O
+
+# sent_id = bar_tweet_1639188300303826944-2
+# text = Dei Wunsch is no ned so guad okumma .
+Dei	O
+Wunsch	O
+is	O
+no	O
+ned	O
+so	O
+guad	O
+okumma	O
+.	O
+
+# sent_id = bar_tweet_1639188300303826944-3
+# text = Des Telefon klingelt se hoass .
+Des	O
+Telefon	O
+klingelt	O
+se	O
+hoass	O
+.	O
+
+# sent_id = bar_tweet_1639188300303826944-4
+# text = Jeda wui heid wega dem Streik am Mondog Termine dauschn . 🤣 🤪
+Jeda	O
+wui	O
+heid	O
+wega	O
+dem	O
+Streik	O
+am	O
+Mondog	O
+Termine	O
+dauschn	O
+.	O
+🤣	O
+🤪	O
+
+# sent_id = bar_tweet_1639188300303826944-5
+# text = Gibt's de Leid mehr Gäid !!!
+Gibt's	O
+de	O
+Leid	O
+mehr	O
+Gäid	O
+!!!	O
+
+# sent_id = bar_tweet_1639188300303826944-6
+# text = Zefix ! 🤨
+Zefix	O
+!	O
+🤨	O
+
+# newdoc id = bar_tweet_1410163015589273601
+# sent_id = bar_tweet_1410163015589273601-1
+# text = @mention @mention wer an Charakter hod , braucht koan Haarschnitt 🍻
+@mention	O
+@mention	O
+wer	O
+an	O
+Charakter	O
+hod	O
+,	O
+braucht	O
+koan	O
+Haarschnitt	O
+🍻	O
+
+# newdoc id = bar_tweet_302863397463134208
+# sent_id = bar_tweet_302863397463134208-1
+# text = " Vui zvui Gfui " is nia verkehrt , vorallem wenn's a no so guad ausschaugt wia des Shirt ( find'n mia jedenfois ) .
+"	O
+Vui	O
+zvui	O
+Gfui	O
+"	O
+is	O
+nia	O
+verkehrt	O
+,	O
+vorallem	O
+wenn's	O
+a	O
+no	O
+so	O
+guad	O
+ausschaugt	O
+wia	O
+des	O
+Shirt	O
+(	O
+find'n	O
+mia	O
+jedenfois	O
+)	O
+.	O
+
+# newdoc id = bar_tweet_268811732342947841
+# sent_id = bar_tweet_268811732342947841-1
+# text = Wenn eich a Produkt im Shop gfoit , zoagts'es doch moi eire Freunde : auf Facebook , Pinterest oder per eMail .
+Wenn	O
+eich	O
+a	O
+Produkt	O
+im	O
+Shop	O
+gfoit	O
+,	O
+zoagts'es	O
+doch	O
+moi	O
+eire	O
+Freunde	O
+:	O
+auf	O
+Facebook	B-ORG
+,	O
+Pinterest	B-ORG
+oder	O
+per	O
+eMail	O
+.	O
+
+# newdoc id = bar_tweet_1201364965048946689
+# sent_id = bar_tweet_1201364965048946689-1
+# text = Moing Bagasch 👋 Des geht doch auf des Konto vo da @mention 🤔 https://t.co/AG3CYEWmMg
+Moing	O
+Bagasch	O
+👋	O
+Des	O
+geht	O
+doch	O
+auf	O
+des	O
+Konto	O
+vo	O
+da	O
+@mention	O
+🤔	O
+https://t.co/AG3CYEWmMg	O
+
+# newdoc id = bar_tweet_515420477486288896
+# sent_id = bar_tweet_515420477486288896-1
+# text = letztes Tour-Wochenende mit La Brass Banda , heute Konzell morgen Raisting , wir gem nomoi VOLLGAS !!!
+letztes	O
+Tour-Wochenende	O
+mit	O
+La	B-ORG
+Brass	I-ORG
+Banda	I-ORG
+,	O
+heute	O
+Konzell	B-LOC
+morgen	O
+Raisting	B-LOC
+,	O
+wir	O
+gem	O
+nomoi	O
+VOLLGAS	O
+!!!	O
+
+# sent_id = bar_tweet_515420477486288896-2
+# text = Jawoi wir frein uns auf Eich !!!!!!
+Jawoi	O
+wir	O
+frein	O
+uns	O
+auf	O
+Eich	O
+!!!!!!	O
+
+# newdoc id = bar_tweet_1659474938691035137
+# sent_id = bar_tweet_1659474938691035137-1
+# text = @mention Guad Moang Martina 🍀 ☕
+@mention	O
+Guad	O
+Moang	O
+Martina	B-PER
+🍀	O
+☕	O
+
+# newdoc id = bar_tweet_1648854162375843840
+# sent_id = bar_tweet_1648854162375843840-1
+# text = drei in da nocht is
+drei	O
+in	O
+da	O
+nocht	O
+is	O
+
+# newdoc id = bar_tweet_383865663921483776
+# sent_id = bar_tweet_383865663921483776-1
+# text = " ... an Gschmack hob i im Mei ghobt ois hätt i an Vogelkäfig ausgschleckt ... "
+"	O
+...	O
+an	O
+Gschmack	O
+hob	O
+i	O
+im	O
+Mei	O
+ghobt	O
+ois	O
+hätt	O
+i	O
+an	O
+Vogelkäfig	O
+ausgschleckt	O
+...	O
+"	O
+
+# sent_id = bar_tweet_383865663921483776-2
+# text = Auf gehts ins Italiener-Wochnend auf ... http://t.co/rC7JGn8GBm
+Auf	O
+gehts	O
+ins	O
+Italiener-Wochnend	B-LOCpart
+auf	O
+...	O
+http://t.co/rC7JGn8GBm	O
+
+# newdoc id = bar_tweet_828474107079561216
+# sent_id = bar_tweet_828474107079561216-1
+# text = Moing Minga , Mondog und as G'fui dass no stockfinstre Nochd is .
+Moing	O
+Minga	B-LOC
+,	O
+Mondog	O
+und	O
+as	O
+G'fui	O
+dass	O
+no	O
+stockfinstre	O
+Nochd	O
+is	O
+.	O
+
+# sent_id = bar_tweet_828474107079561216-2
+# text = Schoit doch amoi oana as Liacht ei und bringt ma an Kaffää 😱
+Schoit	O
+doch	O
+amoi	O
+oana	O
+as	O
+Liacht	O
+ei	O
+und	O
+bringt	O
+ma	O
+an	O
+Kaffää	O
+😱	O
+
+# newdoc id = bar_tweet_1520007382952202246
+# sent_id = bar_tweet_1520007382952202246-1
+# text = D’ Weid is nimma sicha , Konnst di nur no fakriecha .
+D’	O
+Weid	O
+is	O
+nimma	O
+sicha	O
+,	O
+Konnst	O
+di	O
+nur	O
+no	O
+fakriecha	O
+.	O
+
+# sent_id = bar_tweet_1520007382952202246-2
+# text = D ‘ Leit san narrisch worn Fo dem ganzn Schmorrn .
+D	O
+‘	O
+Leit	O
+san	O
+narrisch	O
+worn	O
+Fo	O
+dem	O
+ganzn	O
+Schmorrn	O
+.	O
+
+# sent_id = bar_tweet_1520007382952202246-3
+# text = Oba oans woaß ma gwiß : Doss heia d # Wiesn is !
+Oba	O
+oans	O
+woaß	O
+ma	O
+gwiß	O
+:	O
+Doss	O
+heia	O
+d	O
+#	O
+Wiesn	B-EVENT
+is	O
+!	O
+
+# sent_id = bar_tweet_1520007382952202246-4
+# text = #gstanzlfreitag
+#gstanzlfreitag	O
+
+# newdoc id = bar_tweet_1556172822787117058
+# sent_id = bar_tweet_1556172822787117058-1
+# text = @mention @mention A hoibe Stund spata woa i scho aufn Tanzbodn .
+@mention	O
+@mention	O
+A	O
+hoibe	O
+Stund	O
+spata	O
+woa	O
+i	O
+scho	O
+aufn	O
+Tanzbodn	O
+.	O
+
+# sent_id = bar_tweet_1556172822787117058-2
+# text = Schee woars . 🍺
+Schee	O
+woars	O
+.	O
+🍺	O
+
+# sent_id = bar_tweet_1556172822787117058-3
+# text = Wünsch an gschmeidign Sonndåg . 🌞
+Wünsch	O
+an	O
+gschmeidign	O
+Sonndåg	O
+.	O
+🌞	O
+
+# newdoc id = bar_tweet_1658325320292859905
+# sent_id = bar_tweet_1658325320292859905-1
+# text = Håds de ?
+Håds	O
+de	O
+?	O
+
+# newdoc id = bar_tweet_1654881636905779201
+# sent_id = bar_tweet_1654881636905779201-1
+# text = @mention Scheenan Nochmittog ☀️
+@mention	O
+Scheenan	O
+Nochmittog	O
+☀️	O
+
+# newdoc id = bar_tweet_1045718911512170496
+# sent_id = bar_tweet_1045718911512170496-1
+# text = @mention Wos ?
+@mention	O
+Wos	O
+?	O
+
+# sent_id = bar_tweet_1045718911512170496-2
+# text = I glaab i spinn !
+I	O
+glaab	O
+i	O
+spinn	O
+!	O
+
+# sent_id = bar_tweet_1045718911512170496-3
+# text = Da duasd überhaupt nix und wirst trotzdem droschn ... wart nua , Ende Oktober seng ma uns ... nachad sing i D' as extra vor 😛 😂
+Da	O
+duasd	O
+überhaupt	O
+nix	O
+und	O
+wirst	O
+trotzdem	O
+droschn	O
+...	O
+wart	O
+nua	O
+,	O
+Ende	O
+Oktober	O
+seng	O
+ma	O
+uns	O
+...	O
+nachad	O
+sing	O
+i	O
+D'	O
+as	O
+extra	O
+vor	O
+😛	O
+😂	O
+
+# newdoc id = bar_tweet_1510138423109160961
+# sent_id = bar_tweet_1510138423109160961-1
+# text = @mention Griaß di und guatn Morgeeeeeeeen , Stefan !
+@mention	O
+Griaß	O
+di	O
+und	O
+guatn	O
+Morgeeeeeeeen	O
+,	O
+Stefan	B-PER
+!	O
+
+# sent_id = bar_tweet_1510138423109160961-2
+# text = Kaffee is a schon do. Ohne den gehts net 👍🏼 .
+Kaffee	O
+is	O
+a	O
+schon	O
+do.	O
+Ohne	O
+den	O
+gehts	O
+net	O
+👍🏼	O
+.	O
+
+# sent_id = bar_tweet_1510138423109160961-3
+# text = Hob du a a guats Wochenend und los das recht guat gei .
+Hob	O
+du	O
+a	O
+a	O
+guats	O
+Wochenend	O
+und	O
+los	O
+das	O
+recht	O
+guat	O
+gei	O
+.	O
+
+# sent_id = bar_tweet_1510138423109160961-4
+# text = Gehts da äh guat , Stefan ?
+Gehts	O
+da	O
+äh	O
+guat	O
+,	O
+Stefan	B-PER
+?	O
+
+# sent_id = bar_tweet_1510138423109160961-5
+# text = Owa vorher stess ma amoi gscheit zaumm mitn Kaffeehäferl 👍🏼 ☕️ 🤜🏼 🤛🏼 ☕️ 👍🏼 .
+Owa	O
+vorher	O
+stess	O
+ma	O
+amoi	O
+gscheit	O
+zaumm	O
+mitn	O
+Kaffeehäferl	O
+👍🏼	O
+☕️	O
+🤜🏼	O
+🤛🏼	O
+☕️	O
+👍🏼	O
+.	O
+
+# newdoc id = bar_tweet_1631977522756833281
+# sent_id = bar_tweet_1631977522756833281-1
+# text = @mention Die Frage ist : Machsd jetz Auddo bilgier Bruda oda was ? 😁
+@mention	O
+Die	O
+Frage	O
+ist	O
+:	O
+Machsd	O
+jetz	O
+Auddo	O
+bilgier	O
+Bruda	O
+oda	O
+was	O
+?	O
+😁	O
+
+# newdoc id = bar_tweet_1648931613978271747
+# sent_id = bar_tweet_1648931613978271747-1
+# text = Guad Moing Olle Lieabn Wauzerl Freunde mit ❤️ 🤗 ☕ ☕ ☕ ☕ Passt guad auf Eich Auf Bitteschön und Bleibt s Gesund ☕ ☕ ☕ ☕ ☕ 🐾 🐾 🍀 🍀 🍀 😉 👋 https://t.co/TyoYkSBcou
+Guad	O
+Moing	O
+Olle	O
+Lieabn	O
+Wauzerl	O
+Freunde	O
+mit	O
+❤️	O
+🤗	O
+☕	O
+☕	O
+☕	O
+☕	O
+Passt	O
+guad	O
+auf	O
+Eich	O
+Auf	O
+Bitteschön	O
+und	O
+Bleibt	O
+s	O
+Gesund	O
+☕	O
+☕	O
+☕	O
+☕	O
+☕	O
+🐾	O
+🐾	O
+🍀	O
+🍀	O
+🍀	O
+😉	O
+👋	O
+https://t.co/TyoYkSBcou	O
+
+# newdoc id = bar_tweet_1141754527139401728
+# sent_id = bar_tweet_1141754527139401728-1
+# text = @mention @mention Na Hollerkaichla sans 😁
+@mention	O
+@mention	O
+Na	O
+Hollerkaichla	O
+sans	O
+😁	O
+
+# newdoc id = bar_tweet_1621556813350027265
+# sent_id = bar_tweet_1621556813350027265-1
+# text = @mention Na , is Dummheit vo die Leit .
+@mention	O
+Na	O
+,	O
+is	O
+Dummheit	O
+vo	O
+die	O
+Leit	O
+.	O
+
+# sent_id = bar_tweet_1621556813350027265-2
+# text = Normalerweise woass i doch wos i kafft bestellt hob … . und vo wem .
+Normalerweise	O
+woass	O
+i	O
+doch	O
+wos	O
+i	O
+kafft	O
+bestellt	O
+hob	O
+…	O
+.	O
+und	O
+vo	O
+wem	O
+.	O
+
+# sent_id = bar_tweet_1621556813350027265-3
+# text = Oder is des so diskret , dass trotzdem jeda woass woher ?
+Oder	O
+is	O
+des	O
+so	O
+diskret	O
+,	O
+dass	O
+trotzdem	O
+jeda	O
+woass	O
+woher	O
+?	O
+
+# newdoc id = bar_tweet_1070761469485219840
+# sent_id = bar_tweet_1070761469485219840-1
+# text = @mention @mention @mention Ob der woaß , dass Du wegen der blädn Cordula immer kloane Buam vadrischt ?
+@mention	O
+@mention	O
+@mention	O
+Ob	O
+der	O
+woaß	O
+,	O
+dass	O
+Du	O
+wegen	O
+der	O
+blädn	O
+Cordula	B-PER
+immer	O
+kloane	O
+Buam	O
+vadrischt	O
+?	O
+
+# newdoc id = bar_tweet_290044685119021056
+# sent_id = bar_tweet_290044685119021056-1
+# text = @mention mit so aner Kamera kann ma eig nur guade bilder mochn oda ? ;)
+@mention	O
+mit	O
+so	O
+aner	O
+Kamera	O
+kann	O
+ma	O
+eig	O
+nur	O
+guade	O
+bilder	O
+mochn	O
+oda	O
+?	O
+;)	O
+
+# newdoc id = bar_tweet_1524262452304699393
+# sent_id = bar_tweet_1524262452304699393-1
+# text = @mention Griaß Di , wia stehts mit da voråschreitendn Minzifizierung ?
+@mention	O
+Griaß	O
+Di	O
+,	O
+wia	O
+stehts	O
+mit	O
+da	O
+voråschreitendn	O
+Minzifizierung	O
+?	O
+
+# sent_id = bar_tweet_1524262452304699393-2
+# text = Dia an Guadn Moang und nauf mit de unsrig Kaffäähaferln . ☕️ 🌹 🤗
+Dia	O
+an	O
+Guadn	O
+Moang	O
+und	O
+nauf	O
+mit	O
+de	O
+unsrig	O
+Kaffäähaferln	O
+.	O
+☕️	O
+🌹	O
+🤗	O
+
+# newdoc id = bar_tweet_1655989926549127184
+# sent_id = bar_tweet_1655989926549127184-1
+# text = @mention De Greana daadn's ned hearn , wann's zweife leit .
+@mention	O
+De	O
+Greana	O
+daadn's	O
+ned	O
+hearn	O
+,	O
+wann's	O
+zweife	O
+leit	O
+.	O
+
+# sent_id = bar_tweet_1655989926549127184-2
+# text = Und Kühlschränke kemma ins boid nimma leistn , kimmt ma fir .
+Und	O
+Kühlschränke	O
+kemma	O
+ins	O
+boid	O
+nimma	O
+leistn	O
+,	O
+kimmt	O
+ma	O
+fir	O
+.	O
+
+# newdoc id = bar_tweet_1651375777789648898
+# sent_id = bar_tweet_1651375777789648898-1
+# text = zwoa in da nocht is
+zwoa	O
+in	O
+da	O
+nocht	O
+is	O
+
+# newdoc id = bar_tweet_1660221256631713793
+# sent_id = bar_tweet_1660221256631713793-1
+# text = @mention @mention Drum hob i glei odrahd …
+@mention	O
+@mention	O
+Drum	O
+hob	O
+i	O
+glei	O
+odrahd	O
+…	O
+
+# sent_id = bar_tweet_1660221256631713793-2
+# text = Des nichtssagende gedalfere vo dene möchtegernvolksnahen gäiht mir af de Königsnüsse 😡
+Des	O
+nichtssagende	O
+gedalfere	O
+vo	O
+dene	O
+möchtegernvolksnahen	O
+gäiht	O
+mir	O
+af	O
+de	O
+Königsnüsse	O
+😡	O
+
+# newdoc id = bar_tweet_1290871833747771394
+# sent_id = bar_tweet_1290871833747771394-1
+# text = @mention Servus und Guad Moing Strize , i Dank Da recht schee . ☺️
+@mention	O
+Servus	O
+und	O
+Guad	O
+Moing	O
+Strize	B-PER
+,	O
+i	O
+Dank	O
+Da	O
+recht	O
+schee	O
+.	O
+☺️	O
+
+# sent_id = bar_tweet_1290871833747771394-2
+# text = I schick liabe Griass ins Brucka Land , und wünsch Da an scheena Dog . 🌞 🌞
+I	O
+schick	O
+liabe	O
+Griass	O
+ins	O
+Brucka	O
+Land	O
+,	O
+und	O
+wünsch	O
+Da	O
+an	O
+scheena	O
+Dog	O
+.	O
+🌞	O
+🌞	O
+
+# newdoc id = bar_tweet_1607701860072427521
+# sent_id = bar_tweet_1607701860072427521-1
+# text = Truthahn , Blaukraut , Knedl , vo gestern .
+Truthahn	O
+,	O
+Blaukraut	O
+,	O
+Knedl	O
+,	O
+vo	O
+gestern	O
+.	O
+
+# sent_id = bar_tweet_1607701860072427521-2
+# text = Und frische Daikon-Sprossen vom Fensterbrettl , wei a bisserl a Exotik muaß aa amoi sei !
+Und	O
+frische	O
+Daikon-Sprossen	O
+vom	O
+Fensterbrettl	O
+,	O
+wei	O
+a	O
+bisserl	O
+a	O
+Exotik	O
+muaß	O
+aa	O
+amoi	O
+sei	O
+!	O
+
+# newdoc id = bar_tweet_1617163237119905793
+# sent_id = bar_tweet_1617163237119905793-1
+# text = @mention Wennst da als Bayer a Kistl schicka loust ……..
+@mention	O
+Wennst	O
+da	O
+als	O
+Bayer	B-LOCderiv
+a	O
+Kistl	O
+schicka	O
+loust	O
+……..	O
+
+# sent_id = bar_tweet_1617163237119905793-3
+# text = Mou zougeben , „ döi kinna des Bierbrauen “ #Störtebeker
+Mou	O
+zougeben	O
+,	O
+„	O
+döi	O
+kinna	O
+des	O
+Bierbrauen	O
+“	O
+#Störtebeker	B-MISC
+
+# newdoc id = bar_tweet_1616893389055614976
+# sent_id = bar_tweet_1616893389055614976-1
+# text = @mention @mention Irmi , Twitter is des , wos mir san .
+@mention	O
+@mention	O
+Irmi	B-PER
+,	O
+Twitter	B-ORG
+is	O
+des	O
+,	O
+wos	O
+mir	O
+san	O
+.	O
+
+# sent_id = bar_tweet_1616893389055614976-2
+# text = Wenn di ganzen Normalen genga , habn di Radikalen gwunna .
+Wenn	O
+di	O
+ganzen	O
+Normalen	O
+genga	O
+,	O
+habn	O
+di	O
+Radikalen	O
+gwunna	O
+.	O
+
+# newdoc id = bar_tweet_236797308065439745
+# sent_id = bar_tweet_236797308065439745-1
+# text = Da Oberlandla unter Palmen .
+Da	O
+Oberlandla	O
+unter	O
+Palmen	O
+.	O
+
+# sent_id = bar_tweet_236797308065439745-2
+# text = Ja verreck ...
+Ja	O
+verreck	O
+...	O
+
+# sent_id = bar_tweet_236797308065439745-3
+# text = Lieber Claus , liebe Sabine , mia wünschn eich no an erholsamen Urlaub .... http://t.co/mFFZSqYM
+Lieber	O
+Claus	B-PER
+,	O
+liebe	O
+Sabine	B-PER
+,	O
+mia	O
+wünschn	O
+eich	O
+no	O
+an	O
+erholsamen	O
+Urlaub	O
+....	O
+http://t.co/mFFZSqYM	O
+
+# newdoc id = bar_tweet_1520404408743469057
+# sent_id = bar_tweet_1520404408743469057-1
+# text = @mention Griaß di , mei lieabe Gela !
+@mention	O
+Griaß	O
+di	O
+,	O
+mei	O
+lieabe	O
+Gela	B-PER
+!	O
+
+# sent_id = bar_tweet_1520404408743469057-2
+# text = Entschuldige , dass i mi jetzt erst bei dir melde .
+Entschuldige	O
+,	O
+dass	O
+i	O
+mi	O
+jetzt	O
+erst	O
+bei	O
+dir	O
+melde	O
+.	O
+
+# sent_id = bar_tweet_1520404408743469057-3
+# text = I wünsch da an sooooo an mega schein Saumsta Nommittog mit ganz vü Freid .
+I	O
+wünsch	O
+da	O
+an	O
+sooooo	O
+an	O
+mega	O
+schein	O
+Saumsta	O
+Nommittog	O
+mit	O
+ganz	O
+vü	O
+Freid	O
+.	O
+
+# sent_id = bar_tweet_1520404408743469057-4
+# text = Los das recht guat gei , gö Gela ☀️ 🍀 😘 😘 😘 🍀 ☀️ .
+Los	O
+das	O
+recht	O
+guat	O
+gei	O
+,	O
+gö	O
+Gela	B-PER
+☀️	O
+🍀	O
+😘	O
+😘	O
+😘	O
+🍀	O
+☀️	O
+.	O
+
+# newdoc id = bar_tweet_1663032568646606848
+# sent_id = bar_tweet_1663032568646606848-1
+# text = @mention D Katz mog Mäus .... i mogs ned
+@mention	O
+D	O
+Katz	O
+mog	O
+Mäus	O
+....	O
+i	O
+mogs	O
+ned	O
+
+# newdoc id = bar_tweet_1656712403470503941
+# sent_id = bar_tweet_1656712403470503941-1
+# text = Mit am Zylinderhut daadad a auschaung wia da Alois Wastlhuber , da Todngraba vo Gaisbach und Dürling . https://t.co/qZKkuN59FM https://t.co/5Pf8MWjVL7
+Mit	O
+am	O
+Zylinderhut	O
+daadad	O
+a	O
+auschaung	O
+wia	O
+da	O
+Alois	B-PER
+Wastlhuber	I-PER
+,	O
+da	O
+Todngraba	O
+vo	O
+Gaisbach	B-LOC
+und	O
+Dürling	B-LOC
+.	O
+https://t.co/qZKkuN59FM	O
+https://t.co/5Pf8MWjVL7	O
+
+# newdoc id = bar_tweet_948665401080246275
+# sent_id = bar_tweet_948665401080246275-1
+# text = @mention @mention Freilich funzt des , ma braucht nur a Gfui ois Schreiber und ois Leser .
+@mention	O
+@mention	O
+Freilich	O
+funzt	O
+des	O
+,	O
+ma	O
+braucht	O
+nur	O
+a	O
+Gfui	O
+ois	O
+Schreiber	O
+und	O
+ois	O
+Leser	O
+.	O
+
+# sent_id = bar_tweet_948665401080246275-2
+# text = Wenn Oana vo dene Zwoa des in foischn Hois kriagt na funzt's ned 😂 😁 🤣
+Wenn	O
+Oana	O
+vo	O
+dene	O
+Zwoa	O
+des	O
+in	O
+foischn	O
+Hois	O
+kriagt	O
+na	O
+funzt's	O
+ned	O
+😂	O
+😁	O
+🤣	O
+
+# newdoc id = bar_tweet_1587784086478852096
+# sent_id = bar_tweet_1587784086478852096-1
+# text = Du Oma , wos duad denn des Viagra beim Opa im Nachkastl ?
+Du	O
+Oma	O
+,	O
+wos	O
+duad	O
+denn	O
+des	O
+Viagra	O
+beim	O
+Opa	O
+im	O
+Nachkastl	O
+?	O
+
+# sent_id = bar_tweet_1587784086478852096-2
+# text = Des gibi eahm immer , dassa ma bei da Nacht ned ausm Bett aussekuglt .
+Des	O
+gibi	O
+eahm	O
+immer	O
+,	O
+dassa	O
+ma	O
+bei	O
+da	O
+Nacht	O
+ned	O
+ausm	O
+Bett	O
+aussekuglt	O
+.	O
+
+# sent_id = bar_tweet_1587784086478852096-3
+# text = #sauber_glacht
+#sauber_glacht	O
+
+# newdoc id = bar_tweet_1202463883673395200
+# sent_id = bar_tweet_1202463883673395200-1
+# text = @mention Guad Moing Michi 👋 😀
+@mention	O
+Guad	O
+Moing	O
+Michi	B-PER
+👋	O
+😀	O
+
+# newdoc id = bar_tweet_1660560441393786880
+# sent_id = bar_tweet_1660560441393786880-1
+# text = @mention Glaube des sann Fakebilder .
+@mention	O
+Glaube	O
+des	O
+sann	O
+Fakebilder	O
+.	O
+
+# sent_id = bar_tweet_1660560441393786880-2
+# text = Stellt doch koaner oane miese Gegend ins Netz . 🙄 🧐 ☝️
+Stellt	O
+doch	O
+koaner	O
+oane	O
+miese	O
+Gegend	O
+ins	O
+Netz	O
+.	O
+🙄	O
+🧐	O
+☝️	O
+
+# newdoc id = bar_tweet_1066754716904783872
+# sent_id = bar_tweet_1066754716904783872-1
+# text = @mention @mention Is no was über ☝️ 😄
+@mention	O
+@mention	O
+Is	O
+no	O
+was	O
+über	O
+☝️	O
+😄	O
+
+# newdoc id = bar_tweet_1540587498006511622
+# sent_id = bar_tweet_1540587498006511622-1
+# text = @mention Chiemgau , wünsch an An Guadn Moang . 🤗
+@mention	O
+Chiemgau	B-LOC
+,	O
+wünsch	O
+an	O
+An	O
+Guadn	O
+Moang	O
+.	O
+🤗	O
+
+# newdoc id = bar_tweet_1541128001412268032
+# sent_id = bar_tweet_1541128001412268032-1
+# text = RT @mention : #G7 #Elmau Wos ma mit dem ganzen Geld sinnvolles macha höid kinna ?
+RT	O
+@mention	O
+:	O
+#G7	B-ORG
+#Elmau	B-LOC
+Wos	O
+ma	O
+mit	O
+dem	O
+ganzen	O
+Geld	O
+sinnvolles	O
+macha	O
+höid	O
+kinna	O
+?	O
+
+# sent_id = bar_tweet_1541128001412268032-2
+# text = Im Geschäftsleben hoissts TEAMS .
+Im	O
+Geschäftsleben	O
+hoissts	O
+TEAMS	B-MISC
+.	O
+
+# newdoc id = bar_tweet_1311635064715870210
+# sent_id = bar_tweet_1311635064715870210-1
+# text = @mention Dankschee !
+@mention	O
+Dankschee	O
+!	O
+
+# newdoc id = bar_tweet_1659629417516154899
+# sent_id = bar_tweet_1659629417516154899-1
+# text = @mention 😂 😂 😂 Flamingo und Fiesta ….. so hoissn die Farben
+@mention	O
+😂	O
+😂	O
+😂	O
+Flamingo	O
+und	O
+Fiesta	O
+…..	O
+so	O
+hoissn	O
+die	O
+Farben	O
+
+# newdoc id = bar_tweet_1326508040347148289
+# sent_id = bar_tweet_1326508040347148289-1
+# text = Was isn jetzt eigentlich mit Fasching ?
+Was	O
+isn	O
+jetzt	O
+eigentlich	O
+mit	O
+Fasching	B-EVENT
+?	O
+
+# sent_id = bar_tweet_1326508040347148289-2
+# text = Normal sans doch am 11. 11. immer so bsonders lustig , habs nie verstanden .
+Normal	O
+sans	O
+doch	O
+am	O
+11.	O
+11.	O
+immer	O
+so	O
+bsonders	O
+lustig	O
+,	O
+habs	O
+nie	O
+verstanden	O
+.	O
+
+# sent_id = bar_tweet_1326508040347148289-3
+# text = Jetzt versteh i ned , warums ned mera lustig san .
+Jetzt	O
+versteh	O
+i	O
+ned	O
+,	O
+warums	O
+ned	O
+mera	O
+lustig	O
+san	O
+.	O
+
+# sent_id = bar_tweet_1326508040347148289-4
+# text = Oder kann ma ned lustig sei ohne gegenseitg obschlegga ?
+Oder	O
+kann	O
+ma	O
+ned	O
+lustig	O
+sei	O
+ohne	O
+gegenseitg	O
+obschlegga	O
+?	O
+
+# newdoc id = bar_tweet_1357813661969092608
+# sent_id = bar_tweet_1357813661969092608-1
+# text = @mention Es is noch 23 h , do is staada .
+@mention	O
+Es	O
+is	O
+noch	O
+23	O
+h	O
+,	O
+do	O
+is	O
+staada	O
+.	O
+
+# sent_id = bar_tweet_1357813661969092608-2
+# text = Ois isi .
+Ois	O
+isi	O
+.	O
+
+# newdoc id = bar_tweet_1656623996111126529
+# sent_id = bar_tweet_1656623996111126529-1
+# text = An Olle de voi für uns tun , seis Krankenhaus Schwestern , Feuerwehr , Ärzte , Pfleger innen , Tierheime , Tierärzte , Tierkliniken , RETTUNGS Wängen , Brummi Fahrer innen , Polizei , und und von ganzen ❤️ 👇 is net selbstverständlich .
+An	O
+Olle	O
+de	O
+voi	O
+für	O
+uns	O
+tun	O
+,	O
+seis	O
+Krankenhaus	O
+Schwestern	O
+,	O
+Feuerwehr	O
+,	O
+Ärzte	O
+,	O
+Pfleger	O
+innen	O
+,	O
+Tierheime	O
+,	O
+Tierärzte	O
+,	O
+Tierkliniken	O
+,	O
+RETTUNGS	O
+Wängen	O
+,	O
+Brummi	O
+Fahrer	O
+innen	O
+,	O
+Polizei	O
+,	O
+und	O
+und	O
+von	O
+ganzen	O
+❤️	O
+👇	O
+is	O
+net	O
+selbstverständlich	O
+.	O
+
+# sent_id = bar_tweet_1656623996111126529-2
+# text = Muas a moi mit Respekt mitgeteilt wern https://t.co/sXs5UHRs4b
+Muas	O
+a	O
+moi	O
+mit	O
+Respekt	O
+mitgeteilt	O
+wern	O
+https://t.co/sXs5UHRs4b	O
+
+# newdoc id = bar_tweet_1601598745799544841
+# sent_id = bar_tweet_1601598745799544841-1
+# text = @mention Eha .
+@mention	O
+Eha	O
+.	O
+
+# sent_id = bar_tweet_1601598745799544841-2
+# text = As Muskimperium .
+As	O
+Muskimperium	B-PERpart
+.	O
+
+# sent_id = bar_tweet_1195284594431594496-2
+# text = Und fallst doch iwern Blitzer gfohrn bist , houst zumindest wos guards dou 😆
+Und	O
+fallst	O
+doch	O
+iwern	O
+Blitzer	O
+gfohrn	O
+bist	O
+,	O
+houst	O
+zumindest	O
+wos	O
+guards	O
+dou	O
+😆	O
+
+# newdoc id = bar_tweet_1601990964704411648
+# sent_id = bar_tweet_1601990964704411648-1
+# text = Da Gärtner hod de Feldherrnhalle , Ludwigskirch , Wittelsbacher Palais und Siegestor baut .
+Da	O
+Gärtner	O
+hod	O
+de	O
+Feldherrnhalle	B-LOC
+,	O
+Ludwigskirch	B-LOC
+,	O
+Wittelsbacher	B-LOC
+Palais	I-LOC
+und	O
+Siegestor	B-LOC
+baut	O
+.	O
+
+# sent_id = bar_tweet_1601990964704411648-2
+# text = Des Theater am Gärtnerplatz is vom Architekten Franz Michael Reiffenstuel errichtet worn .
+Des	O
+Theater	O
+am	O
+Gärtnerplatz	B-LOC
+is	O
+vom	O
+Architekten	O
+Franz	B-PER
+Michael	I-PER
+Reiffenstuel	I-PER
+errichtet	O
+worn	O
+.	O
+
+# sent_id = bar_tweet_1601990964704411648-4
+# text = Nationaltheater : Gerhard Graubner
+Nationaltheater	O
+:	O
+Gerhard	B-PER
+Graubner	I-PER
+
+# newdoc id = bar_tweet_821225663562739713
+# sent_id = bar_tweet_821225663562739713-1
+# text = Moing Minga , auf in an Diensdog .
+Moing	O
+Minga	B-LOC
+,	O
+auf	O
+in	O
+an	O
+Diensdog	O
+.	O
+
+# sent_id = bar_tweet_821225663562739713-2
+# text = Pack mas , an Mondog hamma scho üwastandn , ko bloß bessa wern ;-)
+Pack	O
+mas	O
+,	O
+an	O
+Mondog	O
+hamma	O
+scho	O
+üwastandn	O
+,	O
+ko	O
+bloß	O
+bessa	O
+wern	O
+;-)	O
+
+# newdoc id = bar_tweet_1607652237790117889
+# sent_id = bar_tweet_1607652237790117889-1
+# text = @mention dem dadi scho helfa !
+@mention	O
+dem	O
+dadi	O
+scho	O
+helfa	O
+!	O
+
+# sent_id = bar_tweet_1607652237790117889-2
+# text = Griasdi Karin 🥨 ☕
+Griasdi	O
+Karin	B-PER
+🥨	O
+☕	O
+
+# newdoc id = bar_tweet_1655845228362727424
+# sent_id = bar_tweet_1655845228362727424-1
+# text = zehne vormiddog is
+zehne	O
+vormiddog	O
+is	O
+
+# newdoc id = bar_tweet_1290892469970894848
+# sent_id = bar_tweet_1290892469970894848-1
+# text = @mention Hmm ... dann glei wennst hoamkummst !
+@mention	O
+Hmm	O
+...	O
+dann	O
+glei	O
+wennst	O
+hoamkummst	O
+!	O
+
+# sent_id = bar_tweet_1290892469970894848-2
+# text = Dann hast wos , auf des D ‘ Di den ganzen Tag frein kannst 😋
+Dann	O
+hast	O
+wos	O
+,	O
+auf	O
+des	O
+D	O
+‘	O
+Di	O
+den	O
+ganzen	O
+Tag	O
+frein	O
+kannst	O
+😋	O
+
+# newdoc id = bar_tweet_1591858354401726464
+# sent_id = bar_tweet_1591858354401726464-1
+# text = Da Bayrische Bauernbund is scho 1893 g 'gründ worn .
+Da	O
+Bayrische	B-ORG
+Bauernbund	I-ORG
+is	O
+scho	O
+1893	O
+g	O
+'gründ	O
+worn	O
+.	O
+
+# sent_id = bar_tweet_1591858354401726464-2
+# text = CSU und Bayernpartei san erst nacham Kriag ( WK II ) entstanden .
+CSU	B-ORG
+und	O
+Bayernpartei	B-ORG
+san	O
+erst	O
+nacham	O
+Kriag	O
+(	O
+WK	B-EVENT
+II	I-EVENT
+)	O
+entstanden	O
+.	O
+
+# sent_id = bar_tweet_530420694036013056-2
+# text = Gfoit's eich ? https://t.co/8ZwTQPJZKm http://t.co/7lNKXrbWnt
+Gfoit's	O
+eich	O
+?	O
+https://t.co/8ZwTQPJZKm	O
+http://t.co/7lNKXrbWnt	O
+
+# newdoc id = bar_tweet_1654086079056625664
+# sent_id = bar_tweet_1654086079056625664-1
+# text = An Olle Lieabn Miteinander ob Twitterlein s oda Tierfreunde mit ❤️ 🤗 🤗 an Gemütli und Kommunikation freie Wochamittn Nochmittdog wünsch .
+An	O
+Olle	O
+Lieabn	O
+Miteinander	O
+ob	O
+Twitterlein	B-ORGderiv
+s	O
+oda	O
+Tierfreunde	O
+mit	O
+❤️	O
+🤗	O
+🤗	O
+an	O
+Gemütli	O
+und	O
+Kommunikation	O
+freie	O
+Wochamittn	O
+Nochmittdog	O
+wünsch	O
+.	O
+
+# sent_id = bar_tweet_1654086079056625664-2
+# text = Passt guad auf Eich Auf Bitteschön . https://t.co/L1MbiicGlu
+Passt	O
+guad	O
+auf	O
+Eich	O
+Auf	O
+Bitteschön	O
+.	O
+https://t.co/L1MbiicGlu	O
+
+# newdoc id = bar_tweet_1620825809744437249
+# sent_id = bar_tweet_1620825809744437249-1
+# text = @mention I gäih am Freida zum Boder 😉
+@mention	O
+I	O
+gäih	O
+am	O
+Freida	O
+zum	O
+Boder	O
+😉	O
+
+# newdoc id = bar_tweet_1222633271667888128
+# sent_id = bar_tweet_1222633271667888128-1
+# text = @mention Etz sich wos brauchst du depp !
+@mention	O
+Etz	O
+sich	O
+wos	O
+brauchst	O
+du	O
+depp	O
+!	O
+
+# newdoc id = bar_tweet_1574654365528375299
+# sent_id = bar_tweet_1574654365528375299-1
+# text = @mention ois guade zum Geburtsdog 🍻 🍾 🎂 🥂 🍀
+@mention	O
+ois	O
+guade	O
+zum	O
+Geburtsdog	O
+🍻	O
+🍾	O
+🎂	O
+🥂	O
+🍀	O
+
+# newdoc id = bar_tweet_1606777689939009536
+# sent_id = bar_tweet_1606777689939009536-1
+# text = @mention Frohe Wihnächte den 4 Lausbuabe !
+@mention	O
+Frohe	O
+Wihnächte	B-EVENT
+den	O
+4	O
+Lausbuabe	O
+!	O
+
+# newdoc id = bar_tweet_1272591585692323841
+# sent_id = bar_tweet_1272591585692323841-1
+# text = @mention Au ja , da mog i aa amoi dazua ghean 👍 😊
+@mention	O
+Au	O
+ja	O
+,	O
+da	O
+mog	O
+i	O
+aa	O
+amoi	O
+dazua	O
+ghean	O
+👍	O
+😊	O
+
+# newdoc id = bar_tweet_1369205373513654272
+# sent_id = bar_tweet_1369205373513654272-1
+# text = @mention 18,06 😊 aber wenn i mi so umschau , dauert des net lang und mia san aa wieder drom 😔
+@mention	O
+18,06	O
+😊	O
+aber	O
+wenn	O
+i	O
+mi	O
+so	O
+umschau	O
+,	O
+dauert	O
+des	O
+net	O
+lang	O
+und	O
+mia	O
+san	O
+aa	O
+wieder	O
+drom	O
+😔	O
+
+# newdoc id = bar_tweet_1638412354504515585
+# sent_id = bar_tweet_1638412354504515585-1
+# text = @mention Moing ... oder a scho 😉 👋 ...
+@mention	O
+Moing	O
+...	O
+oder	O
+a	O
+scho	O
+😉	O
+👋	O
+...	O
+
+# newdoc id = bar_tweet_510537229870305280
+# sent_id = bar_tweet_510537229870305280-1
+# text = Freitag auf d' Nacht , hob i a nix mea zam bracht .
+Freitag	O
+auf	O
+d'	O
+Nacht	O
+,	O
+hob	O
+i	O
+a	O
+nix	O
+mea	O
+zam	O
+bracht	O
+.	O
+
+# sent_id = bar_tweet_510537229870305280-2
+# text = Guad Nacht .
+Guad	O
+Nacht	O
+.	O
+
+# newdoc id = bar_tweet_1612362387788529668
+# sent_id = bar_tweet_1612362387788529668-1
+# text = @mention @mention Ah geh , in 2023 is des total normal .
+@mention	O
+@mention	O
+Ah	O
+geh	O
+,	O
+in	O
+2023	O
+is	O
+des	O
+total	O
+normal	O
+.	O
+
+# sent_id = bar_tweet_1612362387788529668-2
+# text = Wennst as Heisl seiba putzt , übalegst da schnäi bequema Lösunga .
+Wennst	O
+as	O
+Heisl	O
+seiba	O
+putzt	O
+,	O
+übalegst	O
+da	O
+schnäi	O
+bequema	O
+Lösunga	O
+.	O
+
+# sent_id = bar_tweet_1612362387788529668-3
+# text = Mei san ja ned auf Schädl gfoin 😝 🤘
+Mei	O
+san	O
+ja	O
+ned	O
+auf	O
+Schädl	O
+gfoin	O
+😝	O
+🤘	O
+
+# newdoc id = bar_tweet_1301861881238487041
+# sent_id = bar_tweet_1301861881238487041-1
+# text = @mention Deng da nix , i kenn mi a nimmer aus . ¯\_(ツ)_/¯
+@mention	O
+Deng	O
+da	O
+nix	O
+,	O
+i	O
+kenn	O
+mi	O
+a	O
+nimmer	O
+aus	O
+.	O
+¯\_(ツ)_/¯	O
+
+# sent_id = bar_tweet_790911036312387584-2
+# text = Muas mi ois Streber beschimpfen lassn weij in der Theorie der Beste ...
+Muas	O
+mi	O
+ois	O
+Streber	O
+beschimpfen	O
+lassn	O
+weij	O
+in	O
+der	O
+Theorie	O
+der	O
+Beste	O
+...	O
+
+# sent_id = bar_tweet_790911036312387584-3
+# text = Iatz werds awa praktisch peinlich 😂 😂
+Iatz	O
+werds	O
+awa	O
+praktisch	O
+peinlich	O
+😂	O
+😂	O
+
+# newdoc id = bar_tweet_1627336701730295808
+# sent_id = bar_tweet_1627336701730295808-1
+# text = @mention @mention @mention Warn a paar Kilometer weniger zum zruck bringa .
+@mention	O
+@mention	O
+@mention	O
+Warn	O
+a	O
+paar	O
+Kilometer	O
+weniger	O
+zum	O
+zruck	O
+bringa	O
+.	O
+
+# sent_id = bar_tweet_1627336701730295808-2
+# text = Egal am Irda bin i bei da Brauerei zum Mitdich-Essen ( sehr guad duad ) , danach bei da Brauereiführung und dann beim Abholmarkt mit 10 % Nachlaß .
+Egal	O
+am	O
+Irda	O
+bin	O
+i	O
+bei	O
+da	O
+Brauerei	O
+zum	O
+Mitdich-Essen	O
+(	O
+sehr	O
+guad	O
+duad	O
+)	O
+,	O
+danach	O
+bei	O
+da	O
+Brauereiführung	O
+und	O
+dann	O
+beim	O
+Abholmarkt	O
+mit	O
+10	O
+%	O
+Nachlaß	O
+.	O
+
+# sent_id = bar_tweet_1627336701730295808-3
+# text = Bin scho a Hund .
+Bin	O
+scho	O
+a	O
+Hund	O
+.	O
+
+# sent_id = bar_tweet_1609565214193909760-2
+# text = #DartsWM #dartzn #darts #schindler #clemens https://t.co/wBjJbH16Wt
+#DartsWM	B-EVENT
+#dartzn	O
+#darts	O
+#schindler	B-PER
+#clemens	B-PER
+https://t.co/wBjJbH16Wt	O
+
+# newdoc id = bar_tweet_1162261401974370304
+# sent_id = bar_tweet_1162261401974370304-1
+# text = @mention Na zwengs am arbadn 😫
+@mention	O
+Na	O
+zwengs	O
+am	O
+arbadn	O
+😫	O
+
+# newdoc id = bar_tweet_1473138644458291201
+# sent_id = bar_tweet_1473138644458291201-1
+# text = @mention Ach gaih 😢 😔 , des dout ma leid 😔 .
+@mention	O
+Ach	O
+gaih	O
+😢	O
+😔	O
+,	O
+des	O
+dout	O
+ma	O
+leid	O
+😔	O
+.	O
+
+# newdoc id = bar_tweet_1571173806777016320
+# sent_id = bar_tweet_1571173806777016320-1
+# text = @mention Sauf ma , steam ma. Sauf ma ned , steam ma a. Oiso … sauf ma ! 🍺
+@mention	O
+Sauf	O
+ma	O
+,	O
+steam	O
+ma.	O
+Sauf	O
+ma	O
+ned	O
+,	O
+steam	O
+ma	O
+a.	O
+Oiso	O
+…	O
+sauf	O
+ma	O
+!	O
+🍺	O
+
+# newdoc id = bar_tweet_1363038417152581634
+# sent_id = bar_tweet_1363038417152581634-1
+# text = @mention Freillich gib i Obacht 😁 Du aber a auf Di !
+@mention	O
+Freillich	O
+gib	O
+i	O
+Obacht	O
+😁	O
+Du	O
+aber	O
+a	O
+auf	O
+Di	O
+!	O
+
+# newdoc id = bar_tweet_622745794374967298
+# sent_id = bar_tweet_622745794374967298-1
+# text = Des san Traditionen :-) https://t.co/R2LlPBGApy @mention
+Des	O
+san	O
+Traditionen	O
+:-)	O
+https://t.co/R2LlPBGApy	O
+@mention	O
+
+# newdoc id = bar_tweet_1659512546641035265
+# sent_id = bar_tweet_1659512546641035265-1
+# text = @mention Liabe Brigitta 💚 hob no an scheenan Nochmittog 🌺
+@mention	O
+Liabe	O
+Brigitta	B-PER
+💚	O
+hob	O
+no	O
+an	O
+scheenan	O
+Nochmittog	O
+🌺	O
+
+# newdoc id = bar_tweet_1353775018841407498
+# sent_id = bar_tweet_1353775018841407498-1
+# text = Schee is ❤️ 🥰 ☺️ #Gassirunde https://t.co/vwQeQ4nNNY
+Schee	O
+is	O
+❤️	O
+🥰	O
+☺️	O
+#Gassirunde	O
+https://t.co/vwQeQ4nNNY	O
+
+# newdoc id = bar_tweet_1297476246151012352
+# sent_id = bar_tweet_1297476246151012352-1
+# text = An ganzn Vormittog denk i scho and @mention und dass i ihra no gratuliern mecht .
+An	O
+ganzn	O
+Vormittog	O
+denk	O
+i	O
+scho	O
+and	O
+@mention	O
+und	O
+dass	O
+i	O
+ihra	O
+no	O
+gratuliern	O
+mecht	O
+.	O
+
+# sent_id = bar_tweet_1297476246151012352-2
+# text = Ois Guade vom See und loss die gscheid feiern !
+Ois	O
+Guade	O
+vom	O
+See	O
+und	O
+loss	O
+die	O
+gscheid	O
+feiern	O
+!	O
+
+# newdoc id = bar_tweet_1160668860359598080
+# sent_id = bar_tweet_1160668860359598080-1
+# text = @mention Ja sur samma in da operpfalz
+@mention	O
+Ja	O
+sur	O
+samma	O
+in	O
+da	O
+operpfalz	B-LOC
+
+# newdoc id = bar_tweet_1040871072252477440
+# sent_id = bar_tweet_1040871072252477440-1
+# text = @mention Da bin i grad ... a Runderl Golfen 🙂
+@mention	O
+Da	O
+bin	O
+i	O
+grad	O
+...	O
+a	O
+Runderl	O
+Golfen	O
+🙂	O
+
+# newdoc id = bar_tweet_1609127095661387776
+# sent_id = bar_tweet_1609127095661387776-1
+# text = @mention @mention Iha fangt ‘ s as neie Johr glei richtig oh . 👍🏼 👍🏼
+@mention	O
+@mention	O
+Iha	O
+fangt	O
+‘	O
+s	O
+as	O
+neie	O
+Johr	O
+glei	O
+richtig	O
+oh	O
+.	O
+👍🏼	O
+👍🏼	O
+
+# sent_id = bar_tweet_1609127095661387776-2
+# text = Bei dem warma Wedda Top !!
+Bei	O
+dem	O
+warma	O
+Wedda	O
+Top	O
+!!	O
+
+# newdoc id = bar_tweet_1640211592448028678
+# sent_id = bar_tweet_1640211592448028678-1
+# text = An scheena Guadn Morgn , und a ruhige und schenne Wocha wünsch i Eich ☕️ 🌞 ☕️ 🌞 ☕️
+An	O
+scheena	O
+Guadn	O
+Morgn	O
+,	O
+und	O
+a	O
+ruhige	O
+und	O
+schenne	O
+Wocha	O
+wünsch	O
+i	O
+Eich	O
+☕️	O
+🌞	O
+☕️	O
+🌞	O
+☕️	O
+
+# newdoc id = bar_tweet_806192945120636929
+# sent_id = bar_tweet_806192945120636929-1
+# text = I hob meine Kinder iatz am jedn a Maultromme kaafd .
+I	O
+hob	O
+meine	O
+Kinder	O
+iatz	O
+am	O
+jedn	O
+a	O
+Maultromme	O
+kaafd	O
+.	O
+
+# sent_id = bar_tweet_806192945120636929-2
+# text = I glaabds gor ned wia lustig des is wenn si de oiwei den Hewe auf d' Zunga schnoizn 😂 😂
+I	O
+glaabds	O
+gor	O
+ned	O
+wia	O
+lustig	O
+des	O
+is	O
+wenn	O
+si	O
+de	O
+oiwei	O
+den	O
+Hewe	O
+auf	O
+d'	O
+Zunga	O
+schnoizn	O
+😂	O
+😂	O
+
+# newdoc id = bar_tweet_1140249592149286913
+# sent_id = bar_tweet_1140249592149286913-1
+# text = @mention Awwwww 😍 Glückwunsch a vo uns 😊
+@mention	O
+Awwwww	O
+😍	O
+Glückwunsch	O
+a	O
+vo	O
+uns	O
+😊	O
+
+# newdoc id = bar_tweet_1646034124484780032
+# sent_id = bar_tweet_1646034124484780032-1
+# text = RT @mention : Bitteschön Lächeln net vergessen .
+RT	O
+@mention	O
+:	O
+Bitteschön	O
+Lächeln	O
+net	O
+vergessen	O
+.	O
+
+# sent_id = bar_tweet_1646034124484780032-2
+# text = WER Lächelt hot den Dog so guad wia gwunna 😉 👇 😀 😊 https://t.co/0MuPcKrc30
+WER	O
+Lächelt	O
+hot	O
+den	O
+Dog	O
+so	O
+guad	O
+wia	O
+gwunna	O
+😉	O
+👇	O
+😀	O
+😊	O
+https://t.co/0MuPcKrc30	O
+
+# newdoc id = bar_tweet_999903397510692864
+# sent_id = bar_tweet_999903397510692864-1
+# text = @mention Guadn Morgn und schau , dasst wieda fit wirst . 🍀
+@mention	O
+Guadn	O
+Morgn	O
+und	O
+schau	O
+,	O
+dasst	O
+wieda	O
+fit	O
+wirst	O
+.	O
+🍀	O
+
+# newdoc id = bar_tweet_1405969218135281677
+# sent_id = bar_tweet_1405969218135281677-1
+# text = Katz sitzt af da Stroß und blerrt Ha , Fäiß ai terrt !!! 😂 😂 😂
+Katz	O
+sitzt	O
+af	O
+da	O
+Stroß	O
+und	O
+blerrt	O
+Ha	O
+,	O
+Fäiß	O
+ai	O
+terrt	O
+!!!	O
+😂	O
+😂	O
+😂	O
+
+# newdoc id = bar_tweet_1315498992789266432
+# sent_id = bar_tweet_1315498992789266432-1
+# text = @mention An scheena guadn Moang ind Oberpfoiz 👋🏼 😊 ☕ 🍀
+@mention	O
+An	O
+scheena	O
+guadn	O
+Moang	O
+ind	O
+Oberpfoiz	B-LOC
+👋🏼	O
+😊	O
+☕	O
+🍀	O
+
+# newdoc id = bar_tweet_612247845090013184
+# sent_id = bar_tweet_612247845090013184-1
+# text = RT @mention : Falls se ma dat Tor zur Hölle suchen : gehen se Samstags ma in son Gartencenter .
+RT	O
+@mention	O
+:	O
+Falls	O
+se	O
+ma	O
+dat	O
+Tor	O
+zur	O
+Hölle	O
+suchen	O
+:	O
+gehen	O
+se	O
+Samstags	O
+ma	O
+in	O
+son	O
+Gartencenter	O
+.	O
+
+# newdoc id = bar_tweet_1435567965110521861
+# sent_id = bar_tweet_1435567965110521861-1
+# text = @mention sin iar 3er gruppa und lehrer shisst mi zemma well dr 3. vor gruppa allanig arbeitet und nd met üs arbeita well
+@mention	O
+sin	O
+iar	O
+3er	O
+gruppa	O
+und	O
+lehrer	O
+shisst	O
+mi	O
+zemma	O
+well	O
+dr	O
+3.	O
+vor	O
+gruppa	O
+allanig	O
+arbeitet	O
+und	O
+nd	O
+met	O
+üs	O
+arbeita	O
+well	O
+
+# newdoc id = bar_tweet_1655463956872306688
+# sent_id = bar_tweet_1655463956872306688-1
+# text = RT @mention : Guad Moing Olle Lieabn Tierfreunde mit ❤️ 🤗 ☕ ☕ ☕ ☕ ☕ https://t.co/VCOcxf4ajE
+RT	O
+@mention	O
+:	O
+Guad	O
+Moing	O
+Olle	O
+Lieabn	O
+Tierfreunde	O
+mit	O
+❤️	O
+🤗	O
+☕	O
+☕	O
+☕	O
+☕	O
+☕	O
+https://t.co/VCOcxf4ajE	O
+
+# newdoc id = bar_tweet_1343314799661371392
+# sent_id = bar_tweet_1343314799661371392-1
+# text = Vor exakt sechs Stund is da Nachbar vor da Tür gstandn und hod mi um a Dragl Bier oghaud .
+Vor	O
+exakt	O
+sechs	O
+Stund	O
+is	O
+da	O
+Nachbar	O
+vor	O
+da	O
+Tür	O
+gstandn	O
+und	O
+hod	O
+mi	O
+um	O
+a	O
+Dragl	O
+Bier	O
+oghaud	O
+.	O
+
+# sent_id = bar_tweet_1343314799661371392-2
+# text = I Voidepp .
+I	O
+Voidepp	O
+.	O
+
+# sent_id = bar_tweet_1343314799661371392-4
+# text = Mitsinga duada a no .
+Mitsinga	O
+duada	O
+a	O
+no	O
+.	O
+
+# sent_id = bar_tweet_1343314799661371392-5
+# text = Des wars .
+Des	O
+wars	O
+.	O
+
+# sent_id = bar_tweet_1343314799661371392-6
+# text = Der braucht ma nimmer deheakemma und um a Bier bädln .
+Der	O
+braucht	O
+ma	O
+nimmer	O
+deheakemma	O
+und	O
+um	O
+a	O
+Bier	O
+bädln	O
+.	O
+
+# sent_id = bar_tweet_1343314799661371392-7
+# text = Ins Hirn homs eam gschissn .
+Ins	O
+Hirn	O
+homs	O
+eam	O
+gschissn	O
+.	O
+
+# sent_id = bar_tweet_1343314799661371392-8
+# text = Jessas Maria . https://t.co/ProRDgkfaV
+Jessas	B-PER
+Maria	B-PER
+.	O
+https://t.co/ProRDgkfaV	O
+
+# newdoc id = bar_tweet_1267844151128788993
+# sent_id = bar_tweet_1267844151128788993-1
+# text = @mention Dann woaßt ja aa , warum Ausgangsbeschränkung war .
+@mention	O
+Dann	O
+woaßt	O
+ja	O
+aa	O
+,	O
+warum	O
+Ausgangsbeschränkung	O
+war	O
+.	O
+
+# sent_id = bar_tweet_1267844151128788993-2
+# text = Da ham’s bei de Daum ( Tauben ) die Batterien gwexld , des san nämlich fliagade Kameras , die uns beobachten ☝️
+Da	O
+ham’s	O
+bei	O
+de	O
+Daum	O
+(	O
+Tauben	O
+)	O
+die	O
+Batterien	O
+gwexld	O
+,	O
+des	O
+san	O
+nämlich	O
+fliagade	O
+Kameras	O
+,	O
+die	O
+uns	O
+beobachten	O
+☝️	O
+
+# newdoc id = bar_tweet_1404435341113802752
+# sent_id = bar_tweet_1404435341113802752-1
+# text = @mention Mia ham am Bahnhof die Zahlenschlösser vo die Radl knackt &amp; vertauscht .
+@mention	O
+Mia	O
+ham	O
+am	O
+Bahnhof	O
+die	O
+Zahlenschlösser	O
+vo	O
+die	O
+Radl	O
+knackt	O
+&amp;	O
+vertauscht	O
+.	O
+
+# sent_id = bar_tweet_1404435341113802752-2
+# text = Komischerweis warn die 4stellign oafacher ois die 3stellign .
+Komischerweis	O
+warn	O
+die	O
+4stellign	O
+oafacher	O
+ois	O
+die	O
+3stellign	O
+.	O
+
+# newdoc id = bar_tweet_1201153775068762113
+# sent_id = bar_tweet_1201153775068762113-1
+# text = Uh leck , grod gsehng , dass da Besuch der neilich ibernacht houd , ins gästezimmer gwiselt houd 😡 der houd a scho efters mal die leit afs sofa gseucht , der is glabe nimmer gesellschaftstauglich ja
+Uh	O
+leck	O
+,	O
+grod	O
+gsehng	O
+,	O
+dass	O
+da	O
+Besuch	O
+der	O
+neilich	O
+ibernacht	O
+houd	O
+,	O
+ins	O
+gästezimmer	O
+gwiselt	O
+houd	O
+😡	O
+der	O
+houd	O
+a	O
+scho	O
+efters	O
+mal	O
+die	O
+leit	O
+afs	O
+sofa	O
+gseucht	O
+,	O
+der	O
+is	O
+glabe	O
+nimmer	O
+gesellschaftstauglich	O
+ja	O
+
+# newdoc id = bar_tweet_1630204905280421890
+# sent_id = bar_tweet_1630204905280421890-1
+# text = RT @mention : An Olle Lieabn Miteinander ob Twitterlein s oda Tierfreunde mit ❤️ 🤗 🤗 Kemmts Elan voi durch de Neie Wocha passt guad auf Eic …
+RT	O
+@mention	O
+:	O
+An	O
+Olle	O
+Lieabn	O
+Miteinander	O
+ob	O
+Twitterlein	B-ORGderiv
+s	O
+oda	O
+Tierfreunde	O
+mit	O
+❤️	O
+🤗	O
+🤗	O
+Kemmts	O
+Elan	O
+voi	O
+durch	O
+de	O
+Neie	O
+Wocha	O
+passt	O
+guad	O
+auf	O
+Eic	O
+…	O
+
+# newdoc id = bar_tweet_1661641031555727360
+# sent_id = bar_tweet_1661641031555727360-1
+# text = @mention An scheenan guadn Moang 🌞 🌺 💚
+@mention	O
+An	O
+scheenan	O
+guadn	O
+Moang	O
+🌞	O
+🌺	O
+💚	O
+
+# newdoc id = bar_tweet_1656915516441743360
+# sent_id = bar_tweet_1656915516441743360-1
+# text = @mention Guadn Moang liabe Sabine 🌺 so woahr 🙏 Na , donn ab in’s hoffentlich sonnige Wochenend ☀️ https://t.co/xMaMtybZEK
+@mention	O
+Guadn	O
+Moang	O
+liabe	O
+Sabine	B-PER
+🌺	O
+so	O
+woahr	O
+🙏	O
+Na	O
+,	O
+donn	O
+ab	O
+in’s	O
+hoffentlich	O
+sonnige	O
+Wochenend	O
+☀️	O
+https://t.co/xMaMtybZEK	O
+
+# newdoc id = bar_tweet_1652663009905369089
+# sent_id = bar_tweet_1652663009905369089-1
+# text = Wenn de Leid need schbinna , dann frieß i an Bäsn zsammdn Schdui .
+Wenn	O
+de	O
+Leid	O
+need	O
+schbinna	O
+,	O
+dann	O
+frieß	O
+i	O
+an	O
+Bäsn	O
+zsammdn	O
+Schdui	O
+.	O
+
+# newdoc id = bar_tweet_1644284477093425153
+# sent_id = bar_tweet_1644284477093425153-1
+# text = @mention @mention Wie sagen wir hier in Bayern : " Wer koo , der koo ! "
+@mention	O
+@mention	O
+Wie	O
+sagen	O
+wir	O
+hier	O
+in	O
+Bayern	B-LOC
+:	O
+"	O
+Wer	O
+koo	O
+,	O
+der	O
+koo	O
+!	O
+"	O
+
+# newdoc id = bar_tweet_1579534314764926976
+# sent_id = bar_tweet_1579534314764926976-1
+# text = @mention 🤗 doankschean 👋🏼 👉🏼 🍀
+@mention	O
+🤗	O
+doankschean	O
+👋🏼	O
+👉🏼	O
+🍀	O
+
+# newdoc id = bar_tweet_1590740086508822528
+# sent_id = bar_tweet_1590740086508822528-1
+# text = @mention A Weda hod's oiwei ! 😁
+@mention	O
+A	O
+Weda	O
+hod's	O
+oiwei	O
+!	O
+😁	O
+
+# newdoc id = bar_tweet_1631726984748322817
+# sent_id = bar_tweet_1631726984748322817-1
+# text = RT @mention : Scho guad , daß da Schafroth Maxi lacht ...
+RT	O
+@mention	O
+:	O
+Scho	O
+guad	O
+,	O
+daß	O
+da	O
+Schafroth	B-PER
+Maxi	I-PER
+lacht	O
+...	O
+
+# sent_id = bar_tweet_1631726984748322817-2
+# text = Sonst daadad i gor ned merka , daß's lustig is ! 🤭
+Sonst	O
+daadad	O
+i	O
+gor	O
+ned	O
+merka	O
+,	O
+daß's	O
+lustig	O
+is	O
+!	O
+🤭	O
+
+# newdoc id = bar_tweet_1638047375770959872
+# sent_id = bar_tweet_1638047375770959872-1
+# text = Gud Moing ins Voglheisl ! 🍀
+Gud	O
+Moing	O
+ins	O
+Voglheisl	O
+!	O
+🍀	O
+
+# sent_id = bar_tweet_1638047375770959872-2
+# text = Termine , Termine … und dann heind nu Teiledienstvertretung …
+Termine	O
+,	O
+Termine	O
+…	O
+und	O
+dann	O
+heind	O
+nu	O
+Teiledienstvertretung	O
+…	O
+
+# sent_id = bar_tweet_1638047375770959872-3
+# text = Langweilig wirds mir heind gwiss niad !
+Langweilig	O
+wirds	O
+mir	O
+heind	O
+gwiss	O
+niad	O
+!	O
+
+# sent_id = bar_tweet_1638047375770959872-4
+# text = Erstamal ganz kommod a Haferl Kaffee , oder zwoa !
+Erstamal	O
+ganz	O
+kommod	O
+a	O
+Haferl	O
+Kaffee	O
+,	O
+oder	O
+zwoa	O
+!	O
+
+# sent_id = bar_tweet_1638047375770959872-5
+# text = Macht ses guad ! https://t.co/kDUoiu4h4Y
+Macht	O
+ses	O
+guad	O
+!	O
+https://t.co/kDUoiu4h4Y	O
+
+# newdoc id = bar_tweet_1655930091048960000
+# sent_id = bar_tweet_1655930091048960000-1
+# text = @mention 19 Grod lieabe Griass 🤗 🤗 https://t.co/dXD246zWmN
+@mention	O
+19	O
+Grod	O
+lieabe	O
+Griass	O
+🤗	O
+🤗	O
+https://t.co/dXD246zWmN	O
+
+# newdoc id = bar_tweet_515764952167362562
+# sent_id = bar_tweet_515764952167362562-1
+# text = Auf a sonnigs Wiesn-Wochaend - saufts need so vui ! ;) http://t.co/n7W2VMVWvm
+Auf	O
+a	O
+sonnigs	O
+Wiesn-Wochaend	B-EVENTpart
+-	O
+saufts	O
+need	O
+so	O
+vui	O
+!	O
+;)	O
+http://t.co/n7W2VMVWvm	O
+
+# newdoc id = bar_tweet_1495662651287953413
+# sent_id = bar_tweet_1495662651287953413-1
+# text = @mention Guatn Morgen , Martin ☕️ ❄️ ☕️ !
+@mention	O
+Guatn	O
+Morgen	O
+,	O
+Martin	B-PER
+☕️	O
+❄️	O
+☕️	O
+!	O
+
+# newdoc id = bar_tweet_1202940004714123264
+# sent_id = bar_tweet_1202940004714123264-1
+# text = @mention I hoit da de daumen , aba wenn de Schuah weg warn statt voi mit guatl dad mi a net wundern ! 🤞 😉
+@mention	O
+I	O
+hoit	O
+da	O
+de	O
+daumen	O
+,	O
+aba	O
+wenn	O
+de	O
+Schuah	O
+weg	O
+warn	O
+statt	O
+voi	O
+mit	O
+guatl	O
+dad	O
+mi	O
+a	O
+net	O
+wundern	O
+!	O
+🤞	O
+😉	O
+
+# newdoc id = bar_tweet_1417081809972744194
+# sent_id = bar_tweet_1417081809972744194-1
+# text = Und liabe Leit aufm Land , griagts es no koa Angst , wenn mia alle nausbrecha ? 😜 https://t.co/ER11m8jD5A
+Und	O
+liabe	O
+Leit	O
+aufm	O
+Land	O
+,	O
+griagts	O
+es	O
+no	O
+koa	O
+Angst	O
+,	O
+wenn	O
+mia	O
+alle	O
+nausbrecha	O
+?	O
+😜	O
+https://t.co/ER11m8jD5A	O
+
+# newdoc id = bar_tweet_1663961950730977284
+# sent_id = bar_tweet_1663961950730977284-1
+# text = RT @mention : @mention @mention A Sprachaustauschschüler aus Lateinamerika hod rasch glernt .
+RT	O
+@mention	O
+:	O
+@mention	O
+@mention	O
+A	O
+Sprachaustauschschüler	O
+aus	O
+Lateinamerika	B-LOC
+hod	O
+rasch	O
+glernt	O
+.	O
+
+# sent_id = bar_tweet_1663961950730977284-2
+# text = Ois , wos bsonders is , hod de Vorsi …
+Ois	O
+,	O
+wos	O
+bsonders	O
+is	O
+,	O
+hod	O
+de	O
+Vorsi	O
+…	O
+
+# newdoc id = bar_tweet_1526164097842257921
+# sent_id = bar_tweet_1526164097842257921-1
+# text = @mention @mention Dank da schee . 🥂
+@mention	O
+@mention	O
+Dank	O
+da	O
+schee	O
+.	O
+🥂	O
+
+# newdoc id = bar_tweet_1454085710219288583
+# sent_id = bar_tweet_1454085710219288583-1
+# text = @mention zwoa mm Bohrer ?
+@mention	O
+zwoa	O
+mm	O
+Bohrer	O
+?	O
+
+# sent_id = bar_tweet_1454085710219288583-2
+# text = Des duad dann Guad wann da Druck weg is
+Des	O
+duad	O
+dann	O
+Guad	O
+wann	O
+da	O
+Druck	O
+weg	O
+is	O
+
+# newdoc id = bar_tweet_1603663879539724295
+# sent_id = bar_tweet_1603663879539724295-1
+# text = Domois anno ' 78 Gab's an hoibm Meter Schnee Daß do koa Bahn ned fahrt Des koo i versteh' Aba heitz'doog do hob i Jo des starke Gfui De Fahrzeig vo heit Is scho a Schneeflockn z'fui #gstanzlfreitag
+Domois	O
+anno	O
+'	O
+78	O
+Gab's	O
+an	O
+hoibm	O
+Meter	O
+Schnee	O
+Daß	O
+do	O
+koa	O
+Bahn	O
+ned	O
+fahrt	O
+Des	O
+koo	O
+i	O
+versteh'	O
+Aba	O
+heitz'doog	O
+do	O
+hob	O
+i	O
+Jo	O
+des	O
+starke	O
+Gfui	O
+De	O
+Fahrzeig	O
+vo	O
+heit	O
+Is	O
+scho	O
+a	O
+Schneeflockn	O
+z'fui	O
+#gstanzlfreitag	O
+
+# newdoc id = bar_tweet_1621837220704313347
+# sent_id = bar_tweet_1621837220704313347-1
+# text = @mention I hob amoi a sichelförmige Woikn an ganzn Doog abkriagt .
+@mention	O
+I	O
+hob	O
+amoi	O
+a	O
+sichelförmige	O
+Woikn	O
+an	O
+ganzn	O
+Doog	O
+abkriagt	O
+.	O
+
+# sent_id = bar_tweet_1621837220704313347-2
+# text = Koost dia vorstelln , wia de zogn is !
+Koost	O
+dia	O
+vorstelln	O
+,	O
+wia	O
+de	O
+zogn	O
+is	O
+!	O
+
+# newdoc id = bar_tweet_1317106534049079299
+# sent_id = bar_tweet_1317106534049079299-1
+# text = @mention Mia ham heid ois ghabt .
+@mention	O
+Mia	O
+ham	O
+heid	O
+ois	O
+ghabt	O
+.	O
+
+# sent_id = bar_tweet_1317106534049079299-2
+# text = Regen , Schnee , Nebel und etz hama dSonna
+Regen	O
+,	O
+Schnee	O
+,	O
+Nebel	O
+und	O
+etz	O
+hama	O
+dSonna	O
+
+# newdoc id = bar_tweet_1633446994378211329
+# sent_id = bar_tweet_1633446994378211329-1
+# text = Schaugt's , @mention , des hob i Eich gsogt : Gscheid Verhandeln und ned dumm rumstreiken !
+Schaugt's	O
+,	O
+@mention	O
+,	O
+des	O
+hob	O
+i	O
+Eich	O
+gsogt	O
+:	O
+Gscheid	O
+Verhandeln	O
+und	O
+ned	O
+dumm	O
+rumstreiken	O
+!	O
+
+# sent_id = bar_tweet_1633446994378211329-2
+# text = Es hobt's an Bogen überspannt !
+Es	O
+hobt's	O
+an	O
+Bogen	O
+überspannt	O
+!	O
+
+# sent_id = bar_tweet_1633446994378211329-3
+# text = Des koo sich aa de @mention zu Herzen nehma : Erst verhandeln , dann ggf. streiken .
+Des	O
+koo	O
+sich	O
+aa	O
+de	O
+@mention	O
+zu	O
+Herzen	O
+nehma	O
+:	O
+Erst	O
+verhandeln	O
+,	O
+dann	O
+ggf.	O
+streiken	O
+.	O
+
+# sent_id = bar_tweet_1633446994378211329-4
+# text = Ned umgkehrt ! https://t.co/uYuIRCcqv6
+Ned	O
+umgkehrt	O
+!	O
+https://t.co/uYuIRCcqv6	O
+
+# newdoc id = bar_tweet_1451086988011057155
+# sent_id = bar_tweet_1451086988011057155-1
+# text = @mention @mention drum hoaßts bei uns a " Niederbayern ?
+@mention	O
+@mention	O
+drum	O
+hoaßts	O
+bei	O
+uns	O
+a	O
+"	O
+Niederbayern	B-LOC
+?	O
+
+# sent_id = bar_tweet_1451086988011057155-2
+# text = Des trausd da nia "
+Des	O
+trausd	O
+da	O
+nia	O
+"	O
+
+# newdoc id = bar_tweet_1147540545230782464
+# sent_id = bar_tweet_1147540545230782464-1
+# text = @mention Wenns hint weh duad muaßt vorn aufhörn hams oiwei gsagt ... aba I glab do iß need ums radln ganga .
+@mention	O
+Wenns	O
+hint	O
+weh	O
+duad	O
+muaßt	O
+vorn	O
+aufhörn	O
+hams	O
+oiwei	O
+gsagt	O
+...	O
+aba	O
+I	O
+glab	O
+do	O
+iß	O
+need	O
+ums	O
+radln	O
+ganga	O
+.	O
+
+# sent_id = bar_tweet_1147540545230782464-2
+# text = D' aussicht auf an August nach getaner schinderei werd die scho durch brings !
+D'	O
+aussicht	O
+auf	O
+an	O
+August	O
+nach	O
+getaner	O
+schinderei	O
+werd	O
+die	O
+scho	O
+durch	O
+brings	O
+!	O
+
+# sent_id = bar_tweet_1147540545230782464-3
+# text = Scheens Wochaend !
+Scheens	O
+Wochaend	O
+!	O
+
+# newdoc id = bar_tweet_1240967521047646209
+# sent_id = bar_tweet_1240967521047646209-1
+# text = RT @mention : Sehr guad , Herr @mention !
+RT	O
+@mention	O
+:	O
+Sehr	O
+guad	O
+,	O
+Herr	O
+@mention	O
+!	O
+
+# newdoc id = bar_tweet_829302018762219521
+# sent_id = bar_tweet_829302018762219521-1
+# text = Fast so schick wia da Netzers Günter ..... https://t.co/gI4ZkoC8Um
+Fast	O
+so	O
+schick	O
+wia	O
+da	O
+Netzers	B-PER
+Günter	I-PER
+.....	O
+https://t.co/gI4ZkoC8Um	O
+
+# newdoc id = bar_tweet_1633693538914271235
+# sent_id = bar_tweet_1633693538914271235-1
+# text = @mention Gud Moing Gisi !
+@mention	O
+Gud	O
+Moing	O
+Gisi	B-PER
+!	O
+
+# sent_id = bar_tweet_1633693538914271235-2
+# text = Früh , und so nass ….. 😖
+Früh	O
+,	O
+und	O
+so	O
+nass	O
+…..	O
+😖	O
+
+# newdoc id = bar_tweet_1605698351445442561
+# sent_id = bar_tweet_1605698351445442561-1
+# text = @mention Wenn Sie moanän ... 🚬
+@mention	O
+Wenn	O
+Sie	O
+moanän	O
+...	O
+🚬	O
+
+# newdoc id = bar_tweet_1656248723410763776
+# sent_id = bar_tweet_1656248723410763776-1
+# text = @mention Tach 😀
+@mention	O
+Tach	O
+😀	O
+
+# newdoc id = bar_tweet_1631342546994569227
+# sent_id = bar_tweet_1631342546994569227-1
+# text = Do wohnst fast dei ganz Lebm z' Minga * und kimmst pletzli durch Stroßn , de host no' nia gseing .
+Do	O
+wohnst	O
+fast	O
+dei	O
+ganz	O
+Lebm	O
+z'	O
+Minga	B-LOC
+*	O
+und	O
+kimmst	O
+pletzli	O
+durch	O
+Stroßn	O
+,	O
+de	O
+host	O
+no'	O
+nia	O
+gseing	O
+.	O
+
+# sent_id = bar_tweet_1631342546994569227-2
+# text = Aba jetzad is fast geschafft .
+Aba	O
+jetzad	O
+is	O
+fast	O
+geschafft	O
+.	O
+
+# sent_id = bar_tweet_1631342546994569227-3
+# text = #München #Streik #Warnstreik * abzüglich 2 Johr Berlin und 1 Johr Tölz https://t.co/lQHybdV7iI
+#München	B-LOC
+#Streik	O
+#Warnstreik	O
+*	O
+abzüglich	O
+2	O
+Johr	O
+Berlin	B-LOC
+und	O
+1	O
+Johr	O
+Tölz	B-LOC
+https://t.co/lQHybdV7iI	O
+
+# sent_id = bar_tweet_1538514502718824448-2
+# text = 15 bsuffane Halbstarke mit Schlafsack und Isomatte , Zigarettendunst , alle Fenster zua , weil bsuffa koana mehr dro denkt hod .
+15	O
+bsuffane	O
+Halbstarke	O
+mit	O
+Schlafsack	O
+und	O
+Isomatte	O
+,	O
+Zigarettendunst	O
+,	O
+alle	O
+Fenster	O
+zua	O
+,	O
+weil	O
+bsuffa	O
+koana	O
+mehr	O
+dro	O
+denkt	O
+hod	O
+.	O
+
+# sent_id = bar_tweet_1538514502718824448-3
+# text = Vaschütts Bier am Bodn , und noch fümf kurze Stund mit am g'scheidn Suri aufwacha , a koids Spezi suacha und irgendwia hoam fahrn vom Festl .
+Vaschütts	O
+Bier	O
+am	O
+Bodn	O
+,	O
+und	O
+noch	O
+fümf	O
+kurze	O
+Stund	O
+mit	O
+am	O
+g'scheidn	O
+Suri	O
+aufwacha	O
+,	O
+a	O
+koids	O
+Spezi	O
+suacha	O
+und	O
+irgendwia	O
+hoam	O
+fahrn	O
+vom	O
+Festl	O
+.	O
+
+# newdoc id = bar_tweet_1655131776430362625
+# sent_id = bar_tweet_1655131776430362625-1
+# text = Dees måg i scho , wenn s' Oar gscheida is wia d' Heena .
+Dees	O
+måg	O
+i	O
+scho	O
+,	O
+wenn	O
+s'	O
+Oar	O
+gscheida	O
+is	O
+wia	O
+d'	O
+Heena	O
+.	O
+
+# newdoc id = bar_tweet_1656726250965041159
+# sent_id = bar_tweet_1656726250965041159-1
+# text = @mention Des " für dich " is aba so voi vo Deppn , dene i ned folg' , do kriag i ja a Sehnenscheidenentzündung wann i de olle block .
+@mention	O
+Des	O
+"	O
+für	O
+dich	O
+"	O
+is	O
+aba	O
+so	O
+voi	O
+vo	O
+Deppn	O
+,	O
+dene	O
+i	O
+ned	O
+folg'	O
+,	O
+do	O
+kriag	O
+i	O
+ja	O
+a	O
+Sehnenscheidenentzündung	O
+wann	O
+i	O
+de	O
+olle	O
+block	O
+.	O
+
+# sent_id = bar_tweet_1656726250965041159-2
+# text = I frog mi aba , warum da Musk de Greana so oft zoagt , hod eam da Hartmann b'stocha ? 😂
+I	O
+frog	O
+mi	O
+aba	O
+,	O
+warum	O
+da	O
+Musk	B-PER
+de	O
+Greana	B-ORG
+so	O
+oft	O
+zoagt	O
+,	O
+hod	O
+eam	O
+da	O
+Hartmann	B-PER
+b'stocha	O
+?	O
+😂	O
+
+# newdoc id = bar_tweet_1476228322820595714
+# sent_id = bar_tweet_1476228322820595714-1
+# text = @mention @mention @mention Griass Eich sorry i woas leida nix , hob des etzat a east gsehng 🤷🏼‍♂️
+@mention	O
+@mention	O
+@mention	O
+Griass	O
+Eich	O
+sorry	O
+i	O
+woas	O
+leida	O
+nix	O
+,	O
+hob	O
+des	O
+etzat	O
+a	O
+east	O
+gsehng	O
+🤷🏼‍♂️	O
+
+# newdoc id = bar_tweet_1638106175261532160
+# sent_id = bar_tweet_1638106175261532160-1
+# text = @mention kommt natürlich au no drauf an ob ma im Schatten oder de Sonn hockt und wia stark / von wo de Wind weht .
+@mention	O
+kommt	O
+natürlich	O
+au	O
+no	O
+drauf	O
+an	O
+ob	O
+ma	O
+im	O
+Schatten	O
+oder	O
+de	O
+Sonn	O
+hockt	O
+und	O
+wia	O
+stark	O
+/	O
+von	O
+wo	O
+de	O
+Wind	O
+weht	O
+.	O
+
+# sent_id = bar_tweet_1638106175261532160-2
+# text = Grad beim Schaffe immer blöd : Hinterm Stall im Schatten Saukalt , vorm Stall schwitzig , saublöd beim Schaffe
+Grad	O
+beim	O
+Schaffe	O
+immer	O
+blöd	O
+:	O
+Hinterm	O
+Stall	O
+im	O
+Schatten	O
+Saukalt	O
+,	O
+vorm	O
+Stall	O
+schwitzig	O
+,	O
+saublöd	O
+beim	O
+Schaffe	O
+
+# newdoc id = bar_tweet_1297093421920858112
+# sent_id = bar_tweet_1297093421920858112-1
+# text = Lieber @mention , wia da Meister Eder scho gsogt hod : Es muass a bleede Leid gem , aber es wern hoid oiwai mehra .
+Lieber	O
+@mention	O
+,	O
+wia	O
+da	O
+Meister	O
+Eder	B-PER
+scho	O
+gsogt	O
+hod	O
+:	O
+Es	O
+muass	O
+a	O
+bleede	O
+Leid	O
+gem	O
+,	O
+aber	O
+es	O
+wern	O
+hoid	O
+oiwai	O
+mehra	O
+.	O
+
+# sent_id = bar_tweet_1297093421920858112-2
+# text = A in die Berg . https://t.co/7rME2m1aiD
+A	O
+in	O
+die	O
+Berg	O
+.	O
+https://t.co/7rME2m1aiD	O
+
+# newdoc id = bar_tweet_1378069022152011778
+# sent_id = bar_tweet_1378069022152011778-1
+# text = @mention Guade Besserung deinen Papa 👍
+@mention	O
+Guade	O
+Besserung	O
+deinen	O
+Papa	O
+👍	O
+
+# newdoc id = bar_tweet_1623402195386236929
+# sent_id = bar_tweet_1623402195386236929-1
+# text = @mention Guade Besserung Lieblingssteirerbua ! 🍀
+@mention	O
+Guade	O
+Besserung	O
+Lieblingssteirerbua	B-LOCpart
+!	O
+🍀	O
+
+# sent_id = bar_tweet_1436921112177303552-2
+# text = Wie de Herr , so soi Geschärr !
+Wie	O
+de	O
+Herr	O
+,	O
+so	O
+soi	O
+Geschärr	O
+!	O
+
+# newdoc id = bar_tweet_1616870411756609536
+# sent_id = bar_tweet_1616870411756609536-1
+# text = @mention Hoid a Trottl . 🤪
+@mention	O
+Hoid	O
+a	O
+Trottl	O
+.	O
+🤪	O
+
+# newdoc id = bar_tweet_432181596750622720
+# sent_id = bar_tweet_432181596750622720-1
+# text = @mention Deshoib hob i mir heid dengt , dass mei Auto mi woi a dreckad no a wengal fahren werd .
+@mention	O
+Deshoib	O
+hob	O
+i	O
+mir	O
+heid	O
+dengt	O
+,	O
+dass	O
+mei	O
+Auto	O
+mi	O
+woi	O
+a	O
+dreckad	O
+no	O
+a	O
+wengal	O
+fahren	O
+werd	O
+.	O
+
+# sent_id = bar_tweet_432181596750622720-2
+# text = Do vageht ma de Wascherei oiwai .
+Do	O
+vageht	O
+ma	O
+de	O
+Wascherei	O
+oiwai	O
+.	O
+
+# newdoc id = bar_tweet_1563228143363981313
+# sent_id = bar_tweet_1563228143363981313-1
+# text = Himmebabba schimpft ☝🏽
+Himmebabba	O
+schimpft	O
+☝🏽	O
+
+# newdoc id = bar_tweet_1645149268187963393
+# sent_id = bar_tweet_1645149268187963393-1
+# text = @mention @mention I hob in Italien an Taxifahrer abkriagt , der hod sein erschtn Doog ghabt .
+@mention	O
+@mention	O
+I	O
+hob	O
+in	O
+Italien	B-LOC
+an	O
+Taxifahrer	O
+abkriagt	O
+,	O
+der	O
+hod	O
+sein	O
+erschtn	O
+Doog	O
+ghabt	O
+.	O
+
+# sent_id = bar_tweet_1645149268187963393-2
+# text = Hob i mit am Stadtplan auf de Knia eam an Weg gwiesn ...
+Hob	O
+i	O
+mit	O
+am	O
+Stadtplan	O
+auf	O
+de	O
+Knia	O
+eam	O
+an	O
+Weg	O
+gwiesn	O
+...	O
+
+# sent_id = bar_tweet_1645149268187963393-3
+# text = Aba des Ziel is draußd vor da Stodt gwen ...
+Aba	O
+des	O
+Ziel	O
+is	O
+draußd	O
+vor	O
+da	O
+Stodt	O
+gwen	O
+...	O
+
+# sent_id = bar_tweet_1645149268187963393-4
+# text = Samma de hoibe Nacht rumkurvt ! 😁
+Samma	O
+de	O
+hoibe	O
+Nacht	O
+rumkurvt	O
+!	O
+😁	O
+
+# newdoc id = bar_tweet_1364963904229670921
+# sent_id = bar_tweet_1364963904229670921-1
+# text = @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention Griass Di Gitte 👋🏼 😊 Hawadere ollesamt 👋🏼
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+Griass	O
+Di	O
+Gitte	B-PER
+👋🏼	O
+😊	O
+Hawadere	O
+ollesamt	O
+👋🏼	O
+
+# newdoc id = bar_tweet_1314946284931952640
+# sent_id = bar_tweet_1314946284931952640-1
+# text = @mention Dann wars mia aba liaba gwehn wennst im September scho aufgramt häst .
+@mention	O
+Dann	O
+wars	O
+mia	O
+aba	O
+liaba	O
+gwehn	O
+wennst	O
+im	O
+September	O
+scho	O
+aufgramt	O
+häst	O
+.	O
+
+# sent_id = bar_tweet_1314946284931952640-2
+# text = Na is jetz a scho wurscht .
+Na	O
+is	O
+jetz	O
+a	O
+scho	O
+wurscht	O
+.	O
+
+# newdoc id = bar_tweet_1497142976295976965
+# sent_id = bar_tweet_1497142976295976965-1
+# text = @mention Griaß di , Markus 🤘🏼 !
+@mention	O
+Griaß	O
+di	O
+,	O
+Markus	B-PER
+🤘🏼	O
+!	O
+
+# newdoc id = bar_tweet_1008190754156662784
+# sent_id = bar_tweet_1008190754156662784-1
+# text = Gum Moagn Niederbayern , Guten Morgen Restwelt !
+Gum	O
+Moagn	O
+Niederbayern	B-LOC
+,	O
+Guten	O
+Morgen	O
+Restwelt	O
+!	O
+
+# sent_id = bar_tweet_1008190754156662784-2
+# text = Heid vor 9 Johr habi erstmals getwittert .
+Heid	O
+vor	O
+9	O
+Johr	O
+habi	O
+erstmals	O
+getwittert	B-ORGderiv
+.	O
+
+# sent_id = bar_tweet_1008190754156662784-3
+# text = A Auterl habi gsucht .
+A	O
+Auterl	O
+habi	O
+gsucht	O
+.	O
+
+# sent_id = bar_tweet_1008190754156662784-4
+# text = Gfundn hanis ned .
+Gfundn	O
+hanis	O
+ned	O
+.	O
+
+# newdoc id = bar_tweet_1210256272345440257
+# sent_id = bar_tweet_1210256272345440257-1
+# text = @mention Des daad sauguad zam bassn 😂
+@mention	O
+Des	O
+daad	O
+sauguad	O
+zam	O
+bassn	O
+😂	O
+
+# newdoc id = bar_tweet_980339121364324352
+# sent_id = bar_tweet_980339121364324352-1
+# text = RT @mention : Moing Osterbagasch 🐣 https://t.co/MtrTOxxQZb
+RT	O
+@mention	O
+:	O
+Moing	O
+Osterbagasch	B-EVENTpart
+🐣	O
+https://t.co/MtrTOxxQZb	O
+
+# newdoc id = bar_tweet_380011482295324672
+# sent_id = bar_tweet_380011482295324672-1
+# text = Das Wiesn-Tagebiachal ... damit ma uns des Jahr ois merka , wos so passierd is ... ! ( wemma des denn überhaupt ... http://t.co/T1maUGBWcg
+Das	O
+Wiesn-Tagebiachal	B-EVENTpart
+...	O
+damit	O
+ma	O
+uns	O
+des	O
+Jahr	O
+ois	O
+merka	O
+,	O
+wos	O
+so	O
+passierd	O
+is	O
+...	O
+!	O
+(	O
+wemma	O
+des	O
+denn	O
+überhaupt	O
+...	O
+http://t.co/T1maUGBWcg	O
+
+# newdoc id = bar_tweet_1523002479297716225
+# sent_id = bar_tweet_1523002479297716225-1
+# text = @mention @mention @mention @mention @mention @mention S ‘ Hirnderl nehm ma vom Schweindal : https://t.co/5utyVNanjL
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+S	O
+‘	O
+Hirnderl	O
+nehm	O
+ma	O
+vom	O
+Schweindal	O
+:	O
+https://t.co/5utyVNanjL	O
+
+# newdoc id = bar_tweet_1515711462144200706
+# sent_id = bar_tweet_1515711462144200706-1
+# text = @mention @mention deszweng hodas wahrscheints kafft .
+@mention	O
+@mention	O
+deszweng	O
+hodas	O
+wahrscheints	O
+kafft	O
+.	O
+
+# newdoc id = bar_tweet_1635417034883502080
+# sent_id = bar_tweet_1635417034883502080-1
+# text = @mention @mention Kapier i ned ...
+@mention	O
+@mention	O
+Kapier	O
+i	O
+ned	O
+...	O
+
+# sent_id = bar_tweet_1635417034883502080-2
+# text = Wia is der an dei Konto kemma ? 🙄
+Wia	O
+is	O
+der	O
+an	O
+dei	O
+Konto	O
+kemma	O
+?	O
+🙄	O
+
+# newdoc id = bar_tweet_1653270764311703552
+# sent_id = bar_tweet_1653270764311703552-1
+# text = hoiwe achte in da frua is
+hoiwe	O
+achte	O
+in	O
+da	O
+frua	O
+is	O
+
+# newdoc id = bar_tweet_1342552177135517698
+# sent_id = bar_tweet_1342552177135517698-1
+# text = RT @mention : @mention @mention @mention @mention I woar s’ganze Joar so brav , da hods Christkindl koi Probleme gha …
+RT	O
+@mention	O
+:	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+I	O
+woar	O
+s’ganze	O
+Joar	O
+so	O
+brav	O
+,	O
+da	O
+hods	O
+Christkindl	O
+koi	O
+Probleme	O
+gha	O
+…	O
+
+# newdoc id = bar_tweet_1658946224320307201
+# sent_id = bar_tweet_1658946224320307201-1
+# text = RT @mention : Ich bin en Schlofmütz , ne Schwadlappe Ne Dickkopp un Halunk En Daachedief un Daurenichts En Jeck un Düvelshung Ich schwad …
+RT	O
+@mention	O
+:	O
+Ich	O
+bin	O
+en	O
+Schlofmütz	O
+,	O
+ne	O
+Schwadlappe	O
+Ne	O
+Dickkopp	O
+un	O
+Halunk	O
+En	O
+Daachedief	O
+un	O
+Daurenichts	O
+En	O
+Jeck	O
+un	O
+Düvelshung	O
+Ich	O
+schwad	O
+…	O
+
+# newdoc id = bar_tweet_1252483026342346752
+# sent_id = bar_tweet_1252483026342346752-1
+# text = @mention An scheena Guadn Morgn 🌺 🍀 ☺️ ☕️
+@mention	O
+An	O
+scheena	O
+Guadn	O
+Morgn	O
+🌺	O
+🍀	O
+☺️	O
+☕️	O
+
+# newdoc id = bar_tweet_1637684639635587074
+# sent_id = bar_tweet_1637684639635587074-1
+# text = Gud Moing ins Voglheisl 🍀 Pack mas wieder ?
+Gud	O
+Moing	O
+ins	O
+Voglheisl	O
+🍀	O
+Pack	O
+mas	O
+wieder	O
+?	O
+
+# sent_id = bar_tweet_1637684639635587074-2
+# text = Schaun ma mal wos däi Woch bringt .
+Schaun	O
+ma	O
+mal	O
+wos	O
+däi	O
+Woch	O
+bringt	O
+.	O
+
+# sent_id = bar_tweet_1637684639635587074-3
+# text = Erst mal a Haferl Kaffee !
+Erst	O
+mal	O
+a	O
+Haferl	O
+Kaffee	O
+!	O
+
+# sent_id = bar_tweet_1637684639635587074-4
+# text = Schäina Mounda ! https://t.co/c1wTZ8URCM
+Schäina	O
+Mounda	O
+!	O
+https://t.co/c1wTZ8URCM	O
+
+# newdoc id = bar_tweet_1499292222960947201
+# sent_id = bar_tweet_1499292222960947201-1
+# text = - Ja du oide Maskenamsel , wia hamma's denn ? - Sie schaug o , die Bichslmadam !
+-	O
+Ja	O
+du	O
+oide	O
+Maskenamsel	O
+,	O
+wia	O
+hamma's	O
+denn	O
+?	O
+-	O
+Sie	O
+schaug	O
+o	O
+,	O
+die	O
+Bichslmadam	O
+!	O
+
+# sent_id = bar_tweet_1499292222960947201-2
+# text = I steh fei länger da , wia Sie . - Ja , nix , aso a Krampfhenna .
+I	O
+steh	O
+fei	O
+länger	O
+da	O
+,	O
+wia	O
+Sie	O
+.	O
+-	O
+Ja	O
+,	O
+nix	O
+,	O
+aso	O
+a	O
+Krampfhenna	O
+.	O
+
+# sent_id = bar_tweet_1499292222960947201-3
+# text = Seit zwoa Stund stehi da . - Kaff da amoi a Uhr , du Luada , du notigs . - Ja was is des ?
+Seit	O
+zwoa	O
+Stund	O
+stehi	O
+da	O
+.	O
+-	O
+Kaff	O
+da	O
+amoi	O
+a	O
+Uhr	O
+,	O
+du	O
+Luada	O
+,	O
+du	O
+notigs	O
+.	O
+-	O
+Ja	O
+was	O
+is	O
+des	O
+?	O
+
+# sent_id = bar_tweet_1499292222960947201-4
+# text = Reißt sie mir die Maskn vom Hois !
+Reißt	O
+sie	O
+mir	O
+die	O
+Maskn	O
+vom	O
+Hois	O
+!	O
+
+# sent_id = bar_tweet_1499292222960947201-5
+# text = #minga_redt_boarisch
+#minga_redt_boarisch	B-LOCpart
+
+# newdoc id = bar_tweet_1650819134890885120
+# sent_id = bar_tweet_1650819134890885120-1
+# text = @mention @mention Oiso , es gibt scho was ...
+@mention	O
+@mention	O
+Oiso	O
+,	O
+es	O
+gibt	O
+scho	O
+was	O
+...	O
+
+# sent_id = bar_tweet_1650819134890885120-2
+# text = Aba hoit ned ois .
+Aba	O
+hoit	O
+ned	O
+ois	O
+.	O
+
+# sent_id = bar_tweet_1650819134890885120-3
+# text = Und liefern lassn koo i mia aa wos , aba i bin hoit aa loyal ( so samma , mia Bayern , außa am FC ) und bleib deszwengs bei meim Lieferanten , der hod immerhin des Hopf Weißbier , den Asam Bock , de Mooser Liesl und Augustiner sowieso ! 😋
+Und	O
+liefern	O
+lassn	O
+koo	O
+i	O
+mia	O
+aa	O
+wos	O
+,	O
+aba	O
+i	O
+bin	O
+hoit	O
+aa	O
+loyal	O
+(	O
+so	O
+samma	O
+,	O
+mia	O
+Bayern	B-LOCderiv
+,	O
+außa	O
+am	O
+FC	B-ORG
+)	O
+und	O
+bleib	O
+deszwengs	O
+bei	O
+meim	O
+Lieferanten	O
+,	O
+der	O
+hod	O
+immerhin	O
+des	O
+Hopf	B-MISC
+Weißbier	I-MISC
+,	O
+den	O
+Asam	B-MISC
+Bock	I-MISC
+,	O
+de	O
+Mooser	B-MISC
+Liesl	I-MISC
+und	O
+Augustiner	B-MISC
+sowieso	O
+!	O
+😋	O
+
+# newdoc id = bar_tweet_1376110063698513921
+# sent_id = bar_tweet_1376110063698513921-1
+# text = @mention Es hoaßt ja a Greicherts und ned Gsmokeds .
+@mention	O
+Es	O
+hoaßt	O
+ja	O
+a	O
+Greicherts	O
+und	O
+ned	O
+Gsmokeds	O
+.	O
+
+# sent_id = bar_tweet_1376110063698513921-2
+# text = Und mit dem Amigedöns konnst ma geh. I ess a Ripperla und koa Sparerips .
+Und	O
+mit	O
+dem	O
+Amigedöns	O
+konnst	O
+ma	O
+geh.	O
+I	O
+ess	O
+a	O
+Ripperla	O
+und	O
+koa	O
+Sparerips	O
+.	O
+
+# newdoc id = bar_tweet_311926409708843010
+# sent_id = bar_tweet_311926409708843010-1
+# text = Hahha heid amoi ois verloren !
+Hahha	O
+heid	O
+amoi	O
+ois	O
+verloren	O
+!	O
+
+# sent_id = bar_tweet_311926409708843010-2
+# text = Abendessen hob i ma td verdient ;)
+Abendessen	O
+hob	O
+i	O
+ma	O
+td	O
+verdient	O
+;)	O
+
+# newdoc id = bar_tweet_1303436457500119041
+# sent_id = bar_tweet_1303436457500119041-1
+# text = @mention Des is ja des .
+@mention	O
+Des	O
+is	O
+ja	O
+des	O
+.	O
+
+# sent_id = bar_tweet_1303436457500119041-2
+# text = So schnell wias woam wird , um so schneller kühlts ob .
+So	O
+schnell	O
+wias	O
+woam	O
+wird	O
+,	O
+um	O
+so	O
+schneller	O
+kühlts	O
+ob	O
+.	O
+
+# sent_id = bar_tweet_1303436457500119041-3
+# text = A Dachisolierung konn nia so guad sei wia a Mauer , de wo woam is und länger woam bleibt .
+A	O
+Dachisolierung	O
+konn	O
+nia	O
+so	O
+guad	O
+sei	O
+wia	O
+a	O
+Mauer	O
+,	O
+de	O
+wo	O
+woam	O
+is	O
+und	O
+länger	O
+woam	O
+bleibt	O
+.	O
+
+# sent_id = bar_tweet_1303436457500119041-4
+# text = De Nachbarn unter uns gfrein se , hoaz ma ja mit .
+De	O
+Nachbarn	O
+unter	O
+uns	O
+gfrein	O
+se	O
+,	O
+hoaz	O
+ma	O
+ja	O
+mit	O
+.	O
+
+# newdoc id = bar_tweet_1659344536533958657
+# sent_id = bar_tweet_1659344536533958657-1
+# text = A gloans Gäid und a gloans Glück im Winkl .
+A	O
+gloans	O
+Gäid	O
+und	O
+a	O
+gloans	O
+Glück	O
+im	O
+Winkl	O
+.	O
+
+# newdoc id = bar_tweet_1518818295721381889
+# sent_id = bar_tweet_1518818295721381889-1
+# text = @mention An Guadn Moang , Moasta . 🤗 🔴 ⚪️
+@mention	O
+An	O
+Guadn	O
+Moang	O
+,	O
+Moasta	O
+.	O
+🤗	O
+🔴	O
+⚪️	O
+
+# newdoc id = bar_tweet_1600429208517234688
+# sent_id = bar_tweet_1600429208517234688-1
+# text = @mention Liabn Gruaß vom Michi ... moan i ☺️
+@mention	O
+Liabn	O
+Gruaß	O
+vom	O
+Michi	B-PER
+...	O
+moan	O
+i	O
+☺️	O
+
+# newdoc id = bar_tweet_1152494158436798464
+# sent_id = bar_tweet_1152494158436798464-1
+# text = @mention Guadn Morgn Radlkini 🚵‍♂️ 🚵‍♂️ Wünsch Dia an super scheenen Samsdog und bass mer guad auf den Michi auf .
+@mention	O
+Guadn	O
+Morgn	O
+Radlkini	O
+🚵‍♂️	O
+🚵‍♂️	O
+Wünsch	O
+Dia	O
+an	O
+super	O
+scheenen	O
+Samsdog	O
+und	O
+bass	O
+mer	O
+guad	O
+auf	O
+den	O
+Michi	B-PER
+auf	O
+.	O
+
+# sent_id = bar_tweet_1152494158436798464-2
+# text = In'd Höh mit'm Haferl ☕ ☕ Und brav bleim 😄 😉 😏 😍 😎
+In'd	O
+Höh	O
+mit'm	O
+Haferl	O
+☕	O
+☕	O
+Und	O
+brav	O
+bleim	O
+😄	O
+😉	O
+😏	O
+😍	O
+😎	O
+
+# newdoc id = bar_tweet_1318516829443194880
+# sent_id = bar_tweet_1318516829443194880-1
+# text = @mention Dankschee !
+@mention	O
+Dankschee	O
+!	O
+
+# newdoc id = bar_tweet_1325913879046664194
+# sent_id = bar_tweet_1325913879046664194-1
+# text = @mention @mention Jetz is ma doch glatt no oana auskemma . 😆 😆
+@mention	O
+@mention	O
+Jetz	O
+is	O
+ma	O
+doch	O
+glatt	O
+no	O
+oana	O
+auskemma	O
+.	O
+😆	O
+😆	O
+
+# sent_id = bar_tweet_1325913879046664194-2
+# text = ( I bin scho staad . ) https://t.co/rkyEdythU0
+(	O
+I	O
+bin	O
+scho	O
+staad	O
+.	O
+)	O
+https://t.co/rkyEdythU0	O
+
+# newdoc id = bar_tweet_1112981273952301057
+# sent_id = bar_tweet_1112981273952301057-1
+# text = @mention 😮 ohaaaa was deatsn ihr ?
+@mention	O
+😮	O
+ohaaaa	O
+was	O
+deatsn	O
+ihr	O
+?	O
+
+# sent_id = bar_tweet_1112981273952301057-2
+# text = Guade Besserung !!
+Guade	O
+Besserung	O
+!!	O
+
+# newdoc id = bar_tweet_1524678485729546241
+# sent_id = bar_tweet_1524678485729546241-1
+# text = @mention " Verbrennt is uns , vorbei die Gefahr , bloß schod daß koana drinna war .
+@mention	O
+"	O
+Verbrennt	O
+is	O
+uns	O
+,	O
+vorbei	O
+die	O
+Gefahr	O
+,	O
+bloß	O
+schod	O
+daß	O
+koana	O
+drinna	O
+war	O
+.	O
+
+# sent_id = bar_tweet_1524678485729546241-2
+# text = Denkt mancher sich des häd no gfeid , ein Prosit der Gemütlichkeit . "
+Denkt	O
+mancher	O
+sich	O
+des	O
+häd	O
+no	O
+gfeid	O
+,	O
+ein	O
+Prosit	O
+der	O
+Gemütlichkeit	O
+.	O
+"	O
+
+# sent_id = bar_tweet_1524678485729546241-3
+# text = #Biermöslblosn
+#Biermöslblosn	B-ORG
+
+# newdoc id = bar_tweet_1069178192580276227
+# sent_id = bar_tweet_1069178192580276227-1
+# text = @mention Naaa boid wieder dahoam .
+@mention	O
+Naaa	O
+boid	O
+wieder	O
+dahoam	O
+.	O
+
+# newdoc id = bar_tweet_1193801391770423296
+# sent_id = bar_tweet_1193801391770423296-1
+# text = @mention Griass Di und Guad Moing Gitte ☕️ 🌺 ☺️
+@mention	O
+Griass	O
+Di	O
+und	O
+Guad	O
+Moing	O
+Gitte	B-PER
+☕️	O
+🌺	O
+☺️	O
+
+# newdoc id = bar_tweet_893109670180786176
+# sent_id = bar_tweet_893109670180786176-1
+# text = @mention @mention @mention @mention @mention @mention @mention Richtig und an dem Dog bin im Spessart unterwegs :-) Mei Alter Ego liest no mid , da Grantl schaugd olle Woch amoi vorbei 😉
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+Richtig	O
+und	O
+an	O
+dem	O
+Dog	O
+bin	O
+im	O
+Spessart	O
+unterwegs	O
+:-)	O
+Mei	O
+Alter	O
+Ego	O
+liest	O
+no	O
+mid	O
+,	O
+da	O
+Grantl	O
+schaugd	O
+olle	O
+Woch	O
+amoi	O
+vorbei	O
+😉	O
+
+# newdoc id = bar_tweet_647417410190999552
+# sent_id = bar_tweet_647417410190999552-1
+# text = Da geht mei Vaschdändnis vo Tracht ganz weit ausnand mit dem vo eam 󾌴 Ei'gschickt von Alexandra Greiner http://t.co/NaagJPs1Sb
+Da	O
+geht	O
+mei	O
+Vaschdändnis	O
+vo	O
+Tracht	O
+ganz	O
+weit	O
+ausnand	O
+mit	O
+dem	O
+vo	O
+eam	O
+󾌴	O
+Ei'gschickt	O
+von	O
+Alexandra	B-PER
+Greiner	I-PER
+http://t.co/NaagJPs1Sb	O
+
+# newdoc id = bar_tweet_1477596312157757443
+# sent_id = bar_tweet_1477596312157757443-1
+# text = @mention An Guadn 🤗
+@mention	O
+An	O
+Guadn	O
+🤗	O
+
+# newdoc id = bar_tweet_1516275053276631044
+# sent_id = bar_tweet_1516275053276631044-1
+# text = @mention Gfrei i mi. Liabn Dank , Anke und jetza nei mit uns in de neie Wochn . ☕️ 🤗
+@mention	O
+Gfrei	O
+i	O
+mi.	O
+Liabn	O
+Dank	O
+,	O
+Anke	B-PER
+und	O
+jetza	O
+nei	O
+mit	O
+uns	O
+in	O
+de	O
+neie	O
+Wochn	O
+.	O
+☕️	O
+🤗	O
+
+# newdoc id = bar_tweet_1605870875332542465
+# sent_id = bar_tweet_1605870875332542465-1
+# text = @mention Da bin i ganz ba Dia .
+@mention	O
+Da	O
+bin	O
+i	O
+ganz	O
+ba	O
+Dia	O
+.	O
+
+# sent_id = bar_tweet_1605870875332542465-2
+# text = Mia Lebn scho in traurige Zeitn .
+Mia	O
+Lebn	O
+scho	O
+in	O
+traurige	O
+Zeitn	O
+.	O
+
+# sent_id = bar_tweet_1605870875332542465-3
+# text = Nixdestotrotz bleim ma Zuavasichtlich und Dankboar .
+Nixdestotrotz	O
+bleim	O
+ma	O
+Zuavasichtlich	O
+und	O
+Dankboar	O
+.	O
+
+# sent_id = bar_tweet_1605870875332542465-4
+# text = Da Herrgott werds scho richtn .
+Da	O
+Herrgott	O
+werds	O
+scho	O
+richtn	O
+.	O
+
+# sent_id = bar_tweet_1605870875332542465-5
+# text = Jetza hoaßts Brav bleim weis #sChristkindlSiachtOis
+Jetza	O
+hoaßts	O
+Brav	O
+bleim	O
+weis	O
+#sChristkindlSiachtOis	O
+
+# sent_id = bar_tweet_1274608279608594433-2
+# text = Feier schee mit Deim Geburts Dog und lass' Da guad geh ! 🎉 🎁 🥂 🍾 🎂 🐶 🌻 🌞 👍
+Feier	O
+schee	O
+mit	O
+Deim	O
+Geburts	O
+Dog	O
+und	O
+lass'	O
+Da	O
+guad	O
+geh	O
+!	O
+🎉	O
+🎁	O
+🥂	O
+🍾	O
+🎂	O
+🐶	O
+🌻	O
+🌞	O
+👍	O
+
+# sent_id = bar_tweet_1548789916301230082-2
+# text = Kenn mi mit dera Gaudi hoit ned so aus . ☺️
+Kenn	O
+mi	O
+mit	O
+dera	O
+Gaudi	O
+hoit	O
+ned	O
+so	O
+aus	O
+.	O
+☺️	O
+
+# newdoc id = bar_tweet_1614978619851538433
+# sent_id = bar_tweet_1614978619851538433-1
+# text = @mention Zum Ausgleich werds am Wochaend wieder koid 😜
+@mention	O
+Zum	O
+Ausgleich	O
+werds	O
+am	O
+Wochaend	O
+wieder	O
+koid	O
+😜	O
+
+# newdoc id = bar_tweet_1636650078155702273
+# sent_id = bar_tweet_1636650078155702273-1
+# text = @mention Scheener Vormiddoch nauf und aweng rechds nüber in Landgreiss Ferdd ! 😘
+@mention	O
+Scheener	O
+Vormiddoch	O
+nauf	O
+und	O
+aweng	O
+rechds	O
+nüber	O
+in	O
+Landgreiss	O
+Ferdd	O
+!	O
+😘	O
+
+# newdoc id = bar_tweet_1626509915626917892
+# sent_id = bar_tweet_1626509915626917892-1
+# text = @mention Hawadere Anderl 😊 Schee dasd an mi denkst bzw Dir um mei Karriere Sorgen machst , leider muass i da an Korb gem. Und es gibt nur oan #hoibpfundLeberkaasdog ☝🏽 😂
+@mention	O
+Hawadere	O
+Anderl	B-PER
+😊	O
+Schee	O
+dasd	O
+an	O
+mi	O
+denkst	O
+bzw	O
+Dir	O
+um	O
+mei	O
+Karriere	O
+Sorgen	O
+machst	O
+,	O
+leider	O
+muass	O
+i	O
+da	O
+an	O
+Korb	O
+gem.	O
+Und	O
+es	O
+gibt	O
+nur	O
+oan	O
+#hoibpfundLeberkaasdog	O
+☝🏽	O
+😂	O
+
+# newdoc id = bar_tweet_1640060818308857857
+# sent_id = bar_tweet_1640060818308857857-1
+# text = So , jetzad is scho achte vorbei , da Doog fast um , und des bloß z'wengs dera blädn Sommerzeit .
+So	O
+,	O
+jetzad	O
+is	O
+scho	O
+achte	O
+vorbei	O
+,	O
+da	O
+Doog	O
+fast	O
+um	O
+,	O
+und	O
+des	O
+bloß	O
+z'wengs	O
+dera	O
+blädn	O
+Sommerzeit	O
+.	O
+
+# sent_id = bar_tweet_1640060818308857857-2
+# text = Do song's ma bekamad a Stund gschenkt , s' Gegenteil is da Foi : Gstoin werd's !
+Do	O
+song's	O
+ma	O
+bekamad	O
+a	O
+Stund	O
+gschenkt	O
+,	O
+s'	O
+Gegenteil	O
+is	O
+da	O
+Foi	O
+:	O
+Gstoin	O
+werd's	O
+!	O
+
+# newdoc id = bar_tweet_1220508456748290048
+# sent_id = bar_tweet_1220508456748290048-1
+# text = @mention Scheens gstanzl ~ wia dahoam in meina oberboarischen hoamat ... ( iatz kimmts ) Oberbayern 🤣
+@mention	O
+Scheens	O
+gstanzl	O
+~	O
+wia	O
+dahoam	O
+in	O
+meina	O
+oberboarischen	B-LOCderiv
+hoamat	O
+...	O
+(	O
+iatz	O
+kimmts	O
+)	O
+Oberbayern	B-LOC
+🤣	O
+
+# newdoc id = bar_tweet_1555276319000334337
+# sent_id = bar_tweet_1555276319000334337-1
+# text = @mention Möchte mich der Reihe der Gratulanten anschließen und zum Geburtstag gratulieren : Ois guade und gsund bleim 🥂
+@mention	O
+Möchte	O
+mich	O
+der	O
+Reihe	O
+der	O
+Gratulanten	O
+anschließen	O
+und	O
+zum	O
+Geburtstag	O
+gratulieren	O
+:	O
+Ois	O
+guade	O
+und	O
+gsund	O
+bleim	O
+🥂	O
+
+# sent_id = bar_tweet_1342524816876822530-2
+# text = Hoff s' Christkindl war brav 🎄 🎁 An guadn Rutsch , kon bloß bessa wern !
+Hoff	O
+s'	O
+Christkindl	O
+war	O
+brav	O
+🎄	O
+🎁	O
+An	O
+guadn	O
+Rutsch	O
+,	O
+kon	O
+bloß	O
+bessa	O
+wern	O
+!	O
+
+# newdoc id = bar_tweet_1653683282570010629
+# sent_id = bar_tweet_1653683282570010629-1
+# text = @mention Jetzad is da Nebel des Grauens blos no im Kochesee- Moos . https://t.co/AKRs5UqtNo
+@mention	O
+Jetzad	O
+is	O
+da	O
+Nebel	O
+des	O
+Grauens	O
+blos	O
+no	O
+im	O
+Kochesee-	B-LOC
+Moos	O
+.	O
+https://t.co/AKRs5UqtNo	O
+
+# newdoc id = bar_tweet_1512298805705781248
+# sent_id = bar_tweet_1512298805705781248-1
+# text = @mention Griaß di und guatn Morgeeeeeeeen , mei lieabe Jo Jo !
+@mention	O
+Griaß	O
+di	O
+und	O
+guatn	O
+Morgeeeeeeeen	O
+,	O
+mei	O
+lieabe	O
+Jo	B-PER
+Jo	I-PER
+!	O
+
+# sent_id = bar_tweet_1512298805705781248-2
+# text = I bin scho dabei mit Freida erledigen 👍🏼 .
+I	O
+bin	O
+scho	O
+dabei	O
+mit	O
+Freida	B-PER
+erledigen	O
+👍🏼	O
+.	O
+
+# sent_id = bar_tweet_1512298805705781248-3
+# text = I wünsch da an wirkli schein Tog .
+I	O
+wünsch	O
+da	O
+an	O
+wirkli	O
+schein	O
+Tog	O
+.	O
+
+# sent_id = bar_tweet_1512298805705781248-4
+# text = Los das recht guat gei , gö Jo Jo 🌹 🌼 😘 😘 😘 🌼 🌹 .
+Los	O
+das	O
+recht	O
+guat	O
+gei	O
+,	O
+gö	O
+Jo	B-PER
+Jo	I-PER
+🌹	O
+🌼	O
+😘	O
+😘	O
+😘	O
+🌼	O
+🌹	O
+.	O
+
+# newdoc id = bar_tweet_1656519518053703680
+# sent_id = bar_tweet_1656519518053703680-1
+# text = @mention Guade Besserung v Herzen
+@mention	O
+Guade	O
+Besserung	O
+v	O
+Herzen	O
+
+# newdoc id = bar_tweet_1631799344851562497
+# sent_id = bar_tweet_1631799344851562497-1
+# text = @mention De meiste Zeit hod bloß da Maxi glacht .
+@mention	O
+De	O
+meiste	O
+Zeit	O
+hod	O
+bloß	O
+da	O
+Maxi	B-PER
+glacht	O
+.	O
+
+# sent_id = bar_tweet_1631799344851562497-2
+# text = De zwoatmeiste Zeit hod da Maxi lauter glacht ois olle z'samm .
+De	O
+zwoatmeiste	O
+Zeit	O
+hod	O
+da	O
+Maxi	B-PER
+lauter	O
+glacht	O
+ois	O
+olle	O
+z'samm	O
+.	O
+
+# sent_id = bar_tweet_1631799344851562497-3
+# text = Und so deppad wia du moanst , bin i no' lang ned , sonst waarad i aa linksgrün . 😜
+Und	O
+so	O
+deppad	O
+wia	O
+du	O
+moanst	O
+,	O
+bin	O
+i	O
+no'	O
+lang	O
+ned	O
+,	O
+sonst	O
+waarad	O
+i	O
+aa	O
+linksgrün	O
+.	O
+😜	O
+
+# newdoc id = bar_tweet_1654395677672185856
+# sent_id = bar_tweet_1654395677672185856-1
+# text = zehne vormiddog is
+zehne	O
+vormiddog	O
+is	O
+
+# newdoc id = bar_tweet_384375305479024640
+# sent_id = bar_tweet_384375305479024640-1
+# text = Es gibt Dog , da verlierst .
+Es	O
+gibt	O
+Dog	O
+,	O
+da	O
+verlierst	O
+.	O
+
+# sent_id = bar_tweet_384375305479024640-2
+# text = Und Dog , an dene gwinna de andern . ;-)
+Und	O
+Dog	O
+,	O
+an	O
+dene	O
+gwinna	O
+de	O
+andern	O
+.	O
+;-)	O
+
+# newdoc id = bar_tweet_1239796701982064643
+# sent_id = bar_tweet_1239796701982064643-1
+# text = @mention Guad Moing Werner 👋 ☕️ 🍀 🍀
+@mention	O
+Guad	O
+Moing	O
+Werner	B-PER
+👋	O
+☕️	O
+🍀	O
+🍀	O
+
+# newdoc id = bar_tweet_1530180110392954882
+# sent_id = bar_tweet_1530180110392954882-1
+# text = @mention Welche Raupen san des ?
+@mention	O
+Welche	O
+Raupen	O
+san	O
+des	O
+?	O
+
+# sent_id = bar_tweet_1134379325493514240-2
+# text = Der oide Depp in mir werd hoid a nimma gescheiter 😂
+Der	O
+oide	O
+Depp	O
+in	O
+mir	O
+werd	O
+hoid	O
+a	O
+nimma	O
+gescheiter	O
+😂	O
+
+# newdoc id = bar_tweet_1645105059355664385
+# sent_id = bar_tweet_1645105059355664385-1
+# text = Wei 1965 🇨🇵 mit da France Gall und " Poupée de cire " gwunna hod , ham de 🇬🇧 des Erfolgsrezept abgekupfert : " Lied mit Puppe , Sängerin blond &amp; jung " .
+Wei	O
+1965	O
+🇨🇵	B-LOC
+mit	O
+da	O
+France	B-PER
+Gall	I-PER
+und	O
+"	O
+Poupée	B-WOA
+de	I-WOA
+cire	I-WOA
+"	O
+gwunna	O
+hod	O
+,	O
+ham	O
+de	O
+🇬🇧	B-LOC
+des	O
+Erfolgsrezept	O
+abgekupfert	O
+:	O
+"	O
+Lied	O
+mit	O
+Puppe	O
+,	O
+Sängerin	O
+blond	O
+&amp;	O
+jung	O
+"	O
+.	O
+
+# sent_id = bar_tweet_1645105059355664385-2
+# text = Rauskemma is de Sandy Shaw mit " Puppet on a String " . https://t.co/UF1D615qvZ
+Rauskemma	O
+is	O
+de	O
+Sandy	B-PER
+Shaw	I-PER
+mit	O
+"	O
+Puppet	B-WOA
+on	I-WOA
+a	I-WOA
+String	I-WOA
+"	O
+.	O
+https://t.co/UF1D615qvZ	O
+
