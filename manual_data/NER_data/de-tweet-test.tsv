@@ -1,0 +1,4465 @@
+# sent_id = bar_tweet_1659552729927237636-2
+# text = Loriot - Kosakenzipfel - https://t.co/Tk1fon7VxS via @mention
+Loriot	B-PER
+-	O
+Kosakenzipfel	B-WOA
+-	O
+https://t.co/Tk1fon7VxS	O
+via	O
+@mention	O
+
+# newdoc id = bar_tweet_1628438642405384192
+# sent_id = bar_tweet_1628438642405384192-1
+# text = Isar , Du Schöne #scharnitz #tirol #austria #isar #alpen #karwendel #karwendeltäler #urlaub #ferien #aschermittwoch #natur #berge https://t.co/mKOtQwzUDL https://t.co/vS53GtYtiI
+Isar	B-LOC
+,	O
+Du	O
+Schöne	O
+#scharnitz	B-LOC
+#tirol	B-LOC
+#austria	B-LOC
+#isar	B-LOC
+#alpen	B-LOC
+#karwendel	B-LOC
+#karwendeltäler	B-LOC
+#urlaub	O
+#ferien	O
+#aschermittwoch	O
+#natur	O
+#berge	O
+https://t.co/mKOtQwzUDL	O
+https://t.co/vS53GtYtiI	O
+
+# sent_id = bar_tweet_1338045876174991360-3
+# text = Frage für einen ... mich .
+Frage	O
+für	O
+einen	O
+...	O
+mich	O
+.	O
+
+# newdoc id = bar_tweet_1269356980075888642
+# sent_id = bar_tweet_1269356980075888642-1
+# text = @mention Dankeee
+@mention	O
+Dankeee	O
+
+# sent_id = bar_tweet_1630643364088430607-2
+# text = #meineSprachestirbt
+#meineSprachestirbt	O
+
+# newdoc id = bar_tweet_1079317111124750337
+# sent_id = bar_tweet_1079317111124750337-1
+# text = Ein Auto ist von der Straße abgekommen ....
+Ein	O
+Auto	O
+ist	O
+von	O
+der	O
+Straße	O
+abgekommen	O
+....	O
+
+# sent_id = bar_tweet_250903574157086720-2
+# text = Danke E.ON für die zwangsverlängerte Mittagspause . http://t.co/akbd5KgF
+Danke	O
+E.ON	B-ORG
+für	O
+die	O
+zwangsverlängerte	O
+Mittagspause	O
+.	O
+http://t.co/akbd5KgF	O
+
+# sent_id = bar_tweet_1419747109075570692-4
+# text = Hoffentlich habt's den Verursacher ?
+Hoffentlich	O
+habt's	O
+den	O
+Verursacher	O
+?	O
+
+# sent_id = bar_tweet_1433716264002891777-4
+# text = Fahr lieber außenrum .
+Fahr	O
+lieber	O
+außenrum	O
+.	O
+
+# sent_id = bar_tweet_1433716264002891777-7
+# text = Mach lieber den Verkehrsfunk an .
+Mach	O
+lieber	O
+den	O
+Verkehrsfunk	O
+an	O
+.	O
+
+# sent_id = bar_tweet_1655125696212082688-3
+# text = Es bleibt spannend !
+Es	O
+bleibt	O
+spannend	O
+!	O
+
+# sent_id = bar_tweet_1509071361720913923-4
+# text = Is selbst gemacht von einer super Frau die das drauf hat 🥰 .
+Is	O
+selbst	O
+gemacht	O
+von	O
+einer	O
+super	O
+Frau	O
+die	O
+das	O
+drauf	O
+hat	O
+🥰	O
+.	O
+
+# sent_id = bar_tweet_1320238221742268417-2
+# text = In diesem Sinne , guten Morgen miteinander .
+In	O
+diesem	O
+Sinne	O
+,	O
+guten	O
+Morgen	O
+miteinander	O
+.	O
+
+# sent_id = bar_tweet_1609180478388436993-3
+# text = #Prosit2023 🍾 🥂
+#Prosit2023	O
+🍾	O
+🥂	O
+
+# sent_id = bar_tweet_1575364170551287810-2
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1575364170551287810-4
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1575364170551287810-5
+# text = " OB DEINE KONSERVENDOSE AUSGELAUFEN IST , HAB ICH GEFRAGT ! "
+"	O
+OB	O
+DEINE	O
+KONSERVENDOSE	O
+AUSGELAUFEN	O
+IST	O
+,	O
+HAB	O
+ICH	O
+GEFRAGT	O
+!	O
+"	O
+
+# sent_id = bar_tweet_1575364170551287810-6
+# text = Willkommen in Franken .
+Willkommen	O
+in	O
+Franken	B-LOC
+.	O
+
+# sent_id = bar_tweet_1656380342318641152-3
+# text = NUR Arbeiten am eigenen Posten .
+NUR	O
+Arbeiten	O
+am	O
+eigenen	O
+Posten	O
+.	O
+
+# newdoc id = bar_tweet_1632622143400820738
+# sent_id = bar_tweet_1632622143400820738-1
+# text = @mention Lass sie schimpfen .
+@mention	O
+Lass	O
+sie	O
+schimpfen	O
+.	O
+
+# sent_id = bar_tweet_969733522255679489-3
+# text = Meister Eder , Visionär . https://t.co/6Xnl6xrqrH
+Meister	O
+Eder	B-PER
+,	O
+Visionär	O
+.	O
+https://t.co/6Xnl6xrqrH	O
+
+# sent_id = bar_tweet_1043848918872797184-5
+# text = Schmierfinken !
+Schmierfinken	O
+!	O
+
+# newdoc id = bar_tweet_1203394394973515776
+# sent_id = bar_tweet_1203394394973515776-1
+# text = Yippie ei yah , es weihnachtet .
+Yippie	O
+ei	O
+yah	O
+,	O
+es	O
+weihnachtet	B-EVENTderiv
+.	O
+
+# sent_id = bar_tweet_1360899866747142145-3
+# text = #Cortina2021 #Abfahrt #SkiWM #FISAlpine
+#Cortina2021	B-EVENT
+#Abfahrt	O
+#SkiWM	B-EVENT
+#FISAlpine	B-EVENT
+
+# sent_id = bar_tweet_1620837595038220288-3
+# text = Demnächst auf diesem Account .
+Demnächst	O
+auf	O
+diesem	O
+Account	O
+.	O
+
+# sent_id = bar_tweet_1305881380740567040-2
+# text = I bin ja Lokführer bei der S-Bahn .
+I	O
+bin	O
+ja	O
+Lokführer	O
+bei	O
+der	O
+S-Bahn	O
+.	O
+
+# sent_id = bar_tweet_1623925554746658816-5
+# text = Danke 😘 https://t.co/FsU5hdnnOA
+Danke	O
+😘	O
+https://t.co/FsU5hdnnOA	O
+
+# sent_id = bar_tweet_1273641768681197569-2
+# text = Ideal .
+Ideal	O
+.	O
+
+# sent_id = bar_tweet_1213079117064749058-2
+# text = #gstanzlfreitag
+#gstanzlfreitag	O
+
+# newdoc id = bar_tweet_1628367330353811458
+# sent_id = bar_tweet_1628367330353811458-1
+# text = Auflösung .
+Auflösung	O
+.	O
+
+# newdoc id = bar_tweet_1550352182704328704
+# sent_id = bar_tweet_1550352182704328704-1
+# text = RT @mention : Auch #Schwörmontag , #Nabada in #Ulm ... https://t.co/dmaZld5R8L
+RT	O
+@mention	O
+:	O
+Auch	O
+#Schwörmontag	B-EVENT
+,	O
+#Nabada	B-EVENT
+in	O
+#Ulm	B-LOC
+...	O
+https://t.co/dmaZld5R8L	O
+
+# sent_id = bar_tweet_1628769837420871681-3
+# text = Wer unbedingt gratulieren will , bitte auf den korrekten Adelstitel achten .
+Wer	O
+unbedingt	O
+gratulieren	O
+will	O
+,	O
+bitte	O
+auf	O
+den	O
+korrekten	O
+Adelstitel	O
+achten	O
+.	O
+
+# sent_id = bar_tweet_1323933564539408385-3
+# text = Also , was solls ?
+Also	O
+,	O
+was	O
+solls	O
+?	O
+
+# sent_id = bar_tweet_1323933564539408385-4
+# text = Jede Vereinigung hat den Vorstand , den sie wählt .
+Jede	O
+Vereinigung	O
+hat	O
+den	O
+Vorstand	O
+,	O
+den	O
+sie	O
+wählt	O
+.	O
+
+# sent_id = bar_tweet_1323933564539408385-5
+# text = Keine Beschwerden .
+Keine	O
+Beschwerden	O
+.	O
+
+# sent_id = bar_tweet_1596210756889952256-2
+# text = Rapsöl-Creme ... https://t.co/ednG1iJEzA
+Rapsöl-Creme	O
+...	O
+https://t.co/ednG1iJEzA	O
+
+# newdoc id = bar_tweet_1401831768207118338
+# sent_id = bar_tweet_1401831768207118338-1
+# text = @mention @mention Rainer von hier auch die besten Wünsche !
+@mention	O
+@mention	O
+Rainer	B-PER
+von	O
+hier	O
+auch	O
+die	O
+besten	O
+Wünsche	O
+!	O
+
+# newdoc id = bar_tweet_1313157862596792320
+# sent_id = bar_tweet_1313157862596792320-1
+# text = @mention Richtig .
+@mention	O
+Richtig	O
+.	O
+
+# sent_id = bar_tweet_1350867763187875840-3
+# text = Die nutze ich mehr als eine Schneehose .
+Die	O
+nutze	O
+ich	O
+mehr	O
+als	O
+eine	O
+Schneehose	O
+.	O
+
+# newdoc id = bar_tweet_1526583673696436225
+# sent_id = bar_tweet_1526583673696436225-1
+# text = @mention Virtuell gedrückt 😊 , gaaaanz feste u. Lange .
+@mention	O
+Virtuell	O
+gedrückt	O
+😊	O
+,	O
+gaaaanz	O
+feste	O
+u.	O
+Lange	O
+.	O
+
+# newdoc id = bar_tweet_1326390764377690112
+# sent_id = bar_tweet_1326390764377690112-1
+# text = @mention Guten morgen bin doch schon munt .. 😴 😴 😴
+@mention	O
+Guten	O
+morgen	O
+bin	O
+doch	O
+schon	O
+munt	O
+..	O
+😴	O
+😴	O
+😴	O
+
+# newdoc id = bar_tweet_1451831529995395072
+# sent_id = bar_tweet_1451831529995395072-1
+# text = Was wäre die Erfindung , die du dir für 2022 wünschst , Beni ?
+Was	O
+wäre	O
+die	O
+Erfindung	O
+,	O
+die	O
+du	O
+dir	O
+für	O
+2022	O
+wünschst	O
+,	O
+Beni	B-PER
+?	O
+
+# sent_id = bar_tweet_1143796959863595008-2
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1143796959863595008-4
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1143796959863595008-5
+# text = " DIE WESPEN SIND DIESES JAH …
+"	O
+DIE	O
+WESPEN	O
+SIND	O
+DIESES	O
+JAH	O
+…	O
+
+# newdoc id = bar_tweet_1582449055963435009
+# sent_id = bar_tweet_1582449055963435009-1
+# text = @mention Hab im Keller no Tegernseer u. Augustiner .
+@mention	O
+Hab	O
+im	O
+Keller	O
+no	O
+Tegernseer	B-MISC
+u.	O
+Augustiner	B-MISC
+.	O
+
+# newdoc id = bar_tweet_966136662274297858
+# sent_id = bar_tweet_966136662274297858-1
+# text = #niedermitfrauholle #sprüche #Strand https://t.co/GfduJj6lP2
+#niedermitfrauholle	O
+#sprüche	O
+#Strand	O
+https://t.co/GfduJj6lP2	O
+
+# sent_id = bar_tweet_1174633795393347584-2
+# text = Traurig ja #tirschenreuth #oberpfalz #naturschutz
+Traurig	O
+ja	O
+#tirschenreuth	B-LOC
+#oberpfalz	B-LOC
+#naturschutz	O
+
+# sent_id = bar_tweet_1522693954327957504-2
+# text = #gstanzlfreitag
+#gstanzlfreitag	O
+
+# newdoc id = bar_tweet_784707905656324097
+# sent_id = bar_tweet_784707905656324097-1
+# text = @mention wann ?
+@mention	O
+wann	O
+?	O
+
+# sent_id = bar_tweet_1415573026708598786-3
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1415573026708598786-5
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1557795166374821895-3
+# text = Sicherheitspersonal , Rettungskräfte ( in Zeiten wo Notaufnahmen stunden- bzw tageweise geschlossen werden ) , Polizei etc.
+Sicherheitspersonal	O
+,	O
+Rettungskräfte	O
+(	O
+in	O
+Zeiten	O
+wo	O
+Notaufnahmen	O
+stunden-	O
+bzw	O
+tageweise	O
+geschlossen	O
+werden	O
+)	O
+,	O
+Polizei	O
+etc.	O
+
+# sent_id = bar_tweet_1525071325227802625-3
+# text = #gstanzlfreitag
+#gstanzlfreitag	O
+
+# sent_id = bar_tweet_1582086467588759553-3
+# text = Am Drehspiess .
+Am	O
+Drehspiess	O
+.	O
+
+# sent_id = bar_tweet_388950673582088193-2
+# text = ( Außer für #Bazi freilich . )
+(	O
+Außer	O
+für	O
+#Bazi	O
+freilich	O
+.	O
+)	O
+
+# newdoc id = bar_tweet_1645347288917614593
+# sent_id = bar_tweet_1645347288917614593-1
+# text = @mention @mention @mention Servus Ihr Drei .
+@mention	O
+@mention	O
+@mention	O
+Servus	O
+Ihr	O
+Drei	O
+.	O
+
+# newdoc id = bar_tweet_1431559086064259072
+# sent_id = bar_tweet_1431559086064259072-1
+# text = RT @mention : So kann das Wochenende beginnen 😊 #noafd @mention @mention https://t.co/cgYqbmLghP
+RT	O
+@mention	O
+:	O
+So	O
+kann	O
+das	O
+Wochenende	O
+beginnen	O
+😊	O
+#noafd	B-ORGpart
+@mention	O
+@mention	O
+https://t.co/cgYqbmLghP	O
+
+# newdoc id = bar_tweet_191894539475222529
+# sent_id = bar_tweet_191894539475222529-1
+# text = 100 Fans !!!
+100	O
+Fans	O
+!!!	O
+
+# sent_id = bar_tweet_191894539475222529-2
+# text = IHR SEIDS DIE BESTN !
+IHR	O
+SEIDS	O
+DIE	O
+BESTN	O
+!	O
+
+# sent_id = bar_tweet_1658700860296413192-2
+# text = Mehr als sonst . 😆
+Mehr	O
+als	O
+sonst	O
+.	O
+😆	O
+
+# newdoc id = bar_tweet_674842386174976001
+# sent_id = bar_tweet_674842386174976001-1
+# text = Herzlichen Glückwunsch !
+Herzlichen	O
+Glückwunsch	O
+!	O
+
+# sent_id = bar_tweet_1658179798676516864-5
+# text = Nach Kategorien : Frucht : Gutmann Malz : Gutmann Abgang : Gutmann Adel : König Ludwig
+Nach	O
+Kategorien	O
+:	O
+Frucht	O
+:	O
+Gutmann	B-MISC
+Malz	O
+:	O
+Gutmann	B-MISC
+Abgang	O
+:	O
+Gutmann	B-MISC
+Adel	O
+:	O
+König	B-MISC
+Ludwig	I-MISC
+
+# sent_id = bar_tweet_1078729986935320578-4
+# text = #gstanzlfreita …
+#gstanzlfreita	O
+…	O
+
+# sent_id = bar_tweet_1536061292208873477-3
+# text = Eine Sauce aus Steinpilzen ist trotzdem „ a Schwammalssuce “ - oder ?
+Eine	O
+Sauce	O
+aus	O
+Steinpilzen	O
+ist	O
+trotzdem	O
+„	O
+a	O
+Schwammalssuce	O
+“	O
+-	O
+oder	O
+?	O
+
+# sent_id = bar_tweet_1649804564021878785-2
+# text = " Jetzt , wo wir uns an die Wärme gewöhnt haben ... "
+"	O
+Jetzt	O
+,	O
+wo	O
+wir	O
+uns	O
+an	O
+die	O
+Wärme	O
+gewöhnt	O
+haben	O
+...	O
+"	O
+
+# sent_id = bar_tweet_1614290002791305216-3
+# text = Die Kameraden holen mich zurück , in die gute alte Heimat , oder klingeln gleich und saufen mir den Kühlschrank leer ☝️ https://t.co/VScjroeIEk
+Die	O
+Kameraden	O
+holen	O
+mich	O
+zurück	O
+,	O
+in	O
+die	O
+gute	O
+alte	O
+Heimat	O
+,	O
+oder	O
+klingeln	O
+gleich	O
+und	O
+saufen	O
+mir	O
+den	O
+Kühlschrank	O
+leer	O
+☝️	O
+https://t.co/VScjroeIEk	O
+
+# newdoc id = bar_tweet_1316797662683901956
+# sent_id = bar_tweet_1316797662683901956-1
+# text = @mention Andersrum !
+@mention	O
+Andersrum	O
+!	O
+
+# newdoc id = bar_tweet_1068570769607794694
+# sent_id = bar_tweet_1068570769607794694-1
+# text = @mention Passt .
+@mention	O
+Passt	O
+.	O
+
+# sent_id = bar_tweet_1068570769607794694-2
+# text = Dann suchen wir uns jetzt wen , ders zahlt .
+Dann	O
+suchen	O
+wir	O
+uns	O
+jetzt	O
+wen	O
+,	O
+ders	O
+zahlt	O
+.	O
+
+# sent_id = bar_tweet_476388120678903808-3
+# text = Wo genießts ihr euer Eis ? http://t.co/nFX9iPT1I4
+Wo	O
+genießts	O
+ihr	O
+euer	O
+Eis	O
+?	O
+http://t.co/nFX9iPT1I4	O
+
+# newdoc id = bar_tweet_1582440480402309120
+# sent_id = bar_tweet_1582440480402309120-1
+# text = @mention 7 drei Überraum .
+@mention	O
+7	O
+drei	O
+Überraum	O
+.	O
+
+# newdoc id = bar_tweet_1514236917960822791
+# sent_id = bar_tweet_1514236917960822791-1
+# text = Bist du auch ein Prepper , Beni ?
+Bist	O
+du	O
+auch	O
+ein	O
+Prepper	O
+,	O
+Beni	B-PER
+?	O
+
+# sent_id = bar_tweet_1099340209815195648-5
+# text = Oder ?
+Oder	O
+?	O
+
+# sent_id = bar_tweet_1652393596027297793-3
+# text = Blind ?
+Blind	O
+?	O
+
+# sent_id = bar_tweet_1652393596027297793-4
+# text = Oder am Ende einfach geduldet .
+Oder	O
+am	O
+Ende	O
+einfach	O
+geduldet	O
+.	O
+
+# newdoc id = bar_tweet_1310206994247278592
+# sent_id = bar_tweet_1310206994247278592-1
+# text = Schööön 💚 https://t.co/OCwDe7hNuP
+Schööön	O
+💚	O
+https://t.co/OCwDe7hNuP	O
+
+# newdoc id = bar_tweet_990972903599562752
+# sent_id = bar_tweet_990972903599562752-1
+# text = @mention Fuck wiggerl , das sind scheiss Nachrichten
+@mention	O
+Fuck	O
+wiggerl	B-PER
+,	O
+das	O
+sind	O
+scheiss	O
+Nachrichten	O
+
+# sent_id = bar_tweet_1213036534900891648-2
+# text = #Gstanzlfreitag
+#Gstanzlfreitag	O
+
+# newdoc id = bar_tweet_799331290231119873
+# sent_id = bar_tweet_799331290231119873-1
+# text = #Geschenktipp des Tages .
+#Geschenktipp	O
+des	O
+Tages	O
+.	O
+
+# sent_id = bar_tweet_1631729883335335955-2
+# text = Hahaha hahha #Nockherberg #MaxiSchafroth Ja , Sendezeit wird voll .
+Hahaha	O
+hahha	O
+#Nockherberg	B-LOC
+#MaxiSchafroth	B-PER
+Ja	O
+,	O
+Sendezeit	O
+wird	O
+voll	O
+.	O
+
+# newdoc id = bar_tweet_1320496325289512961
+# sent_id = bar_tweet_1320496325289512961-1
+# text = @mention @mention @mention Fenster ? 😁
+@mention	O
+@mention	O
+@mention	O
+Fenster	O
+?	O
+😁	O
+
+# newdoc id = bar_tweet_1648255728098967552
+# sent_id = bar_tweet_1648255728098967552-1
+# text = @mention Im Bayerischen Wald treffen sich der Himbär und der Blaubär .
+@mention	O
+Im	O
+Bayerischen	B-LOC
+Wald	I-LOC
+treffen	O
+sich	O
+der	O
+Himbär	O
+und	O
+der	O
+Blaubär	O
+.	O
+
+# sent_id = bar_tweet_1518996861968867328-3
+# text = Herrlich 🥰 .
+Herrlich	O
+🥰	O
+.	O
+
+# sent_id = bar_tweet_1199296871107383296-2
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1199296871107383296-4
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1199296871107383296-5
+# text = " WA …
+"	O
+WA	O
+…	O
+
+# newdoc id = bar_tweet_1643213158151012356
+# sent_id = bar_tweet_1643213158151012356-1
+# text = RT @mention : Ganz schön windig heute 😳 #Muenchen https://t.co/538ERhvSxn
+RT	O
+@mention	O
+:	O
+Ganz	O
+schön	O
+windig	O
+heute	O
+😳	O
+#Muenchen	B-LOC
+https://t.co/538ERhvSxn	O
+
+# sent_id = bar_tweet_1653085002773544967-4
+# text = Verwirrung 😎 🤣
+Verwirrung	O
+😎	O
+🤣	O
+
+# sent_id = bar_tweet_547749960872378369-2
+# text = Und ... http://t.co/hh1s4IP2Zd
+Und	O
+...	O
+http://t.co/hh1s4IP2Zd	O
+
+# sent_id = bar_tweet_1598571162958671874-2
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1598571162958671874-4
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1598571162958671874-5
+# text = " ZIEH NICHT SO EIN GESICHT WEGEN DES FUSSBALLSPIELS , HAB ICH GESAGT ! "
+"	O
+ZIEH	O
+NICHT	O
+SO	O
+EIN	O
+GESICHT	O
+WEGEN	O
+DES	O
+FUSSBALLSPIELS	O
+,	O
+HAB	O
+ICH	O
+GESAGT	O
+!	O
+"	O
+
+# sent_id = bar_tweet_1598571162958671874-6
+# text = Willkommen in Franken .
+Willkommen	O
+in	O
+Franken	B-LOC
+.	O
+
+# sent_id = bar_tweet_1624999287590354946-3
+# text = Wetterwechsel is , der Körper muss sich erst anpassen .
+Wetterwechsel	O
+is	O
+,	O
+der	O
+Körper	O
+muss	O
+sich	O
+erst	O
+anpassen	O
+.	O
+
+# sent_id = bar_tweet_1482625376627171329-2
+# text = Weiss Ferdl „ Ein Wagen von der Linie 8 “ Klassiker des urbanen Hygienemanagements #Mundschutz
+Weiss	B-PER
+Ferdl	I-PER
+„	O
+Ein	B-WOA
+Wagen	I-WOA
+von	I-WOA
+der	I-WOA
+Linie	I-WOA
+8	I-WOA
+“	O
+Klassiker	O
+des	O
+urbanen	O
+Hygienemanagements	O
+#Mundschutz	O
+
+# newdoc id = bar_tweet_1155377167355850753
+# sent_id = bar_tweet_1155377167355850753-1
+# text = @mention Dankeeee 😊 🥂
+@mention	O
+Dankeeee	O
+😊	O
+🥂	O
+
+# sent_id = bar_tweet_1503299403867729925-2
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1319210314089533446-2
+# text = " Wo ? "
+"	O
+Wo	O
+?	O
+"	O
+
+# newdoc id = bar_tweet_978616752866320384
+# sent_id = bar_tweet_978616752866320384-1
+# text = Er : Du machst das jetzt fertig !
+Er	O
+:	O
+Du	O
+machst	O
+das	O
+jetzt	O
+fertig	O
+!	O
+
+# sent_id = bar_tweet_978616752866320384-2
+# text = I : Warum ?
+I	O
+:	O
+Warum	O
+?	O
+
+# sent_id = bar_tweet_978616752866320384-3
+# text = Er : weil ich es gesagt habe !
+Er	O
+:	O
+weil	O
+ich	O
+es	O
+gesagt	O
+habe	O
+!	O
+
+# sent_id = bar_tweet_978616752866320384-5
+# text = Er : Mach das jetzt !
+Er	O
+:	O
+Mach	O
+das	O
+jetzt	O
+!	O
+
+# newdoc id = bar_tweet_1661110272944119818
+# sent_id = bar_tweet_1661110272944119818-1
+# text = @mention @mention Hab 10 Monate den Einmarsch verhindert .
+@mention	O
+@mention	O
+Hab	O
+10	O
+Monate	O
+den	O
+Einmarsch	O
+verhindert	O
+.	O
+
+# sent_id = bar_tweet_974004422446600192-2
+# text = Er : ich verstehe Dich nicht ?
+Er	O
+:	O
+ich	O
+verstehe	O
+Dich	O
+nicht	O
+?	O
+
+# sent_id = bar_tweet_1551227457474379778-2
+# text = Feier schön 🎉 ✖️ 🎊
+Feier	O
+schön	O
+🎉	O
+✖️	O
+🎊	O
+
+# sent_id = bar_tweet_307198692551704576-2
+# text = Die ... http://t.co/vBcx95h9Jn
+Die	O
+...	O
+http://t.co/vBcx95h9Jn	O
+
+# sent_id = bar_tweet_1311952894422380545-2
+# text = Und er wird die " überstandene " Infektion bestimmt sehr geschickt in seinen Wahlkampf einbauen .
+Und	O
+er	O
+wird	O
+die	O
+"	O
+überstandene	O
+"	O
+Infektion	O
+bestimmt	O
+sehr	O
+geschickt	O
+in	O
+seinen	O
+Wahlkampf	O
+einbauen	O
+.	O
+
+# sent_id = bar_tweet_1311952894422380545-3
+# text = Und freillich " gewinnt " er dann die Wahl .
+Und	O
+freillich	O
+"	O
+gewinnt	O
+"	O
+er	O
+dann	O
+die	O
+Wahl	O
+.	O
+
+# sent_id = bar_tweet_1311952894422380545-4
+# text = ( Was mir von vornherein klar war )
+(	O
+Was	O
+mir	O
+von	O
+vornherein	O
+klar	O
+war	O
+)	O
+
+# newdoc id = bar_tweet_1654611728544530433
+# sent_id = bar_tweet_1654611728544530433-1
+# text = @mention @mention @mention @mention @mention @mention @mention @mention Ich wünsch Euch wahnsinnig viel Spaß und ein Erfolgserlebnis !
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+Ich	O
+wünsch	O
+Euch	O
+wahnsinnig	O
+viel	O
+Spaß	O
+und	O
+ein	O
+Erfolgserlebnis	O
+!	O
+
+# sent_id = bar_tweet_299866960664080385-2
+# text = “ Zehn Jahr . "
+“	O
+Zehn	O
+Jahr	O
+.	O
+"	O
+
+# sent_id = bar_tweet_1036637545768136706-3
+# text = #schuhwerk
+#schuhwerk	O
+
+# sent_id = bar_tweet_1651664656212062218-2
+# text = Knapp 40 Grad : Meteorologen erwarten Hitzewelle – " Allzeitrekord " https://t.co/FkGly60kKQ
+Knapp	O
+40	O
+Grad	O
+:	O
+Meteorologen	O
+erwarten	O
+Hitzewelle	O
+–	O
+"	O
+Allzeitrekord	O
+"	O
+https://t.co/FkGly60kKQ	O
+
+# newdoc id = bar_tweet_1510552112211574786
+# sent_id = bar_tweet_1510552112211574786-1
+# text = @mention " halt Ungute fern . "
+@mention	O
+"	O
+halt	O
+Ungute	O
+fern	O
+.	O
+"	O
+
+# newdoc id = bar_tweet_1634920563310485504
+# sent_id = bar_tweet_1634920563310485504-1
+# text = @mention Ja und a Geschäft wird mit allen gemacht .
+@mention	O
+Ja	O
+und	O
+a	O
+Geschäft	O
+wird	O
+mit	O
+allen	O
+gemacht	O
+.	O
+
+# newdoc id = bar_tweet_1640407460581130263
+# sent_id = bar_tweet_1640407460581130263-1
+# text = Meine Mirabellen .
+Meine	O
+Mirabellen	O
+.	O
+
+# sent_id = bar_tweet_1588680339844902914-2
+# text = Mülheim-Kärlich .
+Mülheim-Kärlich	B-LOC
+.	O
+
+# sent_id = bar_tweet_968710530625081344-2
+# text = Guten Morgen , Restwelt !
+Guten	O
+Morgen	O
+,	O
+Restwelt	O
+!	O
+
+# sent_id = bar_tweet_1537148394271023104-5
+# text = Es spielt keine Rolle , wo jemand her kommt .
+Es	O
+spielt	O
+keine	O
+Rolle	O
+,	O
+wo	O
+jemand	O
+her	O
+kommt	O
+.	O
+
+# sent_id = bar_tweet_1537148394271023104-6
+# text = Und oft genug möchte ICH nicht zugeordnet werden können .
+Und	O
+oft	O
+genug	O
+möchte	O
+ICH	O
+nicht	O
+zugeordnet	O
+werden	O
+können	O
+.	O
+
+# sent_id = bar_tweet_1537148394271023104-7
+# text = Wenn das jemand haben möchte , kann er sich ja einen Aufkleber an die Heckscheibe pappen .
+Wenn	O
+das	O
+jemand	O
+haben	O
+möchte	O
+,	O
+kann	O
+er	O
+sich	O
+ja	O
+einen	O
+Aufkleber	O
+an	O
+die	O
+Heckscheibe	O
+pappen	O
+.	O
+
+# sent_id = bar_tweet_1625759314714533888-4
+# text = Schelle-Schelle ! https://t.co/6oZLzboGQ8
+Schelle-Schelle	O
+!	O
+https://t.co/6oZLzboGQ8	O
+
+# sent_id = bar_tweet_1091021107170344965-3
+# text = Aber der Krampf ...
+Aber	O
+der	O
+Krampf	O
+...	O
+
+# newdoc id = bar_tweet_1194207059329331201
+# sent_id = bar_tweet_1194207059329331201-1
+# text = @mention Achso .
+@mention	O
+Achso	O
+.	O
+
+# newdoc id = bar_tweet_1411121498790707206
+# sent_id = bar_tweet_1411121498790707206-1
+# text = @mention Enzian !
+@mention	O
+Enzian	O
+!	O
+
+# sent_id = bar_tweet_1189093198171430915-2
+# text = Oberpfalz
+Oberpfalz	B-LOC
+
+# sent_id = bar_tweet_1617927084739035137-3
+# text = Trotzdem . 😉
+Trotzdem	O
+.	O
+😉	O
+
+# sent_id = bar_tweet_1327192510050000897-2
+# text = Aus „ Die Wunderkammer der Deutschen Sprache “ #zitat #bergzitat #bergliebe #berge #wandern #sonnenaufgang #lebeliebelust #hike #laubenstein # … https://t.co/My3kBclQpX https://t.co/LV73MpdKZQ
+Aus	O
+„	O
+Die	O
+Wunderkammer	O
+der	O
+Deutschen	B-LOCderiv
+Sprache	O
+“	O
+#zitat	O
+#bergzitat	O
+#bergliebe	O
+#berge	O
+#wandern	O
+#sonnenaufgang	O
+#lebeliebelust	O
+#hike	O
+#laubenstein	B-LOC
+#	O
+…	O
+https://t.co/My3kBclQpX	O
+https://t.co/LV73MpdKZQ	O
+
+# sent_id = bar_tweet_1512744676335534081-3
+# text = Ich : Ja Du !
+Ich	O
+:	O
+Ja	O
+Du	O
+!	O
+
+# newdoc id = bar_tweet_1525586678206840834
+# sent_id = bar_tweet_1525586678206840834-1
+# text = Respekt .
+Respekt	O
+.	O
+
+# sent_id = bar_tweet_1469406259770179591-2
+# text = Da hat der gute Herr versagt , aber auf ganzer Linie ; sogar in der Rechtschreibung . https://t.co/5BwwFL32Oo
+Da	O
+hat	O
+der	O
+gute	O
+Herr	O
+versagt	O
+,	O
+aber	O
+auf	O
+ganzer	O
+Linie	O
+;	O
+sogar	O
+in	O
+der	O
+Rechtschreibung	O
+.	O
+https://t.co/5BwwFL32Oo	O
+
+# newdoc id = bar_tweet_301739351358992384
+# sent_id = bar_tweet_301739351358992384-1
+# text = FASTENZEIT ?
+FASTENZEIT	O
+?	O
+
+# newdoc id = bar_tweet_1533894615551684614
+# sent_id = bar_tweet_1533894615551684614-1
+# text = @mention HALLO !!??!!
+@mention	O
+HALLO	O
+!!??!!	O
+
+# sent_id = bar_tweet_1533894615551684614-2
+# text = Geht ‘ s noch ?
+Geht	O
+‘	O
+s	O
+noch	O
+?	O
+
+# newdoc id = bar_tweet_1544723017699295233
+# sent_id = bar_tweet_1544723017699295233-1
+# text = @mention Hassen ist ein schweres Wort .
+@mention	O
+Hassen	O
+ist	O
+ein	O
+schweres	O
+Wort	O
+.	O
+
+# newdoc id = bar_tweet_1563823146876141569
+# sent_id = bar_tweet_1563823146876141569-1
+# text = @mention Verständlich .
+@mention	O
+Verständlich	O
+.	O
+
+# newdoc id = bar_tweet_1661084153947758592
+# sent_id = bar_tweet_1661084153947758592-1
+# text = @mention @mention @mention @mention Glauben und Politik ?
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+Glauben	O
+und	O
+Politik	O
+?	O
+
+# sent_id = bar_tweet_1661084153947758592-4
+# text = Leider
+Leider	O
+
+# newdoc id = bar_tweet_1638654978247241728
+# sent_id = bar_tweet_1638654978247241728-1
+# text = Warum ?! 🤷‍♂️ ❓
+Warum	O
+?!	O
+🤷‍♂️	O
+❓	O
+
+# sent_id = bar_tweet_1410839082943627265-3
+# text = #gstanzlfreitag
+#gstanzlfreitag	O
+
+# newdoc id = bar_tweet_1568589948068175873
+# sent_id = bar_tweet_1568589948068175873-1
+# text = ... ich korrigiere ...
+...	O
+ich	O
+korrigiere	O
+...	O
+
+# sent_id = bar_tweet_1568589948068175873-4
+# text = #Tsv1860 #MeineLöwen
+#Tsv1860	B-ORG
+#MeineLöwen	B-ORGpart
+
+# sent_id = bar_tweet_1169896572026404864-2
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1169896572026404864-4
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1169896572026404864-5
+# text = " DEIN KIND HAT SICH …
+"	O
+DEIN	O
+KIND	O
+HAT	O
+SICH	O
+…	O
+
+# sent_id = bar_tweet_1662493939226517504-2
+# text = #hoi #Oberland ?
+#hoi	O
+#Oberland	O
+?	O
+
+# newdoc id = bar_tweet_1410662300437131264
+# sent_id = bar_tweet_1410662300437131264-1
+# text = Digitaler Impfpass ?
+Digitaler	O
+Impfpass	O
+?	O
+
+# sent_id = bar_tweet_1651905746856976386-3
+# text = #gstanzlfreitag
+#gstanzlfreitag	O
+
+# sent_id = bar_tweet_1195045431526526982-2
+# text = Fleisch und Wurst aus Pflanzen . 🙈 🙈 🙈
+Fleisch	O
+und	O
+Wurst	O
+aus	O
+Pflanzen	O
+.	O
+🙈	O
+🙈	O
+🙈	O
+
+# newdoc id = bar_tweet_808753381170905088
+# sent_id = bar_tweet_808753381170905088-1
+# text = #Geschenktipp des Tages .
+#Geschenktipp	O
+des	O
+Tages	O
+.	O
+
+# newdoc id = bar_tweet_1027907888407347206
+# sent_id = bar_tweet_1027907888407347206-1
+# text = @mention Wer ?
+@mention	O
+Wer	O
+?	O
+
+# sent_id = bar_tweet_1027907888407347206-2
+# text = Der @mention vielleicht ?
+Der	O
+@mention	O
+vielleicht	O
+?	O
+
+# newdoc id = bar_tweet_1639345582920593411
+# sent_id = bar_tweet_1639345582920593411-1
+# text = @mention Bin raaauuuuus .
+@mention	O
+Bin	O
+raaauuuuus	O
+.	O
+
+# sent_id = bar_tweet_1398682809380839427-3
+# text = Den Rest macht utube 😉 😂
+Den	O
+Rest	O
+macht	O
+utube	B-ORG
+😉	O
+😂	O
+
+# sent_id = bar_tweet_1660322014316359687-2
+# text = Ich bin entsetzt , empört und traurich zugleich 🦄 🏳️‍🌈 🤡 https://t.co/lhb0Wm6NDg
+Ich	O
+bin	O
+entsetzt	O
+,	O
+empört	O
+und	O
+traurich	O
+zugleich	O
+🦄	O
+🏳️‍🌈	O
+🤡	O
+https://t.co/lhb0Wm6NDg	O
+
+# sent_id = bar_tweet_1516629743248060418-5
+# text = #QuasiApril https://t.co/VEjtKNhri4
+#QuasiApril	O
+https://t.co/VEjtKNhri4	O
+
+# sent_id = bar_tweet_1583524472845664257-2
+# text = #EhreundPflicht
+#EhreundPflicht	O
+
+# newdoc id = bar_tweet_1555914129919066114
+# sent_id = bar_tweet_1555914129919066114-1
+# text = @mention @mention @mention Für dem Mörtsch ?
+@mention	O
+@mention	O
+@mention	O
+Für	O
+dem	O
+Mörtsch	O
+?	O
+
+# sent_id = bar_tweet_1654504596033748994-5
+# text = Saugen sich die Kabel voll mit Feuchtigkeit ? 🤔
+Saugen	O
+sich	O
+die	O
+Kabel	O
+voll	O
+mit	O
+Feuchtigkeit	O
+?	O
+🤔	O
+
+# sent_id = bar_tweet_1615621141695012866-4
+# text = Suchen Sie nicht nach Problemen , sondern konzentrieren Sie sich auf Lösungen !
+Suchen	O
+Sie	O
+nicht	O
+nach	O
+Problemen	O
+,	O
+sondern	O
+konzentrieren	O
+Sie	O
+sich	O
+auf	O
+Lösungen	O
+!	O
+
+# newdoc id = bar_tweet_1507375669285728259
+# sent_id = bar_tweet_1507375669285728259-1
+# text = @mention Jupp .
+@mention	O
+Jupp	O
+.	O
+
+# newdoc id = bar_tweet_1625960384040431616
+# sent_id = bar_tweet_1625960384040431616-1
+# text = @mention @mention Soo Lang hieß der ?
+@mention	O
+@mention	O
+Soo	O
+Lang	O
+hieß	O
+der	O
+?	O
+
+# sent_id = bar_tweet_819284159151607808-2
+# text = So und nix anders .
+So	O
+und	O
+nix	O
+anders	O
+.	O
+
+# sent_id = bar_tweet_1613638941152010240-2
+# text = SAGENHAFT
+SAGENHAFT	O
+
+# sent_id = bar_tweet_1648311927066460160-2
+# text = Trumpf …
+Trumpf	O
+…	O
+
+# sent_id = bar_tweet_1620301866314911744-2
+# text = Schauspieler top !
+Schauspieler	O
+top	O
+!	O
+
+# sent_id = bar_tweet_1620301866314911744-4
+# text = #Tatort
+#Tatort	O
+
+# sent_id = bar_tweet_1036283065511895040-6
+# text = Vielleicht .
+Vielleicht	O
+.	O
+
+# sent_id = bar_tweet_1069305708145975306-2
+# text = #Gottgewollt_seit_1328 https://t.co/S2N2RToo5s
+#Gottgewollt_seit_1328	O
+https://t.co/S2N2RToo5s	O
+
+# newdoc id = bar_tweet_1260840499088371714
+# sent_id = bar_tweet_1260840499088371714-1
+# text = @mention Dankee ☕️
+@mention	O
+Dankee	O
+☕️	O
+
+# sent_id = bar_tweet_1243973225043951619-2
+# text = ( Gustl Bayrhammer ) Bleibt mit eurem verf * * * * Arsch einfach zu Hause und macht es uns doch nicht noch schwerer als eh schon ist https://t.co/YW26hao1Qu
+(	O
+Gustl	B-PER
+Bayrhammer	I-PER
+)	O
+Bleibt	O
+mit	O
+eurem	O
+verf	O
+*	O
+*	O
+*	O
+*	O
+Arsch	O
+einfach	O
+zu	O
+Hause	O
+und	O
+macht	O
+es	O
+uns	O
+doch	O
+nicht	O
+noch	O
+schwerer	O
+als	O
+eh	O
+schon	O
+ist	O
+https://t.co/YW26hao1Qu	O
+
+# newdoc id = bar_tweet_604903017666740225
+# sent_id = bar_tweet_604903017666740225-1
+# text = Gestern bei KISS !
+Gestern	O
+bei	O
+KISS	B-ORG
+!	O
+
+# newdoc id = bar_tweet_1407626408722112512
+# sent_id = bar_tweet_1407626408722112512-1
+# text = @mention Hahaha 😅 sehr gut 🌈
+@mention	O
+Hahaha	O
+😅	O
+sehr	O
+gut	O
+🌈	O
+
+# newdoc id = bar_tweet_1493991989896962049
+# sent_id = bar_tweet_1493991989896962049-1
+# text = Bairische Redewendungen für jeden Tag .
+Bairische	B-LANGderiv
+Redewendungen	O
+für	O
+jeden	O
+Tag	O
+.	O
+
+# newdoc id = bar_tweet_1433662758604656641
+# sent_id = bar_tweet_1433662758604656641-1
+# text = Bist du auch ein Prepper , Beni ?
+Bist	O
+du	O
+auch	O
+ein	O
+Prepper	O
+,	O
+Beni	B-PER
+?	O
+
+# sent_id = bar_tweet_1610673489542799361-4
+# text = #holzofengate @mention @mention
+#holzofengate	O
+@mention	O
+@mention	O
+
+# sent_id = bar_tweet_1403228667040370691-3
+# text = #gstanzlfreitag #Bartgeier https://t.co/C7nwcUYE5r
+#gstanzlfreitag	O
+#Bartgeier	O
+https://t.co/C7nwcUYE5r	O
+
+# sent_id = bar_tweet_1651880788139417600-2
+# text = Bleifrei .
+Bleifrei	O
+.	O
+
+# newdoc id = bar_tweet_847359175285919745
+# sent_id = bar_tweet_847359175285919745-1
+# text = Auge + Nase : dunkel &lt; 3 oder hell ( Y ) ?
+Auge	O
++	O
+Nase	O
+:	O
+dunkel	O
+&lt;	O
+3	O
+oder	O
+hell	O
+(	O
+Y	O
+)	O
+?	O
+
+# sent_id = bar_tweet_847359175285919745-3
+# text = Eure Meinung zählt ! https://t.co/OwbZXicFQ8
+Eure	O
+Meinung	O
+zählt	O
+!	O
+https://t.co/OwbZXicFQ8	O
+
+# sent_id = bar_tweet_1571091455321706500-2
+# text = Abgeschafft weil die nur bei drei Metzgereien angenommen wurden .
+Abgeschafft	O
+weil	O
+die	O
+nur	O
+bei	O
+drei	O
+Metzgereien	O
+angenommen	O
+wurden	O
+.	O
+
+# sent_id = bar_tweet_1568623231220711427-2
+# text = „ Bitte ? “
+„	O
+Bitte	O
+?	O
+“	O
+
+# sent_id = bar_tweet_1568623231220711427-4
+# text = „ Was ? “
+„	O
+Was	O
+?	O
+“	O
+
+# sent_id = bar_tweet_1568623231220711427-5
+# text = „ DIE VÖGEL HABEN SCHON WIEDER DIE BLUMEN KAPUTTGEMACHT , HAB ICH GESAGT ! “
+„	O
+DIE	O
+VÖGEL	O
+HABEN	O
+SCHON	O
+WIEDER	O
+DIE	O
+BLUMEN	O
+KAPUTTGEMACHT	O
+,	O
+HAB	O
+ICH	O
+GESAGT	O
+!	O
+“	O
+
+# sent_id = bar_tweet_1568623231220711427-6
+# text = Willkommen in Franken .
+Willkommen	O
+in	O
+Franken	B-LOC
+.	O
+
+# newdoc id = bar_tweet_1663441172386160640
+# sent_id = bar_tweet_1663441172386160640-1
+# text = @mention In Marienbad Wellnesskurzurlaub 😉 .
+@mention	O
+In	O
+Marienbad	B-LOC
+Wellnesskurzurlaub	O
+😉	O
+.	O
+
+# newdoc id = bar_tweet_1621215264862867458
+# sent_id = bar_tweet_1621215264862867458-1
+# text = @mention Auch ok !
+@mention	O
+Auch	O
+ok	O
+!	O
+
+# newdoc id = bar_tweet_1408455485913800706
+# sent_id = bar_tweet_1408455485913800706-1
+# text = @mention Na , hatten hier auch schon schlimmere Schäden .
+@mention	O
+Na	O
+,	O
+hatten	O
+hier	O
+auch	O
+schon	O
+schlimmere	O
+Schäden	O
+.	O
+
+# sent_id = bar_tweet_1284043423192879104-2
+# text = Gekauft würde das sicher .
+Gekauft	O
+würde	O
+das	O
+sicher	O
+.	O
+
+# sent_id = bar_tweet_1284043423192879104-3
+# text = Aber wer würde das denn wollen ?
+Aber	O
+wer	O
+würde	O
+das	O
+denn	O
+wollen	O
+?	O
+
+# sent_id = bar_tweet_1284043423192879104-4
+# text = Urin und Erbrochenes ? 🤢
+Urin	O
+und	O
+Erbrochenes	O
+?	O
+🤢	O
+
+# newdoc id = bar_tweet_1534253703938580481
+# sent_id = bar_tweet_1534253703938580481-1
+# text = @mention @mention Maahh - eecht eeh ?
+@mention	O
+@mention	O
+Maahh	O
+-	O
+eecht	O
+eeh	O
+?	O
+
+# sent_id = bar_tweet_1534253703938580481-3
+# text = Ich überbringe die Nachricht !
+Ich	O
+überbringe	O
+die	O
+Nachricht	O
+!	O
+
+# sent_id = bar_tweet_1534253703938580481-5
+# text = Versuch , das in Kärntner Sprache zu sagen
+Versuch	O
+,	O
+das	O
+in	O
+Kärntner	B-LOCderiv
+Sprache	O
+zu	O
+sagen	O
+
+# sent_id = bar_tweet_1624157346816483334-3
+# text = #Veitshöchheim #Fastnacht in #Franken #FastnachtinFranken #fif23 #fif
+#Veitshöchheim	B-LOC
+#Fastnacht	B-EVENT
+in	O
+#Franken	B-LOC
+#FastnachtinFranken	B-LOCpart
+#fif23	O
+#fif	O
+
+# sent_id = bar_tweet_1586825840272314370-2
+# text = SO SOLL ES SEIN 👏
+SO	O
+SOLL	O
+ES	O
+SEIN	O
+👏	O
+
+# sent_id = bar_tweet_984902841495179264-2
+# text = Freiheit für Katalonien , Freiheit für Bayern !
+Freiheit	O
+für	O
+Katalonien	B-LOC
+,	O
+Freiheit	O
+für	O
+Bayern	B-LOC
+!	O
+
+# newdoc id = bar_tweet_1658192868954054656
+# sent_id = bar_tweet_1658192868954054656-1
+# text = Im Wellnesshotel ...
+Im	O
+Wellnesshotel	O
+...	O
+
+# sent_id = bar_tweet_1658192868954054656-3
+# text = Lt. Karte 22 Euro ...
+Lt.	O
+Karte	O
+22	O
+Euro	O
+...	O
+
+# sent_id = bar_tweet_1658192868954054656-5
+# text = Na , es gab noch Salat als Vorspeise , Kuchen und Käse als Nachspeise ... 😉
+Na	O
+,	O
+es	O
+gab	O
+noch	O
+Salat	O
+als	O
+Vorspeise	O
+,	O
+Kuchen	O
+und	O
+Käse	O
+als	O
+Nachspeise	O
+...	O
+😉	O
+
+# sent_id = bar_tweet_1160966650474192898-2
+# text = #Hoeness
+#Hoeness	B-PER
+
+# sent_id = bar_tweet_1263752937479774208-3
+# text = Wenn jemand mit seiner Familie was macht , dann soll er' .
+Wenn	O
+jemand	O
+mit	O
+seiner	O
+Familie	O
+was	O
+macht	O
+,	O
+dann	O
+soll	O
+er'	O
+.	O
+
+# sent_id = bar_tweet_1263752937479774208-4
+# text = Hört's auf EUREN Lebensentwurf über den der anderen zu stellen .
+Hört's	O
+auf	O
+EUREN	O
+Lebensentwurf	O
+über	O
+den	O
+der	O
+anderen	O
+zu	O
+stellen	O
+.	O
+
+# newdoc id = bar_tweet_1479519246862458886
+# sent_id = bar_tweet_1479519246862458886-1
+# text = @mention @mention @mention Oder so .
+@mention	O
+@mention	O
+@mention	O
+Oder	O
+so	O
+.	O
+
+# sent_id = bar_tweet_1581894587353772032-3
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1581894587353772032-5
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1581894587353772032-6
+# text = " OB DU D …
+"	O
+OB	O
+DU	O
+D	O
+…	O
+
+# newdoc id = bar_tweet_1638812719892537344
+# sent_id = bar_tweet_1638812719892537344-1
+# text = Na , alle da ?
+Na	O
+,	O
+alle	O
+da	O
+?	O
+
+# sent_id = bar_tweet_1638812719892537344-2
+# text = Dann lasst ihn hochleben , den Erretter von Freitag , #Robinsontag !
+Dann	O
+lasst	O
+ihn	O
+hochleben	O
+,	O
+den	O
+Erretter	O
+von	O
+Freitag	O
+,	O
+#Robinsontag	B-PERpart
+!	O
+
+# sent_id = bar_tweet_1636117148140552192-3
+# text = Ja .
+Ja	O
+.	O
+
+# sent_id = bar_tweet_1636117148140552192-4
+# text = Ja .
+Ja	O
+.	O
+
+# newdoc id = bar_tweet_1266739637462208512
+# sent_id = bar_tweet_1266739637462208512-1
+# text = @mention @mention @mention Zum Wohl !
+@mention	O
+@mention	O
+@mention	O
+Zum	O
+Wohl	O
+!	O
+
+# sent_id = bar_tweet_1304288710473715713-2
+# text = LG aus an Wittelsbacher Land 🍀 ☕️ 🎊 🍾 🍷 🎉 🍺 #IHMHK ☕️ ☕️
+LG	O
+aus	O
+an	O
+Wittelsbacher	B-LOC
+Land	I-LOC
+🍀	O
+☕️	O
+🎊	O
+🍾	O
+🍷	O
+🎉	O
+🍺	O
+#IHMHK	O
+☕️	O
+☕️	O
+
+# sent_id = bar_tweet_1211195337651707904-2
+# text = Cooordulaa grüüüün 🎶 Und los geht’s 😬
+Cooordulaa	B-WOA
+grüüüün	I-WOA
+🎶	O
+Und	O
+los	O
+geht’s	O
+😬	O
+
+# sent_id = bar_tweet_1661074222557417477-2
+# text = Sachen gibts .
+Sachen	O
+gibts	O
+.	O
+
+# sent_id = bar_tweet_1108713566843142145-4
+# text = Die ... https://t.co/cO8SntxFU4
+Die	O
+...	O
+https://t.co/cO8SntxFU4	O
+
+# sent_id = bar_tweet_667302396133937152-3
+# text = Netter Laden , feines ... https://t.co/GNKJczy6yo
+Netter	O
+Laden	O
+,	O
+feines	O
+...	O
+https://t.co/GNKJczy6yo	O
+
+# newdoc id = bar_tweet_1639361238814580749
+# sent_id = bar_tweet_1639361238814580749-1
+# text = So .
+So	O
+.	O
+
+# newdoc id = bar_tweet_1664222732769193986
+# sent_id = bar_tweet_1664222732769193986-1
+# text = @mention Ich musste mir ganz sicher sein .
+@mention	O
+Ich	O
+musste	O
+mir	O
+ganz	O
+sicher	O
+sein	O
+.	O
+
+# sent_id = bar_tweet_576017574837805056-2
+# text = ( ACHTUNG !
+(	O
+ACHTUNG	O
+!	O
+
+# sent_id = bar_tweet_576017574837805056-3
+# text = DIALEKT ! )
+DIALEKT	O
+!	O
+)	O
+
+# sent_id = bar_tweet_576017574837805056-4
+# text = @mention sei Dank http://t.co/3v06TM7Ljt
+@mention	O
+sei	O
+Dank	O
+http://t.co/3v06TM7Ljt	O
+
+# sent_id = bar_tweet_1528850316401291265-2
+# text = Ab Mittwoch fliegen wieder die Chem-Trailer-Flugzeigs .
+Ab	O
+Mittwoch	O
+fliegen	O
+wieder	O
+die	O
+Chem-Trailer-Flugzeigs	O
+.	O
+
+# newdoc id = bar_tweet_431515951138607104
+# sent_id = bar_tweet_431515951138607104-1
+# text = RT “ @mention : Jetzt grad so , im Augustiner #wiesn2013 http://t.co/f6jH8v3biw”
+RT	O
+“	O
+@mention	O
+:	O
+Jetzt	O
+grad	O
+so	O
+,	O
+im	O
+Augustiner	B-LOC
+#wiesn2013	B-EVENT
+http://t.co/f6jH8v3biw”	O
+
+# sent_id = bar_tweet_1633193853359366144-3
+# text = Schließlich wartet nach dem 4. Ammerseekrimi noch der Weltkrieg I-Epos auf seine Vollendung .
+Schließlich	O
+wartet	O
+nach	O
+dem	O
+4.	O
+Ammerseekrimi	B-WOA
+noch	O
+der	O
+Weltkrieg	B-WOA
+I-Epos	I-WOA
+auf	O
+seine	O
+Vollendung	O
+.	O
+
+# sent_id = bar_tweet_1633193853359366144-4
+# text = Ja , genau der , der bis Winter 1916 - 17 schon 3 Jahre brauchte https://t.co/VaOft6MvbZ
+Ja	O
+,	O
+genau	O
+der	O
+,	O
+der	O
+bis	O
+Winter	O
+1916	O
+-	O
+17	O
+schon	O
+3	O
+Jahre	O
+brauchte	O
+https://t.co/VaOft6MvbZ	O
+
+# newdoc id = bar_tweet_1404934303486726145
+# sent_id = bar_tweet_1404934303486726145-1
+# text = RT @mention : Die Mondsichel von gestern ... und von heute Abend ...
+RT	O
+@mention	O
+:	O
+Die	O
+Mondsichel	O
+von	O
+gestern	O
+...	O
+und	O
+von	O
+heute	O
+Abend	O
+...	O
+
+# sent_id = bar_tweet_1653741947700367361-2
+# text = #schönesAllgäu
+#schönesAllgäu	B-LOCpart
+
+# sent_id = bar_tweet_1589519944685064192-2
+# text = Das passt ! :)
+Das	O
+passt	O
+!	O
+:)	O
+
+# sent_id = bar_tweet_1521369118364123136-2
+# text = Hab einen mega angenehmen Tag mit vielen schönen Momenten 🤗 ☀️ 🍀 🤜🏼 🤛🏼 🍀 ☀️ 🤗 .
+Hab	O
+einen	O
+mega	O
+angenehmen	O
+Tag	O
+mit	O
+vielen	O
+schönen	O
+Momenten	O
+🤗	O
+☀️	O
+🍀	O
+🤜🏼	O
+🤛🏼	O
+🍀	O
+☀️	O
+🤗	O
+.	O
+
+# sent_id = bar_tweet_1304002276118401028-3
+# text = Schulausfallanzeige , usw.
+Schulausfallanzeige	O
+,	O
+usw.	O
+
+# sent_id = bar_tweet_1304002276118401028-4
+# text = Eigentlich ganz praktisch de App .
+Eigentlich	O
+ganz	O
+praktisch	O
+de	O
+App	O
+.	O
+
+# sent_id = bar_tweet_1333892548646072330-2
+# text = Soll erfüllt .
+Soll	O
+erfüllt	O
+.	O
+
+# sent_id = bar_tweet_807614309127831557-2
+# text = Urteilsfreier Journalismus ! https://t.co/i1KPgQNqEj
+Urteilsfreier	O
+Journalismus	O
+!	O
+https://t.co/i1KPgQNqEj	O
+
+# newdoc id = bar_tweet_767655312170123264
+# sent_id = bar_tweet_767655312170123264-1
+# text = Lieblingsteil-Alarm !
+Lieblingsteil-Alarm	O
+!	O
+
+# sent_id = bar_tweet_1052288050175377408-3
+# text = Übrigens …
+Übrigens	O
+…	O
+
+# newdoc id = bar_tweet_1440916894903644160
+# sent_id = bar_tweet_1440916894903644160-1
+# text = Bairische Redewendungen für jeden Tag .
+Bairische	B-LANGderiv
+Redewendungen	O
+für	O
+jeden	O
+Tag	O
+.	O
+
+# sent_id = bar_tweet_1299307172095033344-5
+# text = Fertig .
+Fertig	O
+.	O
+
+# sent_id = bar_tweet_677021607680983041-2
+# text = Handgezeichnete ... https://t.co/8zAEodLgbo
+Handgezeichnete	O
+...	O
+https://t.co/8zAEodLgbo	O
+
+# newdoc id = bar_tweet_1624376344480997376
+# sent_id = bar_tweet_1624376344480997376-1
+# text = Moses starb , bevor er das gelobte Land erreichte .
+Moses	B-PER
+starb	O
+,	O
+bevor	O
+er	O
+das	O
+gelobte	O
+Land	O
+erreichte	O
+.	O
+
+# sent_id = bar_tweet_1624376344480997376-3
+# text = #Veitshöchheim https://t.co/prumcsMV6V
+#Veitshöchheim	B-LOC
+https://t.co/prumcsMV6V	O
+
+# newdoc id = bar_tweet_626352873450901506
+# sent_id = bar_tweet_626352873450901506-1
+# text = Merken und hi'geh' !
+Merken	O
+und	O
+hi'geh'	O
+!	O
+
+# newdoc id = bar_tweet_1661995932865515520
+# sent_id = bar_tweet_1661995932865515520-1
+# text = @mention Es wIRd geGESsen WAs auF den tIscH koMMt !!!!!!!!
+@mention	O
+Es	O
+wIRd	O
+geGESsen	O
+WAs	O
+auF	O
+den	O
+tIscH	O
+koMMt	O
+!!!!!!!!	O
+
+# sent_id = bar_tweet_1623604233441345539-2
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1623604233441345539-4
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1623604233441345539-5
+# text = " STOPF DIR DIE NUDELN NICHT SO REIN , HAB ICH GESAGT ! "
+"	O
+STOPF	O
+DIR	O
+DIE	O
+NUDELN	O
+NICHT	O
+SO	O
+REIN	O
+,	O
+HAB	O
+ICH	O
+GESAGT	O
+!	O
+"	O
+
+# sent_id = bar_tweet_1623604233441345539-6
+# text = Willkommen in Franken .
+Willkommen	O
+in	O
+Franken	B-LOC
+.	O
+
+# sent_id = bar_tweet_1617163237119905793-2
+# text = Noch Fragen ? 6,5 % !!!
+Noch	O
+Fragen	O
+?	O
+6,5	O
+%	O
+!!!	O
+
+# sent_id = bar_tweet_1541128001412268032-3
+# text = Nur im Geschäftsleben …
+Nur	O
+im	O
+Geschäftsleben	O
+…	O
+
+# sent_id = bar_tweet_1601990964704411648-3
+# text = Glyptothek , Propyläen , Ruhmeshalle : Leo von Klenze .
+Glyptothek	B-LOC
+,	O
+Propyläen	B-LOC
+,	O
+Ruhmeshalle	B-LOC
+:	O
+Leo	B-PER
+von	I-PER
+Klenze	I-PER
+.	O
+
+# sent_id = bar_tweet_1591858354401726464-3
+# text = Die 1918 gegründete BVP war in der Weimarer Zeit bei allen fünf bayerischen Landtagswahlen die meistgewählte Partei und in allen Landesregierungen vertreten .
+Die	O
+1918	O
+gegründete	O
+BVP	B-ORG
+war	O
+in	O
+der	O
+Weimarer	B-ORGderiv
+Zeit	O
+bei	O
+allen	O
+fünf	O
+bayerischen	B-LOCderiv
+Landtagswahlen	O
+die	O
+meistgewählte	O
+Partei	O
+und	O
+in	O
+allen	O
+Landesregierungen	O
+vertreten	O
+.	O
+
+# newdoc id = bar_tweet_530420694036013056
+# sent_id = bar_tweet_530420694036013056-1
+# text = NEU NEU NEU !
+NEU	O
+NEU	O
+NEU	O
+!	O
+
+# newdoc id = bar_tweet_790911036312387584
+# sent_id = bar_tweet_790911036312387584-1
+# text = Schriftlich bestanden ...
+Schriftlich	O
+bestanden	O
+...	O
+
+# newdoc id = bar_tweet_1609565214193909760
+# sent_id = bar_tweet_1609565214193909760-1
+# text = RT @mention : Starkes Spiel 💪 .
+RT	O
+@mention	O
+:	O
+Starkes	O
+Spiel	O
+💪	O
+.	O
+
+# sent_id = bar_tweet_1343314799661371392-3
+# text = Jetzt .
+Jetzt	O
+.	O
+
+# sent_id = bar_tweet_1631726984748322817-3
+# text = #Nockherberg
+#Nockherberg	B-LOC
+
+# newdoc id = bar_tweet_1436921112177303552
+# sent_id = bar_tweet_1436921112177303552-1
+# text = @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention Der hat zu viele Dumme und Verwirrte in seinem Gefolge !
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+Der	O
+hat	O
+zu	O
+viele	O
+Dumme	O
+und	O
+Verwirrte	O
+in	O
+seinem	O
+Gefolge	O
+!	O
+
+# sent_id = bar_tweet_1008190754156662784-5
+# text = #MeinTwitterJubiläum #imagautos https://t.co/iMpVXAKmsJ
+#MeinTwitterJubiläum	B-ORGpart
+#imagautos	O
+https://t.co/iMpVXAKmsJ	O
+
+# sent_id = bar_tweet_1069178192580276227-2
+# text = Leider 😏
+Leider	O
+😏	O
+
+# newdoc id = bar_tweet_1274608279608594433
+# sent_id = bar_tweet_1274608279608594433-1
+# text = Die allerbesten Wünsche zum Geburtstag , @mention !
+Die	O
+allerbesten	O
+Wünsche	O
+zum	O
+Geburtstag	O
+,	O
+@mention	O
+!	O
+
+# newdoc id = bar_tweet_1548789916301230082
+# sent_id = bar_tweet_1548789916301230082-1
+# text = @mention Stimmt .
+@mention	O
+Stimmt	O
+.	O
+
+# newdoc id = bar_tweet_1342524816876822530
+# sent_id = bar_tweet_1342524816876822530-1
+# text = @mention @mention @mention @mention Frohe Weihnachten Claus !
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+Frohe	O
+Weihnachten	B-EVENT
+Claus	B-PER
+!	O
+
+# sent_id = bar_tweet_384375305479024640-3
+# text = --- ( Veröffentlichung mit freundlicher ... http://t.co/IZetTf7vFo
+---	O
+(	O
+Veröffentlichung	O
+mit	O
+freundlicher	O
+...	O
+http://t.co/IZetTf7vFo	O
+
+# newdoc id = bar_tweet_1134379325493514240
+# sent_id = bar_tweet_1134379325493514240-1
+# text = @mention Stimmt , merci Dir .
+@mention	O
+Stimmt	O
+,	O
+merci	O
+Dir	O
+.	O
+
+# sent_id = bar_tweet_1624710715331289091-2
+# text = Hallo und Moin Deutschland .
+Hallo	O
+und	O
+Moin	O
+Deutschland	B-LOC
+.	O
+
+# sent_id = bar_tweet_785799179817717760-2
+# text = Und ja , danke für den Tipp @mention https://t.co/Ac4mXoYbe7
+Und	O
+ja	O
+,	O
+danke	O
+für	O
+den	O
+Tipp	O
+@mention	O
+https://t.co/Ac4mXoYbe7	O
+
+# newdoc id = bar_tweet_1533563930609598464
+# sent_id = bar_tweet_1533563930609598464-1
+# text = @mention @mention @mention @mention @mention @mention @mention Te-Zet - ich wiederhohle Te-Zet .
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+Te-Zet	O
+-	O
+ich	O
+wiederhohle	O
+Te-Zet	O
+.	O
+
+# sent_id = bar_tweet_1190164022362017792-2
+# text = Danke für die schönen Worte .
+Danke	O
+für	O
+die	O
+schönen	O
+Worte	O
+.	O
+
+# sent_id = bar_tweet_1190164022362017792-3
+# text = Die treffen es genau .
+Die	O
+treffen	O
+es	O
+genau	O
+.	O
+
+# newdoc id = bar_tweet_572679066974863360
+# sent_id = bar_tweet_572679066974863360-1
+# text = Ich präsentiere : DAS Geschenk .
+Ich	O
+präsentiere	O
+:	O
+DAS	O
+Geschenk	O
+.	O
+
+# sent_id = bar_tweet_1450099742650810370-2
+# text = #Ampelkoalition Nur noch 4 Tage , dann ist wieder #gstanzlfreitag https://t.co/4zCRDcijjq
+#Ampelkoalition	O
+Nur	O
+noch	O
+4	O
+Tage	O
+,	O
+dann	O
+ist	O
+wieder	O
+#gstanzlfreitag	O
+https://t.co/4zCRDcijjq	O
+
+# sent_id = bar_tweet_1396404009741783043-6
+# text = #trumpf_oder_kritisch
+#trumpf_oder_kritisch	O
+
+# sent_id = bar_tweet_1567756803441557504-2
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1567756803441557504-4
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1567756803441557504-5
+# text = " HEILIGES BLECH , OB SIE KEIN BRÖTCHEN MIT SENF HABEN , HAB ICH GEFRAGT ! "
+"	O
+HEILIGES	O
+BLECH	O
+,	O
+OB	O
+SIE	O
+KEIN	O
+BRÖTCHEN	O
+MIT	O
+SENF	O
+HABEN	O
+,	O
+HAB	O
+ICH	O
+GEFRAGT	O
+!	O
+"	O
+
+# sent_id = bar_tweet_1567756803441557504-6
+# text = Willkommen in Franken .
+Willkommen	O
+in	O
+Franken	B-LOC
+.	O
+
+# newdoc id = bar_tweet_1201825866851983361
+# sent_id = bar_tweet_1201825866851983361-1
+# text = @mention Tee ?
+@mention	O
+Tee	O
+?	O
+
+# sent_id = bar_tweet_1662950374989340672-2
+# text = Seitdem is der Typ wieder völlig normal .
+Seitdem	O
+is	O
+der	O
+Typ	O
+wieder	O
+völlig	O
+normal	O
+.	O
+
+# sent_id = bar_tweet_1662950374989340672-5
+# text = Eure Partysteffi 🥳
+Eure	O
+Partysteffi	B-PERpart
+🥳	O
+
+# newdoc id = bar_tweet_1246676851419951105
+# sent_id = bar_tweet_1246676851419951105-1
+# text = @mention Danke .
+@mention	O
+Danke	O
+.	O
+
+# sent_id = bar_tweet_1482287535053324291-3
+# text = Ich habe meine Vorschriften .
+Ich	O
+habe	O
+meine	O
+Vorschriften	O
+.	O
+
+# newdoc id = bar_tweet_1610917323048685569
+# sent_id = bar_tweet_1610917323048685569-1
+# text = Nachricht via @mention : Rosi Mittermaier verstorben - Pfiat Di Rosi ! https://t.co/E9KgzTwnOZ
+Nachricht	O
+via	O
+@mention	O
+:	O
+Rosi	B-PER
+Mittermaier	I-PER
+verstorben	O
+-	O
+Pfiat	O
+Di	O
+Rosi	B-PER
+!	O
+https://t.co/E9KgzTwnOZ	O
+
+# sent_id = bar_tweet_875263026794045440-3
+# text = #imagautos
+#imagautos	O
+
+# newdoc id = bar_tweet_1250047236299505666
+# sent_id = bar_tweet_1250047236299505666-1
+# text = So eine Gaudi .
+So	O
+eine	O
+Gaudi	O
+.	O
+
+# newdoc id = bar_tweet_1225686812913307648
+# sent_id = bar_tweet_1225686812913307648-1
+# text = @mention Ich danke dir . 🍵
+@mention	O
+Ich	O
+danke	O
+dir	O
+.	O
+🍵	O
+
+# sent_id = bar_tweet_1653827729538555904-3
+# text = Öfters .
+Öfters	O
+.	O
+
+# sent_id = bar_tweet_1656518676357566467-2
+# text = Mairegen bringt Segen ?
+Mairegen	O
+bringt	O
+Segen	O
+?	O
+
+# newdoc id = bar_tweet_1650173746504781831
+# sent_id = bar_tweet_1650173746504781831-1
+# text = @mention Alles unter 7 Teller ist Verschwendung . ☝️
+@mention	O
+Alles	O
+unter	O
+7	O
+Teller	O
+ist	O
+Verschwendung	O
+.	O
+☝️	O
+
+# sent_id = bar_tweet_1124263151053279234-3
+# text = Zum Sendungs-Jubiläum zeigen wir Zeitdokumente aus fünf Jahrzehnten . https://t.co/dqLb195vj0 #Himmelmomente https://t.co/jO46jEaSkU
+Zum	O
+Sendungs-Jubiläum	O
+zeigen	O
+wir	O
+Zeitdokumente	O
+aus	O
+fünf	O
+Jahrzehnten	O
+.	O
+https://t.co/dqLb195vj0	O
+#Himmelmomente	O
+https://t.co/jO46jEaSkU	O
+
+# sent_id = bar_tweet_1621718776918990849-2
+# text = Wach , Wurstgulasch her .
+Wach	O
+,	O
+Wurstgulasch	O
+her	O
+.	O
+
+# newdoc id = bar_tweet_1662519233056473088
+# sent_id = bar_tweet_1662519233056473088-1
+# text = @mention @mention Meeeeegaaaaaa
+@mention	O
+@mention	O
+Meeeeegaaaaaa	O
+
+# sent_id = bar_tweet_1473374851054419977-3
+# text = ( Langer Weg = 》kurze Farb )
+(	O
+Langer	O
+Weg	O
+=	O
+》kurze	O
+Farb	O
+)	O
+
+# sent_id = bar_tweet_643364094029004801-2
+# text = Bavarian Zombiber ?
+Bavarian	B-LOCderiv
+Zombiber	B-WOA
+?	O
+
+# sent_id = bar_tweet_643364094029004801-3
+# text = #isar #münchen https://t.co/D2YCotdD1o
+#isar	B-LOC
+#münchen	B-LOC
+https://t.co/D2YCotdD1o	O
+
+# newdoc id = bar_tweet_1574504147209945089
+# sent_id = bar_tweet_1574504147209945089-1
+# text = @mention @mention Kickl PK verpasst .
+@mention	O
+@mention	O
+Kickl	B-PER
+PK	O
+verpasst	O
+.	O
+
+# sent_id = bar_tweet_584632568068177920-2
+# text = #froheostern #eiersuche http://t.co/jsf4CJEl7s
+#froheostern	B-EVENTpart
+#eiersuche	O
+http://t.co/jsf4CJEl7s	O
+
+# newdoc id = bar_tweet_1304320149617627136
+# sent_id = bar_tweet_1304320149617627136-1
+# text = @mention Orrrr danke 😘 ☺ !
+@mention	O
+Orrrr	O
+danke	O
+😘	O
+☺	O
+!	O
+
+# sent_id = bar_tweet_685403080641347584-2
+# text = Laut war' s ... https://t.co/vJjpV8FLbb
+Laut	O
+war'	O
+s	O
+...	O
+https://t.co/vJjpV8FLbb	O
+
+# sent_id = bar_tweet_455988118156750848-2
+# text = Langsam wird's ernst .
+Langsam	O
+wird's	O
+ernst	O
+.	O
+
+# newdoc id = bar_tweet_536476744648491008
+# sent_id = bar_tweet_536476744648491008-1
+# text = So tolle Kundschaft !
+So	O
+tolle	O
+Kundschaft	O
+!	O
+
+# sent_id = bar_tweet_923501254827040768-3
+# text = Adresse : 83661. .. https://t.co/x8FGZDYg1o
+Adresse	O
+:	O
+83661.	O
+..	O
+https://t.co/x8FGZDYg1o	O
+
+# newdoc id = bar_tweet_1321883873714851841
+# sent_id = bar_tweet_1321883873714851841-1
+# text = @mention Staatstrojaner , Digitale-Dienste-Gesetz , Patientenakte , Uploadfilter / Terrorfilter , Auto-Rasterfahndung , usw.
+@mention	O
+Staatstrojaner	O
+,	O
+Digitale-Dienste-Gesetz	O
+,	O
+Patientenakte	O
+,	O
+Uploadfilter	O
+/	O
+Terrorfilter	O
+,	O
+Auto-Rasterfahndung	O
+,	O
+usw.	O
+
+# sent_id = bar_tweet_1072156136210661376-2
+# text = Gern !
+Gern	O
+!	O
+
+# newdoc id = bar_tweet_1662001478226137089
+# sent_id = bar_tweet_1662001478226137089-1
+# text = @mention @mention @mention @mention Leider !
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+Leider	O
+!	O
+
+# newdoc id = bar_tweet_1541494932724236289
+# sent_id = bar_tweet_1541494932724236289-1
+# text = @mention @mention @mention Geh !
+@mention	O
+@mention	O
+@mention	O
+Geh	O
+!	O
+
+# sent_id = bar_tweet_1621548239542534144-2
+# text = #gstanzlfreitag #Schneefall in der #Oberpfalz und #Niederbayern , aber nicht in #München
+#gstanzlfreitag	O
+#Schneefall	O
+in	O
+der	O
+#Oberpfalz	B-LOC
+und	O
+#Niederbayern	B-LOC
+,	O
+aber	O
+nicht	O
+in	O
+#München	B-LOC
+
+# sent_id = bar_tweet_1538074532212264960-2
+# text = I wünsche dir auch ein tolles Wochenende mit viel Ruhe und viel Erholung 🤗 👍🏼 ☕️ .
+I	O
+wünsche	O
+dir	O
+auch	O
+ein	O
+tolles	O
+Wochenende	O
+mit	O
+viel	O
+Ruhe	O
+und	O
+viel	O
+Erholung	O
+🤗	O
+👍🏼	O
+☕️	O
+.	O
+
+# newdoc id = bar_tweet_1626201288361889793
+# sent_id = bar_tweet_1626201288361889793-1
+# text = Schelle-Schelle !
+Schelle-Schelle	O
+!	O
+
+# sent_id = bar_tweet_1167388545109123072-2
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1167388545109123072-4
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1167388545109123072-5
+# text = " DER LÄRM , DE …
+"	O
+DER	O
+LÄRM	O
+,	O
+DE	O
+…	O
+
+# sent_id = bar_tweet_1410351315096637441-2
+# text = Willkommen in Franken . ( twittern wie der @mention )
+Willkommen	O
+in	O
+Franken	B-LOC
+.	O
+(	O
+twittern	B-ORGderiv
+wie	O
+der	O
+@mention	O
+)	O
+
+# sent_id = bar_tweet_1626260884266835972-4
+# text = Sollten Sie des Bairischen nicht so mächtig sein , Band 1 bis 3 beinhalten einen Sprachkurs 😘 Fluch der modernen Technik - und noch ein Ammerseekrimi ( Dahoam-Krimis 3 ) https://t.co/j09jL1c5ok #Amazon via @mention
+Sollten	O
+Sie	O
+des	O
+Bairischen	B-LANG
+nicht	O
+so	O
+mächtig	O
+sein	O
+,	O
+Band	O
+1	O
+bis	O
+3	O
+beinhalten	O
+einen	O
+Sprachkurs	O
+😘	O
+Fluch	B-WOA
+der	I-WOA
+modernen	I-WOA
+Technik	I-WOA
+-	I-WOA
+und	I-WOA
+noch	I-WOA
+ein	I-WOA
+Ammerseekrimi	I-WOA
+(	O
+Dahoam-Krimis	B-WOA
+3	O
+)	O
+https://t.co/j09jL1c5ok	O
+#Amazon	B-ORG
+via	O
+@mention	O
+
+# newdoc id = bar_tweet_1190334889826115585
+# sent_id = bar_tweet_1190334889826115585-1
+# text = RT @mention : @mention @mention @mention @mention @mention Es ist mir ein Vergnügen .
+RT	O
+@mention	O
+:	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+Es	O
+ist	O
+mir	O
+ein	O
+Vergnügen	O
+.	O
+
+# sent_id = bar_tweet_1076477499150925825-2
+# text = Ohne Übersetzung , so als Bewunderungsausruf 🤓
+Ohne	O
+Übersetzung	O
+,	O
+so	O
+als	O
+Bewunderungsausruf	O
+🤓	O
+
+# newdoc id = bar_tweet_16884613624365056
+# sent_id = bar_tweet_16884613624365056-1
+# text = @mention ja ich #noe #orf
+@mention	O
+ja	O
+ich	O
+#noe	B-LOC
+#orf	B-ORG
+
+# newdoc id = bar_tweet_1157210926539575296
+# sent_id = bar_tweet_1157210926539575296-1
+# text = RT @mention : Es geht aufwärts !
+RT	O
+@mention	O
+:	O
+Es	O
+geht	O
+aufwärts	O
+!	O
+
+# newdoc id = bar_tweet_1398552298775797772
+# sent_id = bar_tweet_1398552298775797772-1
+# text = @mention Draußen steht ein Hanswurscht .
+@mention	O
+Draußen	O
+steht	O
+ein	O
+Hanswurscht	O
+.	O
+
+# sent_id = bar_tweet_1648307232482766848-4
+# text = Falken ?
+Falken	O
+?	O
+
+# newdoc id = bar_tweet_1651658923017904128
+# sent_id = bar_tweet_1651658923017904128-1
+# text = @mention Danke .
+@mention	O
+Danke	O
+.	O
+
+# newdoc id = bar_tweet_1567027563930812416
+# sent_id = bar_tweet_1567027563930812416-1
+# text = @mention @mention Awww , danke !
+@mention	O
+@mention	O
+Awww	O
+,	O
+danke	O
+!	O
+
+# sent_id = bar_tweet_1261370699723075587-3
+# text = Softwareprobleme : VW muss die Auslieferung des Golf 8 stoppen https://t.co/5eBD3OkZZF via @mention
+Softwareprobleme	O
+:	O
+VW	B-ORG
+muss	O
+die	O
+Auslieferung	O
+des	O
+Golf	B-MISC
+8	I-MISC
+stoppen	O
+https://t.co/5eBD3OkZZF	O
+via	O
+@mention	O
+
+# newdoc id = bar_tweet_1245742156490424328
+# sent_id = bar_tweet_1245742156490424328-1
+# text = Uuuund fumppppp https://t.co/Xf0pJo9Juq
+Uuuund	O
+fumppppp	O
+https://t.co/Xf0pJo9Juq	O
+
+# newdoc id = bar_tweet_1175349109630410752
+# sent_id = bar_tweet_1175349109630410752-1
+# text = So .
+So	O
+.	O
+
+# newdoc id = bar_tweet_1099360547169017857
+# sent_id = bar_tweet_1099360547169017857-1
+# text = @mention Unfassbar .
+@mention	O
+Unfassbar	O
+.	O
+
+# sent_id = bar_tweet_969199400642928640-3
+# text = „ Bitte ? “
+„	O
+Bitte	O
+?	O
+“	O
+
+# sent_id = bar_tweet_969199400642928640-5
+# text = „ WAS ? “
+„	O
+WAS	O
+?	O
+“	O
+
+# sent_id = bar_tweet_969199400642928640-6
+# text = „ BEEIL DICH , DU DE …
+„	O
+BEEIL	O
+DICH	O
+,	O
+DU	O
+DE	O
+…	O
+
+# newdoc id = bar_tweet_1640031178353778690
+# sent_id = bar_tweet_1640031178353778690-1
+# text = @mention Stimmt .
+@mention	O
+Stimmt	O
+.	O
+
+# sent_id = bar_tweet_1640031178353778690-6
+# text = Traurig … .
+Traurig	O
+…	O
+.	O
+
+# sent_id = bar_tweet_933810935759888384-2
+# text = #Ringlstetter
+#Ringlstetter	B-PER
+
+# sent_id = bar_tweet_1660702279949795349-3
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1660702279949795349-5
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1660702279949795349-6
+# text = " VON DER TORTE DORT DRÜBEN IST ZU WENIG DA , HAB ICH GESAGT ! "
+"	O
+VON	O
+DER	O
+TORTE	O
+DORT	O
+DRÜBEN	O
+IST	O
+ZU	O
+WENIG	O
+DA	O
+,	O
+HAB	O
+ICH	O
+GESAGT	O
+!	O
+"	O
+
+# sent_id = bar_tweet_1626859249522339840-4
+# text = Bitte pass auf dich auf ! 🍀
+Bitte	O
+pass	O
+auf	O
+dich	O
+auf	O
+!	O
+🍀	O
+
+# sent_id = bar_tweet_454319466889768960-2
+# text = Meinungen ? http://t.co/zkr3FMQXwj
+Meinungen	O
+?	O
+http://t.co/zkr3FMQXwj	O
+
+# sent_id = bar_tweet_1623972416857772033-4
+# text = #Veitshöchheim #fif23 #fastnachtinfranken @mention @mention #br
+#Veitshöchheim	B-LOC
+#fif23	B-EVENTpart
+#fastnachtinfranken	B-EVENTpart
+@mention	O
+@mention	O
+#br	O
+
+# newdoc id = bar_tweet_1289850968100581376
+# sent_id = bar_tweet_1289850968100581376-1
+# text = @mention Tolllll 😳
+@mention	O
+Tolllll	O
+😳	O
+
+# newdoc id = bar_tweet_1056096399677366272
+# sent_id = bar_tweet_1056096399677366272-1
+# text = @mention @mention Dankeeee 😄 😄
+@mention	O
+@mention	O
+Dankeeee	O
+😄	O
+😄	O
+
+# sent_id = bar_tweet_443836234155450368-2
+# text = #Ohrwurm #isso // @mention
+#Ohrwurm	O
+#isso	O
+//	O
+@mention	O
+
+# sent_id = bar_tweet_1378235207136972801-2
+# text = Verstopfung behoben ... braun fließt wieder . 😳
+Verstopfung	O
+behoben	O
+...	O
+braun	O
+fließt	O
+wieder	O
+.	O
+😳	O
+
+# sent_id = bar_tweet_1378235207136972801-3
+# text = Danke für die Details ...
+Danke	O
+für	O
+die	O
+Details	O
+...	O
+
+# sent_id = bar_tweet_1571174648145903618-4
+# text = Prosit ! 🍺
+Prosit	O
+!	O
+🍺	O
+
+# newdoc id = bar_tweet_1529761757090172928
+# sent_id = bar_tweet_1529761757090172928-1
+# text = @mention Mahlzeit Gitte 🤗 .
+@mention	O
+Mahlzeit	O
+Gitte	B-PER
+🤗	O
+.	O
+
+# sent_id = bar_tweet_1572172298676998146-2
+# text = Oder Krise ?
+Oder	O
+Krise	O
+?	O
+
+# sent_id = bar_tweet_1213575803809796096-3
+# text = Na na na der Wolfgang wieder !
+Na	O
+na	O
+na	O
+der	O
+Wolfgang	B-PER
+wieder	O
+!	O
+
+# sent_id = bar_tweet_1527893576637612032-3
+# text = Sympathisch und kompetent .
+Sympathisch	O
+und	O
+kompetent	O
+.	O
+
+# sent_id = bar_tweet_1073596600654721035-3
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# newdoc id = bar_tweet_1650951121685340161
+# sent_id = bar_tweet_1650951121685340161-1
+# text = Gute Nacht !
+Gute	O
+Nacht	O
+!	O
+
+# sent_id = bar_tweet_1116722642105409541-2
+# text = Heute geht's in der Reihe #aufgutbairisch von 1969 um die bairischen Doppellaute . https://t.co/ml4uMEmRa2
+Heute	O
+geht's	O
+in	O
+der	O
+Reihe	O
+#aufgutbairisch	B-WOA
+von	O
+1969	O
+um	O
+die	O
+bairischen	B-LANGderiv
+Doppellaute	O
+.	O
+https://t.co/ml4uMEmRa2	O
+
+# sent_id = bar_tweet_795223806289788932-3
+# text = #Dopa
+#Dopa	O
+
+# sent_id = bar_tweet_1581891741472346112-3
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1581891741472346112-5
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1581891741472346112-6
+# text = " OB DU DEINEN BLÖDEN GELDBEUTEL HAST LIEGEN LASSEN , HAB ICH GEFRAGT ! "
+"	O
+OB	O
+DU	O
+DEINEN	O
+BLÖDEN	O
+GELDBEUTEL	O
+HAST	O
+LIEGEN	O
+LASSEN	O
+,	O
+HAB	O
+ICH	O
+GEFRAGT	O
+!	O
+"	O
+
+# sent_id = bar_tweet_1581891741472346112-7
+# text = Willkommen in Franken .
+Willkommen	O
+in	O
+Franken	B-LOC
+.	O
+
+# newdoc id = bar_tweet_1593211126950825988
+# sent_id = bar_tweet_1593211126950825988-1
+# text = @mention ÖMA ??
+@mention	O
+ÖMA	B-ORG
+??	O
+
+# sent_id = bar_tweet_1593211126950825988-3
+# text = Abstand nehmen 🤪 https://t.co/f5PBjhQjaW
+Abstand	O
+nehmen	O
+🤪	O
+https://t.co/f5PBjhQjaW	O
+
+# sent_id = bar_tweet_973298338928963584-2
+# text = Na .
+Na	O
+.	O
+
+# newdoc id = bar_tweet_1629516643142451202
+# sent_id = bar_tweet_1629516643142451202-1
+# text = #Pasing #München " Wie aus dem einst grünen Dorf Pasing eine Betonwüste wurde . "
+#Pasing	B-LOC
+#München	B-LOC
+"	O
+Wie	O
+aus	O
+dem	O
+einst	O
+grünen	O
+Dorf	O
+Pasing	B-LOC
+eine	O
+Betonwüste	O
+wurde	O
+.	O
+"	O
+
+# newdoc id = bar_tweet_1643425311055400960
+# sent_id = bar_tweet_1643425311055400960-1
+# text = @mention Luggi am Absprung 😘 👍
+@mention	O
+Luggi	B-PER
+am	O
+Absprung	O
+😘	O
+👍	O
+
+# newdoc id = bar_tweet_1228772972128866307
+# sent_id = bar_tweet_1228772972128866307-1
+# text = @mention Weil Menschen gerne Sachen kompliziert machen und alles mögliche auf sich beziehen ....
+@mention	O
+Weil	O
+Menschen	O
+gerne	O
+Sachen	O
+kompliziert	O
+machen	O
+und	O
+alles	O
+mögliche	O
+auf	O
+sich	O
+beziehen	O
+....	O
+
+# sent_id = bar_tweet_1181920535871152128-2
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1181920535871152128-4
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1181920535871152128-5
+# text = " JEDEN TA …
+"	O
+JEDEN	O
+TA	O
+…	O
+
+# sent_id = bar_tweet_1058053650214514689-5
+# text = Verstehst ?
+Verstehst	O
+?	O
+
+# sent_id = bar_tweet_1366432385349394434-2
+# text = #TagderKomplimente
+#TagderKomplimente	O
+
+# sent_id = bar_tweet_729718562160435200-2
+# text = #umzug #allesneumachtdermai https://t.co/62G6ym2lve
+#umzug	O
+#allesneumachtdermai	O
+https://t.co/62G6ym2lve	O
+
+# sent_id = bar_tweet_1308682687578857472-2
+# text = Und ja . 😩 😁
+Und	O
+ja	O
+.	O
+😩	O
+😁	O
+
+# sent_id = bar_tweet_1171049143189594117-3
+# text = Oder Berechnung .
+Oder	O
+Berechnung	O
+.	O
+
+# sent_id = bar_tweet_606805008865193984-4
+# text = Menschen ....
+Menschen	O
+....	O
+
+# sent_id = bar_tweet_1594839736581251072-2
+# text = Danke !
+Danke	O
+!	O
+
+# sent_id = bar_tweet_1639962536337448960-3
+# text = Lesen zwischen den Zeilen ……
+Lesen	O
+zwischen	O
+den	O
+Zeilen	O
+……	O
+
+# newdoc id = bar_tweet_1628055307640266757
+# sent_id = bar_tweet_1628055307640266757-1
+# text = Kehraus .
+Kehraus	O
+.	O
+
+# newdoc id = bar_tweet_823413583476310017
+# sent_id = bar_tweet_823413583476310017-1
+# text = #gesundheitgehtvor #brr #kalt #hatschi #bier #bestemedizin #katarrh #erkältung #schnupfen https://t.co/B6xY6u7FYw
+#gesundheitgehtvor	O
+#brr	O
+#kalt	O
+#hatschi	O
+#bier	O
+#bestemedizin	O
+#katarrh	O
+#erkältung	O
+#schnupfen	O
+https://t.co/B6xY6u7FYw	O
+
+# newdoc id = bar_tweet_1630260536255414280
+# sent_id = bar_tweet_1630260536255414280-1
+# text = @mention Soso , auf Insta ...
+@mention	O
+Soso	O
+,	O
+auf	O
+Insta	B-ORG
+...	O
+
+# newdoc id = bar_tweet_1296503150397067265
+# sent_id = bar_tweet_1296503150397067265-1
+# text = @mention Na dann .
+@mention	O
+Na	O
+dann	O
+.	O
+
+# sent_id = bar_tweet_1068172785283932160-2
+# text = Auf die Dialekt-Ausschreibungen antworten in Niederbayern deutlich mehr Bewerber als sonst ... https://t.co/DeIDmnxevs https://t.co/CPvlNVQ3s7
+Auf	O
+die	O
+Dialekt-Ausschreibungen	O
+antworten	O
+in	O
+Niederbayern	B-LOC
+deutlich	O
+mehr	O
+Bewerber	O
+als	O
+sonst	O
+...	O
+https://t.co/DeIDmnxevs	O
+https://t.co/CPvlNVQ3s7	O
+
+# sent_id = bar_tweet_1649730069282054146-5
+# text = Und Tomatenmark .
+Und	O
+Tomatenmark	O
+.	O
+
+# sent_id = bar_tweet_1058049361140215810-2
+# text = Oder anderst rum .
+Oder	O
+anderst	O
+rum	O
+.	O
+
+# newdoc id = bar_tweet_1322271394277842945
+# sent_id = bar_tweet_1322271394277842945-1
+# text = Orrr , 🤤 Puddinghaut . https://t.co/hGZiwHRAyb
+Orrr	O
+,	O
+🤤	O
+Puddinghaut	O
+.	O
+https://t.co/hGZiwHRAyb	O
+
+# sent_id = bar_tweet_1539268264391499779-2
+# text = Gibt nix bessers 💛
+Gibt	O
+nix	O
+bessers	O
+💛	O
+
+# sent_id = bar_tweet_1618487074679836672-2
+# text = Feier schön ! 🎂 🎉
+Feier	O
+schön	O
+!	O
+🎂	O
+🎉	O
+
+# newdoc id = bar_tweet_1627243615670902786
+# sent_id = bar_tweet_1627243615670902786-1
+# text = @mention Wenn ich nur dürfte 😭 ...
+@mention	O
+Wenn	O
+ich	O
+nur	O
+dürfte	O
+😭	O
+...	O
+
+# sent_id = bar_tweet_1232760528474398722-6
+# text = #imagautos
+#imagautos	O
+
+# sent_id = bar_tweet_1095569321814831104-2
+# text = Dranbleiben und es gelingt .
+Dranbleiben	O
+und	O
+es	O
+gelingt	O
+.	O
+
+# sent_id = bar_tweet_1244485501974872067-4
+# text = Anklicken und nicht ve …
+Anklicken	O
+und	O
+nicht	O
+ve	O
+…	O
+
+# sent_id = bar_tweet_1448681001434193927-2
+# text = Das sind 2 Tonlagen
+Das	O
+sind	O
+2	O
+Tonlagen	O
+
+# sent_id = bar_tweet_1606333117605720065-2
+# text = ( Herbert Schneider )
+(	O
+Herbert	B-PER
+Schneider	I-PER
+)	O
+
+# sent_id = bar_tweet_1586654834693922817-3
+# text = #Zeitumstellung
+#Zeitumstellung	O
+
+# newdoc id = bar_tweet_1646419717110857729
+# sent_id = bar_tweet_1646419717110857729-1
+# text = @mention @mention Kann man zwar bei uns auch als Medikament bekommen , scheint aber ziemlich schwierig zu sein .
+@mention	O
+@mention	O
+Kann	O
+man	O
+zwar	O
+bei	O
+uns	O
+auch	O
+als	O
+Medikament	O
+bekommen	O
+,	O
+scheint	O
+aber	O
+ziemlich	O
+schwierig	O
+zu	O
+sein	O
+.	O
+
+# sent_id = bar_tweet_1146417461216055296-2
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1146417461216055296-4
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1146417461216055296-5
+# text = " PACK DEINE SACHEN IN DEN …
+"	O
+PACK	O
+DEINE	O
+SACHEN	O
+IN	O
+DEN	O
+…	O
+
+# newdoc id = bar_tweet_1658896910181179401
+# sent_id = bar_tweet_1658896910181179401-1
+# text = @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention Verpoorten
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+Verpoorten	B-ORG
+
+# sent_id = bar_tweet_1654592239140581380-2
+# text = Alle …..
+Alle	O
+…..	O
+
+# sent_id = bar_tweet_1616716533283127297-3
+# text = Elektro Nachtspeicherofen hat MItte Dezember den Geist aufgegeben .
+Elektro	O
+Nachtspeicherofen	O
+hat	O
+MItte	O
+Dezember	O
+den	O
+Geist	O
+aufgegeben	O
+.	O
+
+# sent_id = bar_tweet_1616716533283127297-4
+# text = Termin Lieferung / Anschluss 25. 1. 8.00 h .
+Termin	O
+Lieferung	O
+/	O
+Anschluss	O
+25.	O
+1.	O
+8.00	O
+h	O
+.	O
+
+# sent_id = bar_tweet_1660206944072740864-5
+# text = Allen ei …
+Allen	O
+ei	O
+…	O
+
+# newdoc id = bar_tweet_1143518422229233664
+# sent_id = bar_tweet_1143518422229233664-1
+# text = @mention Jawoll .
+@mention	O
+Jawoll	O
+.	O
+
+# sent_id = bar_tweet_1642868369421479938-2
+# text = Bitte Rt
+Bitte	O
+Rt	O
+
+# sent_id = bar_tweet_1654594202695548931-4
+# text = Mir passts .
+Mir	O
+passts	O
+.	O
+
+# sent_id = bar_tweet_1251204682757935104-2
+# text = Steht zwar " in Zustellung " mit Termin für heute im Web ...
+Steht	O
+zwar	O
+"	O
+in	O
+Zustellung	O
+"	O
+mit	O
+Termin	O
+für	O
+heute	O
+im	O
+Web	O
+...	O
+
+# sent_id = bar_tweet_987184752062009344-3
+# text = #imagautos
+#imagautos	O
+
+# sent_id = bar_tweet_1169575818072338432-2
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1169575818072338432-4
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_1169575818072338432-5
+# text = " ALLES GUTE ZUM GEBURTSTAG , HAB I …
+"	O
+ALLES	O
+GUTE	O
+ZUM	O
+GEBURTSTAG	O
+,	O
+HAB	O
+I	O
+…	O
+
+# newdoc id = bar_tweet_1000743281540653057
+# sent_id = bar_tweet_1000743281540653057-1
+# text = RT @mention : Glückwunsch an den @mention .
+RT	O
+@mention	O
+:	O
+Glückwunsch	O
+an	O
+den	O
+@mention	O
+.	O
+
+# newdoc id = bar_tweet_1597602590736658434
+# sent_id = bar_tweet_1597602590736658434-1
+# text = @mention @mention @mention @mention Speicher ? 🙄
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+Speicher	O
+?	O
+🙄	O
+
+# sent_id = bar_tweet_1171874363244761088-3
+# text = Konfliktprävention .
+Konfliktprävention	O
+.	O
+
+# sent_id = bar_tweet_1628727045478924290-2
+# text = Wird schwer .
+Wird	O
+schwer	O
+.	O
+
+# sent_id = bar_tweet_1614570332714573824-2
+# text = Hallo und Moin Deutschland .
+Hallo	O
+und	O
+Moin	O
+Deutschland	B-LOC
+.	O
+
+# sent_id = bar_tweet_1656206611130482689-2
+# text = Passt g …
+Passt	O
+g	O
+…	O
+
+# newdoc id = bar_tweet_336140242853707777
+# sent_id = bar_tweet_336140242853707777-1
+# text = PROST , HERR SCHUBERT !!
+PROST	O
+,	O
+HERR	O
+SCHUBERT	B-PER
+!!	O
+
+# newdoc id = bar_tweet_1552877866068606976
+# sent_id = bar_tweet_1552877866068606976-1
+# text = @mention Stimmt .
+@mention	O
+Stimmt	O
+.	O
+
+# newdoc id = bar_tweet_1583396490612854786
+# sent_id = bar_tweet_1583396490612854786-1
+# text = RT @mention : Nie wieder #Faschismus !
+RT	O
+@mention	O
+:	O
+Nie	O
+wieder	O
+#Faschismus	O
+!	O
+
+# newdoc id = bar_tweet_753628623400230912
+# sent_id = bar_tweet_753628623400230912-1
+# text = RT @mention : Tochter erklärt einer alten Frau ( 82 ) Pokemon Go .
+RT	O
+@mention	O
+:	O
+Tochter	O
+erklärt	O
+einer	O
+alten	O
+Frau	O
+(	O
+82	O
+)	O
+Pokemon	O
+Go	O
+.	O
+
+# sent_id = bar_tweet_1161388719452172289-4
+# text = ( Übersetzung gibt es morgen 😊 )
+(	O
+Übersetzung	O
+gibt	O
+es	O
+morgen	O
+😊	O
+)	O
+
+# sent_id = bar_tweet_1661295849131892739-2
+# text = Migräne ??
+Migräne	O
+??	O
+
+# sent_id = bar_tweet_509589676282609664-2
+# text = Meine Herrn : http://t.co/Mryd6U0S7v
+Meine	O
+Herrn	O
+:	O
+http://t.co/Mryd6U0S7v	O
+
+# newdoc id = bar_tweet_1340054713832775680
+# sent_id = bar_tweet_1340054713832775680-1
+# text = @mention Ja leider .
+@mention	O
+Ja	O
+leider	O
+.	O
+
+# newdoc id = bar_tweet_1236655348137644032
+# sent_id = bar_tweet_1236655348137644032-1
+# text = RT @mention : Neubaugasse Wien #wienliebe #wien https://t.co/5N27s4Tt85
+RT	O
+@mention	O
+:	O
+Neubaugasse	B-LOC
+Wien	I-LOC
+#wienliebe	B-LOCpart
+#wien	I-LOCpart
+https://t.co/5N27s4Tt85	O
+
+# sent_id = bar_tweet_1591402009672183810-3
+# text = Deal ?
+Deal	O
+?	O
+
+# sent_id = bar_tweet_1591402009672183810-4
+# text = Deal !
+Deal	O
+!	O
+
+# newdoc id = bar_tweet_1563763235907637249
+# sent_id = bar_tweet_1563763235907637249-1
+# text = @mention Stimmt .
+@mention	O
+Stimmt	O
+.	O
+
+# newdoc id = bar_tweet_1628039242952630274
+# sent_id = bar_tweet_1628039242952630274-1
+# text = @mention Hundestrand …
+@mention	O
+Hundestrand	O
+…	O
+
+# sent_id = bar_tweet_1628039242952630274-2
+# text = Nacktbadestrand … 🤭
+Nacktbadestrand	O
+…	O
+🤭	O
+
+# newdoc id = bar_tweet_1325839357090140160
+# sent_id = bar_tweet_1325839357090140160-1
+# text = " ... es gibt einen gemeinsamen Religionsunterricht im Klassenverbund statt mit anderen Klassen nach Konfession aufgeteilt . "
+"	O
+...	O
+es	O
+gibt	O
+einen	O
+gemeinsamen	O
+Religionsunterricht	O
+im	O
+Klassenverbund	O
+statt	O
+mit	O
+anderen	O
+Klassen	O
+nach	O
+Konfession	O
+aufgeteilt	O
+.	O
+"	O
+
+# newdoc id = bar_tweet_944121707601760256
+# sent_id = bar_tweet_944121707601760256-1
+# text = Letzter Versandtag ! 📦
+Letzter	O
+Versandtag	O
+!	O
+📦	O
+
+# newdoc id = bar_tweet_1216968966264041472
+# sent_id = bar_tweet_1216968966264041472-1
+# text = Moooorgen an die kleine feine Gruppe . https://t.co/R9VZZLRMXF
+Moooorgen	O
+an	O
+die	O
+kleine	O
+feine	O
+Gruppe	O
+.	O
+https://t.co/R9VZZLRMXF	O
+
+# newdoc id = bar_tweet_1105534786976792578
+# sent_id = bar_tweet_1105534786976792578-1
+# text = @mention @mention Ich denk des geht auch nicht in jedem Bereich .
+@mention	O
+@mention	O
+Ich	O
+denk	O
+des	O
+geht	O
+auch	O
+nicht	O
+in	O
+jedem	O
+Bereich	O
+.	O
+
+# newdoc id = bar_tweet_1648710592989896705
+# sent_id = bar_tweet_1648710592989896705-1
+# text = RT @mention : mimimi , gebt mir geld mimimimi . vlt ist dein geschäftskonzept dann einf. scheiße bro
+RT	O
+@mention	O
+:	O
+mimimi	O
+,	O
+gebt	O
+mir	O
+geld	O
+mimimimi	O
+.	O
+vlt	O
+ist	O
+dein	O
+geschäftskonzept	O
+dann	O
+einf.	O
+scheiße	O
+bro	O
+
+# sent_id = bar_tweet_935961273250009093-4
+# text = Frei nach Frodo : Mein lieber Sam ich habe so viel Leid gesehen , ich kann nicht mehr zurück . ( zumindest in der Firma )
+Frei	O
+nach	O
+Frodo	B-PER
+:	O
+Mein	O
+lieber	O
+Sam	B-PER
+ich	O
+habe	O
+so	O
+viel	O
+Leid	O
+gesehen	O
+,	O
+ich	O
+kann	O
+nicht	O
+mehr	O
+zurück	O
+.	O
+(	O
+zumindest	O
+in	O
+der	O
+Firma	O
+)	O
+
+# newdoc id = bar_tweet_1080059984992485376
+# sent_id = bar_tweet_1080059984992485376-1
+# text = @mention @mention Fein .
+@mention	O
+@mention	O
+Fein	O
+.	O
+
+# newdoc id = bar_tweet_652937985143504901
+# sent_id = bar_tweet_652937985143504901-1
+# text = @mention och menno . 😛
+@mention	O
+och	O
+menno	O
+.	O
+😛	O
+
+# newdoc id = bar_tweet_328795786693464065
+# sent_id = bar_tweet_328795786693464065-1
+# text = Verdammt coole Brille , Thorsten .
+Verdammt	O
+coole	O
+Brille	O
+,	O
+Thorsten	B-PER
+.	O
+
+# sent_id = bar_tweet_1657380993303494659-2
+# text = Haus aus den 1950ern .
+Haus	O
+aus	O
+den	O
+1950ern	O
+.	O
+
+# newdoc id = bar_tweet_1621390166836346883
+# sent_id = bar_tweet_1621390166836346883-1
+# text = @mention Freu .
+@mention	O
+Freu	O
+.	O
+
+# sent_id = bar_tweet_1308978642140135425-2
+# text = Logisch !
+Logisch	O
+!	O
+
+# sent_id = bar_tweet_1642963621847384065-3
+# text = Bildband ?
+Bildband	O
+?	O
+
+# sent_id = bar_tweet_1642963621847384065-4
+# text = Reportage ?
+Reportage	O
+?	O
+
+# sent_id = bar_tweet_1642963621847384065-5
+# text = Fach ( ? ) buch ? … . ?
+Fach	O
+(	O
+?	O
+)	O
+buch	O
+?	O
+…	O
+.	O
+?	O
+
+# sent_id = bar_tweet_1642963621847384065-6
+# text = Wirklich gelungen 👍 👍 👍 https://t.co/7DEgD02ZEg
+Wirklich	O
+gelungen	O
+👍	O
+👍	O
+👍	O
+https://t.co/7DEgD02ZEg	O
+
+# sent_id = bar_tweet_1620654096595439617-4
+# text = Wünsch da viel Kraft zum wach bleiben 🍀 🍀 https://t.co/XW5Rp1iTCQ
+Wünsch	O
+da	O
+viel	O
+Kraft	O
+zum	O
+wach	O
+bleiben	O
+🍀	O
+🍀	O
+https://t.co/XW5Rp1iTCQ	O
+
+# newdoc id = bar_tweet_1380600478585737219
+# sent_id = bar_tweet_1380600478585737219-1
+# text = @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention @mention Dankeee 🍀 ☺️ https://t.co/RW2YUYPXtG
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+@mention	O
+Dankeee	O
+🍀	O
+☺️	O
+https://t.co/RW2YUYPXtG	O
+
+# newdoc id = bar_tweet_290400175422324737
+# sent_id = bar_tweet_290400175422324737-1
+# text = @mention najo irgendwie is witzig wie du des postest !
+@mention	O
+najo	O
+irgendwie	O
+is	O
+witzig	O
+wie	O
+du	O
+des	O
+postest	O
+!	O
+
+# sent_id = bar_tweet_993043845456723968-3
+# text = Vater- und Muttertagsgeschenke shoppen ? 😉 https://t.co/WnIvGGJ7kF
+Vater-	O
+und	O
+Muttertagsgeschenke	O
+shoppen	O
+?	O
+😉	O
+https://t.co/WnIvGGJ7kF	O
+
+# sent_id = bar_tweet_1664150088552251393-2
+# text = Zone https://t.co/CLGi4DTWW6
+Zone	O
+https://t.co/CLGi4DTWW6	O
+
+# sent_id = bar_tweet_948893490703937542-2
+# text = " Bitte ? "
+"	O
+Bitte	O
+?	O
+"	O
+
+# sent_id = bar_tweet_948893490703937542-4
+# text = " Was ? "
+"	O
+Was	O
+?	O
+"	O
+
+# sent_id = bar_tweet_948893490703937542-5
+# text = " DIESE FRIKADELLE MUNDET …
+"	O
+DIESE	O
+FRIKADELLE	O
+MUNDET	O
+…	O
+
+# newdoc id = bar_tweet_679932205762785280
+# sent_id = bar_tweet_679932205762785280-1
+# text = Herzlichen Glückwunsch !
+Herzlichen	O
+Glückwunsch	O
+!	O
+
+# sent_id = bar_tweet_1599442866853404672-2
+# text = Warum ?
+Warum	O
+?	O
+
+# sent_id = bar_tweet_1118223369089032193-2
+# text = Die verbreiten sich im Moment wie die Masern .
+Die	O
+verbreiten	O
+sich	O
+im	O
+Moment	O
+wie	O
+die	O
+Masern	B-MISC
+.	O
+
+# sent_id = bar_tweet_316963951902609408-2
+# text = Danke für dein Fanfoto ! :-)
+Danke	O
+für	O
+dein	O
+Fanfoto	O
+!	O
+:-)	O
+
+# sent_id = bar_tweet_316963951902609408-3
+# text = Übrigens : für' d ... http://t.co/mB1CBsPDlY
+Übrigens	O
+:	O
+für'	O
+d	O
+...	O
+http://t.co/mB1CBsPDlY	O
+
+# newdoc id = bar_tweet_1620774234636288000
+# sent_id = bar_tweet_1620774234636288000-1
+# text = Wißt's ?
+Wißt's	O
+?	O
+
+# sent_id = bar_tweet_902139655008780291-2
+# text = Weitersagen !
+Weitersagen	O
+!	O
+
+# sent_id = bar_tweet_902139655008780291-4
+# text = Kaufen ! ... https://t.co/wy6EWOfgof
+Kaufen	O
+!	O
+...	O
+https://t.co/wy6EWOfgof	O
+
+# newdoc id = bar_tweet_1033685507467878400
+# sent_id = bar_tweet_1033685507467878400-1
+# text = RT @mention : Katze krank .
+RT	O
+@mention	O
+:	O
+Katze	O
+krank	O
+.	O
+
+# sent_id = bar_tweet_357119483262935040-3
+# text = --- Herzlichen Dank an ... http://t.co/UbcR9kmzqk
+---	O
+Herzlichen	O
+Dank	O
+an	O
+...	O
+http://t.co/UbcR9kmzqk	O
+
+# newdoc id = bar_tweet_1239455393224548352
+# sent_id = bar_tweet_1239455393224548352-1
+# text = @mention Ja , Wahnisnn .
+@mention	O
+Ja	O
+,	O
+Wahnisnn	O
+.	O
+
+# sent_id = bar_tweet_1317003256195842049-2
+# text = Aber die wirken .
+Aber	O
+die	O
+wirken	O
+.	O
+
+# newdoc id = bar_tweet_1651636247843028992
+# sent_id = bar_tweet_1651636247843028992-1
+# text = @mention @mention Stadt München ?
+@mention	O
+@mention	O
+Stadt	O
+München	B-LOC
+?	O
+
+# sent_id = bar_tweet_1399255793254506496-2
+# text = Vergelt's God !
+Vergelt's	O
+God	O
+!	O
+
+# sent_id = bar_tweet_1633069647862824963-2
+# text = " Frisch ?
+"	O
+Frisch	O
+?	O
+
+# sent_id = bar_tweet_1602754886814384128-4
+# text = #fuerSieGetestet 😉
+#fuerSieGetestet	O
+😉	O
+
+# sent_id = bar_tweet_598903399267045376-3
+# text = Geil ! http://t.co/6NOfdZlBSE
+Geil	O
+!	O
+http://t.co/6NOfdZlBSE	O
+
+# sent_id = bar_tweet_1600934077074665472-2
+# text = Die wird dann nächsten Herbst angangen
+Die	O
+wird	O
+dann	O
+nächsten	O
+Herbst	O
+angangen	O
+
+# sent_id = bar_tweet_1563627260590137344-5
+# text = #karriere_münchen https://t.co/eJbLUEK89j
+#karriere_münchen	B-LOCpart
+https://t.co/eJbLUEK89j	O
+
+# sent_id = bar_tweet_533916744298283008-2
+# text = #franzmünchinger #monacofranze #helmutfischer http://t.co/5GdS1a0ybi
+#franzmünchinger	B-LOC
+#monacofranze	B-WOA
+#helmutfischer	B-PER
+http://t.co/5GdS1a0ybi	O
+
+# sent_id = bar_tweet_1598988973677813760-3
+# text = Geldgierige Verkäufer 😂
+Geldgierige	O
+Verkäufer	O
+😂	O
+
+# newdoc id = bar_tweet_1525862500260098050
+# sent_id = bar_tweet_1525862500260098050-1
+# text = Freising .
+Freising	B-LOC
+.	O
+
+# sent_id = bar_tweet_1620755366610100224-2
+# text = Spaghetti mit Spinat .
+Spaghetti	O
+mit	O
+Spinat	O
+.	O
+
+# sent_id = bar_tweet_1642960007225565184-2
+# text = „ An die Anwohner der Kanalsanierung “ .
+„	O
+An	O
+die	O
+Anwohner	O
+der	O
+Kanalsanierung	O
+“	O
+.	O
+
