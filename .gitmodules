@@ -4,3 +4,6 @@
 [submodule "xsid"]
 	path = xsid
 	url = https://github.com/mainlp/xsid.git
+[submodule "UD_Bavarian-MaiBaam"]
+	path = UD_Bavarian-MaiBaam
+	url = https://github.com/UniversalDependencies/UD_Bavarian-MaiBaam.git
