@@ -1,0 +1,67 @@
+{
+  "UD_POS_maibaam": {
+    "train_data_path": "/content/drive/MyDrive/Masterarbeit/UD_POS_data/bar_maibaam-ud-train.conllu",
+    "dev_data_path": "/content/drive/MyDrive/Masterarbeit/UD_POS_data/bar_maibaam-ud-valid.conllu",
+    "word_idx": 1,
+    "tasks": {
+      "upos": {
+        "task_type": "seq",
+        "column_idx": 3,
+        "metric": "accuracy",
+        "additional_metrics": ["f1_micro", "f1_macro"]
+      },
+      "deprel": {
+        "task_type": "dependency",
+        "column_idx": 6,
+        "metric": "las",
+        "additional_metrics": ["uas"]
+      }
+    }
+  },
+  "NER_Wiki": {
+    "train_data_path": "/content/BaySIDshot/BarNER/data/BarNER-final/bar-wiki-train.tsv",
+    "dev_data_path": "/content/BaySIDshot/BarNER/data/BarNER-final/bar-wiki-dev.tsv",
+    "test_data_path": "/content/BaySIDshot/BarNER/data/BarNER-final/bar-wiki-test.tsv",
+    "word_idx": 0,
+    "tasks": {
+      "slots": {
+        "task_type": "seq",
+        "column_idx": 1,
+        "metric": "span_f1",
+        "additional_metrics": "accuracy"
+      }
+    }
+  },
+  "NER_Tweets": {
+    "train_data_path": "/content/drive/MyDrive/Masterarbeit/NER_data/bar-tweet-train.tsv",
+    "dev_data_path": "/content/drive/MyDrive/Masterarbeit/NER_data/bar-tweet-dev.tsv",
+    "test_data_path": "/content/drive/MyDrive/Masterarbeit/NER_data/bar-tweet-test.tsv",
+    "word_idx": 0,
+    "tasks": {
+      "slots": {
+        "task_type": "seq",
+        "column_idx": 1,
+        "metric": "span_f1",
+        "additional_metrics": "accuracy"
+      }
+    }
+  },
+  "NLU": {
+    "train_data_path": "/content/drive/MyDrive/Masterarbeit/xSID_data/en.test.conll",
+    "dev_data_path": "/content/drive/MyDrive/Masterarbeit/xSID_data/en.valid.conll",
+    "word_idx": 1,
+    "tasks": {
+      "slots": {
+        "task_type": "seq",
+        "column_idx": 3,
+        "metric": "span_f1",
+        "additional_metrics": "accuracy"
+      },
+      "intent": {
+        "task_type": "classification",
+        "column_idx": -1,
+        "metric": "accuracy"
+      }
+    }
+  }
+}
