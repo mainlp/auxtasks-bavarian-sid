@@ -1,0 +1,43 @@
+{
+    "NER": { // for wiki data
+        "train_data_path": "/content/BarNER/BarNER-final/bar-wiki-train.tsv",
+        "dev_data_path": "/content/BarNER/BarNER-final/bar-wiki-dev.tsv",
+        "test_data_path": "/content/BarNER/BarNER-final/bar-wiki-test.tsv",
+        "word_idx": 0,
+        "tasks": {
+            "slots": {
+                "task_type": "seq",
+                "column_idx": 1,
+                "metric": "span_f1",
+                "additional_metrics": "accuracy"
+            }//,
+            //"slots_bio": { // training for both seq task types jointly makes not much sense but would actually work
+                //"task_type": "seq_bio", // probably taken in xSID baseline - in config there but paper states seq?
+                //"column_idx": 1,
+                //"metric": "span_f1",
+                //"additional_metrics": "accuracy"
+            //}
+        }
+    },
+
+    "NER": { // for tweets data
+        "train_data_path": "/content/BarNER/BarNER-final/bar-tweet-train.tsv",
+        "dev_data_path": "/content/BarNER/BarNER-final/bar-tweet-dev.tsv",
+        "test_data_path": "/content/BarNER/BarNER-final/bar-tweet-test.tsv",
+        "word_idx": 0,
+        "tasks": {
+            "slots": {
+                "task_type": "seq",
+                "column_idx": 1,
+                "metric": "span_f1",
+                "additional_metrics": "accuracy"
+            }//,
+            //"slots_bio": { // training for both seq task types jointly makes not much sense but would actually work
+                //"task_type": "seq_bio", // probably taken in xSID baseline - in config there but paper states seq?
+                //"column_idx": 1,
+                //"metric": "span_f1",
+                //"additional_metrics": "accuracy"
+            //}
+        }
+    }
+}
