@@ -1,8 +1,8 @@
 {
-    "NER": { // for wiki data
-        "train_data_path": "/content/BarNER/BarNER-final/bar-wiki-train.tsv",
-        "dev_data_path": "/content/BarNER/BarNER-final/bar-wiki-dev.tsv",
-        "test_data_path": "/content/BarNER/BarNER-final/bar-wiki-test.tsv",
+    "NER_Wiki": { // for wiki data
+        "train_data_path": "/content/BaySIDshot/BarNER/data/BarNER-final/bar-wiki-train.tsv",
+        "dev_data_path": "/content/BaySIDshot/BarNER/data/BarNER-final/bar-wiki-dev.tsv",
+        "test_data_path": "/content/BaySIDshot/BarNER/data/BarNER-final/bar-wiki-test.tsv",
         "word_idx": 0,
         "tasks": {
             "slots": {
@@ -20,10 +20,10 @@
         }
     },
 
-    "NER": { // for tweets data
-        "train_data_path": "/content/BarNER/BarNER-final/bar-tweet-train.tsv",
-        "dev_data_path": "/content/BarNER/BarNER-final/bar-tweet-dev.tsv",
-        "test_data_path": "/content/BarNER/BarNER-final/bar-tweet-test.tsv",
+    "NER_Tweets": { // for tweets data
+        "train_data_path": "/content/drive/MyDrive/Masterarbeit/NER_data/bar-tweet-train.tsv",
+        "dev_data_path": "/content/drive/MyDrive/Masterarbeit/NER_data/bar-tweet-dev.tsv",
+        "test_data_path": "/content/drive/MyDrive/Masterarbeit/NER_data/bar-tweet-test.tsv",
         "word_idx": 0,
         "tasks": {
             "slots": {
