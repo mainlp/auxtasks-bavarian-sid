@@ -1,18 +1,18 @@
 {
-
   // set different transformer models here:
-  "transformer_model": "google-bert/bert-base-multilingual-cased",
+  // "transformer_model": "google-bert/bert-base-multilingual-cased",
   // "transformer_model": "FacebookAI/xlm-roberta-base",
-  // "transformer_model": "microsoft/mdeberta-v3-base",
-  // "transformer_model": "deepset/gbert-base",  // used "google-bert/bert-base-german-cased""deepset/gbert-base" but this is older
-  // set transformer_model_dim somewhere?
+  "transformer_model": "microsoft/mdeberta-v3-base",
+  // "transformer_model": "deepset/gbert-base",  // used "google-bert/bert-base-german-cased" but this is older
+  "transformer_model_dim": 768,
   "reset_transformer_model": false,
   "random_seed": 8446, // change here was not immanent - set a different random seed as command line argument
-  "numpy_seed": 1337,
+  "numpy_seed": 1337, // these two seeds necessary??
   "pytorch_seed": 133,
   "default_dec_dataset_embeds_dim": 12,
+
   "encoder": {
-    "dropout": 0.3, // adapted to xSID appendix
+    "dropout": 0.3, // adapted to hyperparams according to xSID appendix
     "max_input_length": 128,
     "update_weights_encoder": true
   },
@@ -54,6 +54,7 @@
       "metric": "span_f1"
     },
     "string2string": {
+      "metric": "accuracy" // sset this here as default metric - was not present in default param file
     },
     "tok": {
       "pre_split": true
@@ -70,28 +71,32 @@
   },
 
   "training": {
-    "keep_top_n": 1,
-    "learning_rate_scheduler": {
-      //"type": "slanted_triangular", // when trying to adapt to xSID appendix -
-      // SlantedTriangular.__init__() got an unexpected keyword argument 'type' - was commented out in default
-      "cut_frac": 0.2, // adapted to xSID appendix
-      "decay_factor": 0.38,
-      "discriminative_fine_tuning": true,
-      "gradual_unfreezing": true
+        "keep_top_n": 1,
+        "checkpointer": {
+            "num_serialized_models_to_keep": 1
+        },
+        "use_amp": true, // could save some memory on gpu - from xSID baseline config
+        "grad_norm": 1,
+        "learning_rate_scheduler": {
+            //"type": "slanted_triangular" // throws type error SlantedTriangular.__init__() got an unexpected keyword argument 'type'
+            // also not set in default config - for newest machamp version!
+            "cut_frac": 0.2,
+            "decay_factor": 0.38,
+            "discriminative_fine_tuning": true,
+            "gradual_unfreezing": true
+        },
+        "num_epochs": 20,
+        "optimizer": {
+            //"type": "adamw", // also throws error AdamW.__init__() got an unexpected keyword argument 'type'
+            // also not set in default config - for newest machamp version!
+            "betas": [0.9, 0.99],
+            "correct_bias": false,
+            "lr": 0.0001, // not adapted to hyperparams according to xSID appendix - typo there?!
+
+            "weight_decay": 0.01
+        },
+        //"patience": 5, // disabled, because slanted_triangular changes the lr dynamically
+        //"validation_metric": "+.run/.sum" // do i need this? rather use default which is loss
     },
-
-    "num_epochs": 20,
-
-    "optimizer": {
-      //"type": "adamw", // when trying to adapt to xSID appendix - AdamW.__init__() got an unexpected keyword argument 'type'
-      "betas": [0.9, 0.99],
-      "lr": 0.001,  // adapted to xSID appendix
-      "weight_decay": 0.01,
-      //"correct_bias": false,
-      //"patience": 5, // disabled, because slanted_triangular changes the lr dynamically
-    },
-
-  },
-
 }
 
