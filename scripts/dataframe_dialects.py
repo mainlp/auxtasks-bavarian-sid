@@ -62,6 +62,8 @@ data_mDeBERTa_exp1_ewt_nlu_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st'
 
 data_mDeBERTa_exp2_ner_nlu_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [83.4, 57.3, 54.6, 51.2, 95.6, 28.2], 'intents': [94.2, 83.4, 68.4, 79.4, 99.2, 62.2]}
 
+data_mDeBERTa_exp4_multi_1234 = {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [79.9, 50.2, 46.1, 46.3, 94.7, 26.9], 'intents': [94.6, 76.0, 58.4, 75.6, 99.2, 51.8]}
+
 
 # Create multi-index DataFrame for mBERT
 df_mBERT = pd.DataFrame(average_mBERT)
@@ -89,8 +91,19 @@ df_mDeBERTa_epx1ewt.set_index('Language', inplace=True)
 df_mDeBERTa_epx1ewt.columns = pd.MultiIndex.from_product([['mDeBERTa-EXP1EWT'], df_mDeBERTa_epx1ewt.columns])
 
 
+# Create multi-index DataFrame for mDeBERTa_exp1ner
+df_mDeBERTa_epx2ner = pd.DataFrame(data_mDeBERTa_exp2_ner_nlu_1234)
+df_mDeBERTa_epx2ner.set_index('Language', inplace=True)
+df_mDeBERTa_epx2ner.columns = pd.MultiIndex.from_product([['mDeBERTa-EXP2NER'], df_mDeBERTa_epx2ner.columns])
+
+# Create multi-index DataFrame for mDeBERTa_exp1ner
+df_mDeBERTa_epx4multi = pd.DataFrame(data_mDeBERTa_exp4_multi_1234)
+df_mDeBERTa_epx4multi.set_index('Language', inplace=True)
+df_mDeBERTa_epx4multi.columns = pd.MultiIndex.from_product([['mDeBERTa-EXP4MULTI'], df_mDeBERTa_epx4multi.columns])
+
+
 # Merge the DataFrames ensuring the correct language order - experiment not included for now!
-df_concatenated = pd.concat([df_mBERT, df_XLMR, df_gBERT, df_mDeBERTa, df_mDeBERTa_epx1ewt], axis=1)
+df_concatenated = pd.concat([df_mBERT, df_XLMR, df_gBERT, df_mDeBERTa, df_mDeBERTa_epx1ewt, df_mDeBERTa_epx2ner, df_mDeBERTa_epx4multi], axis=1)
 
 
 # Calculate the average values excluding "en" for each metric and each model
@@ -106,8 +119,15 @@ intents_avg_mDeBERTa  = df_concatenated.loc[df_concatenated.index != 'en', ('mDe
 slots_avg_gBERT = df_concatenated.loc[df_concatenated.index != 'en', ('gBERT', 'slots')].mean()
 intents_avg_gBERT = df_concatenated.loc[df_concatenated.index != 'en', ('gBERT', 'intents')].mean()
 
-slots_avg_mDeBERTa_exp = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP1EWT', 'slots')].mean()
-intents_avg_mDeBERTa_exp = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP1EWT', 'intents')].mean()
+slots_avg_mDeBERTa_exp1 = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP1EWT', 'slots')].mean()
+intents_avg_mDeBERTa_exp1 = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP1EWT', 'intents')].mean()
+
+slots_avg_mDeBERTa_exp2 = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP2NER', 'slots')].mean()
+intents_avg_mDeBERTa_exp2 = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP2NER', 'intents')].mean()
+
+slots_avg_mDeBERTa_exp4 = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP4MULTI', 'slots')].mean()
+intents_avg_mDeBERTa_exp4 = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP4MULTI', 'intents')].mean()
+
 
 # Format the average values to have only one digit after the decimal point
 
@@ -123,8 +143,14 @@ intents_avg_mDeBERTa_formatted = '{:.1f}'.format(intents_avg_mDeBERTa)
 slots_avg_gBERT_formatted = '{:.1f}'.format(slots_avg_gBERT)
 intents_avg_gBERT_formatted = '{:.1f}'.format(intents_avg_gBERT)
 
-slots_avg_mDeBERTa_exp1ewt_formatted = '{:.1f}'.format(slots_avg_mDeBERTa_exp)
-intents_avg_mDeBERTa_exp1ewt_formatted = '{:.1f}'.format(intents_avg_mDeBERTa_exp)
+slots_avg_mDeBERTa_exp1ewt_formatted = '{:.1f}'.format(slots_avg_mDeBERTa_exp1)
+intents_avg_mDeBERTa_exp1ewt_formatted = '{:.1f}'.format(intents_avg_mDeBERTa_exp1)
+
+slots_avg_mDeBERTa_exp2ner_formatted = '{:.1f}'.format(slots_avg_mDeBERTa_exp2)
+intents_avg_mDeBERTa_exp2ner_formatted = '{:.1f}'.format(intents_avg_mDeBERTa_exp2)
+
+slots_avg_mDeBERTa_exp4multi_formatted = '{:.1f}'.format(slots_avg_mDeBERTa_exp4)
+intents_avg_mDeBERTa_exp4multi_formatted = '{:.1f}'.format(intents_avg_mDeBERTa_exp4)
 
 # Create DataFrames containing the average values
 avg_data = {
@@ -137,7 +163,11 @@ avg_data = {
     ('mDeBERTa', 'slots'): [slots_avg_mDeBERTa_formatted],
     ('mDeBERTa', 'intents'): [intents_avg_mDeBERTa_formatted],
     ('mDeBERTa-EXP1EWT', 'slots'): [slots_avg_mDeBERTa_exp1ewt_formatted],
-    ('mDeBERTa-EXP1EWT', 'intents'): [intents_avg_mDeBERTa_exp1ewt_formatted]
+    ('mDeBERTa-EXP1EWT', 'intents'): [intents_avg_mDeBERTa_exp1ewt_formatted],
+    ('mDeBERTa-EXP2NER', 'slots'): [slots_avg_mDeBERTa_exp2ner_formatted],
+    ('mDeBERTa-EXP2NER', 'intents'): [intents_avg_mDeBERTa_exp2ner_formatted],
+    ('mDeBERTa-EXP4MULTI', 'slots'): [slots_avg_mDeBERTa_exp4multi_formatted],
+    ('mDeBERTa-EXP4MULTI', 'intents'): [intents_avg_mDeBERTa_exp4multi_formatted]
 }
 
 df_avg = pd.DataFrame(avg_data, index=['Avg.'])
