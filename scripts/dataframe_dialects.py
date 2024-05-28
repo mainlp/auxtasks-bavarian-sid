@@ -1,6 +1,8 @@
+#!/usr/bin/python3
+
 import pandas as pd
 
-# baseline data from xSID paper
+# dialects data!
 
 def average_scores(data1, data2, data3):
     # Ensure the languages are the same in all data inputs
@@ -81,7 +83,9 @@ average_gBERT = average_scores(data_gBERT_1234, data_gBERT_6543, data_gBERT_8446
 
 # first experiment - mDeBERTa first trained on UD EWT bavarian train english dev then NLU as before:
 
-data_exp21_8446 = {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [81.2, 56.0, 54.7, 52.0, 95.7, 24.6], 'intents': [88.4, 81.2, 70.6, 77.0, 99.4, 67.2]}
+#data_exp21_8446 = {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [81.2, 56.0, 54.7, 52.0, 95.7, 24.6], 'intents': [88.4, 81.2, 70.6, 77.0, 99.4, 67.2]}
+data_mDeBERTa_exp1_ewt_nlu_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [83.0, 50.8, 45.5, 45.5, 95.3, 22.7], 'intents': [95.4, 76.2, 58.8, 75.0, 99.4, 53.0]}
+
 
 
 # Create multi-index DataFrame for mBERT
@@ -95,14 +99,14 @@ data_exp21_8446 = {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], '
 #df_XLM15.columns = pd.MultiIndex.from_product([['XLM15-xSID'], df_XLM15.columns])
 
 # Create multi-index DataFrame for mBERT_me
-df_mBERT_me = pd.DataFrame(average_mBERT)
-df_mBERT_me.set_index('Language', inplace=True)
-df_mBERT_me.columns = pd.MultiIndex.from_product([['mBERT-ME'], df_mBERT_me.columns])
+df_mBERT = pd.DataFrame(average_mBERT)
+df_mBERT.set_index('Language', inplace=True)
+df_mBERT.columns = pd.MultiIndex.from_product([['mBERT'], df_mBERT.columns])
 
 # Create multi-index DataFrame for XLMR_me
-df_XLMR_me = pd.DataFrame(average_XLMR)
-df_XLMR_me.set_index('Language', inplace=True)
-df_XLMR_me.columns = pd.MultiIndex.from_product([['XLMR-ME'], df_XLMR_me.columns])
+df_XLMR = pd.DataFrame(average_XLMR)
+df_XLMR.set_index('Language', inplace=True)
+df_XLMR.columns = pd.MultiIndex.from_product([['XLMR'], df_XLMR.columns])
 
 # Create multi-index DataFrame for mDeBERTa
 df_mDeBERTa = pd.DataFrame(average_mDeBERTa)
@@ -114,29 +118,25 @@ df_gBERT = pd.DataFrame(average_gBERT)
 df_gBERT.set_index('Language', inplace=True)
 df_gBERT.columns = pd.MultiIndex.from_product([['gBERT'], df_gBERT.columns])
 
-# Create multi-index DataFrame for mDeBERTa_exp
-df_mDeBERTa_epx = pd.DataFrame(data_exp21_8446)
-df_mDeBERTa_epx.set_index('Language', inplace=True)
-df_mDeBERTa_epx.columns = pd.MultiIndex.from_product([['mDeBERTa-EXP'], df_mDeBERTa_epx.columns])
+# Create multi-index DataFrame for mDeBERTa_exp1ewt
+df_mDeBERTa_epx1ewt = pd.DataFrame(data_mDeBERTa_exp1_ewt_nlu_1234)
+df_mDeBERTa_epx1ewt.set_index('Language', inplace=True)
+df_mDeBERTa_epx1ewt.columns = pd.MultiIndex.from_product([['mDeBERTa-EXP1EWT'], df_mDeBERTa_epx1ewt.columns])
+
+
 
 # Merge the DataFrames ensuring the correct language order - experiment not included for now!
-df_concatenated = pd.concat([df_mBERT_me, df_XLMR_me, df_gBERT, df_mDeBERTa, df_mDeBERTa_epx], axis=1)
+df_concatenated = pd.concat([df_mBERT, df_XLMR, df_gBERT, df_mDeBERTa, df_mDeBERTa_epx1ewt], axis=1)
 
 
 
 
 # Calculate the average values excluding "en" for each metric and each model
-#slots_avg_mBERT = df_concatenated.loc[df_concatenated.index != 'en', ('mBERT-xSID', 'slots')].mean()
-#intents_avg_mBERT = df_concatenated.loc[df_concatenated.index != 'en', ('mBERT-xSID', 'intents')].mean()
+slots_avg_mBERT = df_concatenated.loc[df_concatenated.index != 'en', ('mBERT', 'slots')].mean()
+intents_avg_mBERT = df_concatenated.loc[df_concatenated.index != 'en', ('mBERT', 'intents')].mean()
 
-slots_avg_mBERT_me = df_concatenated.loc[df_concatenated.index != 'en', ('mBERT-ME', 'slots')].mean()
-intents_avg_mBERT_me = df_concatenated.loc[df_concatenated.index != 'en', ('mBERT-ME', 'intents')].mean()
-
-#slots_avg_XLM15 = df_concatenated.loc[df_concatenated.index != 'en', ('XLM15-xSID', 'slots')].mean()
-#intents_avg_XLM15 = df_concatenated.loc[df_concatenated.index != 'en', ('XLM15-xSID', 'intents')].mean()
-
-slots_avg_XLMR_me = df_concatenated.loc[df_concatenated.index != 'en', ('XLMR-ME', 'slots')].mean()
-intents_avg_XLMR_me = df_concatenated.loc[df_concatenated.index != 'en', ('XLMR-ME', 'intents')].mean()
+slots_avg_XLMR = df_concatenated.loc[df_concatenated.index != 'en', ('XLMR', 'slots')].mean()
+intents_avg_XLMR = df_concatenated.loc[df_concatenated.index != 'en', ('XLMR', 'intents')].mean()
 
 slots_avg_mDeBERTa = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa', 'slots')].mean()
 intents_avg_mDeBERTa  = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa', 'intents')].mean()
@@ -144,48 +144,40 @@ intents_avg_mDeBERTa  = df_concatenated.loc[df_concatenated.index != 'en', ('mDe
 slots_avg_gBERT = df_concatenated.loc[df_concatenated.index != 'en', ('gBERT', 'slots')].mean()
 intents_avg_gBERT = df_concatenated.loc[df_concatenated.index != 'en', ('gBERT', 'intents')].mean()
 
-slots_avg_mDeBERTa_exp = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP', 'slots')].mean()
-intents_avg_mDeBERTa_exp = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP', 'intents')].mean()
+slots_avg_mDeBERTa_exp = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP1EWT', 'slots')].mean()
+intents_avg_mDeBERTa_exp = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP1EWT', 'intents')].mean()
 
 # Format the average values to have only one digit after the decimal point
-#slots_avg_mBERT_formatted = '{:.1f}'.format(slots_avg_mBERT)
-#intents_avg_mBERT_formatted = '{:.1f}'.format(intents_avg_mBERT)
 
-slots_avg_mBERT_me_formatted = '{:.1f}'.format(slots_avg_mBERT_me)
-intents_avg_mBERT_me_formatted = '{:.1f}'.format(intents_avg_mBERT_me)
+slots_avg_mBERT_formatted = '{:.1f}'.format(slots_avg_mBERT)
+intents_avg_mBERT_formatted = '{:.1f}'.format(intents_avg_mBERT)
 
-#slots_avg_XLM15_formatted = '{:.1f}'.format(slots_avg_XLM15)
-#intents_avg_XLM15_formatted = '{:.1f}'.format(intents_avg_XLM15)
-
-slots_avg_XLMR_me_formatted = '{:.1f}'.format(slots_avg_XLMR_me)
-intents_avg_XLMR_me_formatted = '{:.1f}'.format(intents_avg_XLMR_me)
+slots_avg_XLMR_formatted = '{:.1f}'.format(slots_avg_XLMR)
+intents_avg_XLMR_formatted = '{:.1f}'.format(intents_avg_XLMR)
 
 slots_avg_mDeBERTa_formatted = '{:.1f}'.format(slots_avg_mDeBERTa)
 intents_avg_mDeBERTa_formatted = '{:.1f}'.format(intents_avg_mDeBERTa)
 
 slots_avg_gBERT_formatted = '{:.1f}'.format(slots_avg_gBERT)
-intents_avg_gBERT_exp_formatted = '{:.1f}'.format(intents_avg_gBERT)
+intents_avg_gBERT_formatted = '{:.1f}'.format(intents_avg_gBERT)
 
-slots_avg_mDeBERTa_exp_formatted = '{:.1f}'.format(slots_avg_mDeBERTa_exp)
-intents_avg_mDeBERTa_exp_formatted = '{:.1f}'.format(intents_avg_mDeBERTa_exp)
+slots_avg_mDeBERTa_exp1ewt_formatted = '{:.1f}'.format(slots_avg_mDeBERTa_exp)
+intents_avg_mDeBERTa_exp1ewt_formatted = '{:.1f}'.format(intents_avg_mDeBERTa_exp)
 
 # Create DataFrames containing the average values
 avg_data = {
-    ('mBERT-ME', 'slots'): [slots_avg_mBERT_me_formatted],
-    ('mBERT-ME', 'intents'): [intents_avg_mBERT_me_formatted],
-    ('XLMR-ME', 'slots'): [slots_avg_XLMR_me_formatted],
-    ('XLMR-ME', 'intents'): [intents_avg_XLMR_me_formatted],
+    ('mBERT', 'slots'): [slots_avg_mBERT_formatted],
+    ('mBERT', 'intents'): [intents_avg_mBERT_formatted],
+    ('XLMR', 'slots'): [slots_avg_XLMR_formatted],
+    ('XLMR', 'intents'): [intents_avg_XLMR_formatted],
     ('gBERT', 'slots'): [slots_avg_gBERT_formatted],
-    ('gBERT', 'intents'): [intents_avg_gBERT_exp_formatted],
+    ('gBERT', 'intents'): [intents_avg_gBERT_formatted],
     ('mDeBERTa', 'slots'): [slots_avg_mDeBERTa_formatted],
     ('mDeBERTa', 'intents'): [intents_avg_mDeBERTa_formatted],
-    ('mDeBERTa-EXP', 'slots'): [slots_avg_mDeBERTa_exp_formatted],
-    ('mDeBERTa-EXP', 'intents'): [intents_avg_mDeBERTa_exp_formatted]
+    ('mDeBERTa-EXP1EWT', 'slots'): [slots_avg_mDeBERTa_exp1ewt_formatted],
+    ('mDeBERTa-EXP1EWT', 'intents'): [intents_avg_mDeBERTa_exp1ewt_formatted]
 }
-#('XLM15-xSID', 'slots'): [slots_avg_XLM15_formatted],
-#('XLM15-xSID', 'intents'): [intents_avg_XLM15_formatted],
-#('mBERT-xSID', 'slots'): [slots_avg_mBERT_formatted],
-#('mBERT-xSID', 'intents'): [intents_avg_mBERT_formatted],
+
 
 df_avg = pd.DataFrame(avg_data, index=['Avg.'])
 
