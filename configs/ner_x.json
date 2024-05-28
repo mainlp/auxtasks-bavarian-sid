@@ -5,7 +5,7 @@
         "test_data_path": "/content/BaySIDshot/BarNER/data/BarNER-final/bar-wiki-test.tsv",
         "word_idx": 0,
         "tasks": {
-            "slots": {
+            "slots_wiki": {
                 "task_type": "seq",
                 "column_idx": 1,
                 "metric": "span_f1",
@@ -26,7 +26,7 @@
         "test_data_path": "/content/drive/MyDrive/Masterarbeit/NER_data/bar-tweet-test.tsv",
         "word_idx": 0,
         "tasks": {
-            "slots": {
+            "slots_twitter": {
                 "task_type": "seq",
                 "column_idx": 1,
                 "metric": "span_f1",
