@@ -1,5 +1,5 @@
 {
-  "transformer_model": "google-bert/bert-base-multilingual-cased",
+  "transformer_model": "deepset/gbert-base",
   "transformer_model_dim": 768,
   "reset_transformer_model": false,
   "random_seed": 8446,
