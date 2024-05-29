@@ -24,7 +24,7 @@
     "test_data_path": "/content/BaySIDshot/BarNER/data/BarNER-final/bar-wiki-test.tsv",
     "word_idx": 0,
     "tasks": {
-      "slots_wiki": {
+      "slots_wiki": {  // change to same task type as for dataset below?, then only one NER task!
         "task_type": "seq",
         "column_idx": 1,
         "metric": "span_f1",
@@ -38,7 +38,7 @@
     "test_data_path": "/content/drive/MyDrive/Masterarbeit/NER_data/bar-tweet-test.tsv",
     "word_idx": 0,
     "tasks": {
-      "slots_twitter": {
+      "slots_twitter": { // change to same task type as for dataset above?, then only one NER task!
         "task_type": "seq",
         "column_idx": 1,
         "metric": "span_f1",

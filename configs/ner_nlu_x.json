@@ -10,13 +10,7 @@
                 "column_idx": 1,
                 "metric": "span_f1",
                 "additional_metrics": "accuracy"
-            }//,
-            //"slots_bio": { // training for both seq task types jointly makes not much sense but would actually work
-                //"task_type": "seq_bio", // probably taken in xSID baseline - in config there but paper states seq?
-                //"column_idx": 1,
-                //"metric": "span_f1",
-                //"additional_metrics": "accuracy"
-            //}
+            }
         }
     },
 
@@ -31,13 +25,26 @@
                 "column_idx": 1,
                 "metric": "span_f1",
                 "additional_metrics": "accuracy"
-            }//,
-            //"slots_bio": { // see above
-                //"task_type": "seq_bio",
-                //"column_idx": 1,
-                //"metric": "span_f1",
-                //"additional_metrics": "accuracy"
-            //}
+            }
+        }
+    },
+
+    "NLU": {
+        "train_data_path": "/content/drive/MyDrive/Masterarbeit/xSID_data/en.train.conll",
+        "dev_data_path": "/content/drive/MyDrive/Masterarbeit/xSID_data/en.valid.conll",
+        "word_idx": 1,
+        "tasks": {
+            "slots": {
+                "task_type": "seq",
+                "column_idx": 3,
+                "metric": "span_f1",
+                "additional_metrics": "accuracy"
+            },
+            "intent": {
+                "task_type": "classification",
+                "column_idx": -1,
+                "metric": "accuracy"
+            }
         }
     }
 }
