@@ -1,5 +1,5 @@
 #!/bin/bash
-mkdir UD_data
+mkdir -p UD_data
 cd UD_data
 cp /content/BaySIDshot/UD_Bavarian-MaiBaam/bar_maibaam-ud-test.conllu .
 python3 /content/BaySIDshot/machamp/scripts/misc/cleanconl.py /content/BaySIDshot/UD_Bavarian-MaiBaam/bar_maibaam-ud-test.conllu
