@@ -60,6 +60,9 @@ average_gBERT = average_scores(data_gBERT_1234, data_gBERT_6543, data_gBERT_8446
 
 data_mDeBERTa_exp1_ewt_nlu_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [83.0, 50.8, 45.5, 45.5, 95.3, 22.7], 'intents': [95.4, 76.2, 58.8, 75.0, 99.4, 53.0]}
 
+data_mDeBERTa_exp1_ewtnlu_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [78.4, 37.9, 34.9, 38.7, 94.8, 18.1], 'intents': [90.2, 56.4, 43.0, 53.6, 99.0, 29.8]}
+
+
 data_mDeBERTa_exp2_ner_nlu_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [83.4, 57.3, 54.6, 51.2, 95.6, 28.2], 'intents': [94.2, 83.4, 68.4, 79.4, 99.2, 62.2]}
 
 data_mDeBERTa_exp4_multi_1234 = {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [79.9, 50.2, 46.1, 46.3, 94.7, 26.9], 'intents': [94.6, 76.0, 58.4, 75.6, 99.2, 51.8]}
