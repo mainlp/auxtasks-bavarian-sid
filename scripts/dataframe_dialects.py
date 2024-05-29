@@ -58,119 +58,113 @@ average_gBERT = average_scores(data_gBERT_1234, data_gBERT_6543, data_gBERT_8446
 # first experiment - mDeBERTa first trained on UD EWT then SID
 #data_exp21_8446 = {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [81.2, 56.0, 54.7, 52.0, 95.7, 24.6], 'intents': [88.4, 81.2, 70.6, 77.0, 99.4, 67.2]}
 
-data_mDeBERTa_exp1_ewt_nlu_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [83.0, 50.8, 45.5, 45.5, 95.3, 22.7], 'intents': [95.4, 76.2, 58.8, 75.0, 99.4, 53.0]}
-
 data_mDeBERTa_exp1_ewtnlu_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [78.4, 37.9, 34.9, 38.7, 94.8, 18.1], 'intents': [90.2, 56.4, 43.0, 53.6, 99.0, 29.8]}
 
+data_mDeBERTa_exp2_ewt_nlu_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [83.0, 50.8, 45.5, 45.5, 95.3, 22.7], 'intents': [95.4, 76.2, 58.8, 75.0, 99.4, 53.0]}
+
+
+data_mDeBERTa_exp1_nernlu_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [82.6, 57.5, 54.9, 54.0, 94.8, 33.2], 'intents': [96.6, 84.6, 68.4, 80.4, 99.0, 65.0]}
 
 data_mDeBERTa_exp2_ner_nlu_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [83.4, 57.3, 54.6, 51.2, 95.6, 28.2], 'intents': [94.2, 83.4, 68.4, 79.4, 99.2, 62.2]}
+
 
 data_mDeBERTa_exp4_multi_1234 = {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [79.9, 50.2, 46.1, 46.3, 94.7, 26.9], 'intents': [94.6, 76.0, 58.4, 75.6, 99.2, 51.8]}
 
 
-# Create multi-index DataFrame for mBERT
-df_mBERT = pd.DataFrame(average_mBERT)
-df_mBERT.set_index('Language', inplace=True)
-df_mBERT.columns = pd.MultiIndex.from_product([['mBERT'], df_mBERT.columns])
+# # Create multi-index DataFrame for mBERT
+# df_mBERT = pd.DataFrame(average_mBERT)
+# df_mBERT.set_index('Language', inplace=True)
+# df_mBERT.columns = pd.MultiIndex.from_product([['mBERT'], df_mBERT.columns])
+#
+# # Create multi-index DataFrame for XLMR
+# df_XLMR = pd.DataFrame(average_XLMR)
+# df_XLMR.set_index('Language', inplace=True)
+# df_XLMR.columns = pd.MultiIndex.from_product([['XLMR'], df_XLMR.columns])
+#
+# # Create multi-index DataFrame for gBERT
+# df_gBERT = pd.DataFrame(average_gBERT)
+# df_gBERT.set_index('Language', inplace=True)
+# df_gBERT.columns = pd.MultiIndex.from_product([['gBERT'], df_gBERT.columns])
 
-# Create multi-index DataFrame for XLMR
-df_XLMR = pd.DataFrame(average_XLMR)
-df_XLMR.set_index('Language', inplace=True)
-df_XLMR.columns = pd.MultiIndex.from_product([['XLMR'], df_XLMR.columns])
 
 # Create multi-index DataFrame for mDeBERTa
 df_mDeBERTa = pd.DataFrame(average_mDeBERTa)
 df_mDeBERTa.set_index('Language', inplace=True)
 df_mDeBERTa.columns = pd.MultiIndex.from_product([['mDeBERTa'], df_mDeBERTa.columns])
 
-# Create multi-index DataFrame for gBERT
-df_gBERT = pd.DataFrame(average_gBERT)
-df_gBERT.set_index('Language', inplace=True)
-df_gBERT.columns = pd.MultiIndex.from_product([['gBERT'], df_gBERT.columns])
+# Create multi-index DataFrame for mDeBERTa_exp1_ewtnlu
+df_mDeBERTa_epx1ewtnlu =pd.DataFrame(data_mDeBERTa_exp1_ewtnlu_1234)
+df_mDeBERTa_epx1ewtnlu.set_index('Language', inplace=True)
+df_mDeBERTa_epx1ewtnlu.columns = pd.MultiIndex.from_product([['mDeBERTa-EXP1EWT'], df_mDeBERTa_epx1ewtnlu.columns])
 
-# Create multi-index DataFrame for mDeBERTa_exp1ewt
-df_mDeBERTa_epx1ewt = pd.DataFrame(data_mDeBERTa_exp1_ewt_nlu_1234)
-df_mDeBERTa_epx1ewt.set_index('Language', inplace=True)
-df_mDeBERTa_epx1ewt.columns = pd.MultiIndex.from_product([['mDeBERTa-EXP1EWT'], df_mDeBERTa_epx1ewt.columns])
+# Create multi-index DataFrame for mDeBERTa_exp2ewt_nlu
+df_mDeBERTa_epx2ewt_nlu = pd.DataFrame(data_mDeBERTa_exp2_ewt_nlu_1234)
+df_mDeBERTa_epx2ewt_nlu.set_index('Language', inplace=True)
+df_mDeBERTa_epx2ewt_nlu.columns = pd.MultiIndex.from_product([['mDeBERTa-EXP2EWT'], df_mDeBERTa_epx2ewt_nlu.columns])
 
+# Create multi-index DataFrame for mDeBERTa_exp1_nernlu
+df_mDeBERTa_epx1nernlu = pd.DataFrame(data_mDeBERTa_exp1_nernlu_1234)
+df_mDeBERTa_epx1nernlu.set_index('Language', inplace=True)
+df_mDeBERTa_epx1nernlu.columns = pd.MultiIndex.from_product([['mDeBERTa-EXP1NER'], df_mDeBERTa_epx1nernlu.columns])
 
-# Create multi-index DataFrame for mDeBERTa_exp1ner
-df_mDeBERTa_epx2ner = pd.DataFrame(data_mDeBERTa_exp2_ner_nlu_1234)
-df_mDeBERTa_epx2ner.set_index('Language', inplace=True)
-df_mDeBERTa_epx2ner.columns = pd.MultiIndex.from_product([['mDeBERTa-EXP2NER'], df_mDeBERTa_epx2ner.columns])
+# Create multi-index DataFrame for mDeBERTa_exp2ner_nlu
+df_mDeBERTa_epx2ner_nlu = pd.DataFrame(data_mDeBERTa_exp2_ner_nlu_1234)
+df_mDeBERTa_epx2ner_nlu.set_index('Language', inplace=True)
+df_mDeBERTa_epx2ner_nlu.columns = pd.MultiIndex.from_product([['mDeBERTa-EXP2NER'], df_mDeBERTa_epx2ner_nlu.columns])
 
-# Create multi-index DataFrame for mDeBERTa_exp1ner
+# Create multi-index DataFrame for mDeBERTa_exp4multi
 df_mDeBERTa_epx4multi = pd.DataFrame(data_mDeBERTa_exp4_multi_1234)
 df_mDeBERTa_epx4multi.set_index('Language', inplace=True)
 df_mDeBERTa_epx4multi.columns = pd.MultiIndex.from_product([['mDeBERTa-EXP4MULTI'], df_mDeBERTa_epx4multi.columns])
 
 
 # Merge the DataFrames ensuring the correct language order - experiment not included for now!
-df_concatenated = pd.concat([df_mBERT, df_XLMR, df_gBERT, df_mDeBERTa, df_mDeBERTa_epx1ewt, df_mDeBERTa_epx2ner, df_mDeBERTa_epx4multi], axis=1)
+df_concatenated = pd.concat([df_mDeBERTa, df_mDeBERTa_epx1ewtnlu, df_mDeBERTa_epx2ewt_nlu, df_mDeBERTa_epx1nernlu, df_mDeBERTa_epx2ner_nlu, df_mDeBERTa_epx4multi], axis=1)
 
 
 # Calculate the average values excluding "en" for each metric and each model
-slots_avg_mBERT = df_concatenated.loc[df_concatenated.index != 'en', ('mBERT', 'slots')].mean()
-intents_avg_mBERT = df_concatenated.loc[df_concatenated.index != 'en', ('mBERT', 'intents')].mean()
+#slots_avg_mBERT = df_concatenated.loc[df_concatenated.index != 'en', ('mBERT', 'slots')].mean()
+#intents_avg_mBERT = df_concatenated.loc[df_concatenated.index != 'en', ('mBERT', 'intents')].mean()
 
-slots_avg_XLMR = df_concatenated.loc[df_concatenated.index != 'en', ('XLMR', 'slots')].mean()
-intents_avg_XLMR = df_concatenated.loc[df_concatenated.index != 'en', ('XLMR', 'intents')].mean()
+#slots_avg_XLMR = df_concatenated.loc[df_concatenated.index != 'en', ('XLMR', 'slots')].mean()
+#intents_avg_XLMR = df_concatenated.loc[df_concatenated.index != 'en', ('XLMR', 'intents')].mean()
+
+#slots_avg_gBERT = df_concatenated.loc[df_concatenated.index != 'en', ('gBERT', 'slots')].mean()
+#intents_avg_gBERT = df_concatenated.loc[df_concatenated.index != 'en', ('gBERT', 'intents')].mean()
 
 slots_avg_mDeBERTa = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa', 'slots')].mean()
-intents_avg_mDeBERTa  = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa', 'intents')].mean()
+intents_avg_mDeBERTa = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa', 'intents')].mean()
 
-slots_avg_gBERT = df_concatenated.loc[df_concatenated.index != 'en', ('gBERT', 'slots')].mean()
-intents_avg_gBERT = df_concatenated.loc[df_concatenated.index != 'en', ('gBERT', 'intents')].mean()
+slots_avg_mDeBERTa_exp1ewtnlu = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP1EWT', 'slots')].mean()
+intents_avg_mDeBERTa_exp1ewtnlu = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP1EWT', 'intents')].mean()
 
-slots_avg_mDeBERTa_exp1 = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP1EWT', 'slots')].mean()
-intents_avg_mDeBERTa_exp1 = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP1EWT', 'intents')].mean()
+slots_avg_mDeBERTa_exp2_ewt_nlu = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP2EWT', 'slots')].mean()
+intents_avg_mDeBERTa_exp2_ewt_nlu = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP2EWT', 'intents')].mean()
 
-slots_avg_mDeBERTa_exp2 = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP2NER', 'slots')].mean()
-intents_avg_mDeBERTa_exp2 = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP2NER', 'intents')].mean()
+slots_avg_mDeBERTa_exp1nernlu = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP1NER', 'slots')].mean()
+intents_avg_mDeBERTa_exp1nernlu = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP1NER', 'intents')].mean()
 
-slots_avg_mDeBERTa_exp4 = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP4MULTI', 'slots')].mean()
-intents_avg_mDeBERTa_exp4 = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP4MULTI', 'intents')].mean()
+slots_avg_mDeBERTa_exp2_ner_nlu = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP2NER', 'slots')].mean()
+intents_avg_mDeBERTa_exp2_ner_nlu = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP2NER', 'intents')].mean()
 
+slots_avg_mDeBERTa_exp4_multi = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP4MULTI', 'slots')].mean()
+intents_avg_mDeBERTa_exp4_multi = df_concatenated.loc[df_concatenated.index != 'en', ('mDeBERTa-EXP4MULTI', 'intents')].mean()
 
-# Format the average values to have only one digit after the decimal point
-
-slots_avg_mBERT_formatted = '{:.1f}'.format(slots_avg_mBERT)
-intents_avg_mBERT_formatted = '{:.1f}'.format(intents_avg_mBERT)
-
-slots_avg_XLMR_formatted = '{:.1f}'.format(slots_avg_XLMR)
-intents_avg_XLMR_formatted = '{:.1f}'.format(intents_avg_XLMR)
-
-slots_avg_mDeBERTa_formatted = '{:.1f}'.format(slots_avg_mDeBERTa)
-intents_avg_mDeBERTa_formatted = '{:.1f}'.format(intents_avg_mDeBERTa)
-
-slots_avg_gBERT_formatted = '{:.1f}'.format(slots_avg_gBERT)
-intents_avg_gBERT_formatted = '{:.1f}'.format(intents_avg_gBERT)
-
-slots_avg_mDeBERTa_exp1ewt_formatted = '{:.1f}'.format(slots_avg_mDeBERTa_exp1)
-intents_avg_mDeBERTa_exp1ewt_formatted = '{:.1f}'.format(intents_avg_mDeBERTa_exp1)
-
-slots_avg_mDeBERTa_exp2ner_formatted = '{:.1f}'.format(slots_avg_mDeBERTa_exp2)
-intents_avg_mDeBERTa_exp2ner_formatted = '{:.1f}'.format(intents_avg_mDeBERTa_exp2)
-
-slots_avg_mDeBERTa_exp4multi_formatted = '{:.1f}'.format(slots_avg_mDeBERTa_exp4)
-intents_avg_mDeBERTa_exp4multi_formatted = '{:.1f}'.format(intents_avg_mDeBERTa_exp4)
 
 # Create DataFrames containing the average values
 avg_data = {
-    ('mBERT', 'slots'): [slots_avg_mBERT_formatted],
-    ('mBERT', 'intents'): [intents_avg_mBERT_formatted],
-    ('XLMR', 'slots'): [slots_avg_XLMR_formatted],
-    ('XLMR', 'intents'): [intents_avg_XLMR_formatted],
-    ('gBERT', 'slots'): [slots_avg_gBERT_formatted],
-    ('gBERT', 'intents'): [intents_avg_gBERT_formatted],
-    ('mDeBERTa', 'slots'): [slots_avg_mDeBERTa_formatted],
-    ('mDeBERTa', 'intents'): [intents_avg_mDeBERTa_formatted],
-    ('mDeBERTa-EXP1EWT', 'slots'): [slots_avg_mDeBERTa_exp1ewt_formatted],
-    ('mDeBERTa-EXP1EWT', 'intents'): [intents_avg_mDeBERTa_exp1ewt_formatted],
-    ('mDeBERTa-EXP2NER', 'slots'): [slots_avg_mDeBERTa_exp2ner_formatted],
-    ('mDeBERTa-EXP2NER', 'intents'): [intents_avg_mDeBERTa_exp2ner_formatted],
-    ('mDeBERTa-EXP4MULTI', 'slots'): [slots_avg_mDeBERTa_exp4multi_formatted],
-    ('mDeBERTa-EXP4MULTI', 'intents'): [intents_avg_mDeBERTa_exp4multi_formatted]
+    ('mDeBERTa', 'slots'): [slots_avg_mDeBERTa.round(1)],
+    ('mDeBERTa', 'intents'): [intents_avg_mDeBERTa.round(1)],
+    ('mDeBERTa-EXP1EWT', 'slots'): [slots_avg_mDeBERTa_exp1ewtnlu.round(1)],
+    ('mDeBERTa-EXP1EWT', 'intents'): [intents_avg_mDeBERTa_exp1ewtnlu.round(1)],
+    ('mDeBERTa-EXP2EWT', 'slots'): [slots_avg_mDeBERTa_exp2_ewt_nlu.round(1)],
+    ('mDeBERTa-EXP2EWT', 'intents'): [intents_avg_mDeBERTa_exp2_ewt_nlu.round(1)],
+    ('mDeBERTa-EXP1NER', 'slots'): [slots_avg_mDeBERTa_exp1nernlu.round(1)],
+    ('mDeBERTa-EXP1NER', 'intents'): [intents_avg_mDeBERTa_exp1nernlu.round(1)],
+    ('mDeBERTa-EXP2NER', 'slots'): [slots_avg_mDeBERTa_exp2_ner_nlu.round(1)],
+    ('mDeBERTa-EXP2NER', 'intents'): [intents_avg_mDeBERTa_exp2_ner_nlu.round(1)],
+    ('mDeBERTa-EXP4MULTI', 'slots'): [slots_avg_mDeBERTa_exp4_multi.round(1)],
+    ('mDeBERTa-EXP4MULTI', 'intents'): [intents_avg_mDeBERTa_exp4_multi.round(1)]
 }
 
 df_avg = pd.DataFrame(avg_data, index=['Avg.'])
