@@ -23,6 +23,7 @@
     "NLU": {
         "train_data_path": "/content/drive/MyDrive/Masterarbeit/xSID_data/en.train.conll",
         "dev_data_path": "/content/drive/MyDrive/Masterarbeit/xSID_data/en.valid.conll",
+        "test_data_path": "/content/drive/MyDrive/Masterarbeit/xSID_data/en.test.conll",
         "word_idx": 1,
         "tasks": {
             "slots": {
