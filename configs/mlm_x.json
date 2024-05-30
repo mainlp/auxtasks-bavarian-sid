@@ -1,5 +1,5 @@
 {
-  "Bay_Wiki": {
+  "Bavarian_Wiki": {
     "train_data_path": "/content/drive/MyDrive/Masterarbeit/MLM_data/bavarian_train.txt",
     "dev_data_path": "/content/drive/MyDrive/Masterarbeit/MLM_data/bavarian_dev.txt",
     "max_sents": 1000, // default was 10000
