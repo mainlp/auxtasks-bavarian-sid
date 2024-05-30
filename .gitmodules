@@ -13,3 +13,6 @@
 [submodule "BarNER_Twitter"]
 	path = BarNER_Twitter
 	url = git@github.com:XaverKrueckl/BarNER_Twitter.git
+[submodule "NaLiBaSID"]
+	path = NaLiBaSID
+	url = https://github.com/mainlp/NaLiBaSID.git
