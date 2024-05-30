@@ -10,3 +10,6 @@
 [submodule "BarNER"]
 	path = BarNER
 	url = https://github.com/mainlp/BarNER.git
+[submodule "BarNER_Twitter"]
+	path = BarNER_Twitter
+	url = git@github.com:XaverKrueckl/BarNER_Twitter.git
