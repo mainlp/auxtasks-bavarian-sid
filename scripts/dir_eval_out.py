@@ -73,9 +73,9 @@ def writeResults(all_langs, baseline, dialects, experiment_name):
     print(results_file_path)
     with open(results_file_path, "w", encoding="utf-8") as file:
         experiment_name = {
-            "All Languages Results": all_langs,
-            "Baseline Results": baseline,
-            "Dialects Results": dialects
+            "all_langs_results": all_langs,
+            "baseline_langs_results": baseline,
+            "dialects_langs_results": dialects
         }
         json.dump(experiment_name, file, indent=2)
 
@@ -89,6 +89,8 @@ if __name__ == '__main__':
     pred_dir = sys.argv[2]
     experiment_name = str(sys.argv[2])
     experiment_name = experiment_name.split('/')[-2]
+    if "predictions_" in experiment_name:
+        experiment_name = experiment_name.replace("predictions_", "")
     print("Experiment Name: ", experiment_name)
 
     # predictiong only for test files - could be adapted to validation files here
