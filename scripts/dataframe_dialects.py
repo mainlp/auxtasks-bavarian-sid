@@ -67,8 +67,8 @@ data_mDeBERTa_exp1_nernlu_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st',
 
 data_mDeBERTa_exp2_ner_nlu_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [83.4, 57.3, 54.6, 51.2, 95.6, 28.2], 'intents': [94.2, 83.4, 68.4, 79.4, 99.2, 62.2]}
 
-
-data_mDeBERTa_exp4_multi_1234 = {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [79.9, 50.2, 46.1, 46.3, 94.7, 26.9], 'intents': [94.6, 76.0, 58.4, 75.6, 99.2, 51.8]}
+# 2 NER Tasks!
+data_mDeBERTa_exp4_multi2_1234 = {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [79.9, 50.2, 46.1, 46.3, 94.7, 26.9], 'intents': [94.6, 76.0, 58.4, 75.6, 99.2, 51.8]}
 
 
 # # Create multi-index DataFrame for mBERT
@@ -112,8 +112,8 @@ df_mDeBERTa_epx2ner_nlu = pd.DataFrame(data_mDeBERTa_exp2_ner_nlu_1234)
 df_mDeBERTa_epx2ner_nlu.set_index('Language', inplace=True)
 df_mDeBERTa_epx2ner_nlu.columns = pd.MultiIndex.from_product([['mDeBERTa-EXP2NER'], df_mDeBERTa_epx2ner_nlu.columns])
 
-# Create multi-index DataFrame for mDeBERTa_exp4multi
-df_mDeBERTa_epx4multi = pd.DataFrame(data_mDeBERTa_exp4_multi_1234)
+# Create multi-index DataFrame for mDeBERTa_exp4multi 2 NER Tasks!
+df_mDeBERTa_epx4multi = pd.DataFrame(data_mDeBERTa_exp4_multi2_1234)
 df_mDeBERTa_epx4multi.set_index('Language', inplace=True)
 df_mDeBERTa_epx4multi.columns = pd.MultiIndex.from_product([['mDeBERTa-EXP4MULTI'], df_mDeBERTa_epx4multi.columns])
 

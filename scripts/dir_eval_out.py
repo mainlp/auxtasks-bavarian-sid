@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 
 import os, sys
-
-from collections import Counter
+import json
 from typing import List, Tuple, Set
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 
@@ -39,11 +38,9 @@ def toSpans(tags: List[str]) -> Set[str]:
     return spans
 
 def getBegEnd(span: str) -> List[int]:
-#def getBegEnd(span):
     return [int(x) for x in span.split(':')[0].split('-')]
 
 def getLooseOverlap(spans1: List[str], spans2: List[str]) -> int:
-#def getLooseOverlap(spans1, spans2):
     found = 0
     for spanIdx, span in enumerate(spans1):
         spanBeg, spanEnd = getBegEnd(span)
@@ -63,40 +60,21 @@ def getLooseOverlap(spans1: List[str], spans2: List[str]) -> int:
     return found
 
 def getUnlabeled(spans1: List[str], spans2: List[str]) -> int:
-#def getUnlabeled(spans1, spans2):
     return len(set([x.split('-')[0] for x in spans1]).intersection([x.split('-')[0] for x in spans2]))
 
 
-def getInstanceScores(predPath: str, goldPath: str) -> Tuple[List[float], List[float]]:
-#def getInstanceScores(predPath, goldPath):
-    goldSlots, goldIntents = readNlu(goldPath)
-    predSlots, predIntents = readNlu(predPath)
-    
-    intentScores: List[float] = []
-    slotScores: List[float] = [] 
-    #intentScores = []
-    #slotScores = []
-    
-    for goldSlot, goldIntent, predSlot, predIntent in zip(goldSlots, goldIntents, predSlots, predIntents):
-        if goldIntent == predIntent:
-            intentScores.append(100.0)
-        else:
-            intentScores.append(0.0)
-        
-        goldSpans = toSpans(goldSlot)
-        predSpans = toSpans(predSlot)
-        overlap = len(goldSpans.intersection(predSpans))
-        tp = overlap
-        fp = len(predSpans) - overlap
-        fn = len(goldSpans) - overlap
-        
-        prec = 0.0 if tp+fp == 0 else tp/(tp+fp)
-        rec = 0.0 if tp+fn == 0 else tp/(tp+fn)
-        f1 = 0.0 if prec+rec == 0.0 else 2 * (prec * rec) / (prec + rec)
-        slotScores.append(f1)
-        
-    return slotScores, intentScores
-
+def writeResults(all_langs, baseline, dialects, experiment_name):
+    results_dir = "/content/BaySIDshot/results/"
+    if not os.path.exists(results_dir):
+        os.makedirs(results_dir)
+    results_file_path = str(f"{results_dir}{experiment_name}.json")
+    with open(results_file_path, "w", encoding="utf-8") as file:
+        experiment_name = {
+            "All Languages Results": all_langs,
+            "Baseline Results": baseline,
+            "Dialects Results": dialects
+        }
+        json.dump(experiment_name, file, indent=2)
 
 
 if __name__ == '__main__':
@@ -106,30 +84,37 @@ if __name__ == '__main__':
 
     gold_dir = sys.argv[1]
     pred_dir = sys.argv[2]
+    experiment_name = str(sys.argv[2])
 
+    # predictiong only for test files - could be adapted to validation files here
+    # sorted by filename to zip them together correctly later on!
     gold_files = [file for file in os.listdir(gold_dir) if file.endswith(".test.conll")]
     gold_files = sorted(gold_files, key=lambda x: (x.split("."))[0])
     pred_files = [file for file in os.listdir(pred_dir) if file.endswith(".test.conll.out")]
     pred_files = sorted(pred_files, key=lambda x: (x.split("."))[0])
 
+    # initializing result dicts:
     baseline_langs = ['en', 'de-st', 'de', 'da', 'nl', 'it', 'sr', 'id', 'ar', 'zh', 'kk', 'tr', 'ja']
     data_baseline = {
         'Language': [],
         'slots': [],
-        'intents': []
+        'intents': [],
+        'correct': []
     }
     dialect_langs = ['en', 'de-st', 'de', 'gsw', 'de-ba', 'de-by']
     data_dialects = {
         'Language': [],
         'slots': [],
-        'intents': []
+        'intents': [],
+        'correct': []
     }
 
     all_langs = ['ar', 'da', 'de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw', 'id', 'it', 'ja', 'kk', 'nap', 'nl', 'sr', 'tr', 'zh']
     data_all_langs = {
         'Language': [],
         'slots': [],
-        'intents': []
+        'intents': [],
+        'correct': []
     }
 
 
@@ -140,10 +125,10 @@ if __name__ == '__main__':
         goldSlots, goldIntents = readNlu(gold_path)
         predSlots, predIntents = readNlu(pred_path)
 
-        name = gold_file.split(".")[0]  # Assuming file names are unique
-        print("Predictions for: ", name)
+        name = gold_file.split(".")[0]
+        print("Predicting on: ", name)
 
-        # this logic is only for getting xSID compareable languages!!
+        # initialize this language to results dicts if part of them
         save_baseline = False
         save_dialects = False
         save_all = False
@@ -206,8 +191,7 @@ if __name__ == '__main__':
             # fully correct sentences
             if overlap_st == len(goldSpans) and len(goldSpans) == len(predSpans) and goldIntent == predIntent:
                 fullyCor += 1
-                #print(goldSpans)
-                #print(predSpans)
+
 
         # some info on the intents:
         # print("Intents: ", set(goldIntents))
@@ -228,10 +212,13 @@ if __name__ == '__main__':
 
         if save_baseline:
             data_baseline['intents'].append(intent_accurracy)
+            data_baseline['fullyCor'].append(fullyCor/len(goldSlots))
         if save_dialects:
             data_dialects['intents'].append(intent_accurracy)
+            data_dialects['fullyCor'].append(fullyCor/len(goldSlots))
         if save_all:
             data_all_langs['intents'].append(intent_accurracy)
+            data_all_langs['fullyCor'].append(fullyCor/len(goldSlots))
         print()
 
         print(f"fully correct examples: {fullyCor/len(goldSlots)}")
@@ -307,4 +294,6 @@ if __name__ == '__main__':
     print("Baseline:\n", data_baseline)
     print("Dialects:\n", data_dialects)
     print("All:\n", data_all_langs)
+
+    writeResults(data_all_langs, data_baseline, data_dialects, experiment_name)
 
