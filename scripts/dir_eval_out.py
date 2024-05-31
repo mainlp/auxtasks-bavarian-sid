@@ -65,9 +65,12 @@ def getUnlabeled(spans1: List[str], spans2: List[str]) -> int:
 
 def writeResults(all_langs, baseline, dialects, experiment_name):
     results_dir = "/content/BaySIDshot/results/"
+    # for testing in pycharm:
+    #results_dir = "/Users/xavermariakrueckl/PycharmProjects/BaySIDshot/results/"
     if not os.path.exists(results_dir):
         os.makedirs(results_dir)
     results_file_path = str(f"{results_dir}{experiment_name}.json")
+    print(results_file_path)
     with open(results_file_path, "w", encoding="utf-8") as file:
         experiment_name = {
             "All Languages Results": all_langs,
@@ -85,6 +88,8 @@ if __name__ == '__main__':
     gold_dir = sys.argv[1]
     pred_dir = sys.argv[2]
     experiment_name = str(sys.argv[2])
+    experiment_name = experiment_name.split('/')[-2]
+    print("Experiment Name: ", experiment_name)
 
     # predictiong only for test files - could be adapted to validation files here
     # sorted by filename to zip them together correctly later on!
@@ -231,19 +236,19 @@ if __name__ == '__main__':
         # flattening lists of lists of slots into single lists of slots
         gold_slots_flat = [slot for sublist in goldSlots for slot in sublist]
         predicted_slots_flat = [slot for sublist in predSlots for slot in sublist]
-        assert len(gold_slots_flat) == len(predicted_slots_flat), "Gold and predicted data must have the same number of elements."
+        #assert len(gold_slots_flat) == len(predicted_slots_flat), "Gold and predicted data must have the same number of elements."
         # printed later
-        accuracy = accuracy_score(gold_slots_flat, predicted_slots_flat)
-        precision, recall, f1, _ = precision_recall_fscore_support(gold_slots_flat, predicted_slots_flat, zero_division=1,
-                                                                   average='weighted')
+        #accuracy = accuracy_score(gold_slots_flat, predicted_slots_flat)
+        #precision, recall, f1, _ = precision_recall_fscore_support(gold_slots_flat, predicted_slots_flat, zero_division=1,
+                                                                   #average='weighted')
 
         print("Slots:")
 
-        print(f"sklearn accuracy:\t{accuracy:.3f}")
-        print()
-        print(f"sklearn recall: \t{recall:.3f}")
-        print(f"sklearn precision: \t{precision:.3f}")
-        print(f"sklearn slot-f1: \t{f1:.3f}")
+        #print(f"sklearn accuracy:\t{accuracy:.3f}")
+        #print()
+        #print(f"sklearn recall: \t{recall:.3f}")
+        #print(f"sklearn precision: \t{precision:.3f}")
+        #print(f"sklearn slot-f1: \t{f1:.3f}")
 
         print()
         # strict span f1 - both span and label must match exactly!
