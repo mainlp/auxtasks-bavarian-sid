@@ -3,6 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/BarNER" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BarNER_Twitter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NaLiBaSID" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/UD_Bavarian-MaiBaam" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/machamp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/xsid" vcs="Git" />
