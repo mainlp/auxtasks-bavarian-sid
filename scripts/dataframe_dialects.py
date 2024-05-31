@@ -67,7 +67,10 @@ data_mDeBERTa_exp1_nernlu_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st',
 
 data_mDeBERTa_exp2_ner_nlu_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [83.4, 57.3, 54.6, 51.2, 95.6, 28.2], 'intents': [94.2, 83.4, 68.4, 79.4, 99.2, 62.2]}
 
-# 2 NER Tasks!
+# NER as 1 Task!
+data_mDeBERTa_exp4_multi1_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [82.0, 54.2, 51.9, 53.1, 95.1, 32.7], 'intents': [93.0, 69.8, 59.6, 70.6, 99.0, 50.8]}
+
+# NER as 2 Tasks!
 data_mDeBERTa_exp4_multi2_1234 = {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [79.9, 50.2, 46.1, 46.3, 94.7, 26.9], 'intents': [94.6, 76.0, 58.4, 75.6, 99.2, 51.8]}
 
 

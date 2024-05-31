@@ -212,13 +212,13 @@ if __name__ == '__main__':
 
         if save_baseline:
             data_baseline['intents'].append(intent_accurracy)
-            data_baseline['fullyCor'].append(fullyCor/len(goldSlots))
+            data_baseline['correct'].append(fullyCor/len(goldSlots))
         if save_dialects:
             data_dialects['intents'].append(intent_accurracy)
-            data_dialects['fullyCor'].append(fullyCor/len(goldSlots))
+            data_dialects['correct'].append(fullyCor/len(goldSlots))
         if save_all:
             data_all_langs['intents'].append(intent_accurracy)
-            data_all_langs['fullyCor'].append(fullyCor/len(goldSlots))
+            data_all_langs['correct'].append(fullyCor/len(goldSlots))
         print()
 
         print(f"fully correct examples: {fullyCor/len(goldSlots)}")
