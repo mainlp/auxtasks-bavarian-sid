@@ -73,6 +73,9 @@ data_mDeBERTa_exp4_multi1_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st',
 # NER as 2 Tasks!
 data_mDeBERTa_exp4_multi2_1234 = {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [79.9, 50.2, 46.1, 46.3, 94.7, 26.9], 'intents': [94.6, 76.0, 58.4, 75.6, 99.2, 51.8]}
 
+# Mulit Seq experiment:
+data_mDeBERTa_exp4_multiseq_1234 =  {'Language': ['de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw'], 'slots': [81.0, 55.9, 55.0, 52.8, 95.0, 29.2], 'intents': [97.6, 81.0, 70.8, 81.6, 99.6, 69.0], 'correct': [0.646, 0.242, 0.192, 0.184, 0.904, 0.072]}
+
 
 # # Create multi-index DataFrame for mBERT
 # df_mBERT = pd.DataFrame(average_mBERT)

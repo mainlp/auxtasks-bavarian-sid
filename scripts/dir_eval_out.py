@@ -64,6 +64,8 @@ def getUnlabeled(spans1: List[str], spans2: List[str]) -> int:
 
 
 def writeResults(all_langs, baseline, dialects, experiment_name):
+    # Todo: find better solution here, e.g. more possible paths where to save to
+    # in colab this will be deleted when connection is getting dropped (and copy cell is not used)
     results_dir = "/content/BaySIDshot/results/"
     # for testing in pycharm:
     #results_dir = "/Users/xavermariakrueckl/PycharmProjects/BaySIDshot/results/"
