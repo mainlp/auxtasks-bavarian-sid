@@ -24,7 +24,7 @@ def sort_sentences(data):
             different_sentences.append(sentence)
             sentence_count += 1
         else:
-            similar_sentences.append(sentence)
+            similar_sentences.append(sentence + "\n")
             sentence_count += 1
 
     sorted_sentences = different_sentences + similar_sentences
