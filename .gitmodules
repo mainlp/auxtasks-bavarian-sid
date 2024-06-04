@@ -16,3 +16,6 @@
 [submodule "NaLiBaSID"]
 	path = NaLiBaSID
 	url = https://github.com/mainlp/NaLiBaSID.git
+[submodule "scripts/dialect-BLI"]
+	path = scripts/dialect-BLI
+	url = https://github.com/mainlp/dialect-BLI.git
