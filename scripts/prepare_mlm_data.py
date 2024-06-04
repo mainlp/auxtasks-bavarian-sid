@@ -1,30 +1,36 @@
 #!/usr/bin/python3
 
-import re
 import pandas as pd
 
-
 def read_data(path):
-    # Todo: Adapt to csv data in dialect-BLI as well!
     try:
-        data = pd.read_feather(path)
+        data = pd.read_csv(path)
         return data
     except Exception as e:
-        print(f"Error reading the Feather file: {e}")
+        print(f"Error reading Bavarian-German CSV file: {e}")
         return None
 
-def filter_sentences(data):
-    regex = re.compile('[a-zA-Z]')
-    filtered_sentences = []
+def sort_sentences(data):
+    # function that sorts the sentences being written into the mlm train file
+    # it takes all of those that are annotated as being different in structure to German first
+    # background - these should always be used within MaChAmp for MLM even though max_sents is reduced a lot
+    different_sentences = []
+    similar_sentences = []
     sentence_count = 0
     for _, row in data.iterrows():
-        sentence = row['sentence'].strip()
-        if regex.search(sentence):
-            filtered_sentences.append(sentence)
+        sentence = row['Bavarian'].strip()
+        if ((row['Grammar differs?'] == True and row['Reasons?'] == '') or
+                (row['Grammar differs?'] == True and row['Reasons?'] != '')):
+            different_sentences.append(sentence)
             sentence_count += 1
-    print(f"Collected {sentence_count} sentences that consist of at least one word.")
-    return filtered_sentences
+        else:
+            similar_sentences.append(sentence)
+            sentence_count += 1
 
+    sorted_sentences = different_sentences + similar_sentences
+    print(f"Collected {sentence_count} sentences. The first {len(different_sentences)} sentences are examples in which Bavarian differs structurally from German.")
+
+    return sorted_sentences
 
 def write_to_file(sentences, path):
     try:
@@ -32,20 +38,16 @@ def write_to_file(sentences, path):
             file.write(' '.join(sentences))
         print(f"Bavarian MLM Data successfully written to {path}")
     except Exception as e:
-        print(f"Error writing to file: {e}")
-
-
+        print(f"Error writing Bavarian MLM Data to file: {e}")
 def main():
-    #path_to_bar = '../dialect-BLI/labelled_data/bitext/bar/ann_1.csv'
-    #bar_save_path = "mlm_bar_ann_1.txt"
-    path_to_bar = "../bar"
-    bar_save_path = "../bar.txt"
+    path_to_bar = '../dialect-BLI/labelled_data/bitext/bar/ann_1.csv'
+    bar_save_path = "../manual_data/MLM_data/mlm_data_bar_ann_1.txt"
 
     data = read_data(path_to_bar)
     if data is None:
         return
-    sentences = filter_sentences(data)
-    write_to_file(sentences, bar_save_path)
+
+    write_to_file(sort_sentences(data), bar_save_path)
 
 
 if __name__ == "__main__":
