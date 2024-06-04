@@ -1,8 +1,8 @@
 {
   "Bavarian_Wiki": {
-    "train_data_path": "/content/drive/MyDrive/Masterarbeit/MLM_data/bavarian_train.txt",
-    "dev_data_path": "/content/drive/MyDrive/Masterarbeit/MLM_data/bavarian_dev.txt",
-    "max_sents": 1000, // default was 10000
+    "train_data_path": "/content/BaySIDshot/manual_data/MLM_data/mlm_bar_ann_1_train.txt",
+    "dev_data_path": "/content/BaySIDshot/manual_data/MLM_data/mlm_bar_ann_1_dev.txt",
+    "max_sents": 10000,
     "tasks": {
       "masking": {
         "task_type": "mlm"
