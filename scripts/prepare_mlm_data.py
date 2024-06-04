@@ -5,13 +5,13 @@ import pandas as pd
 
 
 def read_data(path):
+    # Todo: Adapt to csv data in dialect-BLI as well!
     try:
         data = pd.read_feather(path)
         return data
     except Exception as e:
         print(f"Error reading the Feather file: {e}")
         return None
-
 
 def filter_sentences(data):
     regex = re.compile('[a-zA-Z]')
@@ -36,6 +36,8 @@ def write_to_file(sentences, path):
 
 
 def main():
+    #path_to_bar = '../dialect-BLI/labelled_data/bitext/bar/ann_1.csv'
+    #bar_save_path = "mlm_bar_ann_1.txt"
     path_to_bar = "../bar"
     bar_save_path = "../bar.txt"
 
