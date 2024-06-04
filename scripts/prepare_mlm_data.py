@@ -18,13 +18,13 @@ def sort_sentences(data):
     similar_sentences = []
     sentence_count = 0
     for _, row in data.iterrows():
-        sentence = row['Bavarian'].strip()
+        sentence = row['Bavarian'].strip() + '\n'
         if ((row['Grammar differs?'] == True and row['Reasons?'] == '') or
                 (row['Grammar differs?'] == True and row['Reasons?'] != '')):
             different_sentences.append(sentence)
             sentence_count += 1
         else:
-            similar_sentences.append(sentence + "\n")
+            similar_sentences.append(sentence)
             sentence_count += 1
 
     sorted_sentences = different_sentences + similar_sentences
@@ -35,7 +35,7 @@ def sort_sentences(data):
 def write_to_file(sentences, path):
     try:
         with open(path, 'w', encoding='utf-8') as file:
-            file.write(' '.join(sentences))
+            file.write(''.join(sentences))
         print(f"Bavarian MLM Data successfully written to {path}")
     except Exception as e:
         print(f"Error writing Bavarian MLM Data to file: {e}")
