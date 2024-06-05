@@ -125,7 +125,7 @@ if __name__ == '__main__':
         'intents': []
     }
 
-    all_langs = ['ar', 'da', 'de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw', 'id', 'it', 'ja', 'kk', 'nap', 'nl', 'sr', 'tr', 'zh']
+    all_langs = ['ar', 'da', 'de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw', 'id', 'it', 'ja', 'kk', 'lt', 'nap', 'nl', 'sr', 'tr', 'zh']
     data_all_langs = {
         'Language': [],
         'slots': [],
