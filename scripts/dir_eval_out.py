@@ -64,15 +64,18 @@ def getUnlabeled(spans1: List[str], spans2: List[str]) -> int:
 
 
 def writeResults(all_langs, baseline, dialects, experiment_name):
-    # Todo: find better solution here, e.g. more possible paths where to save to
-    # in colab this will be deleted when connection is getting dropped (and copy cell is not used)
+    # Todo: find better solution here? e.g. more possible paths where to save to?
+    # in colab this will be deleted when connection to runtime is quit ->
+    # built in a copy command into script.sh to copy results to drive - path  does not work there
     results_dir = "/content/BaySIDshot/results/"
-    # for testing in pycharm:
+
+    # for local testing in pycharm:
     #results_dir = "/Users/xavermariakrueckl/PycharmProjects/BaySIDshot/results/"
+
     if not os.path.exists(results_dir):
         os.makedirs(results_dir)
     results_file_path = str(f"{results_dir}{experiment_name}.json")
-    print(results_file_path)
+
     with open(results_file_path, "w", encoding="utf-8") as file:
         experiment_name = {
             "all_langs_results": all_langs,
