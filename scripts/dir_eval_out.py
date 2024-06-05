@@ -72,8 +72,8 @@ def writeResults(all_langs, baseline, dialects, experiment_name):
     # for local testing in pycharm:
     #results_dir = "/Users/xavermariakrueckl/PycharmProjects/BaySIDshot/results/"
 
-    if not os.path.exists(results_dir):
-        os.makedirs(results_dir)
+    #if not os.path.exists(results_dir):
+        #os.makedirs(results_dir)
     results_file_path = str(f"{results_dir}{experiment_name}.json")
 
     with open(results_file_path, "w", encoding="utf-8") as file:
