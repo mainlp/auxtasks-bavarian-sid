@@ -64,6 +64,6 @@ if __name__ == "__main__":
     train_sentences = sorted_sentences[:train_size]
     dev_sentences = sorted_sentences[train_size:]
 
-    write_to_file(sort_sentences(data), test_save_path)
+    write_to_file(sorted_sentences, test_save_path)
     write_to_file(train_sentences, train_save_path)
     write_to_file(dev_sentences, dev_save_path)
