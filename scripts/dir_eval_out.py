@@ -67,6 +67,7 @@ def writeResults(all_langs, baseline, dialects, experiment_name):
     # Todo: find better solution here? e.g. more possible paths where to save to?
     # in colab this will be deleted when connection to runtime is quit ->
     # built in a copy command into script.sh to copy results to drive - path  does not work there
+
     results_dir = "/content/BaySIDshot/results/"
 
     # for local testing in pycharm:
@@ -92,6 +93,7 @@ if __name__ == '__main__':
 
     gold_dir = sys.argv[1]
     pred_dir = sys.argv[2]
+    # Todo: Logic here also still does not really fit
     experiment_name = str(sys.argv[2])
     experiment_name = experiment_name.split('/')[-2]
     if "predictions_" in experiment_name:
