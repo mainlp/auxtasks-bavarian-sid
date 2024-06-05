@@ -1,11 +1,8 @@
 #!/bin/bash
-mkdir -p baseline_eval_data
-cd baseline_eval_data
+# script to prepare baseline evaluation data
+mkdir -p /content/BaySIDshot/baseline_eval_data
 
-# copy baseline eval data together:
-# adapt absolute paths for out of colab cases!
+# copy baseline eval data together, paths according to usage in Colab:
 
-cp /content/BaySIDshot/xsid/data/xSID/*.test.conll .
-cp /content/BaySIDshot/xsid/data/xSID/*.valid.conll .
-
-cd ..
+cp /content/BaySIDshot/xsid/data/xSID/*.test.conll /content/BaySIDshot/baseline_eval_data/
+cp /content/BaySIDshot/xsid/data/xSID/*.valid.conll /content/BaySIDshot/baseline_eval_data/
