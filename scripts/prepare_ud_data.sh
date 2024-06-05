@@ -3,8 +3,8 @@
 # command from BaySIDshot:  bash scripts/prepare_ud_data.sh
 
 # in Colab
-mkdir -p content/BaySIDshot/UD_data
-cp /content/BaySIDshot/UD_Bavarian-MaiBaam/bar_maibaam-ud-test.conllu /content/BaySIDshot/UD_data
+mkdir -p /content/BaySIDshot/UD_data
+cp /content/BaySIDshot/UD_Bavarian-MaiBaam/bar_maibaam-ud-test.conllu /content/BaySIDshot/UD_data/
 python3 /content/BaySIDshot/machamp/scripts/misc/cleanconl.py /content/BaySIDshot/UD_data/bar_maibaam-ud-test.conllu
 python3 /content/BaySIDshot/scripts/testsplit_conllu.py /content/BaySIDshot/UD_data/bar_maibaam-ud-test.conllu
 
