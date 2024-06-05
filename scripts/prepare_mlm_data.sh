@@ -4,7 +4,7 @@
 
 # in Colab (gets removed when quitting runtime of notebook)
 mkdir -p /content/BaySIDshot/MLM_data
-python3 /Users/xavermariakrueckl/PycharmProjects/BaySIDshot/scripts/prepare_mlm_data.py /content/BaySIDshot/dialect-BLI/labelled_data/bitext/bar/ann_1.csv /content/BaySIDshot/MLM_data/
+python3 /content/BaySIDshot/scripts/prepare_mlm_data.py /content/BaySIDshot/dialect-BLI/labelled_data/bitext/bar/ann_1.csv /content/BaySIDshot/MLM_data/
 
 # on local machine:
 #mkdir -p /Users/xavermariakrueckl/PycharmProjects/BaySIDshot/manual_data/MLM_data/
