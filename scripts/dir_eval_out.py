@@ -79,9 +79,9 @@ def writeResults(all_langs, baseline, dialects, experiment_name):
 
     with open(results_file_path, "w", encoding="utf-8") as file:
         experiment_name = {
-            "all_langs_results": all_langs,
-            "baseline_langs_results": baseline,
-            "dialects_langs_results": dialects
+            "all": all_langs,
+            "baseline": baseline,
+            "dialects": dialects
         }
         json.dump(experiment_name, file, indent=2)
 

@@ -12,6 +12,8 @@ def main():
         sys.exit(1)
 
     input_json_file = sys.argv[1]
+    out_name = input_json_file.split('/')[-1]
+    out_name = out_name.replace('.json', '')
     output_csv_directory = sys.argv[2]
 
     # Ensure the output directory exists
@@ -25,7 +27,7 @@ def main():
     # Convert each section of the JSON to a DataFrame and save as a CSV file
     for key in data:
         df = pd.DataFrame(data[key])
-        output_csv_file = os.path.join(output_csv_directory, f'{key}.csv')
+        output_csv_file = os.path.join(output_csv_directory, f'{out_name}_{key}.csv')
         df.to_csv(output_csv_file, index=False)
 
     print("CSV files created successfully.")

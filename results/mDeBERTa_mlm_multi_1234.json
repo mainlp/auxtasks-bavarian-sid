@@ -1,5 +1,5 @@
 {
-  "all_langs_results": {
+  "all": {
     "Language": [
       "de",
       "de-ba",
@@ -33,7 +33,7 @@
       0.028
     ]
   },
-  "baseline_langs_results": {
+  "baseline": {
     "Language": [
       "de",
       "de-st",
@@ -55,7 +55,7 @@
       0.902
     ]
   },
-  "dialects_langs_results": {
+  "dialects": {
     "Language": [
       "de",
       "de-ba",
