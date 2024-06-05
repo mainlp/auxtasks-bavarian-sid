@@ -1,8 +1,7 @@
 #!/bin/bash
-# script to prepare dialects evaluation data
-mkdir -p /content/BaySIDshot/dialects_eval_data/
+# script to prepare dialects evaluation data in Colab (gets removed when quitting runtime of notebook)
 
-# copy dialects eval data together, paths according to usage in Colab:
+mkdir -p /content/BaySIDshot/dialects_eval_data/
 
 cp /content/BaySIDshot/de-by.test.conll /content/BaySIDshot/dialects_eval_data/
 cp /content/BaySIDshot/de-by.dev.conll /content/BaySIDshot/dialects_eval_data/
