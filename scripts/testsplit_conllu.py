@@ -19,7 +19,7 @@ def write_conllu_file(filename, data):
         for example in data:
             count += 1
             f.write(example + '\n\n')
-        print("Wrote ", count, "files to ", filename)
+        print("Wrote ", count, "examples to ", filename)
 
 
 def filter_examples(data):
