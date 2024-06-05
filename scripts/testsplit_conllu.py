@@ -45,6 +45,7 @@ def main(input_filename):
 
     output_dir = os.path.dirname(input_filename)
     base_name = os.path.splitext(os.path.basename(input_filename))[0]
+    base_name = base_name.replace('-test', '')
 
     train_filename = os.path.join(output_dir, f"{base_name}-train.conllu")
     valid_filename = os.path.join(output_dir, f"{base_name}-valid.conllu")
