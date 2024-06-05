@@ -113,14 +113,14 @@ if __name__ == '__main__':
         'Language': [],
         'slots': [],
         'intents': [],
-        'correct': []
+        'fully correct': []
     }
     dialect_langs = ['en', 'de-st', 'de', 'gsw', 'de-ba', 'de-by']
     data_dialects = {
         'Language': [],
         'slots': [],
         'intents': [],
-        'correct': []
+        'fully correct': []
     }
 
     all_langs = ['ar', 'da', 'de', 'de-ba', 'de-by', 'de-st', 'en', 'gsw', 'id', 'it', 'ja', 'kk', 'lt', 'nap', 'nl', 'sr', 'tr', 'zh']
@@ -128,7 +128,7 @@ if __name__ == '__main__':
         'Language': [],
         'slots': [],
         'intents': [],
-        'correct': []
+        'fully correct': []
     }
 
 
@@ -211,63 +211,31 @@ if __name__ == '__main__':
         # print("Intents: ", set(goldIntents))
         # print("Number of Intents: ", len(set(goldIntents)))
 
-        # sklearn accuracy recall, precision, f1 (support)
-        accuracy = accuracy_score(goldIntents, predIntents)
-        precision, recall, f1, _ = precision_recall_fscore_support(goldIntents, predIntents, average='weighted',
-                                                                       zero_division=1)
         print("Intents:")
-        print(f"sklearn accuracy: \t{accuracy:.3f}")
-        print(f"sklearn recall: \t{recall:.3f}")
-        print(f"sklearn precision: \t{precision:.3f}")
-        print(f"sklearn f1: \t\t{f1:.3f}")
-        # own accuracy:
         print(f"intent accuracy:\t{corIntents / len(goldSlots)}")
         intent_accurracy = round((corIntents / len(goldSlots) * 100.0), 1)
 
         if save_baseline:
             data_baseline['intents'].append(intent_accurracy)
-            data_baseline['correct'].append(round(fullyCor/len(goldSlots) * 100.0, 1))
+            data_baseline['fully correct'].append(round(fullyCor/len(goldSlots) * 100.0, 1))
         if save_dialects:
             data_dialects['intents'].append(intent_accurracy)
-            data_dialects['correct'].append(round(fullyCor/len(goldSlots) * 100.0, 1))
+            data_dialects['fully correct'].append(round(fullyCor/len(goldSlots) * 100.0, 1))
         if save_all:
             data_all_langs['intents'].append(intent_accurracy)
-            data_all_langs['correct'].append(round(fullyCor/len(goldSlots) * 100.0, 1))
-        print()
+            data_all_langs['fully correct'].append(round(fullyCor/len(goldSlots) * 100.0, 1))
 
-        print(f"fully correct examples: {round(fullyCor/len(goldSlots) * 100.0, 1)}")
-
-        print()
-
+        print(f"\nfully correct examples: {round(fullyCor/len(goldSlots) * 100.0, 1)}\n")
 
         # tests on slots
-        # sklearn accuracy recall, precision, f1 (support)
-
-        # flattening lists of lists of slots into single lists of slots
-        gold_slots_flat = [slot for sublist in goldSlots for slot in sublist]
-        predicted_slots_flat = [slot for sublist in predSlots for slot in sublist]
-        #assert len(gold_slots_flat) == len(predicted_slots_flat), "Gold and predicted data must have the same number of elements."
-        # printed later
-        #accuracy = accuracy_score(gold_slots_flat, predicted_slots_flat)
-        #precision, recall, f1, _ = precision_recall_fscore_support(gold_slots_flat, predicted_slots_flat, zero_division=1,
-                                                                   #average='weighted')
-
         print("Slots:")
-
-        #print(f"sklearn accuracy:\t{accuracy:.3f}")
-        #print()
-        #print(f"sklearn recall: \t{recall:.3f}")
-        #print(f"sklearn precision: \t{precision:.3f}")
-        #print(f"sklearn slot-f1: \t{f1:.3f}")
-
-        print()
         # strict span f1 - both span and label must match exactly!
         prec = 0.0 if tp_st+fp_st == 0 else tp_st/(tp_st+fp_st)
         rec = 0.0 if tp_st+fn_st == 0 else tp_st/(tp_st+fn_st)
         print(f"strict recall:\t\t{rec:.3f}")
         print(f"strict precision:\t{prec:.3f}")
         f1 = 0.0 if prec+rec == 0.0 else 2 * (prec * rec) / (prec + rec)
-        print(f"strict slot-f1:\t\t{f1:.3f}")
+        print(f"strict slot-f1:\t\t{f1:.3f}\n")
         f1 = round((f1 * 100.0), 1)
 
         if save_baseline:
@@ -285,30 +253,28 @@ if __name__ == '__main__':
         fp = fp_ul
         fn = fn_ul
 
-        print()
         # unlabeled - label-agnostic matching? - ignoring slot labels
         prec = 0.0 if tp+fp == 0 else tp/(tp+fp)
         rec = 0.0 if tp+fn == 0 else tp/(tp+fn)
         print(f"unlabeled recall:\t{rec:.3f}")
         print(f"unlabeled precision:\t{prec:.3f}")
         f1 = 0.0 if prec+rec == 0.0 else 2 * (prec * rec) / (prec + rec)
-        print(f"unlabeled slot-f1:\t{f1:.3f}")
+        print(f"unlabeled slot-f1:\t{f1:.3f}\n")
 
-
-        print()
         # loose - partial overlap with same label
         prec = 0.0 if tp_lo_pre + fp_lo_pre == 0 else tp_lo_pre/(tp_lo_pre+fp_lo_pre)
         rec = 0.0 if tp_lo_rec+fn_lo_rc == 0 else tp_lo_rec/(tp_lo_rec+fn_lo_rc)
         print(f"loose recall:\t\t{rec:.3f}")
         print(f"loose precision:\t{prec:.3f}")
         f1 = 0.0 if prec+rec == 0.0 else 2 * (prec * rec) / (prec + rec)
-        print(f"loose slot-f1:\t\t{f1:.3f}")
-        print()
+        print(f"loose slot-f1:\t\t{f1:.3f}\n")
 
-
-    print("Baseline:\n", data_baseline)
-    print("Dialects:\n", data_dialects)
-    print("All:\n", data_all_langs)
+    if data_baseline['Language'] == baseline_langs:
+        print("Baseline results:\n", data_baseline)
+    if data_dialects['Language'] == dialect_langs:
+        print("Dialects results:\n", data_dialects)
+    if data_all_langs['Language'] == all_langs:
+        print("All results:\n", data_all_langs)
 
     writeResults(data_all_langs, data_baseline, data_dialects, experiment_name)
 
