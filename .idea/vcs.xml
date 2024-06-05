@@ -7,6 +7,7 @@
     <mapping directory="$PROJECT_DIR$/UD_Bavarian-MaiBaam" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dialect-BLI" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/machamp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/scripts/ud-conversion-tools" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/xsid" vcs="Git" />
   </component>
 </project>

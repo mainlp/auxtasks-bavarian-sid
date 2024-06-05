@@ -1,0 +1,2118 @@
+# sent_id = wikitalk_Dischkrian:Boarische-Umschrift_8
+# text = Und zum Versl vom Herbert Gschwendtner: Des is zwòr schej, dàß d Umschrift aggràtt wern soll, ower dej Änderei seit ara Wàl (in da Bar- und in da De-Wikipedia) iwerzeigt nemma.
+# genre = social
+# dialect_group = unk
+# location = unk
+# source = https://bar.wikipedia.org/wiki/Wikipedia_Dischkrian:Boarische_Umschrift
+1	Und	_	CCONJ	_	_	3	cc	_	_
+2	zum	_	ADP	_	_	3	case	_	_
+3	Versl	_	NOUN	_	_	11	parataxis	_	_
+4	vom	_	ADP	_	_	5	case	_	_
+5	Herbert	_	PROPN	_	_	3	nmod	_	_
+6	Gschwendtner	_	PROPN	_	_	5	flat	_	SpaceAfter=No
+7	:	_	PUNCT	_	_	3	punct	_	_
+8	Des	_	PRON	_	_	11	nsubj	_	_
+9	is	_	AUX	_	_	11	cop	_	_
+10	zwòr	_	ADV	_	_	11	advmod	_	_
+11	schej	_	ADJ	_	_	0	root	_	SpaceAfter=No
+12	,	_	PUNCT	_	_	16	punct	_	_
+13	dàß	_	SCONJ	_	_	16	mark	_	_
+14	d	_	DET	_	_	15	det	_	_
+15	Umschrift	_	NOUN	_	_	16	nsubj	_	_
+16	aggràtt	_	VERB	_	_	11	advcl	_	_
+17	wern	_	AUX	_	_	16	aux	_	_
+18	soll	_	AUX	_	_	16	aux	_	SpaceAfter=No
+19	,	_	PUNCT	_	_	35	punct	_	_
+20	ower	_	CCONJ	_	_	35	cc	_	_
+21	dej	_	DET	_	_	22	det	_	_
+22	Änderei	_	NOUN	_	_	35	nsubj	_	_
+23	seit	_	ADP	_	_	25	case	_	_
+24	ara	_	DET	_	_	25	det	_	_
+25	Wàl	_	NOUN	_	_	22	nmod	_	_
+26	(	_	PUNCT	_	_	29	punct	_	SpaceAfter=No
+27	in	_	ADP	_	_	29	case	_	_
+28	da	_	DET	_	_	29	det	_	_
+29	Bar-	_	NOUN	_	_	22	obl	_	_
+30	und	_	CCONJ	_	_	33	cc	_	_
+31	in	_	ADP	_	_	33	case	_	_
+32	da	_	DET	_	_	33	det	_	_
+33	De-Wikipedia	_	NOUN	_	_	29	conj	_	SpaceAfter=No
+34	)	_	PUNCT	_	_	29	punct	_	_
+35	iwerzeigt	_	VERB	_	_	11	conj	_	_
+36	nem	_	PART	_	_	35	advmod	_	SpaceAfter=No
+37	ma	_	ADV	_	_	36	advmod	_	SpaceAfter=No
+38	.	_	PUNCT	_	_	11	punct	_	_
+
+# sent_id = sid_de-ba_natural_52
+# text = reservier an Disch für 4 Leid im Noah in Garching.
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	reservier	_	VERB	_	_	0	root	_	_
+2	an	_	DET	_	_	3	det	_	_
+3	Disch	_	NOUN	_	_	1	obj	_	_
+4	für	_	ADP	_	_	6	case	_	_
+5	4	_	NUM	_	_	6	nummod	_	_
+6	Leid	_	NOUN	_	_	3	nmod	_	_
+7	im	_	ADP	_	_	8	case	_	_
+8	Noah	_	PROPN	_	_	3	nmod	_	_
+9	in	_	ADP	_	_	10	case	_	_
+10	Garching	_	PROPN	_	_	8	nmod	_	SpaceAfter=No
+11	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = sid_de-ba_natural_14
+# text = I mächad gean an disch resavieren
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	I	_	PRON	_	_	6	nsubj	_	_
+2	mächad	_	AUX	_	_	6	aux	_	_
+3	gean	_	ADV	_	_	6	advmod	_	_
+4	an	_	DET	_	_	5	det	_	_
+5	disch	_	NOUN	_	_	6	obj	_	_
+6	resavieren	_	VERB	_	_	0	root	_	_
+
+# sent_id = wiki_Age-of-Empires_21
+# text = Endweda, ma haud án andán zamm, das allse hi is, odá má Baud á Weltwundá und schaud, dass eám da andá 2000 Joar (in echd á fiádlde Stund) ned zammhaud, oda ma schaud, dasmá alle Artefakte (Holzkistn mid Rádln) iwánimmd un 2000 Joar hold.
+# genre = wiki
+# dialect_group = north
+# location = Upper Bavaria
+# source = https://bar.wikipedia.org/wiki/Age_of_Empires
+1	Endweda	_	CCONJ	_	_	4	cc	_	SpaceAfter=No
+2	,	_	PUNCT	_	_	1	punct	_	_
+3	ma	_	PRON	_	_	4	nsubj	_	_
+4	haud	_	VERB	_	_	0	root	_	_
+5	án	_	DET	_	_	6	det	_	_
+6	andán	_	DET	_	_	4	obj	_	_
+7	zamm	_	ADP	_	_	4	compound	_	SpaceAfter=No
+8	,	_	PUNCT	_	_	11	punct	_	_
+9	das	_	SCONJ	_	_	11	mark	_	_
+10	allse	_	DET	_	_	11	nsubj	_	_
+11	hi	_	ADJ	_	_	4	advcl	_	_
+12	is	_	AUX	_	_	11	cop	_	SpaceAfter=No
+13	,	_	PUNCT	_	_	16	punct	_	_
+14	odá	_	CCONJ	_	_	16	cc	_	_
+15	má	_	PRON	_	_	16	nsubj	_	_
+16	Baud	_	VERB	_	_	4	conj	_	CorrectForm=baud
+17	á	_	DET	_	_	18	det	_	_
+18	Weltwundá	_	NOUN	_	_	16	obj	_	_
+19	und	_	CCONJ	_	_	20	cc	_	_
+20	schaud	_	VERB	_	_	16	conj	_	SpaceAfter=No
+21	,	_	PUNCT	_	_	36	punct	_	_
+22	dass	_	SCONJ	_	_	36	mark	_	_
+23	eám	_	PRON	_	_	36	obl	_	_
+24	da	_	DET	_	_	25	det	_	_
+25	andá	_	DET	_	_	36	nsubj	_	_
+26	2000	_	NUM	_	_	27	nummod	_	_
+27	Joar	_	NOUN	_	_	36	obl	_	_
+28	(	_	PUNCT	_	_	30	punct	_	SpaceAfter=No
+29	in	_	ADP	_	_	30	case	_	_
+30	echd	_	ADJ	_	_	27	appos	_	_
+31	á	_	DET	_	_	33	det	_	_
+32	fiádlde	_	NUM	_	_	33	nummod	_	_
+33	Stund	_	NOUN	_	_	30	appos	_	SpaceAfter=No
+34	)	_	PUNCT	_	_	30	punct	_	_
+35	ned	_	PART	_	_	36	advmod	_	_
+36	zammhaud	_	VERB	_	_	20	advcl	_	SpaceAfter=No
+37	,	_	PUNCT	_	_	40	punct	_	_
+38	oda	_	CCONJ	_	_	40	cc	_	_
+39	ma	_	PRON	_	_	40	nsubj	_	_
+40	schaud	_	VERB	_	_	4	conj	_	SpaceAfter=No
+41	,	_	PUNCT	_	_	51	punct	_	_
+42	das	_	SCONJ	_	_	51	mark	_	SpaceAfter=No
+43	má	_	PRON	_	_	51	nsubj	_	_
+44	alle	_	DET	_	_	45	det	_	_
+45	Artefakte	_	NOUN	_	_	51	obj	_	_
+46	(	_	PUNCT	_	_	47	punct	_	SpaceAfter=No
+47	Holzkistn	_	NOUN	_	_	45	appos	_	_
+48	mid	_	ADP	_	_	49	case	_	_
+49	Rádln	_	NOUN	_	_	47	nmod	_	SpaceAfter=No
+50	)	_	PUNCT	_	_	47	punct	_	_
+51	iwánimmd	_	VERB	_	_	40	advcl	_	_
+52	un	_	CCONJ	_	_	55	cc	_	_
+53	2000	_	NUM	_	_	54	nummod	_	_
+54	Joar	_	NOUN	_	_	55	obl	_	_
+55	hold	_	VERB	_	_	51	conj	_	SpaceAfter=No
+56	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = tatoeba_5184484
+# text = Vo de hob i no nie ane hergnumma.
+# genre = grammar-examples
+# dialect_group = unk (central/southcentral/south)
+# location = Austria
+# source = https://tatoeba.org/en/sentences/show/5184484
+# author = brauchinet
+1	Vo	_	ADP	_	_	2	case	_	_
+2	de	_	PRON	_	_	8	obl	_	_
+3	hob	_	AUX	_	_	8	aux	_	_
+4	i	_	PRON	_	_	8	nsubj	_	_
+5	no	_	ADV	_	_	6	advmod	_	_
+6	nie	_	ADV	_	_	8	advmod	_	_
+7	ane	_	NUM	_	_	8	obj	_	_
+8	hergnumma	_	VERB	_	_	0	root	_	SpaceAfter=No
+9	.	_	PUNCT	_	_	8	punct	_	_
+
+# sent_id = tatoeba_8932077
+# text = I hob ois kauft, wos'd ma gsogt host.
+# genre = grammar-examples
+# dialect_group = unk (central/southcentral/south)
+# location = Austria
+# source = https://tatoeba.org/en/sentences/show/8932077
+# author = brauchinet
+1	I	_	PRON	_	_	4	nsubj	_	_
+2	hob	_	AUX	_	_	4	aux	_	_
+3	ois	_	DET	_	_	4	obj	_	_
+4	kauft	_	VERB	_	_	0	root	_	SpaceAfter=No
+5	,	_	PUNCT	_	_	9	punct	_	_
+6	wos	_	PRON	_	_	9	obj	_	SpaceAfter=No
+7	'd	_	PRON	_	_	9	nsubj	_	_
+8	ma	_	PRON	_	_	9	obl	_	_
+9	gsogt	_	VERB	_	_	3	acl	_	_
+10	host	_	AUX	_	_	9	aux	_	SpaceAfter=No
+11	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = wiki_Toppmkorsee_12
+# text = Auf'm Toppmkor, am Berg im Kloaourlertoi ligt a sumpfige Berglaa, s Wurmfejd gnonnt.
+# genre = wiki
+# dialect_group = southcentral
+# location = Pongau
+# source = https://bar.wikipedia.org/wiki/Toppmkorsee
+1	Auf'm	_	ADP	_	_	2	case	_	_
+2	Toppmkor	_	NOUN	_	_	8	obl	_	SpaceAfter=No
+3	,	_	PUNCT	_	_	5	punct	_	_
+4	am	_	DET	_	_	5	det	_	_
+5	Berg	_	NOUN	_	_	2	appos	_	_
+6	im	_	ADP	_	_	7	case	_	_
+7	Kloaourlertoi	_	PROPN	_	_	5	nmod	_	_
+8	ligt	_	VERB	_	_	0	root	_	_
+9	a	_	DET	_	_	11	det	_	_
+10	sumpfige	_	ADJ	_	_	11	amod	_	_
+11	Berglaa	_	NOUN	_	_	8	nsubj	_	SpaceAfter=No
+12	,	_	PUNCT	_	_	15	punct	_	_
+13	s	_	DET	_	_	14	det	_	_
+14	Wurmfejd	_	NOUN	_	_	15	obl	_	_
+15	gnonnt	_	VERB	_	_	11	acl	_	SpaceAfter=No
+16	.	_	PUNCT	_	_	8	punct	_	_
+
+# sent_id = tatoeba_5113772
+# text = Da Tommi håt sä mitokesn zhås ghobt.
+# genre = grammar-examples
+# dialect_group = central
+# location = Vienna
+# source = https://tatoeba.org/en/sentences/show/5113772
+# author = legume
+1	Da	_	DET	_	_	2	det	_	_
+2	Tommi	_	PROPN	_	_	7	nsubj	_	_
+3	håt	_	AUX	_	_	7	aux	_	_
+4	sä	_	DET	_	_	5	det	_	_
+5	mitokesn	_	NOUN	_	_	7	obj	_	_
+6	zhås	_	ADV	_	_	7	advmod	_	_
+7	ghobt	_	VERB	_	_	0	root	_	SpaceAfter=No
+8	.	_	PUNCT	_	_	7	punct	_	_
+
+# sent_id = wiki_Der-Zettelträger-Papp_11
+# text = Da Nestroy håt des Stückl zu ana zugkräftich'n Parodie auf's Theata umg'schrieben.
+# genre = wiki
+# dialect_group = central
+# location = Vienna
+# source = https://bar.wikipedia.org/wiki/Der_Zetteltr%C3%A4ger_Papp
+1	Da	_	DET	_	_	2	det	_	_
+2	Nestroy	_	PROPN	_	_	12	nsubj	_	_
+3	håt	_	AUX	_	_	12	aux	_	_
+4	des	_	DET	_	_	5	det	_	_
+5	Stückl	_	NOUN	_	_	12	obj	_	_
+6	zu	_	ADP	_	_	9	case	_	_
+7	ana	_	DET	_	_	9	det	_	_
+8	zugkräftich'n	_	ADJ	_	_	9	amod	_	_
+9	Parodie	_	NOUN	_	_	12	obl	_	_
+10	auf's	_	ADP	_	_	11	case	_	_
+11	Theata	_	NOUN	_	_	9	nmod	_	_
+12	umg'schrieben	_	VERB	_	_	0	root	_	SpaceAfter=No
+13	.	_	PUNCT	_	_	12	punct	_	_
+
+# sent_id = tatoeba_5174297
+# text = Da Tom is gar net angfressn.
+# genre = grammar-examples
+# dialect_group = unk (central/southcentral/south)
+# location = Austria
+# source = https://tatoeba.org/en/sentences/show/5174297
+# author = brauchinet
+1	Da	_	DET	_	_	2	det	_	_
+2	Tom	_	PROPN	_	_	6	nsubj	_	_
+3	is	_	AUX	_	_	6	cop	_	_
+4	gar	_	ADV	_	_	5	advmod	_	_
+5	net	_	PART	_	_	6	advmod	_	_
+6	angfressn	_	ADJ	_	_	0	root	_	SpaceAfter=No
+7	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = sid_de-ba_natural_65
+# text = Wann Kimtn der Film A?
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	Wann	_	ADV	_	_	2	advmod	_	_
+2	Kimt	_	VERB	_	_	0	root	_	SpaceAfter=No
+3	n	_	ADV	_	_	2	advmod	_	_
+4	der	_	DET	_	_	5	det	_	_
+5	Film	_	NOUN	_	_	2	nsubj	_	_
+6	A	_	X	_	_	5	appos	_	SpaceAfter=No
+7	?	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = wikitalk_Dischkrian:Bsundaheitn-im-boarischn-Vokabular_10
+# text = Do sigt ma Hochdeitsch, boairisch eibirgat und Ursprung.
+# genre = social
+# dialect_group = unk
+# location = unk
+# source = https://bar.wikipedia.org/wiki/Dischkrian:Bsundaheitn_im_boarischn_Vokabular
+1	Do	_	ADV	_	_	2	advmod	_	_
+2	sigt	_	VERB	_	_	0	root	_	_
+3	ma	_	PRON	_	_	2	nsubj	_	_
+4	Hochdeitsch	_	NOUN	_	_	2	obj	_	SpaceAfter=No
+5	,	_	PUNCT	_	_	7	punct	_	_
+6	boairisch	_	ADJ	_	_	7	advmod	_	_
+7	eibirgat	_	ADJ	_	_	4	conj	_	_
+8	und	_	CCONJ	_	_	9	cc	_	_
+9	Ursprung	_	NOUN	_	_	4	conj	_	SpaceAfter=No
+10	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = wikisource_Hansl-und-Gretl_24
+# text = - "A, Babba, i schuag bloß nach meina kloanan weißn Katz, de wo obm aufm Doch sitz und mia Bfiade song wui."
+# genre = fiction
+# dialect_group = unk
+# location = unk
+# source = https://bar.wikipedia.org/wiki/Text:Hansl_und_Gretl
+1	-	_	PUNCT	_	_	8	punct	_	_
+2	"	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
+3	A	_	INTJ	_	_	8	discourse	_	SpaceAfter=No
+4	,	_	PUNCT	_	_	3	punct	_	_
+5	Babba	_	NOUN	_	_	8	vocative	_	SpaceAfter=No
+6	,	_	PUNCT	_	_	5	punct	_	_
+7	i	_	PRON	_	_	8	nsubj	_	_
+8	schuag	_	VERB	_	_	0	root	_	_
+9	bloß	_	ADV	_	_	8	advmod	_	_
+10	nach	_	ADP	_	_	14	case	_	_
+11	meina	_	DET	_	_	14	det	_	_
+12	kloanan	_	ADJ	_	_	14	amod	_	_
+13	weißn	_	ADJ	_	_	14	amod	_	_
+14	Katz	_	NOUN	_	_	8	obl	_	SpaceAfter=No
+15	,	_	PUNCT	_	_	21	punct	_	_
+16	de	_	PRON	_	_	21	nsubj	_	_
+17	wo	_	SCONJ	_	_	21	mark	_	_
+18	obm	_	ADV	_	_	21	advmod	_	_
+19	aufm	_	ADP	_	_	20	case	_	_
+20	Doch	_	NOUN	_	_	21	obl	_	_
+21	sitz	_	VERB	_	_	14	acl	_	_
+22	und	_	CCONJ	_	_	25	cc	_	_
+23	mia	_	PRON	_	_	25	obl	_	_
+24	Bfiade	_	INTJ	_	_	25	obj	_	_
+25	song	_	VERB	_	_	21	conj	_	_
+26	wui	_	AUX	_	_	25	aux	_	SpaceAfter=No
+27	.	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
+28	"	_	PUNCT	_	_	8	punct	_	_
+
+# sent_id = wiki_Schneckn_29
+# text = Da Fuaß is zan Greun do.
+# genre = wiki
+# dialect_group = unk (central/southcentral)
+# location = East Austria
+# source = https://bar.wikipedia.org/wiki/Schneckn
+1	Da	_	DET	_	_	2	det	_	_
+2	Fuaß	_	NOUN	_	_	6	nsubj	_	_
+3	is	_	AUX	_	_	6	cop	_	_
+4	zan	_	DET	_	_	5	det	_	_
+5	Greun	_	NOUN	_	_	6	obl	_	_
+6	do	_	ADV	_	_	0	root	_	SpaceAfter=No
+7	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = wikitalk_Dischkrian:Boarische-Umschrift_22
+# text = Unt'ra Installationsroutine vasteh i a boar schee bunte Knepfal drucka, sonst nix ;-)
+# genre = social
+# dialect_group = unk
+# location = unk
+# source = https://bar.wikipedia.org/wiki/Wikipedia_Dischkrian:Boarische_Umschrift
+1	Unt'ra	_	ADP	_	_	2	case	_	_
+2	Installationsroutine	_	NOUN	_	_	3	obl	_	_
+3	vasteh	_	VERB	_	_	0	root	_	_
+4	i	_	PRON	_	_	3	nsubj	_	_
+5	a	_	DET	_	_	9	det	_	_
+6	boar	_	ADV	_	_	5	fixed	_	_
+7	schee	_	ADJ	_	_	8	advmod	_	_
+8	bunte	_	ADJ	_	_	9	amod	_	_
+9	Knepfal	_	NOUN	_	_	10	obj	_	_
+10	drucka	_	VERB	_	_	3	ccomp	_	SpaceAfter=No
+11	,	_	PUNCT	_	_	13	punct	_	_
+12	sonst	_	ADV	_	_	13	advmod	_	_
+13	nix	_	PRON	_	_	3	parataxis	_	_
+14	;-)	_	SYM	_	_	13	discourse	_	_
+
+# sent_id = tatoeba_5167015
+# text = Des is so a schena Füm.
+# genre = grammar-examples
+# dialect_group = unk (central/southcentral/south)
+# location = Austria
+# source = https://tatoeba.org/en/sentences/show/5167015
+# author = brauchinet
+1	Des	_	DET	_	_	6	nsubj	_	_
+2	is	_	AUX	_	_	6	cop	_	_
+3	so	_	ADV	_	_	5	advmod	_	_
+4	a	_	DET	_	_	6	det	_	_
+5	schena	_	ADJ	_	_	6	amod	_	_
+6	Füm	_	NOUN	_	_	0	root	_	SpaceAfter=No
+7	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = tatoeba_6627186
+# text = Da Thomas geht ma net o.
+# genre = grammar-examples
+# dialect_group = unk (central/southcentral/south)
+# location = Austria
+# source = https://tatoeba.org/en/sentences/show/6627186
+# author = brauchinet
+1	Da	_	DET	_	_	2	det	_	_
+2	Thomas	_	PROPN	_	_	3	nsubj	_	_
+3	geht	_	VERB	_	_	0	root	_	_
+4	ma	_	PRON	_	_	3	obl	_	_
+5	net	_	PART	_	_	3	advmod	_	_
+6	o	_	ADP	_	_	3	compound	_	SpaceAfter=No
+7	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = wiki_Walsch_3
+# text = Es Wort "Walscher" schteat fir an Italiener.
+# genre = wiki
+# dialect_group = south
+# location = South Tyrol
+# source = https://bar.wikipedia.org/wiki/Walsch
+1	Es	_	DET	_	_	2	det	_	_
+2	Wort	_	NOUN	_	_	6	nsubj	_	_
+3	"	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Walscher	_	NOUN	_	_	2	appos	_	SpaceAfter=No
+5	"	_	PUNCT	_	_	4	punct	_	_
+6	schteat	_	VERB	_	_	0	root	_	_
+7	fir	_	ADP	_	_	9	case	_	_
+8	an	_	DET	_	_	9	det	_	_
+9	Italiener	_	NOUN	_	_	6	obl	_	SpaceAfter=No
+10	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = wiki_Schneckn_7
+# text = Ois Fossilian kennd ma Schneckn seidn Kambrium.
+# genre = wiki
+# dialect_group = unk (central/southcentral)
+# location = East Austria
+# source = https://bar.wikipedia.org/wiki/Schneckn
+1	Ois	_	SCONJ	_	_	2	case	_	_
+2	Fossilian	_	NOUN	_	_	3	obl	_	_
+3	kennd	_	VERB	_	_	0	root	_	_
+4	ma	_	PRON	_	_	3	nsubj	_	_
+5	Schneckn	_	NOUN	_	_	3	obj	_	_
+6	seidn	_	ADP	_	_	7	case	_	_
+7	Kambrium	_	PROPN	_	_	3	obl	_	SpaceAfter=No
+8	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = wiki_Toppmkorsee_18
+# text = In ner ondern Version vo da Saaga houd da Tatzlwurm oierdings nid za da Gänzn vanichtt wern kenna.
+# genre = wiki
+# dialect_group = southcentral
+# location = Pongau
+# source = https://bar.wikipedia.org/wiki/Toppmkorsee
+1	In	_	ADP	_	_	4	case	_	_
+2	ner	_	DET	_	_	4	det	_	_
+3	ondern	_	DET	_	_	4	det	_	_
+4	Version	_	NOUN	_	_	16	obl	_	_
+5	vo	_	ADP	_	_	7	case	_	_
+6	da	_	DET	_	_	7	det	_	_
+7	Saaga	_	NOUN	_	_	4	nmod	_	_
+8	houd	_	AUX	_	_	16	aux	_	_
+9	da	_	DET	_	_	10	det	_	_
+10	Tatzlwurm	_	PROPN	_	_	16	nsubj	_	_
+11	oierdings	_	ADV	_	_	16	advmod	_	_
+12	nid	_	PART	_	_	16	advmod	_	_
+13	za	_	ADP	_	_	15	case	_	_
+14	da	_	DET	_	_	15	det	_	_
+15	Gänzn	_	NOUN	_	_	16	obl	_	_
+16	vanichtt	_	VERB	_	_	0	root	_	_
+17	wern	_	AUX	_	_	16	aux	_	_
+18	kenna	_	AUX	_	_	16	aux	_	SpaceAfter=No
+19	.	_	PUNCT	_	_	16	punct	_	_
+
+# sent_id = wiki_Dazzlwuam_15
+# text = fia a Fich aus da Sagnwöd glingan de Beschreibungen fu dem Fich realisdisch (zu mindest deoretisch)
+# genre = wiki
+# dialect_group = unk (central/southcentral)
+# location = East Austria
+# source = https://bar.wikipedia.org/wiki/Dazzlwuam
+1	fia	_	ADP	_	_	3	case	_	_
+2	a	_	DET	_	_	3	det	_	_
+3	Fich	_	NOUN	_	_	7	obl	_	_
+4	aus	_	ADP	_	_	6	case	_	_
+5	da	_	DET	_	_	6	det	_	_
+6	Sagnwöd	_	NOUN	_	_	3	nmod	_	_
+7	glingan	_	VERB	_	_	0	root	_	_
+8	de	_	DET	_	_	9	det	_	_
+9	Beschreibungen	_	NOUN	_	_	7	nsubj	_	_
+10	fu	_	ADP	_	_	12	case	_	_
+11	dem	_	DET	_	_	12	det	_	_
+12	Fich	_	NOUN	_	_	9	nmod	_	_
+13	realisdisch	_	ADJ	_	_	7	advmod	_	_
+14	(	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
+15	zu	_	ADV	_	_	17	advmod	_	CorrectForm=zumindest
+16	mindest	_	X	_	_	15	goeswith	_	_
+17	deoretisch	_	ADJ	_	_	7	parataxis	_	SpaceAfter=No
+18	)	_	PUNCT	_	_	17	punct	_	_
+
+# sent_id = wiki_Schneckn_31
+# text = Des kaumma si recht guat auschaun, waummar an Schneck iwar a Glos greun lossd.
+# genre = wiki
+# dialect_group = unk (central/southcentral)
+# location = East Austria
+# source = https://bar.wikipedia.org/wiki/Schneckn
+1	Des	_	PRON	_	_	7	obj	_	_
+2	kaum	_	AUX	_	_	7	aux	_	SpaceAfter=No
+3	ma	_	PRON	_	_	7	nsubj	_	_
+4	si	_	PRON	_	_	7	expl	_	_
+5	recht	_	ADV	_	_	7	advmod	_	_
+6	guat	_	ADJ	_	_	7	advmod	_	_
+7	auschaun	_	VERB	_	_	0	root	_	SpaceAfter=No
+8	,	_	PUNCT	_	_	17	punct	_	_
+9	waum	_	SCONJ	_	_	17	mark	_	SpaceAfter=No
+10	mar	_	PRON	_	_	17	nsubj	_	_
+11	an	_	DET	_	_	12	det	_	_
+12	Schneck	_	NOUN	_	_	17	obj	_	_
+13	iwar	_	ADP	_	_	15	case	_	_
+14	a	_	DET	_	_	15	det	_	_
+15	Glos	_	NOUN	_	_	17	obl	_	_
+16	greun	_	VERB	_	_	17	xcomp	_	_
+17	lossd	_	VERB	_	_	7	advcl	_	SpaceAfter=No
+18	.	_	PUNCT	_	_	7	punct	_	_
+
+# sent_id = wiki_Minga_20
+# text = Minga is so nach Berlin, Hamburg, Köln, Dresdn und Bremen vo da Flech hea gseng d'sextgresste Grossstod vo Deitschland.
+# genre = wiki
+# dialect_group = central
+# location = Munich
+# source = https://bar.wikipedia.org/wiki/Minga
+1	Minga	_	PROPN	_	_	21	nsubj	_	_
+2	is	_	AUX	_	_	21	cop	_	_
+3	so	_	ADV	_	_	21	advmod	_	_
+4	nach	_	ADP	_	_	5	case	_	_
+5	Berlin	_	PROPN	_	_	21	obl	_	SpaceAfter=No
+6	,	_	PUNCT	_	_	5	punct	_	_
+7	Hamburg	_	PROPN	_	_	5	conj	_	SpaceAfter=No
+8	,	_	PUNCT	_	_	7	punct	_	_
+9	Köln	_	PROPN	_	_	5	conj	_	SpaceAfter=No
+10	,	_	PUNCT	_	_	9	punct	_	_
+11	Dresdn	_	PROPN	_	_	5	conj	_	_
+12	und	_	CCONJ	_	_	13	cc	_	_
+13	Bremen	_	PROPN	_	_	5	conj	_	_
+14	vo	_	ADP	_	_	16	case	_	_
+15	da	_	DET	_	_	16	det	_	_
+16	Flech	_	NOUN	_	_	18	obl	_	_
+17	hea	_	ADP	_	_	16	case	_	_
+18	gseng	_	VERB	_	_	21	xcomp	_	_
+19	d'	_	DET	_	_	21	det	_	SpaceAfter=No
+20	sextgresste	_	ADJ	_	_	21	amod	_	_
+21	Grossstod	_	NOUN	_	_	0	root	_	_
+22	vo	_	ADP	_	_	23	case	_	_
+23	Deitschland	_	PROPN	_	_	21	nmod	_	SpaceAfter=No
+24	.	_	PUNCT	_	_	21	punct	_	_
+
+# sent_id = wiki_Age-of-Empires_16
+# text = Doáfbewohná kinnánd Heisln baun.
+# genre = wiki
+# dialect_group = north
+# location = Upper Bavaria
+# source = https://bar.wikipedia.org/wiki/Age_of_Empires
+1	Doáfbewohná	_	NOUN	_	_	4	nsubj	_	_
+2	kinnánd	_	AUX	_	_	4	aux	_	_
+3	Heisln	_	NOUN	_	_	4	obj	_	_
+4	baun	_	VERB	_	_	0	root	_	SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = sid_de-ba_natural_4
+# text = Dua "bloody valentine" vo Maschine Gun Kelly zua meina Playlist.
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	Dua	_	VERB	_	_	0	root	_	_
+2	"	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	bloody	_	PROPN	_	_	1	obj	_	_
+4	valentine	_	PROPN	_	_	3	flat	_	SpaceAfter=No
+5	"	_	PUNCT	_	_	3	punct	_	_
+6	vo	_	ADP	_	_	7	case	_	_
+7	Maschine	_	PROPN	_	_	3	nmod	_	_
+8	Gun	_	PROPN	_	_	7	flat	_	_
+9	Kelly	_	PROPN	_	_	7	flat	_	_
+10	zua	_	ADP	_	_	12	case	_	_
+11	meina	_	DET	_	_	12	det	_	_
+12	Playlist	_	NOUN	_	_	1	obl	_	SpaceAfter=No
+13	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = wiki_Schneckn_27
+# text = Midn Eigl kau da Schneck owa grod höö und dungl ausanaunda hoidn und aafoche Fuaman dakenna.
+# genre = wiki
+# dialect_group = unk (central/southcentral)
+# location = East Austria
+# source = https://bar.wikipedia.org/wiki/Schneckn
+1	Midn	_	ADP	_	_	2	case	_	_
+2	Eigl	_	NOUN	_	_	12	obl	_	_
+3	kau	_	AUX	_	_	12	aux	_	_
+4	da	_	DET	_	_	5	det	_	_
+5	Schneck	_	NOUN	_	_	12	nsubj	_	_
+6	owa	_	ADV	_	_	12	advmod	_	_
+7	grod	_	ADV	_	_	12	advmod	_	_
+8	höö	_	ADJ	_	_	12	obj	_	_
+9	und	_	CCONJ	_	_	10	cc	_	_
+10	dungl	_	ADJ	_	_	8	conj	_	_
+11	ausanaunda	_	ADP	_	_	12	compound	_	_
+12	hoidn	_	VERB	_	_	0	root	_	_
+13	und	_	CCONJ	_	_	16	cc	_	_
+14	aafoche	_	ADJ	_	_	15	amod	_	_
+15	Fuaman	_	NOUN	_	_	16	obj	_	_
+16	dakenna	_	VERB	_	_	12	conj	_	SpaceAfter=No
+17	.	_	PUNCT	_	_	12	punct	_	_
+
+# sent_id = wiki_Der-Zettelträger-Papp_3
+# text = Des Stückl is 1827 von eahm g'schrieb'n und aum 15.Dezemba in sölb'n Joahr im ständischn Schauspielhaus Graz easchtmois aufg'führt wua'n.
+# genre = wiki
+# dialect_group = central
+# location = Vienna
+# source = https://bar.wikipedia.org/wiki/Der_Zetteltr%C3%A4ger_Papp
+1	Des	_	DET	_	_	2	det	_	_
+2	Stückl	_	NOUN	_	_	7	nsubj	_	_
+3	is	_	AUX	_	_	7	aux	_	_
+4	1827	_	NUM	_	_	7	obl	_	_
+5	von	_	ADP	_	_	6	case	_	_
+6	eahm	_	PRON	_	_	7	obl	_	_
+7	g'schrieb'n	_	VERB	_	_	0	root	_	_
+8	und	_	CCONJ	_	_	20	cc	_	_
+9	aum	_	ADP	_	_	10	case	_	_
+10	15.	_	ADJ	_	_	20	obl	_	SpaceAfter=No
+11	Dezemba	_	NOUN	_	_	10	flat	_	_
+12	in	_	ADP	_	_	14	case	_	_
+13	sölb'n	_	DET	_	_	14	det	_	_
+14	Joahr	_	NOUN	_	_	10	flat	_	_
+15	im	_	ADP	_	_	17	case	_	_
+16	ständischn	_	ADJ	_	_	17	amod	_	_
+17	Schauspielhaus	_	NOUN	_	_	20	obl	_	_
+18	Graz	_	PROPN	_	_	17	flat	_	_
+19	easchtmois	_	ADV	_	_	20	advmod	_	_
+20	aufg'führt	_	VERB	_	_	7	conj	_	_
+21	wua'n	_	AUX	_	_	7	aux	_	SpaceAfter=No
+22	.	_	PUNCT	_	_	7	punct	_	_
+
+# sent_id = sid_de-ba_natural_237
+# text = Wann spuid d Gruaberin wieda
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	Wann	_	ADV	_	_	2	advmod	_	_
+2	spuid	_	VERB	_	_	0	root	_	_
+3	d	_	DET	_	_	4	det	_	_
+4	Gruaberin	_	NOUN	_	_	2	nsubj	_	_
+5	wieda	_	ADV	_	_	2	advmod	_	_
+
+# sent_id = wikitalk_Dischkrian:Bairische-Buechspraach_3
+# text = Und sie is aa koa "Mittlhaochdeitsch" neda.
+# genre = social
+# dialect_group = unk
+# location = unk
+# source = https://bar.wikipedia.org/wiki/Dischkrian:Bairische_Buechspraach
+1	Und	_	CCONJ	_	_	7	cc	_	_
+2	sie	_	PRON	_	_	7	nsubj	_	_
+3	is	_	AUX	_	_	7	cop	_	_
+4	aa	_	ADV	_	_	7	advmod	_	_
+5	koa	_	DET	_	_	7	det	_	_
+6	"	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Mittlhaochdeitsch	_	NOUN	_	_	0	root	_	SpaceAfter=No
+8	"	_	PUNCT	_	_	7	punct	_	_
+9	neda	_	PART	_	_	7	advmod	_	SpaceAfter=No
+10	.	_	PUNCT	_	_	7	punct	_	_
+
+# sent_id = wikisample_Boarische-Grammatik-Konjunktiona_67
+# text = Er wüll, das mir ren.
+# genre = grammar-examples
+# dialect_group = north
+# location = Western North Bavarian area
+# source = https://bar.wikipedia.org/wiki/Boarische_Grammatik_(Konjunktiona)
+1	Er	_	PRON	_	_	2	nsubj	_	_
+2	wüll	_	VERB	_	_	0	root	_	SpaceAfter=No
+3	,	_	PUNCT	_	_	6	punct	_	_
+4	das	_	SCONJ	_	_	6	mark	_	_
+5	mir	_	PRON	_	_	6	nsubj	_	_
+6	ren	_	VERB	_	_	2	ccomp	_	SpaceAfter=No
+7	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tatoeba_5167081
+# text = Da Tom hod koa Hemmad au.
+# genre = grammar-examples
+# dialect_group = unk (central/southcentral/south)
+# location = Austria
+# source = https://tatoeba.org/en/sentences/show/5167081
+# author = brauchinet
+1	Da	_	DET	_	_	2	det	_	_
+2	Tom	_	PROPN	_	_	3	nsubj	_	_
+3	hod	_	VERB	_	_	0	root	_	_
+4	koa	_	DET	_	_	5	det	_	_
+5	Hemmad	_	NOUN	_	_	3	obj	_	_
+6	au	_	ADP	_	_	3	compound	_	SpaceAfter=No
+7	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = tatoeba_10051435
+# text = Aus an vergrodanen Omlett wird nu a guade Eierspeis.
+# genre = grammar-examples
+# dialect_group = unk (central/southcentral/south)
+# location = Austria
+# source = https://tatoeba.org/en/sentences/show/10051435
+# author = brauchinet
+1	Aus	_	ADP	_	_	4	case	_	_
+2	an	_	DET	_	_	4	det	_	_
+3	vergrodanen	_	ADJ	_	_	4	amod	_	_
+4	Omlett	_	NOUN	_	_	5	obl	_	_
+5	wird	_	VERB	_	_	0	root	_	_
+6	nu	_	ADV	_	_	5	advmod	_	_
+7	a	_	DET	_	_	9	det	_	_
+8	guade	_	ADJ	_	_	9	amod	_	_
+9	Eierspeis	_	NOUN	_	_	5	nsubj	_	SpaceAfter=No
+10	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = sid_de-ba_natural_7
+# text = bitte des liadl a nu dazua doa
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	bitte	_	ADV	_	_	7	advmod	_	_
+2	des	_	DET	_	_	3	det	_	_
+3	liadl	_	NOUN	_	_	7	obj	_	_
+4	a	_	ADV	_	_	7	advmod	_	_
+5	nu	_	ADV	_	_	7	advmod	_	_
+6	dazua	_	ADV	_	_	7	advmod	_	_
+7	doa	_	VERB	_	_	0	root	_	_
+
+# sent_id = wiki_Schneckn_9
+# text = A Bsundaheid vo de Heislschneckn is, dass a Deu vo eahnan Keapa a Torsion zagt, des haaßt, dass a wiar a Spiroin aufgroid is.
+# genre = wiki
+# dialect_group = unk (central/southcentral)
+# location = East Austria
+# source = https://bar.wikipedia.org/wiki/Schneckn
+1	A	_	DET	_	_	2	det	_	_
+2	Bsundaheid	_	NOUN	_	_	0	root	_	_
+3	vo	_	ADP	_	_	5	case	_	_
+4	de	_	DET	_	_	5	det	_	_
+5	Heislschneckn	_	NOUN	_	_	2	nmod	_	_
+6	is	_	AUX	_	_	2	cop	_	SpaceAfter=No
+7	,	_	PUNCT	_	_	16	punct	_	_
+8	dass	_	SCONJ	_	_	16	mark	_	_
+9	a	_	DET	_	_	10	det	_	_
+10	Deu	_	NOUN	_	_	16	nsubj	_	_
+11	vo	_	ADP	_	_	13	case	_	_
+12	eahnan	_	DET	_	_	13	det	_	_
+13	Keapa	_	NOUN	_	_	10	nmod	_	_
+14	a	_	DET	_	_	15	det	_	_
+15	Torsion	_	NOUN	_	_	16	obj	_	_
+16	zagt	_	VERB	_	_	2	csubj	_	SpaceAfter=No
+17	,	_	PUNCT	_	_	19	punct	_	_
+18	des	_	PRON	_	_	19	nsubj	_	_
+19	haaßt	_	VERB	_	_	2	parataxis	_	SpaceAfter=No
+20	,	_	PUNCT	_	_	26	punct	_	_
+21	dass	_	SCONJ	_	_	26	mark	_	_
+22	a	_	PRON	_	_	26	nsubj	_	_
+23	wiar	_	SCONJ	_	_	25	case	_	_
+24	a	_	DET	_	_	25	det	_	_
+25	Spiroin	_	NOUN	_	_	26	obl	_	_
+26	aufgroid	_	VERB	_	_	19	ccomp	_	_
+27	is	_	AUX	_	_	26	aux	_	SpaceAfter=No
+28	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = wikitalk_Dischkrian:Boarische-Umschrift_18
+# text = Wààr auf jedn Fòi huifreich, wanns a Òleitung dafia gààb.
+# genre = social
+# dialect_group = unk
+# location = unk
+# source = https://bar.wikipedia.org/wiki/Wikipedia_Dischkrian:Boarische_Umschrift
+1	Wààr	_	AUX	_	_	5	cop	_	_
+2	auf	_	ADP	_	_	4	case	_	_
+3	jedn	_	DET	_	_	4	det	_	_
+4	Fòi	_	NOUN	_	_	5	obl	_	_
+5	huifreich	_	ADJ	_	_	0	root	_	SpaceAfter=No
+6	,	_	PUNCT	_	_	12	punct	_	_
+7	wann	_	SCONJ	_	_	12	mark	_	SpaceAfter=No
+8	s	_	PRON	_	_	12	expl	_	_
+9	a	_	DET	_	_	10	det	_	_
+10	Òleitung	_	NOUN	_	_	12	obj	_	_
+11	dafia	_	ADV	_	_	12	advmod	_	_
+12	gààb	_	VERB	_	_	5	advcl	_	SpaceAfter=No
+13	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = wikitalk_Dischkrian:Bsundaheitn-im-boarischn-Vokabular_17
+# text = I bin no am Überlegen zwegns am bessern Lemma.
+# genre = social
+# dialect_group = unk
+# location = unk
+# source = https://bar.wikipedia.org/wiki/Dischkrian:Bsundaheitn_im_boarischn_Vokabular
+1	I	_	PRON	_	_	3	nsubj	_	_
+2	bin	_	AUX	_	_	3	cop	_	_
+3	no	_	ADV	_	_	0	root	_	_
+4	am	_	DET	_	_	5	det	_	_
+5	Überlegen	_	NOUN	_	_	3	nmod	_	_
+6	zwegns	_	ADP	_	_	9	case	_	_
+7	am	_	DET	_	_	9	det	_	_
+8	bessern	_	ADJ	_	_	9	amod	_	_
+9	Lemma	_	NOUN	_	_	3	obl	_	SpaceAfter=No
+10	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = wikitalk_Dischkrian:Bsundaheitn-im-boarischn-Vokabular_7
+# text = I glaab ma mecht scho sogn, daß ma "Frikadelle", "Tschüß" ... bitte net in da boarischn Wiki benutzn soi weils ebm no koane eibirgatn boarischn Werta san.
+# genre = social
+# dialect_group = unk
+# location = unk
+# source = https://bar.wikipedia.org/wiki/Dischkrian:Bsundaheitn_im_boarischn_Vokabular
+1	I	_	PRON	_	_	2	nsubj	_	_
+2	glaab	_	VERB	_	_	0	root	_	_
+3	ma	_	PRON	_	_	6	nsubj	_	_
+4	mecht	_	AUX	_	_	6	aux	_	_
+5	scho	_	ADV	_	_	6	advmod	_	_
+6	sogn	_	VERB	_	_	2	ccomp	_	SpaceAfter=No
+7	,	_	PUNCT	_	_	24	punct	_	_
+8	daß	_	SCONJ	_	_	24	mark	_	_
+9	ma	_	PRON	_	_	24	nsubj	_	_
+10	"	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Frikadelle	_	NOUN	_	_	24	obj	_	SpaceAfter=No
+12	"	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	_	PUNCT	_	_	15	punct	_	_
+14	"	_	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Tschüß	_	NOUN	_	_	11	conj	_	SpaceAfter=No
+16	"	_	PUNCT	_	_	15	punct	_	_
+17	...	_	PUNCT	_	_	11	punct	_	_
+18	bitte	_	ADV	_	_	24	advmod	_	_
+19	net	_	PART	_	_	24	advmod	_	_
+20	in	_	ADP	_	_	23	case	_	_
+21	da	_	DET	_	_	23	det	_	_
+22	boarischn	_	ADJ	_	_	23	amod	_	_
+23	Wiki	_	NOUN	_	_	24	obl	_	_
+24	benutzn	_	VERB	_	_	6	ccomp	_	_
+25	soi	_	AUX	_	_	24	aux	_	_
+26	weil	_	SCONJ	_	_	33	mark	_	SpaceAfter=No
+27	s	_	PRON	_	_	33	nsubj	_	_
+28	ebm	_	ADV	_	_	33	advmod	_	_
+29	no	_	ADV	_	_	33	advmod	_	_
+30	koane	_	DET	_	_	33	det	_	_
+31	eibirgatn	_	ADJ	_	_	33	amod	_	_
+32	boarischn	_	ADJ	_	_	33	amod	_	_
+33	Werta	_	NOUN	_	_	24	advcl	_	_
+34	san	_	AUX	_	_	33	cop	_	SpaceAfter=No
+35	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = wiki_Der-Zettelträger-Papp_7
+# text = Da Zedltroga bringt's daunn auf'n Punkt:
+# genre = wiki
+# dialect_group = central
+# location = Vienna
+# source = https://bar.wikipedia.org/wiki/Der_Zetteltr%C3%A4ger_Papp
+1	Da	_	DET	_	_	2	det	_	_
+2	Zedltroga	_	NOUN	_	_	3	nsubj	_	_
+3	bringt	_	VERB	_	_	0	root	_	SpaceAfter=No
+4	's	_	PRON	_	_	3	obj	_	_
+5	daunn	_	ADV	_	_	3	advmod	_	_
+6	auf'n	_	ADP	_	_	7	case	_	_
+7	Punkt	_	NOUN	_	_	3	obl	_	SpaceAfter=No
+8	:	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = wikisample_Boarische-Grammatik-Verbn_14
+# text = I grejchad an Schwainsbroun.
+# genre = grammar-examples
+# dialect_group = unk
+# location = unk
+# source = https://bar.wikipedia.org/wiki/Boarische_Grammatik_(Verbn)
+1	I	_	PRON	_	_	2	nsubj	_	_
+2	grejchad	_	VERB	_	_	0	root	_	_
+3	an	_	DET	_	_	4	det	_	_
+4	Schwainsbroun	_	NOUN	_	_	2	obj	_	SpaceAfter=No
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = wiki_Age-of-Empires_11
+# text = Dasmá des grejgd, mou má mid seine Doáfbewohná in Wold gej und Báámá umhaun bzw. má jogt Fejchá, de wej umánandárännánd odá má zupft Biádln vo Buschád owá odá má fangd se Fisch, wänn á Wossá do is.
+# genre = wiki
+# dialect_group = north
+# location = Upper Bavaria
+# source = https://bar.wikipedia.org/wiki/Age_of_Empires
+1	Das	_	SCONJ	_	_	4	mark	_	SpaceAfter=No
+2	má	_	PRON	_	_	4	nsubj	_	_
+3	des	_	PRON	_	_	4	obj	_	_
+4	grejgd	_	VERB	_	_	13	advcl	_	SpaceAfter=No
+5	,	_	PUNCT	_	_	4	punct	_	_
+6	mou	_	AUX	_	_	13	aux	_	_
+7	má	_	PRON	_	_	13	nsubj	_	_
+8	mid	_	ADP	_	_	10	case	_	_
+9	seine	_	DET	_	_	10	det	_	_
+10	Doáfbewohná	_	NOUN	_	_	13	obl	_	_
+11	in	_	ADP	_	_	12	case	_	_
+12	Wold	_	NOUN	_	_	13	obl	_	_
+13	gej	_	VERB	_	_	0	root	_	_
+14	und	_	CCONJ	_	_	16	cc	_	_
+15	Báámá	_	NOUN	_	_	16	obj	_	_
+16	umhaun	_	VERB	_	_	13	conj	_	_
+17	bzw.	_	CCONJ	_	_	19	cc	_	_
+18	má	_	PRON	_	_	19	nsubj	_	_
+19	jogt	_	VERB	_	_	13	conj	_	_
+20	Fejchá	_	NOUN	_	_	19	obj	_	SpaceAfter=No
+21	,	_	PUNCT	_	_	25	punct	_	_
+22	de	_	PRON	_	_	25	nsubj	_	_
+23	wej	_	SCONJ	_	_	25	mark	_	_
+24	umánandá	_	ADV	_	_	25	advmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+25	rännánd	_	VERB	_	_	20	acl	_	_
+26	odá	_	CCONJ	_	_	28	cc	_	_
+27	má	_	PRON	_	_	28	nsubj	_	_
+28	zupft	_	VERB	_	_	13	conj	_	_
+29	Biádln	_	NOUN	_	_	28	obj	_	_
+30	vo	_	ADP	_	_	31	case	_	_
+31	Buschád	_	NOUN	_	_	29	nmod	_	_
+32	owá	_	ADP	_	_	28	compound	_	_
+33	odá	_	CCONJ	_	_	35	cc	_	_
+34	má	_	PRON	_	_	35	nsubj	_	_
+35	fangd	_	VERB	_	_	13	conj	_	_
+36	se	_	PRON	_	_	35	expl	_	_
+37	Fisch	_	NOUN	_	_	35	obj	_	SpaceAfter=No
+38	,	_	PUNCT	_	_	42	punct	_	_
+39	wänn	_	SCONJ	_	_	42	mark	_	_
+40	á	_	DET	_	_	41	det	_	_
+41	Wossá	_	NOUN	_	_	42	nsubj	_	_
+42	do	_	ADV	_	_	35	advcl	_	_
+43	is	_	AUX	_	_	42	cop	_	SpaceAfter=No
+44	.	_	PUNCT	_	_	13	punct	_	_
+
+# sent_id = wikisample_Konjunktiv_86
+# text = I waarad etz do!
+# genre = grammar-examples
+# dialect_group = unk
+# location = unk
+# source = https://bar.wikipedia.org/wiki/Konjunktiv
+1	I	_	PRON	_	_	4	nsubj	_	_
+2	waarad	_	AUX	_	_	4	cop	_	_
+3	etz	_	ADV	_	_	4	advmod	_	_
+4	do	_	ADV	_	_	0	root	_	SpaceAfter=No
+5	!	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = tatoeba_6196742
+# text = Geht 'm Tom da Reiß?
+# genre = grammar-examples
+# dialect_group = unk (central/southcentral/south)
+# location = Austria
+# source = https://tatoeba.org/en/sentences/show/6196742
+# author = brauchinet
+1	Geht	_	VERB	_	_	0	root	_	_
+2	'm	_	DET	_	_	3	det	_	_
+3	Tom	_	PROPN	_	_	1	obl	_	_
+4	da	_	DET	_	_	5	det	_	_
+5	Reiß	_	NOUN	_	_	1	nsubj	_	SpaceAfter=No
+6	?	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = wiki_Sauschädelstöhln_6
+# text = Danoch gibts beim Durfwirtn de Grichtsvahaundlung, dazua wird vurhea da Vursitzende Rod (Richta) bstimmt.
+# genre = wiki
+# dialect_group = unk (southcentral/south)
+# location = Styria
+# source = https://bar.wikipedia.org/wiki/Sausch%C3%A4delst%C3%B6hln
+1	Danoch	_	ADV	_	_	2	advmod	_	_
+2	gibt	_	VERB	_	_	0	root	_	SpaceAfter=No
+3	s	_	PRON	_	_	2	expl	_	_
+4	beim	_	ADP	_	_	5	case	_	_
+5	Durfwirtn	_	NOUN	_	_	2	obl	_	_
+6	de	_	DET	_	_	7	det	_	_
+7	Grichtsvahaundlung	_	NOUN	_	_	2	obj	_	SpaceAfter=No
+8	,	_	PUNCT	_	_	18	punct	_	_
+9	dazua	_	ADV	_	_	18	advmod	_	_
+10	wird	_	AUX	_	_	18	aux	_	_
+11	vurhea	_	ADV	_	_	18	advmod	_	_
+12	da	_	DET	_	_	14	det	_	_
+13	Vursitzende	_	ADJ	_	_	14	amod	_	_
+14	Rod	_	NOUN	_	_	18	nsubj	_	_
+15	(	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Richta	_	NOUN	_	_	14	appos	_	SpaceAfter=No
+17	)	_	PUNCT	_	_	16	punct	_	_
+18	bstimmt	_	VERB	_	_	2	advcl	_	SpaceAfter=No
+19	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = sid_de-ba_natural_28
+# text = Spui Reggae musi
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	Spui	_	VERB	_	_	0	root	_	_
+2	Reggae	_	NOUN	_	_	3	compound	_	_
+3	musi	_	NOUN	_	_	1	obj	_	_
+
+# sent_id = sid_de-ba_natural_302
+# text = wos war den am letzten Freidog um achte im Kalenda gstandn?
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	wos	_	PRON	_	_	11	nsubj	_	_
+2	war	_	AUX	_	_	11	aux	_	_
+3	den	_	ADV	_	_	11	advmod	_	_
+4	am	_	ADP	_	_	6	case	_	_
+5	letzten	_	ADJ	_	_	6	amod	_	_
+6	Freidog	_	NOUN	_	_	11	obl	_	_
+7	um	_	ADP	_	_	8	case	_	_
+8	achte	_	NUM	_	_	6	nmod	_	_
+9	im	_	ADP	_	_	10	case	_	_
+10	Kalenda	_	NOUN	_	_	6	nmod	_	_
+11	gstandn	_	VERB	_	_	0	root	_	SpaceAfter=No
+12	?	_	PUNCT	_	_	11	punct	_	_
+
+# sent_id = wiki_Der-Zettelträger-Papp_10
+# text = Da Raimund håt dabei in Zedltroga g'spült, wås ea aa späda no oft g'måcht håt.
+# genre = wiki
+# dialect_group = central
+# location = Vienna
+# source = https://bar.wikipedia.org/wiki/Der_Zetteltr%C3%A4ger_Papp
+1	Da	_	DET	_	_	2	det	_	_
+2	Raimund	_	PROPN	_	_	7	nsubj	_	_
+3	håt	_	AUX	_	_	7	aux	_	_
+4	dabei	_	ADV	_	_	7	advmod	_	_
+5	in	_	DET	_	_	6	det	_	_
+6	Zedltroga	_	NOUN	_	_	7	obj	_	_
+7	g'spült	_	VERB	_	_	0	root	_	SpaceAfter=No
+8	,	_	PUNCT	_	_	15	punct	_	_
+9	wås	_	PRON	_	_	15	obj	_	_
+10	ea	_	PRON	_	_	15	nsubj	_	_
+11	aa	_	ADV	_	_	15	advmod	_	_
+12	späda	_	ADV	_	_	15	advmod	_	_
+13	no	_	ADV	_	_	15	advmod	_	_
+14	oft	_	ADV	_	_	15	advmod	_	_
+15	g'måcht	_	VERB	_	_	7	advcl	_	_
+16	håt	_	AUX	_	_	15	aux	_	SpaceAfter=No
+17	.	_	PUNCT	_	_	7	punct	_	_
+
+# sent_id = tatoeba_5167003
+# text = I hob's gwusst, dass i's tuan kau.
+# genre = grammar-examples
+# dialect_group = unk (central/southcentral/south)
+# location = Austria
+# source = https://tatoeba.org/en/sentences/show/5167003
+# author = brauchinet
+1	I	_	PRON	_	_	4	nsubj	_	_
+2	hob	_	AUX	_	_	4	aux	_	SpaceAfter=No
+3	's	_	PRON	_	_	4	obj	_	_
+4	gwusst	_	VERB	_	_	0	root	_	SpaceAfter=No
+5	,	_	PUNCT	_	_	9	punct	_	_
+6	dass	_	SCONJ	_	_	9	mark	_	_
+7	i	_	PRON	_	_	9	nsubj	_	SpaceAfter=No
+8	's	_	PRON	_	_	9	obj	_	_
+9	tuan	_	VERB	_	_	4	dislocated	_	_
+10	kau	_	AUX	_	_	9	aux	_	SpaceAfter=No
+11	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = wikisample_Boarische-Grammatik-Adverb_48
+# text = I denk'ma, das des olt is, owa i woiss niat sicher, ob des olt is
+# genre = grammar-examples
+# dialect_group = central
+# location = Upper Austria
+# source = https://bar.wikipedia.org/wiki/Boarische_Grammatik_(Adverb)
+1	I	_	PRON	_	_	2	nsubj	_	_
+2	denk	_	VERB	_	_	0	root	_	SpaceAfter=No
+3	'ma	_	PRON	_	_	2	expl	_	SpaceAfter=No
+4	,	_	PUNCT	_	_	7	punct	_	_
+5	das	_	SCONJ	_	_	7	mark	_	_
+6	des	_	PRON	_	_	7	nsubj	_	_
+7	olt	_	ADJ	_	_	2	ccomp	_	_
+8	is	_	AUX	_	_	7	cop	_	SpaceAfter=No
+9	,	_	PUNCT	_	_	12	punct	_	_
+10	owa	_	ADV	_	_	12	advmod	_	_
+11	i	_	PRON	_	_	12	nsubj	_	_
+12	woiss	_	VERB	_	_	7	advcl	_	_
+13	niat	_	PART	_	_	12	advmod	_	_
+14	sicher	_	ADJ	_	_	12	advmod	_	SpaceAfter=No
+15	,	_	PUNCT	_	_	18	punct	_	_
+16	ob	_	SCONJ	_	_	18	mark	_	_
+17	des	_	PRON	_	_	18	nsubj	_	_
+18	olt	_	ADJ	_	_	12	ccomp	_	_
+19	is	_	AUX	_	_	18	cop	_	_
+
+# sent_id = wikisource_Hansl-und-Gretl_32
+# text = Da Hansel und d Gretl sand bis Mittag am Feier gsessen, dann hod a jetz sei Stickerl Broud gessn und dann habns wieder bis af d'Nacht gwart, aber da Babba und d'Mama sand ned kemma, nämad is kemma, se abzhoin.
+# genre = fiction
+# dialect_group = unk
+# location = unk
+# source = https://bar.wikipedia.org/wiki/Text:Hansl_und_Gretl
+1	Da	_	DET	_	_	2	det	_	_
+2	Hansel	_	PROPN	_	_	11	nsubj	_	_
+3	und	_	CCONJ	_	_	5	cc	_	_
+4	d	_	DET	_	_	5	det	_	_
+5	Gretl	_	PROPN	_	_	2	conj	_	_
+6	sand	_	AUX	_	_	11	aux	_	_
+7	bis	_	ADP	_	_	8	case	_	_
+8	Mittag	_	NOUN	_	_	11	obl	_	_
+9	am	_	ADP	_	_	10	case	_	_
+10	Feier	_	NOUN	_	_	11	obl	_	_
+11	gsessen	_	VERB	_	_	0	root	_	SpaceAfter=No
+12	,	_	PUNCT	_	_	20	punct	_	_
+13	dann	_	ADV	_	_	20	advmod	_	_
+14	hod	_	AUX	_	_	20	aux	_	_
+15	a	_	PRON	_	_	20	nsubj	_	_
+16	jetz	_	ADV	_	_	20	advmod	_	_
+17	sei	_	DET	_	_	18	det	_	_
+18	Stickerl	_	NOUN	_	_	20	obj	_	_
+19	Broud	_	NOUN	_	_	18	appos	_	_
+20	gessn	_	VERB	_	_	11	parataxis	_	_
+21	und	_	CCONJ	_	_	30	cc	_	_
+22	dann	_	ADV	_	_	30	advmod	_	_
+23	habn	_	AUX	_	_	30	aux	_	SpaceAfter=No
+24	s	_	PRON	_	_	30	nsubj	_	_
+25	wieder	_	ADV	_	_	30	advmod	_	_
+26	bis	_	ADP	_	_	29	case	_	_
+27	af	_	ADP	_	_	29	case	_	_
+28	d'	_	DET	_	_	29	det	_	SpaceAfter=No
+29	Nacht	_	NOUN	_	_	30	obl	_	_
+30	gwart	_	VERB	_	_	20	conj	_	SpaceAfter=No
+31	,	_	PUNCT	_	_	40	punct	_	_
+32	aber	_	CCONJ	_	_	40	cc	_	_
+33	da	_	DET	_	_	34	det	_	_
+34	Babba	_	NOUN	_	_	40	nsubj	_	_
+35	und	_	CCONJ	_	_	37	cc	_	_
+36	d'	_	DET	_	_	37	det	_	SpaceAfter=No
+37	Mama	_	NOUN	_	_	34	conj	_	_
+38	sand	_	AUX	_	_	40	aux	_	_
+39	ned	_	PART	_	_	40	advmod	_	_
+40	kemma	_	VERB	_	_	20	conj	_	SpaceAfter=No
+41	,	_	PUNCT	_	_	44	punct	_	_
+42	nämad	_	PRON	_	_	44	nsubj	_	_
+43	is	_	AUX	_	_	44	aux	_	_
+44	kemma	_	VERB	_	_	11	parataxis	_	SpaceAfter=No
+45	,	_	PUNCT	_	_	47	punct	_	_
+46	se	_	PRON	_	_	47	obj	_	_
+47	abzhoin	_	VERB	_	_	44	xcomp	_	SpaceAfter=No
+48	.	_	PUNCT	_	_	11	punct	_	_
+
+# sent_id = wiki_Kafää_43
+# text = Da weans daunn eigsaummit, putzt, trickat und eipockt.
+# genre = wiki
+# dialect_group = central
+# location = Vienna
+# source = https://bar.wikipedia.org/wiki/Kaf%C3%A4%C3%A4
+1	Da	_	ADV	_	_	4	advmod	_	_
+2	weans	_	AUX	_	_	4	aux	_	_
+3	daunn	_	ADV	_	_	4	advmod	_	_
+4	eigsaummit	_	VERB	_	_	0	root	_	SpaceAfter=No
+5	,	_	PUNCT	_	_	6	punct	_	_
+6	putzt	_	VERB	_	_	4	conj	_	SpaceAfter=No
+7	,	_	PUNCT	_	_	8	punct	_	_
+8	trickat	_	VERB	_	_	4	conj	_	_
+9	und	_	CCONJ	_	_	10	cc	_	_
+10	eipockt	_	VERB	_	_	4	conj	_	SpaceAfter=No
+11	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = wiki_Obwaller_5
+# text = Da hiaz woi bekonnteste Nomensträga is da Hans-Peter Obwaller, dea wous a Ralrennfoura is.
+# genre = wiki
+# dialect_group = southcentral
+# location = Pinzgau
+# source = https://bar.wikipedia.org/wiki/Obwaller
+1	Da	_	DET	_	_	5	det	_	_
+2	hiaz	_	ADV	_	_	3	advmod	_	_
+3	woi	_	ADV	_	_	4	advmod	_	_
+4	bekonnteste	_	ADJ	_	_	5	amod	_	_
+5	Nomensträga	_	NOUN	_	_	8	nsubj	_	_
+6	is	_	AUX	_	_	8	cop	_	_
+7	da	_	DET	_	_	8	det	_	_
+8	Hans-Peter	_	PROPN	_	_	0	root	_	_
+9	Obwaller	_	PROPN	_	_	8	flat	_	SpaceAfter=No
+10	,	_	PUNCT	_	_	14	punct	_	_
+11	dea	_	PRON	_	_	14	nsubj	_	_
+12	wous	_	SCONJ	_	_	14	mark	_	_
+13	a	_	DET	_	_	14	det	_	_
+14	Ralrennfoura	_	NOUN	_	_	8	acl	_	_
+15	is	_	AUX	_	_	14	cop	_	SpaceAfter=No
+16	.	_	PUNCT	_	_	8	punct	_	_
+
+# sent_id = sid_de-ba_natural_81
+# text = Lösch den Wecker um Simme.
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	Lösch	_	VERB	_	_	0	root	_	_
+2	den	_	DET	_	_	3	det	_	_
+3	Wecker	_	NOUN	_	_	1	obj	_	_
+4	um	_	ADP	_	_	5	case	_	_
+5	Simme	_	NUM	_	_	3	nmod	_	SpaceAfter=No
+6	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = wikisource_Eisenhans_1
+# text = Es woar amoi a Kini, wo an groussn Woid ghobt hod, wo an Hafa Wuid umadumglafa is.
+# genre = fiction
+# dialect_group = unk
+# location = unk
+# source = https://bar.wikipedia.org/wiki/Text:Eisenhans_(1857)
+1	Es	_	PRON	_	_	2	expl	_	_
+2	woar	_	VERB	_	_	0	root	_	_
+3	amoi	_	ADV	_	_	2	advmod	_	_
+4	a	_	DET	_	_	5	det	_	_
+5	Kini	_	NOUN	_	_	2	nsubj	_	SpaceAfter=No
+6	,	_	PUNCT	_	_	11	punct	_	_
+7	wo	_	SCONJ	_	_	11	mark	_	_
+8	an	_	DET	_	_	10	det	_	_
+9	groussn	_	ADJ	_	_	10	amod	_	_
+10	Woid	_	NOUN	_	_	11	obj	_	_
+11	ghobt	_	VERB	_	_	5	acl	_	_
+12	hod	_	AUX	_	_	11	aux	_	SpaceAfter=No
+13	,	_	PUNCT	_	_	18	punct	_	_
+14	wo	_	ADV	_	_	18	advmod	_	_
+15	an	_	DET	_	_	16	det	_	_
+16	Hafa	_	NOUN	_	_	18	nsubj	_	_
+17	Wuid	_	NOUN	_	_	16	appos	_	_
+18	umadumglafa	_	VERB	_	_	10	advcl	_	_
+19	is	_	AUX	_	_	18	aux	_	SpaceAfter=No
+20	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = wiki_Minga_9
+# text = Z'Minga gibt 's aa an Hauffa Museen, wias Deitsche Museum, oda d'oide, d'neie und d'Pinakothek vo da Modeane.
+# genre = wiki
+# dialect_group = central
+# location = Munich
+# source = https://bar.wikipedia.org/wiki/Minga
+1	Z'	_	ADP	_	_	2	case	_	SpaceAfter=No
+2	Minga	_	PROPN	_	_	3	obl	_	_
+3	gibt	_	VERB	_	_	0	root	_	_
+4	's	_	PRON	_	_	3	expl	_	_
+5	aa	_	ADV	_	_	3	advmod	_	_
+6	an	_	DET	_	_	7	det	_	_
+7	Hauffa	_	NOUN	_	_	3	obj	_	_
+8	Museen	_	NOUN	_	_	7	appos	_	SpaceAfter=No
+9	,	_	PUNCT	_	_	13	punct	_	_
+10	wia	_	SCONJ	_	_	13	case	_	SpaceAfter=No
+11	s	_	DET	_	_	13	det	_	_
+12	Deitsche	_	ADJ	_	_	13	amod	_	_
+13	Museum	_	NOUN	_	_	7	nmod	_	SpaceAfter=No
+14	,	_	PUNCT	_	_	17	punct	_	_
+15	oda	_	CCONJ	_	_	17	cc	_	_
+16	d'	_	DET	_	_	17	det	_	SpaceAfter=No
+17	oide	_	ADJ	_	_	13	conj	_	SpaceAfter=No
+18	,	_	PUNCT	_	_	20	punct	_	_
+19	d'	_	DET	_	_	20	det	_	SpaceAfter=No
+20	neie	_	ADJ	_	_	17	conj	_	_
+21	und	_	CCONJ	_	_	23	cc	_	_
+22	d'	_	DET	_	_	23	det	_	SpaceAfter=No
+23	Pinakothek	_	NOUN	_	_	17	conj	_	_
+24	vo	_	ADP	_	_	26	case	_	_
+25	da	_	DET	_	_	26	det	_	_
+26	Modeane	_	NOUN	_	_	23	nmod	_	SpaceAfter=No
+27	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = sid_de-ba_natural_270
+# text = Wos fia Wecka hob i?
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	Wos	_	PRON	_	_	4	obj	_	_
+2	fia	_	ADP	_	_	3	case	_	_
+3	Wecka	_	NOUN	_	_	1	nmod	_	_
+4	hob	_	VERB	_	_	0	root	_	_
+5	i	_	PRON	_	_	4	nsubj	_	SpaceAfter=No
+6	?	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = wiki_Haberertanz_5
+# text = Beim Haberertanz wean Hassgfui ausdruckt.
+# genre = wiki
+# dialect_group = unk (central/southcentral/south)
+# location = Upper Bavaria
+# source = https://bar.wikipedia.org/wiki/Haberertanz
+1	Beim	_	ADP	_	_	2	case	_	_
+2	Haberertanz	_	PROPN	_	_	5	obl	_	_
+3	wean	_	AUX	_	_	5	aux	_	_
+4	Hassgfui	_	NOUN	_	_	5	nsubj	_	_
+5	ausdruckt	_	VERB	_	_	0	root	_	SpaceAfter=No
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = sid_de-ba_natural_213
+# text = I mechat gern an Disch im Tuderinger füa 2 Leid reserviern.
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	I	_	PRON	_	_	11	nsubj	_	_
+2	mechat	_	AUX	_	_	11	aux	_	_
+3	gern	_	ADV	_	_	11	advmod	_	_
+4	an	_	DET	_	_	5	det	_	_
+5	Disch	_	NOUN	_	_	11	obj	_	_
+6	im	_	ADP	_	_	7	case	_	_
+7	Tuderinger	_	PROPN	_	_	5	nmod	_	_
+8	füa	_	ADP	_	_	10	case	_	_
+9	2	_	NUM	_	_	10	nummod	_	_
+10	Leid	_	NOUN	_	_	5	nmod	_	_
+11	reserviern	_	VERB	_	_	0	root	_	SpaceAfter=No
+12	.	_	PUNCT	_	_	11	punct	_	_
+
+# sent_id = tatoeba_10673747-2
+# text = He, Sophie, geht's eh?
+# genre = grammar-examples
+# dialect_group = unk (central/southcentral/south)
+# location = Austria
+# source = https://tatoeba.org/en/sentences/show/10673747
+# author = brauchinet
+1	He	_	INTJ	_	_	5	discourse	_	SpaceAfter=No
+2	,	_	PUNCT	_	_	1	punct	_	_
+3	Sophie	_	NOUN	_	_	5	vocative	_	SpaceAfter=No
+4	,	_	PUNCT	_	_	3	punct	_	_
+5	geht	_	VERB	_	_	0	root	_	SpaceAfter=No
+6	's	_	PRON	_	_	5	expl	_	_
+7	eh	_	ADV	_	_	5	advmod	_	SpaceAfter=No
+8	?	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = wiki_Kafää_30
+# text = Leid mid weniga Knedl hom mit an Kafääeasotz aus Geaschtn oda Moiz vualiab nehma miassn.
+# genre = wiki
+# dialect_group = central
+# location = Vienna
+# source = https://bar.wikipedia.org/wiki/Kaf%C3%A4%C3%A4
+1	Leid	_	NOUN	_	_	14	nsubj	_	_
+2	mid	_	ADP	_	_	4	case	_	_
+3	weniga	_	DET	_	_	4	det	_	_
+4	Knedl	_	NOUN	_	_	1	nmod	_	_
+5	hom	_	AUX	_	_	14	aux	_	_
+6	mit	_	ADP	_	_	8	case	_	_
+7	an	_	DET	_	_	8	det	_	_
+8	Kafääeasotz	_	NOUN	_	_	14	obl	_	_
+9	aus	_	ADP	_	_	10	case	_	_
+10	Geaschtn	_	NOUN	_	_	8	nmod	_	_
+11	oda	_	CCONJ	_	_	12	cc	_	_
+12	Moiz	_	NOUN	_	_	10	conj	_	_
+13	vualiab	_	ADP	_	_	14	compound	_	_
+14	nehma	_	VERB	_	_	0	root	_	_
+15	miassn	_	AUX	_	_	14	aux	_	SpaceAfter=No
+16	.	_	PUNCT	_	_	14	punct	_	_
+
+# sent_id = wiki_Brod_6
+# text = Es lossd se bis in de Jungstazeid zruckvafoing.
+# genre = wiki
+# dialect_group = central
+# location = Vienna
+# source = https://bar.wikipedia.org/wiki/Brod
+1	Es	_	PRON	_	_	2	expl	_	_
+2	lossd	_	VERB	_	_	0	root	_	_
+3	se	_	PRON	_	_	2	expl	_	_
+4	bis	_	ADP	_	_	7	case	_	_
+5	in	_	ADP	_	_	7	case	_	_
+6	de	_	DET	_	_	7	det	_	_
+7	Jungstazeid	_	NOUN	_	_	2	obl	_	_
+8	zruckvafoing	_	VERB	_	_	2	xcomp	_	SpaceAfter=No
+9	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = tatoeba_5450236
+# text = Mir hom imma nu a Gaudi.
+# genre = grammar-examples
+# dialect_group = unk (central/southcentral/south)
+# location = Austria
+# source = https://tatoeba.org/en/sentences/show/5450236
+# author = brauchinet
+1	Mir	_	PRON	_	_	2	nsubj	_	_
+2	hom	_	VERB	_	_	0	root	_	_
+3	imma	_	ADV	_	_	2	advmod	_	_
+4	nu	_	ADV	_	_	2	advmod	_	_
+5	a	_	DET	_	_	6	det	_	_
+6	Gaudi	_	NOUN	_	_	2	obj	_	SpaceAfter=No
+7	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = sid_de-ba_natural_230
+# text = Suach nach m Harry G
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	Suach	_	VERB	_	_	0	root	_	_
+2	nach	_	ADP	_	_	4	case	_	_
+3	m	_	DET	_	_	4	det	_	_
+4	Harry	_	PROPN	_	_	1	obl	_	_
+5	G	_	PROPN	_	_	4	flat	_	_
+
+# sent_id = sid_de-ba_natural_309
+# text = Wia wird den des Weda moang fria in München?
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	Wia	_	ADV	_	_	2	advmod	_	_
+2	wird	_	VERB	_	_	0	root	_	_
+3	den	_	ADV	_	_	2	advmod	_	_
+4	des	_	DET	_	_	5	det	_	_
+5	Weda	_	NOUN	_	_	2	nsubj	_	_
+6	moang	_	ADV	_	_	7	advmod	_	_
+7	fria	_	ADJ	_	_	2	advmod	_	_
+8	in	_	ADP	_	_	9	case	_	_
+9	München	_	PROPN	_	_	2	obl	_	SpaceAfter=No
+10	?	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = wiki_Kafää_21
+# text = Da Murad III. hod am End vom 16 Jh. a Kafäävabot ealossn, des wos owa zeascht nua wenig kontrolliad wuan is.
+# genre = wiki
+# dialect_group = central
+# location = Vienna
+# source = https://bar.wikipedia.org/wiki/Kaf%C3%A4%C3%A4
+1	Da	_	DET	_	_	2	det	_	_
+2	Murad	_	PROPN	_	_	12	nsubj	_	_
+3	III.	_	PROPN	_	_	2	flat	_	_
+4	hod	_	AUX	_	_	12	aux	_	_
+5	am	_	ADP	_	_	6	case	_	_
+6	End	_	NOUN	_	_	12	obl	_	_
+7	vom	_	ADP	_	_	9	case	_	_
+8	16	_	ADJ	_	_	9	amod	_	_
+9	Jh.	_	NOUN	_	_	6	nmod	_	_
+10	a	_	DET	_	_	11	det	_	_
+11	Kafäävabot	_	NOUN	_	_	12	obj	_	_
+12	ealossn	_	VERB	_	_	0	root	_	SpaceAfter=No
+13	,	_	PUNCT	_	_	20	punct	_	_
+14	des	_	PRON	_	_	20	nsubj	_	_
+15	wos	_	SCONJ	_	_	20	mark	_	_
+16	owa	_	CCONJ	_	_	20	cc	_	_
+17	zeascht	_	ADJ	_	_	20	advmod	_	_
+18	nua	_	ADV	_	_	20	advmod	_	_
+19	wenig	_	ADV	_	_	20	advmod	_	_
+20	kontrolliad	_	VERB	_	_	11	acl	_	_
+21	wuan	_	AUX	_	_	20	aux	_	_
+22	is	_	AUX	_	_	20	aux	_	SpaceAfter=No
+23	.	_	PUNCT	_	_	12	punct	_	_
+
+# sent_id = sid_de-ba_natural_211
+# text = Dua des Liadl des grod laft in mei Party Palylist
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	Dua	_	VERB	_	_	0	root	_	_
+2	des	_	DET	_	_	3	det	_	_
+3	Liadl	_	NOUN	_	_	1	obj	_	_
+4	des	_	PRON	_	_	6	nsubj	_	_
+5	grod	_	ADV	_	_	6	advmod	_	_
+6	laft	_	VERB	_	_	3	acl	_	_
+7	in	_	ADP	_	_	10	case	_	_
+8	mei	_	DET	_	_	10	det	_	_
+9	Party	_	NOUN	_	_	10	compound	_	_
+10	Palylist	_	NOUN	_	_	1	obl	_	_
+
+# sent_id = sid_de-ba_natural_44
+# text = gib "Iphigenie auf Taurus" oan Stern, des war richtig schlecht.
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	gib	_	VERB	_	_	0	root	_	_
+2	"	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Iphigenie	_	PROPN	_	_	1	obl	_	_
+4	auf	_	ADP	_	_	5	case	_	_
+5	Taurus	_	PROPN	_	_	3	nmod	_	SpaceAfter=No
+6	"	_	PUNCT	_	_	3	punct	_	_
+7	oan	_	DET	_	_	8	det	_	_
+8	Stern	_	NOUN	_	_	1	obj	_	SpaceAfter=No
+9	,	_	PUNCT	_	_	13	punct	_	_
+10	des	_	PRON	_	_	13	nsubj	_	_
+11	war	_	AUX	_	_	13	cop	_	_
+12	richtig	_	ADJ	_	_	13	advmod	_	_
+13	schlecht	_	ADJ	_	_	1	parataxis	_	SpaceAfter=No
+14	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = cairo_17
+# text = Sie häd ihre Hoar macha soin, aber hods aus irgendoam Grund an dem Dog ned gmacht.
+# genre = grammar-examples
+# dialect_group = central
+# location = Upper Bavaria
+1	Sie	_	PRON	_	_	5	nsubj	_	_
+2	häd	_	AUX	_	_	5	aux	_	_
+3	ihre	_	DET	_	_	4	det	_	_
+4	Hoar	_	NOUN	_	_	5	obj	_	_
+5	macha	_	VERB	_	_	0	root	_	_
+6	soin	_	AUX	_	_	5	aux	_	SpaceAfter=No
+7	,	_	PUNCT	_	_	18	punct	_	_
+8	aber	_	CCONJ	_	_	18	cc	_	_
+9	hod	_	AUX	_	_	18	aux	_	SpaceAfter=No
+10	s	_	PRON	_	_	18	obj	_	_
+11	aus	_	ADP	_	_	13	case	_	_
+12	irgendoam	_	DET	_	_	13	det	_	_
+13	Grund	_	NOUN	_	_	18	obl	_	_
+14	an	_	ADP	_	_	16	case	_	_
+15	dem	_	DET	_	_	16	det	_	_
+16	Dog	_	NOUN	_	_	18	obl	_	_
+17	ned	_	PART	_	_	18	advmod	_	_
+18	gmacht	_	VERB	_	_	5	conj	_	SpaceAfter=No
+19	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = wiki_Dazzlwuam_31
+# text = Leit mid ana Schlaunganfobi keman soiche Ficha oft gressa und bedrohlicha fia, ois wia s wiakli san.
+# genre = wiki
+# dialect_group = unk (central/southcentral)
+# location = East Austria
+# source = https://bar.wikipedia.org/wiki/Dazzlwuam
+1	Leit	_	NOUN	_	_	5	obl	_	_
+2	mid	_	ADP	_	_	4	case	_	_
+3	ana	_	DET	_	_	4	det	_	_
+4	Schlaunganfobi	_	NOUN	_	_	1	nmod	_	_
+5	keman	_	VERB	_	_	0	root	_	_
+6	soiche	_	DET	_	_	7	det	_	_
+7	Ficha	_	NOUN	_	_	5	nsubj	_	_
+8	oft	_	ADV	_	_	5	advmod	_	_
+9	gressa	_	ADJ	_	_	5	advmod	_	_
+10	und	_	CCONJ	_	_	11	cc	_	_
+11	bedrohlicha	_	ADJ	_	_	9	conj	_	_
+12	fia	_	ADP	_	_	5	compound	_	SpaceAfter=No
+13	,	_	PUNCT	_	_	17	punct	_	_
+14	ois	_	SCONJ	_	_	17	mark	_	_
+15	wia	_	SCONJ	_	_	14	fixed	_	_
+16	s	_	PRON	_	_	17	nsubj	_	_
+17	wiakli	_	ADJ	_	_	5	advcl	_	_
+18	san	_	AUX	_	_	17	cop	_	SpaceAfter=No
+19	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = wiki_Pinzgau_3
+# text = Da Nom Pinzgau stommb vo dia friara entlong vo da unreegulirschten Soizach vurkemmeaschten Binsen.
+# genre = wiki
+# dialect_group = southcentral
+# location = Pinzgau
+# source = https://bar.wikipedia.org/wiki/Pinzgau
+1	Da	_	DET	_	_	2	det	_	_
+2	Nom	_	NOUN	_	_	4	nsubj	_	_
+3	Pinzgau	_	PROPN	_	_	2	appos	_	_
+4	stommb	_	VERB	_	_	0	root	_	_
+5	vo	_	ADP	_	_	14	case	_	_
+6	dia	_	DET	_	_	14	det	_	_
+7	friara	_	ADJ	_	_	13	advmod	_	_
+8	entlong	_	ADV	_	_	13	advmod	_	_
+9	vo	_	ADP	_	_	12	case	_	_
+10	da	_	DET	_	_	12	det	_	_
+11	unreegulirschten	_	ADJ	_	_	12	amod	_	_
+12	Soizach	_	PROPN	_	_	8	obl	_	_
+13	vurkemmeaschten	_	ADJ	_	_	14	amod	_	_
+14	Binsen	_	NOUN	_	_	4	obl	_	SpaceAfter=No
+15	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = wiki_Minga_48
+# text = Z'Minga is no vor oa, zwoa Genarationa in da Hauptsach Boarisch gredd worn.
+# genre = wiki
+# dialect_group = central
+# location = Munich
+# source = https://bar.wikipedia.org/wiki/Minga
+1	Z'	_	ADP	_	_	2	case	_	SpaceAfter=No
+2	Minga	_	PROPN	_	_	14	obl	_	_
+3	is	_	AUX	_	_	14	aux	_	_
+4	no	_	ADV	_	_	14	advmod	_	_
+5	vor	_	ADP	_	_	9	case	_	_
+6	oa	_	NUM	_	_	9	nummod	_	SpaceAfter=No
+7	,	_	PUNCT	_	_	8	punct	_	_
+8	zwoa	_	NUM	_	_	6	conj	_	_
+9	Genarationa	_	NOUN	_	_	14	obl	_	_
+10	in	_	ADP	_	_	12	case	_	_
+11	da	_	DET	_	_	12	det	_	_
+12	Hauptsach	_	ADV	_	_	14	obl	_	_
+13	Boarisch	_	NOUN	_	_	14	nsubj	_	_
+14	gredd	_	VERB	_	_	0	root	_	_
+15	worn	_	AUX	_	_	14	aux	_	SpaceAfter=No
+16	.	_	PUNCT	_	_	14	punct	_	_
+
+# sent_id = wiki_J-Pop_7
+# text = J-Pop hot a grouße Ehnlichkeit mit da koreanischen Popmusik (K-Pop), sodass Laid, daj wou se ned damid auskenna, de zwoa Richtunga kamm ausanandhajdn kìnna.
+# genre = wiki
+# dialect_group = north
+# location = unk
+# source = https://bar.wikipedia.org/wiki/J-Pop
+1	J-Pop	_	PROPN	_	_	2	nsubj	_	_
+2	hot	_	VERB	_	_	0	root	_	_
+3	a	_	DET	_	_	5	det	_	_
+4	grouße	_	ADJ	_	_	5	amod	_	_
+5	Ehnlichkeit	_	NOUN	_	_	2	obj	_	_
+6	mit	_	ADP	_	_	9	case	_	_
+7	da	_	DET	_	_	9	det	_	_
+8	koreanischen	_	ADJ	_	_	9	amod	_	_
+9	Popmusik	_	NOUN	_	_	5	nmod	_	_
+10	(	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	K-Pop	_	PROPN	_	_	9	appos	_	SpaceAfter=No
+12	)	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	_	PUNCT	_	_	28	punct	_	_
+14	sodass	_	SCONJ	_	_	28	mark	_	_
+15	Laid	_	NOUN	_	_	28	nsubj	_	SpaceAfter=No
+16	,	_	PUNCT	_	_	22	punct	_	_
+17	daj	_	PRON	_	_	22	nsubj	_	_
+18	wou	_	SCONJ	_	_	22	mark	_	_
+19	se	_	PRON	_	_	22	expl	_	_
+20	ned	_	PART	_	_	22	advmod	_	_
+21	damid	_	ADV	_	_	22	advmod	_	_
+22	auskenna	_	VERB	_	_	15	acl	_	SpaceAfter=No
+23	,	_	PUNCT	_	_	22	punct	_	_
+24	de	_	DET	_	_	26	det	_	_
+25	zwoa	_	NUM	_	_	26	nummod	_	_
+26	Richtunga	_	NOUN	_	_	28	obj	_	_
+27	kamm	_	ADV	_	_	28	advmod	_	_
+28	ausanandhajdn	_	VERB	_	_	2	advcl	_	_
+29	kìnna	_	AUX	_	_	28	aux	_	SpaceAfter=No
+30	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = wiki_Haferltarock_30
+# text = Wenn oana a Handspui gspuit hod, nachand deafa'n Stock ned oschaun.
+# genre = wiki
+# dialect_group = northcentral
+# location = Bavarian Forest
+# source = https://bar.wikipedia.org/wiki/Haferltarock
+1	Wenn	_	SCONJ	_	_	5	mark	_	_
+2	oana	_	DET	_	_	5	nsubj	_	_
+3	a	_	DET	_	_	4	det	_	_
+4	Handspui	_	NOUN	_	_	5	obj	_	_
+5	gspuit	_	VERB	_	_	14	advcl	_	_
+6	hod	_	AUX	_	_	5	aux	_	SpaceAfter=No
+7	,	_	PUNCT	_	_	5	punct	_	_
+8	nachand	_	ADV	_	_	14	advmod	_	_
+9	deaf	_	AUX	_	_	14	aux	_	SpaceAfter=No
+10	a	_	PRON	_	_	14	nsubj	_	SpaceAfter=No
+11	'n	_	DET	_	_	12	det	_	_
+12	Stock	_	NOUN	_	_	14	obj	_	_
+13	ned	_	PART	_	_	14	advmod	_	_
+14	oschaun	_	VERB	_	_	0	root	_	SpaceAfter=No
+15	.	_	PUNCT	_	_	14	punct	_	_
+
+# sent_id = wiki_Age-of-Empires_12
+# text = Schbedá kammá se áá an Bauánhof baun.
+# genre = wiki
+# dialect_group = north
+# location = Upper Bavaria
+# source = https://bar.wikipedia.org/wiki/Age_of_Empires
+1	Schbedá	_	ADJ	_	_	8	advmod	_	_
+2	kam	_	AUX	_	_	8	aux	_	SpaceAfter=No
+3	má	_	PRON	_	_	8	nsubj	_	_
+4	se	_	PRON	_	_	8	obl	_	_
+5	áá	_	ADV	_	_	8	advmod	_	_
+6	an	_	DET	_	_	7	det	_	_
+7	Bauánhof	_	NOUN	_	_	8	obj	_	_
+8	baun	_	VERB	_	_	0	root	_	SpaceAfter=No
+9	.	_	PUNCT	_	_	8	punct	_	_
+
+# sent_id = wiki_Age-of-Empires_14
+# text = Wemmá bestimmde Voraussezungán eáfülld, nchád kam má in s'naxde Zeidaldá kemmá.
+# genre = wiki
+# dialect_group = north
+# location = Upper Bavaria
+# source = https://bar.wikipedia.org/wiki/Age_of_Empires
+1	Wem	_	SCONJ	_	_	5	mark	_	SpaceAfter=No
+2	má	_	PRON	_	_	5	nsubj	_	_
+3	bestimmde	_	ADJ	_	_	4	amod	_	_
+4	Voraussezungán	_	NOUN	_	_	5	obj	_	_
+5	eáfülld	_	VERB	_	_	14	advcl	_	SpaceAfter=No
+6	,	_	PUNCT	_	_	5	punct	_	_
+7	nchád	_	ADV	_	_	14	advmod	_	_
+8	kam	_	AUX	_	_	14	aux	_	_
+9	má	_	PRON	_	_	14	nsubj	_	_
+10	in	_	ADP	_	_	13	case	_	_
+11	s'	_	DET	_	_	13	det	_	SpaceAfter=No
+12	naxde	_	ADJ	_	_	13	amod	_	_
+13	Zeidaldá	_	NOUN	_	_	14	obl	_	_
+14	kemmá	_	VERB	_	_	0	root	_	SpaceAfter=No
+15	.	_	PUNCT	_	_	14	punct	_	_
+
+# sent_id = sid_de-ba_natural_2
+# text = Mach des Liad in mei Party-Playlist.
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	Mach	_	VERB	_	_	0	root	_	_
+2	des	_	DET	_	_	3	det	_	_
+3	Liad	_	NOUN	_	_	1	obj	_	_
+4	in	_	ADP	_	_	6	case	_	_
+5	mei	_	DET	_	_	6	det	_	_
+6	Party-Playlist	_	NOUN	_	_	1	obl	_	SpaceAfter=No
+7	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = sid_de-ba_natural_87
+# text = lösch amoi den bläden Wecka!
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	lösch	_	VERB	_	_	0	root	_	_
+2	amoi	_	ADV	_	_	1	advmod	_	_
+3	den	_	DET	_	_	5	det	_	_
+4	bläden	_	ADJ	_	_	5	amod	_	_
+5	Wecka	_	NOUN	_	_	1	obj	_	SpaceAfter=No
+6	!	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = wiki_Schneckn_6
+# text = Schneckn kennan klaana ois wiar 1 mm, owar aa greßa wiar 1 m sei.
+# genre = wiki
+# dialect_group = unk (central/southcentral)
+# location = East Austria
+# source = https://bar.wikipedia.org/wiki/Schneckn
+1	Schneckn	_	NOUN	_	_	3	nsubj	_	_
+2	kennan	_	AUX	_	_	3	aux	_	_
+3	klaana	_	ADJ	_	_	0	root	_	_
+4	ois	_	SCONJ	_	_	7	case	_	_
+5	wiar	_	SCONJ	_	_	4	fixed	_	_
+6	1	_	NUM	_	_	7	nummod	_	_
+7	mm	_	NOUN	_	_	3	obl	_	SpaceAfter=No
+8	,	_	PUNCT	_	_	11	punct	_	_
+9	owar	_	CCONJ	_	_	11	cc	_	_
+10	aa	_	ADV	_	_	11	advmod	_	_
+11	greßa	_	ADJ	_	_	3	conj	_	_
+12	wiar	_	SCONJ	_	_	14	case	_	_
+13	1	_	NUM	_	_	14	nummod	_	_
+14	m	_	NOUN	_	_	11	obl	_	_
+15	sei	_	AUX	_	_	3	cop	_	SpaceAfter=No
+16	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = wiki_Dazzlwuam_6
+# text = Da Dazzlwuam kimd in fü Sagn fu da gaunz Oipmgegend fia und soid a Fich sei des hoch om in de Beag wond, in Schdoin oda Gruam hausd und des hauptsechli daun zum seng is, waun s im Suma laung hoas und druka is und s Weda drauf gach umschlogt.
+# genre = wiki
+# dialect_group = unk (central/southcentral)
+# location = East Austria
+# source = https://bar.wikipedia.org/wiki/Dazzlwuam
+1	Da	_	DET	_	_	2	det	_	_
+2	Dazzlwuam	_	NOUN	_	_	3	nsubj	_	_
+3	kimd	_	VERB	_	_	0	root	_	_
+4	in	_	ADP	_	_	6	case	_	_
+5	fü	_	DET	_	_	6	det	_	_
+6	Sagn	_	NOUN	_	_	3	obl	_	_
+7	fu	_	ADP	_	_	10	case	_	_
+8	da	_	DET	_	_	10	det	_	_
+9	gaunz	_	ADJ	_	_	10	amod	_	_
+10	Oipmgegend	_	NOUN	_	_	6	nmod	_	_
+11	fia	_	ADP	_	_	3	compound	_	_
+12	und	_	CCONJ	_	_	15	cc	_	_
+13	soid	_	AUX	_	_	15	aux	_	_
+14	a	_	DET	_	_	15	det	_	_
+15	Fich	_	NOUN	_	_	3	conj	_	_
+16	sei	_	AUX	_	_	15	cop	_	_
+17	des	_	PRON	_	_	23	nsubj	_	_
+18	hoch	_	ADJ	_	_	19	advmod	_	_
+19	om	_	ADV	_	_	23	advmod	_	_
+20	in	_	ADP	_	_	22	case	_	_
+21	de	_	DET	_	_	22	det	_	_
+22	Beag	_	NOUN	_	_	23	obl	_	_
+23	wond	_	VERB	_	_	15	acl	_	SpaceAfter=No
+24	,	_	PUNCT	_	_	29	punct	_	_
+25	in	_	ADP	_	_	26	case	_	_
+26	Schdoin	_	NOUN	_	_	29	obl	_	_
+27	oda	_	CCONJ	_	_	28	cc	_	_
+28	Gruam	_	NOUN	_	_	26	conj	_	_
+29	hausd	_	VERB	_	_	23	conj	_	_
+30	und	_	CCONJ	_	_	35	cc	_	_
+31	des	_	PRON	_	_	35	nsubj	_	_
+32	hauptsechli	_	ADJ	_	_	35	advmod	_	_
+33	daun	_	ADV	_	_	35	advmod	_	_
+34	zum	_	DET	_	_	35	det	_	_
+35	seng	_	NOUN	_	_	23	conj	_	_
+36	is	_	AUX	_	_	35	aux	_	SpaceAfter=No
+37	,	_	PUNCT	_	_	43	punct	_	_
+38	waun	_	SCONJ	_	_	43	mark	_	_
+39	s	_	PRON	_	_	43	expl	_	_
+40	im	_	ADP	_	_	41	case	_	_
+41	Suma	_	NOUN	_	_	43	obl	_	_
+42	laung	_	ADJ	_	_	43	advmod	_	_
+43	hoas	_	ADJ	_	_	35	advcl	_	_
+44	und	_	CCONJ	_	_	45	cc	_	_
+45	druka	_	ADJ	_	_	43	conj	_	_
+46	is	_	AUX	_	_	43	cop	_	_
+47	und	_	CCONJ	_	_	52	cc	_	_
+48	s	_	DET	_	_	49	det	_	_
+49	Weda	_	NOUN	_	_	52	nsubj	_	_
+50	drauf	_	ADV	_	_	52	advmod	_	_
+51	gach	_	ADJ	_	_	52	advmod	_	_
+52	umschlogt	_	VERB	_	_	43	conj	_	SpaceAfter=No
+53	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = tatoeba_5498095
+# text = Da Thomas hot ma a Göd gfladert.
+# genre = grammar-examples
+# dialect_group = unk (central/southcentral/south)
+# location = Austria
+# source = https://tatoeba.org/en/sentences/show/5498095
+# author = brauchinet
+1	Da	_	DET	_	_	2	det	_	_
+2	Thomas	_	PROPN	_	_	7	nsubj	_	_
+3	hot	_	AUX	_	_	7	aux	_	_
+4	ma	_	PRON	_	_	7	obl	_	_
+5	a	_	DET	_	_	6	det	_	_
+6	Göd	_	NOUN	_	_	7	obj	_	_
+7	gfladert	_	VERB	_	_	0	root	_	SpaceAfter=No
+8	.	_	PUNCT	_	_	7	punct	_	_
+
+# sent_id = wiki_Fiisch_2
+# text = Fiisch (dt.: Fisch, lateinisch : piscis) san Wiaweviecha, de wo im Wossa lem.
+# dialect_group = unk
+# location = unk
+# genre = wiki
+# source = https://bar.wikipedia.org/wiki/Fiisch
+1	Fiisch	_	NOUN	_	_	12	nsubj	_	_
+2	(	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	dt.	_	ADJ	_	_	1	appos	_	SpaceAfter=No
+4	:	_	PUNCT	_	_	3	punct	_	_
+5	Fisch	_	X	_	_	3	appos	_	SpaceAfter=No
+6	,	_	PUNCT	_	_	7	punct	_	_
+7	lateinisch	_	ADJ	_	_	3	conj	_	_
+8	:	_	PUNCT	_	_	7	punct	_	_
+9	piscis	_	X	_	_	7	appos	_	SpaceAfter=No
+10	)	_	PUNCT	_	_	3	punct	_	_
+11	san	_	AUX	_	_	12	cop	_	_
+12	Wiaweviecha	_	NOUN	_	_	0	root	_	SpaceAfter=No
+13	,	_	PUNCT	_	_	18	punct	_	_
+14	de	_	PRON	_	_	18	nsubj	_	_
+15	wo	_	SCONJ	_	_	18	mark	_	_
+16	im	_	ADP	_	_	17	case	_	_
+17	Wossa	_	NOUN	_	_	18	obl	_	_
+18	lem	_	VERB	_	_	12	acl	_	SpaceAfter=No
+19	.	_	PUNCT	_	_	12	punct	_	_
+
+# sent_id = wiki_Age-of-Empires_7
+# text = Ma hod a Händ voll Doafbewohna und a Doafzendrum.
+# genre = wiki
+# dialect_group = north
+# location = Upper Bavaria
+# source = https://bar.wikipedia.org/wiki/Age_of_Empires
+1	Ma	_	PRON	_	_	2	nsubj	_	_
+2	hod	_	VERB	_	_	0	root	_	_
+3	a	_	DET	_	_	4	det	_	_
+4	Händ	_	NOUN	_	_	2	obj	_	_
+5	voll	_	ADV	_	_	4	advmod	_	_
+6	Doafbewohna	_	NOUN	_	_	4	appos	_	_
+7	und	_	CCONJ	_	_	9	cc	_	_
+8	a	_	DET	_	_	9	det	_	_
+9	Doafzendrum	_	NOUN	_	_	4	conj	_	SpaceAfter=No
+10	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = wikitalk_Dischkrian:Ödenburg_2
+# text = Den Teu nochn Voik host 0ans za Oans vo da deitschn Wikipedia ogschrim.
+# genre = social
+# dialect_group = unk
+# location = unk
+# source = https://bar.wikipedia.org/wiki/Dischkrian:%C3%96denburg
+1	Den	_	DET	_	_	2	det	_	_
+2	Teu	_	NOUN	_	_	14	nsubj	_	_
+3	noch	_	ADP	_	_	5	case	_	SpaceAfter=No
+4	n	_	DET	_	_	5	det	_	_
+5	Voik	_	NOUN	_	_	2	nmod	_	_
+6	host	_	AUX	_	_	14	aux	_	_
+7	0ans	_	NUM	_	_	14	obl	_	_
+8	za	_	ADP	_	_	9	case	_	_
+9	Oans	_	NUM	_	_	7	nummod	_	_
+10	vo	_	ADP	_	_	13	case	_	_
+11	da	_	DET	_	_	13	det	_	_
+12	deitschn	_	ADJ	_	_	13	amod	_	_
+13	Wikipedia	_	NOUN	_	_	14	obl	_	_
+14	ogschrim	_	VERB	_	_	0	root	_	SpaceAfter=No
+15	.	_	PUNCT	_	_	14	punct	_	_
+
+# sent_id = sid_de-ba_natural_71
+# text = wo und wann kann i des Theater aschaun
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	wo	_	ADV	_	_	8	advmod	_	_
+2	und	_	CCONJ	_	_	3	cc	_	_
+3	wann	_	ADV	_	_	1	conj	_	_
+4	kann	_	AUX	_	_	8	aux	_	_
+5	i	_	PRON	_	_	8	nsubj	_	_
+6	des	_	DET	_	_	7	det	_	_
+7	Theater	_	NOUN	_	_	8	obj	_	_
+8	aschaun	_	VERB	_	_	0	root	_	_
+
+# sent_id = wiki_Kafää_4
+# text = Es gibt sogoa eigane Lokäu, de Kafäähaisa, wo hauptsächlich Kafää drunkn wiad.
+# genre = wiki
+# dialect_group = central
+# location = Vienna
+# source = https://bar.wikipedia.org/wiki/Kaf%C3%A4%C3%A4
+1	Es	_	PRON	_	_	2	expl	_	_
+2	gibt	_	VERB	_	_	0	root	_	_
+3	sogoa	_	ADV	_	_	2	advmod	_	_
+4	eigane	_	ADJ	_	_	5	amod	_	_
+5	Lokäu	_	NOUN	_	_	2	obj	_	SpaceAfter=No
+6	,	_	PUNCT	_	_	8	punct	_	_
+7	de	_	DET	_	_	8	det	_	_
+8	Kafäähaisa	_	NOUN	_	_	5	appos	_	SpaceAfter=No
+9	,	_	PUNCT	_	_	13	punct	_	_
+10	wo	_	ADV	_	_	13	advmod	_	_
+11	hauptsächlich	_	ADJ	_	_	13	advmod	_	_
+12	Kafää	_	NOUN	_	_	13	nsubj	_	_
+13	drunkn	_	VERB	_	_	5	acl	_	_
+14	wiad	_	AUX	_	_	13	aux	_	SpaceAfter=No
+15	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = wiki_Kafää_46
+# text = De Kafääpflaunzn ghean zua botanischen Gattung Coffea aus da Famülie Rubiaceae.
+# genre = wiki
+# dialect_group = central
+# location = Vienna
+# source = https://bar.wikipedia.org/wiki/Kaf%C3%A4%C3%A4
+1	De	_	DET	_	_	2	det	_	_
+2	Kafääpflaunzn	_	NOUN	_	_	3	nsubj	_	_
+3	ghean	_	VERB	_	_	0	root	_	_
+4	zua	_	ADP	_	_	6	case	_	_
+5	botanischen	_	ADJ	_	_	6	amod	_	_
+6	Gattung	_	NOUN	_	_	3	obl	_	_
+7	Coffea	_	PROPN	_	_	6	flat	_	_
+8	aus	_	ADP	_	_	10	case	_	_
+9	da	_	DET	_	_	10	det	_	_
+10	Famülie	_	NOUN	_	_	3	obl	_	_
+11	Rubiaceae	_	PROPN	_	_	10	flat	_	SpaceAfter=No
+12	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = wikitalk_Dischkrian:Bsundaheitn-im-boarischn-Vokabular_3
+# text = A wenn des "mit" und "von" no net drin is, stejt se fir mi de Frog, wos ma mit dem Artikl "Zuagroaste Werta" erreicha wui.
+# genre = social
+# dialect_group = unk
+# location = unk
+# source = https://bar.wikipedia.org/wiki/Dischkrian:Bsundaheitn_im_boarischn_Vokabular
+1	A	_	ADV	_	_	13	advmod	_	_
+2	wenn	_	SCONJ	_	_	13	mark	_	_
+3	des	_	DET	_	_	5	det	_	_
+4	"	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	mit	_	ADP	_	_	13	nsubj	_	SpaceAfter=No
+6	"	_	PUNCT	_	_	5	punct	_	_
+7	und	_	CCONJ	_	_	9	cc	_	_
+8	"	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	von	_	ADP	_	_	5	conj	_	SpaceAfter=No
+10	"	_	PUNCT	_	_	9	punct	_	_
+11	no	_	ADV	_	_	13	advmod	_	_
+12	net	_	PART	_	_	13	advmod	_	_
+13	drin	_	ADV	_	_	16	advcl	_	_
+14	is	_	AUX	_	_	13	cop	_	SpaceAfter=No
+15	,	_	PUNCT	_	_	13	punct	_	_
+16	stejt	_	VERB	_	_	0	root	_	_
+17	se	_	PRON	_	_	16	expl	_	_
+18	fir	_	ADP	_	_	19	case	_	_
+19	mi	_	PRON	_	_	16	obl	_	_
+20	de	_	DET	_	_	21	det	_	_
+21	Frog	_	NOUN	_	_	16	nsubj	_	SpaceAfter=No
+22	,	_	PUNCT	_	_	32	punct	_	_
+23	wos	_	PRON	_	_	32	obj	_	_
+24	ma	_	PRON	_	_	32	nsubj	_	_
+25	mit	_	ADP	_	_	27	case	_	_
+26	dem	_	DET	_	_	27	det	_	_
+27	Artikl	_	NOUN	_	_	32	obl	_	_
+28	"	_	PUNCT	_	_	30	punct	_	SpaceAfter=No
+29	Zuagroaste	_	ADJ	_	_	30	amod	_	_
+30	Werta	_	NOUN	_	_	27	appos	_	SpaceAfter=No
+31	"	_	PUNCT	_	_	30	punct	_	_
+32	erreicha	_	VERB	_	_	21	acl	_	_
+33	wui	_	AUX	_	_	32	aux	_	SpaceAfter=No
+34	.	_	PUNCT	_	_	16	punct	_	_
+
+# sent_id = wiki_Minga_56
+# text = An easchtn Gipfe in da Eihwohnazoi hods im olympischn Joar 1972 mit 1.338.924 gebm.
+# genre = wiki
+# dialect_group = central
+# location = Munich
+# source = https://bar.wikipedia.org/wiki/Minga
+1	An	_	DET	_	_	3	det	_	_
+2	easchtn	_	ADJ	_	_	3	amod	_	_
+3	Gipfe	_	NOUN	_	_	14	nsubj	_	_
+4	in	_	ADP	_	_	6	case	_	_
+5	da	_	DET	_	_	6	det	_	_
+6	Eihwohnazoi	_	NOUN	_	_	3	nmod	_	_
+7	hods	_	AUX	_	_	14	aux	_	_
+8	im	_	ADP	_	_	10	case	_	_
+9	olympischn	_	ADJ	_	_	10	amod	_	_
+10	Joar	_	NOUN	_	_	14	obl	_	_
+11	1972	_	NUM	_	_	10	nummod	_	_
+12	mit	_	ADP	_	_	13	case	_	_
+13	1.338.924	_	NUM	_	_	14	obl	_	_
+14	gebm	_	VERB	_	_	0	root	_	SpaceAfter=No
+15	.	_	PUNCT	_	_	14	punct	_	_
+
+# sent_id = cairo_16
+# text = Da Bäda und d’Maria hom sie umarmt und san dann ausm Zimmer ganga.
+# genre = grammar-examples
+# dialect_group = central
+# location = Upper Bavaria
+1	Da	_	DET	_	_	2	det	_	_
+2	Bäda	_	PROPN	_	_	8	nsubj	_	_
+3	und	_	CCONJ	_	_	5	cc	_	_
+4	d’	_	DET	_	_	5	det	_	SpaceAfter=No
+5	Maria	_	PROPN	_	_	2	conj	_	_
+6	hom	_	AUX	_	_	8	aux	_	_
+7	sie	_	PRON	_	_	8	obj	_	_
+8	umarmt	_	VERB	_	_	0	root	_	_
+9	und	_	CCONJ	_	_	14	cc	_	_
+10	san	_	AUX	_	_	14	aux	_	_
+11	dann	_	ADV	_	_	14	advmod	_	_
+12	ausm	_	ADP	_	_	13	case	_	_
+13	Zimmer	_	NOUN	_	_	14	obl	_	_
+14	ganga	_	VERB	_	_	8	conj	_	SpaceAfter=No
+15	.	_	PUNCT	_	_	8	punct	_	_
+
+# sent_id = wiki_Webseitn_7
+# text = Im Gengsotz zura statischn Webseitn wead a dynamische Netzseitn eascht zum Zeitpunkt vo da Ofoadarung easteijt.
+# genre = wiki
+# dialect_group = unk (central/southcentral)
+# location = South East Upper Bavaria
+# source = https://bar.wikipedia.org/wiki/Webseitn
+1	Im	_	ADP	_	_	2	case	_	_
+2	Gengsotz	_	NOUN	_	_	16	obl	_	_
+3	zura	_	ADP	_	_	5	case	_	_
+4	statischn	_	ADJ	_	_	5	amod	_	_
+5	Webseitn	_	NOUN	_	_	2	nmod	_	_
+6	wead	_	AUX	_	_	16	aux	_	_
+7	a	_	DET	_	_	9	det	_	_
+8	dynamische	_	ADJ	_	_	9	amod	_	_
+9	Netzseitn	_	NOUN	_	_	16	nsubj	_	_
+10	eascht	_	ADJ	_	_	16	amod	_	_
+11	zum	_	ADP	_	_	12	case	_	_
+12	Zeitpunkt	_	NOUN	_	_	16	obl	_	_
+13	vo	_	ADP	_	_	15	case	_	_
+14	da	_	DET	_	_	15	det	_	_
+15	Ofoadarung	_	NOUN	_	_	12	nmod	_	_
+16	easteijt	_	VERB	_	_	0	root	_	SpaceAfter=No
+17	.	_	PUNCT	_	_	16	punct	_	_
+
+# sent_id = wiki_Age-of-Empires_18
+# text = In dene Heisln kammá nachád Leid mocha oda irgánd án Zeig erfoáschn und fobessán.
+# genre = wiki
+# dialect_group = north
+# location = Upper Bavaria
+# source = https://bar.wikipedia.org/wiki/Age_of_Empires
+1	In	_	ADP	_	_	3	case	_	_
+2	dene	_	DET	_	_	3	det	_	_
+3	Heisln	_	NOUN	_	_	8	obl	_	_
+4	kam	_	AUX	_	_	8	aux	_	SpaceAfter=No
+5	má	_	PRON	_	_	8	nsubj	_	_
+6	nachád	_	ADV	_	_	8	advmod	_	_
+7	Leid	_	NOUN	_	_	8	obj	_	_
+8	mocha	_	VERB	_	_	0	root	_	_
+9	oda	_	CCONJ	_	_	13	cc	_	_
+10	irgánd	_	DET	_	_	12	det	_	CorrectForm=irgándán
+11	án	_	X	_	_	10	goeswith	_	_
+12	Zeig	_	NOUN	_	_	13	obj	_	_
+13	erfoáschn	_	VERB	_	_	8	conj	_	_
+14	und	_	CCONJ	_	_	15	cc	_	_
+15	fobessán	_	VERB	_	_	13	conj	_	SpaceAfter=No
+16	.	_	PUNCT	_	_	8	punct	_	_
+
+# sent_id = tatoeba_5167091
+# text = Ihr miassts ihr höfn, und zwoa gschwind!
+# genre = grammar-examples
+# dialect_group = unk (central/southcentral/south)
+# location = Austria
+# source = https://tatoeba.org/en/sentences/show/5167091
+# author = brauchinet
+1	Ihr	_	PRON	_	_	4	nsubj	_	_
+2	miassts	_	AUX	_	_	4	aux	_	_
+3	ihr	_	PRON	_	_	4	obl	_	_
+4	höfn	_	VERB	_	_	0	root	_	SpaceAfter=No
+5	,	_	PUNCT	_	_	8	punct	_	_
+6	und	_	CCONJ	_	_	8	cc	_	_
+7	zwoa	_	ADV	_	_	8	advmod	_	_
+8	gschwind	_	ADJ	_	_	4	conj	_	SpaceAfter=No
+9	!	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = sid_de-ba_natural_92
+# text = Änder mein Wecka von 7 auf 8.
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	Änder	_	VERB	_	_	0	root	_	_
+2	mein	_	DET	_	_	3	det	_	_
+3	Wecka	_	NOUN	_	_	1	obj	_	_
+4	von	_	ADP	_	_	5	case	_	_
+5	7	_	NUM	_	_	1	obl	_	_
+6	auf	_	ADP	_	_	7	case	_	_
+7	8	_	NUM	_	_	1	obl	_	SpaceAfter=No
+8	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = tatoeba_7415139
+# text = I hob ma grod a Watschn eigfangt.
+# genre = grammar-examples
+# dialect_group = unk (central/southcentral/south)
+# location = Austria
+# source = https://tatoeba.org/en/sentences/show/7415139
+# author = brauchinet
+1	I	_	PRON	_	_	7	nsubj	_	_
+2	hob	_	AUX	_	_	7	aux	_	_
+3	ma	_	PRON	_	_	7	expl	_	_
+4	grod	_	ADV	_	_	7	advmod	_	_
+5	a	_	DET	_	_	6	det	_	_
+6	Watschn	_	NOUN	_	_	7	obj	_	_
+7	eigfangt	_	VERB	_	_	0	root	_	SpaceAfter=No
+8	.	_	PUNCT	_	_	7	punct	_	_
+
+# sent_id = wiki_Minga_26
+# text = An Minga grenzn foigande Gmoana und gmoafreie Gebiete o:
+# genre = wiki
+# dialect_group = central
+# location = Munich
+# source = https://bar.wikipedia.org/wiki/Minga
+1	An	_	ADP	_	_	2	case	_	_
+2	Minga	_	PROPN	_	_	3	obl	_	_
+3	grenzn	_	VERB	_	_	0	root	_	_
+4	foigande	_	ADJ	_	_	5	amod	_	_
+5	Gmoana	_	NOUN	_	_	3	nsubj	_	_
+6	und	_	CCONJ	_	_	8	cc	_	_
+7	gmoafreie	_	ADJ	_	_	8	amod	_	_
+8	Gebiete	_	NOUN	_	_	5	conj	_	_
+9	o	_	ADP	_	_	3	compound	_	SpaceAfter=No
+10	:	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = tatoeba_5113859
+# text = Gö, du host šo an gwoitigng fohgl, net?
+# genre = grammar-examples
+# dialect_group = central
+# location = Vienna
+# source = https://tatoeba.org/en/sentences/show/5113859
+# author = legume
+1	Gö	_	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	_	PUNCT	_	_	1	punct	_	_
+3	du	_	PRON	_	_	4	nsubj	_	_
+4	host	_	VERB	_	_	0	root	_	_
+5	šo	_	ADV	_	_	4	advmod	_	_
+6	an	_	DET	_	_	8	det	_	_
+7	gwoitigng	_	ADJ	_	_	8	amod	_	_
+8	fohgl	_	NOUN	_	_	4	obj	_	SpaceAfter=No
+9	,	_	PUNCT	_	_	10	punct	_	_
+10	net	_	PART	_	_	4	parataxis	_	SpaceAfter=No
+11	?	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = wiki_Minga_50
+# text = Wias boarische Kuitusministerium scho im Jenna 2001 im Landdog hod song lossn, is as Boarische in da boarischn Haptstod d'Jingan unta 20 Joar scho fremd.
+# genre = wiki
+# dialect_group = central
+# location = Munich
+# source = https://bar.wikipedia.org/wiki/Minga
+1	Wia	_	SCONJ	_	_	12	mark	_	SpaceAfter=No
+2	s	_	DET	_	_	4	det	_	_
+3	boarische	_	ADJ	_	_	4	amod	_	_
+4	Kuitusministerium	_	NOUN	_	_	12	nsubj	_	_
+5	scho	_	ADV	_	_	12	advmod	_	_
+6	im	_	ADP	_	_	7	case	_	_
+7	Jenna	_	NOUN	_	_	12	obl	_	_
+8	2001	_	NUM	_	_	7	nmod	_	_
+9	im	_	ADP	_	_	10	case	_	_
+10	Landdog	_	NOUN	_	_	12	obl	_	_
+11	hod	_	AUX	_	_	12	aux	_	_
+12	song	_	VERB	_	_	28	advcl	_	_
+13	lossn	_	VERB	_	_	12	xcomp	_	SpaceAfter=No
+14	,	_	PUNCT	_	_	12	punct	_	_
+15	is	_	AUX	_	_	28	cop	_	_
+16	as	_	DET	_	_	17	det	_	_
+17	Boarische	_	NOUN	_	_	28	nsubj	_	_
+18	in	_	ADP	_	_	21	case	_	_
+19	da	_	DET	_	_	21	det	_	_
+20	boarischn	_	ADJ	_	_	21	amod	_	_
+21	Haptstod	_	NOUN	_	_	28	obl	_	_
+22	d'	_	DET	_	_	23	det	_	SpaceAfter=No
+23	Jingan	_	NOUN	_	_	28	obl	_	_
+24	unta	_	ADP	_	_	26	case	_	_
+25	20	_	NUM	_	_	26	nummod	_	_
+26	Joar	_	NOUN	_	_	23	nmod	_	_
+27	scho	_	ADV	_	_	28	advmod	_	_
+28	fremd	_	ADJ	_	_	0	root	_	SpaceAfter=No
+29	.	_	PUNCT	_	_	28	punct	_	_
+
+# sent_id = sid_de-ba_natural_96
+# text = weck mi moing doch liaba um 9
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	weck	_	VERB	_	_	0	root	_	_
+2	mi	_	PRON	_	_	1	obj	_	_
+3	moing	_	ADV	_	_	1	advmod	_	_
+4	doch	_	ADV	_	_	1	advmod	_	_
+5	liaba	_	ADV	_	_	1	advmod	_	_
+6	um	_	ADP	_	_	7	case	_	_
+7	9	_	NUM	_	_	1	obl	_	_
+
+# sent_id = sid_de-ba_natural_48-1
+# text = Gib dem Buach " ... " 5 Sterndal.
+# genre = non-fiction
+# dialect_group = unk (central/southcentral/south)
+# location = unk
+1	Gib	_	VERB	_	_	0	root	_	_
+2	dem	_	DET	_	_	3	det	_	_
+3	Buach	_	NOUN	_	_	1	obl	_	_
+4	"	_	PUNCT	_	_	5	punct	_	_
+5	...	_	SYM	_	_	3	appos	_	_
+6	"	_	PUNCT	_	_	5	punct	_	_
+7	5	_	NUM	_	_	8	nummod	_	_
+8	Sterndal	_	NOUN	_	_	1	obj	_	SpaceAfter=No
+9	.	_	PUNCT	_	_	1	punct	_	_
+
