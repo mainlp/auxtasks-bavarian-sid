@@ -4,7 +4,7 @@
 mkdir -p /content/BaySIDshot/dialects_eval_data/
 
 cp /content/BaySIDshot/de-by.test.conll /content/BaySIDshot/dialects_eval_data/
-cp /content/BaySIDshot/de-by.dev.conll /content/BaySIDshot/dialects_eval_data/
+cp /content/BaySIDshot/de-by.valid.conll /content/BaySIDshot/dialects_eval_data/
 
 cp /content/BaySIDshot/xsid/data/xSID-0.5/de-ba.test.conll /content/BaySIDshot/dialects_eval_data/
 cp /content/BaySIDshot/xsid/data/xSID-0.5/de-ba.valid.conll /content/BaySIDshot/dialects_eval_data/
