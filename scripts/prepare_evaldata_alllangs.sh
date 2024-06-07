@@ -3,6 +3,13 @@
 
 mkdir -p /content/BaySIDshot/alllangs_eval_data/
 
+cp /content/BaySIDshot/xsid/data/xSID-0.5/*.test.conll /content/BaySIDshot/alllangs_eval_data/
+cp /content/BaySIDshot/xsid/data/xSID-0.5/*.valid.conll /content/BaySIDshot/alllangs_eval_data/
+
+for file in /content/BaySIDshot/alllangs_eval_data/*; do
+    python3 /content/BaySIDshot/scripts/reorganize_xsid_data.py "$file"
+done
+
 cp /content/BaySIDshot/de-by.test.conll /content/BaySIDshot/alllangs_eval_data/
 cp /content/BaySIDshot/de-by.valid.conll /content/BaySIDshot/alllangs_eval_data/
 
@@ -11,5 +18,4 @@ cp /content/BaySIDshot/xsid/data/xSID-0.5/de-ba.valid.conll /content/BaySIDshot/
 python3 /content/BaySIDshot/scripts/reorganize_miriams_data.py /content/BaySIDshot/alllangs_eval_data/de-ba.test.conll
 python3 /content/BaySIDshot/scripts/reorganize_miriams_data.py /content/BaySIDshot/alllangs_eval_data/de-ba.valid.conll
 
-cp /content/BaySIDshot/xsid/data/xSID-0.5/*.test.conll /content/BaySIDshot/alllangs_eval_data/
-cp /content/BaySIDshot/xsid/data/xSID-0.5/*.valid.conll /content/BaySIDshot/alllangs_eval_data/
+
