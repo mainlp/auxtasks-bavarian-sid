@@ -96,7 +96,7 @@ if __name__ == '__main__':
     pred_dir = sys.argv[2]
     # Todo: Logic here also still does not really fit
     experiment_name = str(sys.argv[2])
-    experiment_name = experiment_name.split('/')[-2]
+    experiment_name = experiment_name.split('/')[-1]
     if "predictions_" in experiment_name:
         experiment_name = experiment_name.replace("predictions_", "")
     print("Experiment Name: ", experiment_name)
