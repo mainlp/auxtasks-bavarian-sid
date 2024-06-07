@@ -6,14 +6,14 @@ from typing import List, Tuple, Set
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 
 
-def readNlu(path: str) -> Tuple[ List[List[str]], List[str]]:
+def readNlu(path):
     slots = []
     intents = []
     curSlots = []
     for line in open(path):
         line = line.strip()
         if line.startswith('# intent: '):
-            intents.append(line[10:].strip())
+            intents.append(line[10:])
         if line == '':
             slots.append(curSlots)
             curSlots = []
@@ -21,11 +21,9 @@ def readNlu(path: str) -> Tuple[ List[List[str]], List[str]]:
             continue
         else:
             curSlots.append(line.split('\t')[-1])
-            
     return slots, intents
 
-
-def toSpans(tags: List[str]) -> Set[str]:
+def toSpans(tags):
     spans = set()
     for beg in range(len(tags)):
         if tags[beg][0] == 'B':
@@ -34,13 +32,12 @@ def toSpans(tags: List[str]) -> Set[str]:
                 if tags[end][0] != 'I':
                     break
             spans.add(str(beg) + '-' + str(end) + ':' + tags[beg][2:])
-            
     return spans
 
-def getBegEnd(span: str) -> List[int]:
+def getBegEnd(span):
     return [int(x) for x in span.split(':')[0].split('-')]
 
-def getLooseOverlap(spans1: List[str], spans2: List[str]) -> int:
+def getLooseOverlap(spans1, spans2):
     found = 0
     for spanIdx, span in enumerate(spans1):
         spanBeg, spanEnd = getBegEnd(span)
@@ -56,10 +53,9 @@ def getLooseOverlap(spans1: List[str], spans2: List[str]) -> int:
                     match = True
         if match:
             found += 1
-            
     return found
 
-def getUnlabeled(spans1: List[str], spans2: List[str]) -> int:
+def getUnlabeled(spans1, spans2):
     return len(set([x.split('-')[0] for x in spans1]).intersection([x.split('-')[0] for x in spans2]))
 
 
@@ -105,8 +101,11 @@ if __name__ == '__main__':
     # sorted by filename to zip them together correctly later on!
     gold_files = [file for file in os.listdir(gold_dir) if file.endswith(".test.conll")]
     gold_files = sorted(gold_files, key=lambda x: (x.split("."))[0])
+    print("Gold files: ", gold_files)
     pred_files = [file for file in os.listdir(pred_dir) if file.endswith(".test.conll.out")]
     pred_files = sorted(pred_files, key=lambda x: (x.split("."))[0])
+    print("Pred files: ", pred_files)
+
 
     # initializing result dicts:
     baseline_langs = ['en', 'de-st', 'de', 'da', 'nl', 'it', 'sr', 'id', 'ar', 'zh', 'kk', 'tr', 'ja']
@@ -148,7 +147,7 @@ if __name__ == '__main__':
         save_dialects = False
         save_all = False
 
-        if name in baseline_langs:
+        if str(name) in baseline_langs:
             save_baseline = True
             data_baseline['Language'].append(name)
 
@@ -183,7 +182,9 @@ if __name__ == '__main__':
 
             # slots
             goldSpans = toSpans(goldSlot)
+            print("goldSpans", goldSpans)
             predSpans = toSpans(predSlot)
+            print("predSpans", predSpans)
 
             overlap_st = len(goldSpans.intersection(predSpans))
             tp_st += overlap_st
