@@ -2,7 +2,6 @@
 
 import os, sys
 import json
-from typing import List, Tuple, Set
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 
 
@@ -182,9 +181,7 @@ if __name__ == '__main__':
 
             # slots
             goldSpans = toSpans(goldSlot)
-            print("goldSpans", goldSpans)
             predSpans = toSpans(predSlot)
-            print("predSpans", predSpans)
 
             overlap_st = len(goldSpans.intersection(predSpans))
             tp_st += overlap_st
