@@ -67,15 +67,15 @@ def merge_json_data(json_data_list):
 
     def get_diff2baseline(category_data, langs2average, mode=None):
         # calculate the difference of the averaged random seeds run to the averaged baseline rund with mDeBERTa
-        baseline_all_slots_avg = 63.4
-        baseline_all_intents_avg = 83.4
-        baseline_all_fully_avg = 43.4
-        baseline_base_slots_avg = 76.6
-        baseline_base_intents_avg = 86.6
-        baseline_base_fully_avg = 46.6
-        baseline_dial_slots_avg = 70.4
-        baseline_dial_intents_avg = 60.4
-        baseline_dial_fully_avg = 34.4
+        baseline_all_slots_avg = 64.6
+        baseline_all_intents_avg = 86.8
+        baseline_all_fully_avg = 42.9
+        baseline_base_slots_avg = 69.6
+        baseline_base_intents_avg = 91.8
+        baseline_base_fully_avg = 48.9
+        baseline_dial_slots_avg = 45.3
+        baseline_dial_intents_avg = 73.5
+        baseline_dial_fully_avg = 15.1
 
         if mode == "all":
             diff_slots = round(calculate_average([category_data["slots"][lang] for lang in langs2average if lang in category_data["slots"]]) - baseline_all_slots_avg, 1)
@@ -125,8 +125,8 @@ def merge_json_data(json_data_list):
 
     # Get the difference between this average and the baseline average
     diff_all_slots, diff_all_intents, diff_all_fully = get_diff2baseline(merged_data["all"], all_langs2average, mode="all")
-    diff_base_slots, diff_base_intents, diff_base_fully = get_diff2baseline(merged_data["all"], all_langs2average, mode="baseline")
-    diff_dial_slots, diff_dial_intents, diff_dial_fully = get_diff2baseline(merged_data["all"], all_langs2average, mode="dialects")
+    diff_base_slots, diff_base_intents, diff_base_fully = get_diff2baseline(merged_data["all"], base_langs2average, mode="baseline")
+    diff_dial_slots, diff_dial_intents, diff_dial_fully = get_diff2baseline(merged_data["all"], dial_langs2average, mode="dialects")
 
     averaged_data = {
         "all": {

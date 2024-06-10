@@ -4,10 +4,13 @@ import json
 import pandas as pd
 import sys
 import os
+import numpy as np
+
 
 def main():
     # Check if the correct number of arguments is provided
     if len(sys.argv) != 3:
+        # Todo: add argument to say if all, baseline or dialects output should be created
         print("Usage: script.py <input_json_file> <output_csv_directory>")
         sys.exit(1)
 
@@ -26,11 +29,15 @@ def main():
 
     # Convert each section of the JSON to a DataFrame and save as a CSV file
     for key in data:
-        df = pd.DataFrame(data[key])
+        # Normalizing the data and filling missing slots with NaN
+        df = pd.DataFrame.from_dict(data[key], orient='index').transpose()
+
+        # Save the DataFrame as a CSV file
         output_csv_file = os.path.join(output_csv_directory, f'{out_name}_{key}.csv')
-        df.to_csv(output_csv_file, index=False)
+        df.to_csv(output_csv_file, index=False, na_rep='')
 
     print("CSV files created successfully.")
+
 
 if __name__ == "__main__":
     main()
