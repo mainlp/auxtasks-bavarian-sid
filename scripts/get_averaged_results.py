@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import os
+import sys
 import json
 import math
 from collections import defaultdict
@@ -178,11 +179,13 @@ def read_matching_files(directory, experiments_files):
 
 
 if __name__ == "__main__":
-    # for local testing in pycharm
-    directory = 'results_test/'
+    if len(sys.argv) != 2:
+        print("Usage: python3 get_averaged_results.py <files_directory_path>")
+        sys.exit(1)
 
-    # for testing in Colab and with access to drive:
-    # directory = '/content/drive/MyDrive/Masterarbeit/results/'
+    # for local testing in pycharm should be '~/PycharmProjects/BaySIDshot/baseline_results/'
+    directory = sys.argv[1]
+    # for testing in Colab and with access to drive directory = '/content/drive/MyDrive/Masterarbeit/results/'
 
     experiments_files = get_matching_experiments(directory)
     read_matching_files(directory, experiments_files)
