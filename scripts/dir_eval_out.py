@@ -63,10 +63,10 @@ def writeResults(all_langs, baseline, dialects, experiment_name):
     # in colab this will be deleted when connection to runtime is quit ->
     # built in a copy command into script.sh to copy results to drive - path  does not work there
 
-    #results_dir = "/content/BaySIDshot/results/"
+    results_dir = "/content/BaySIDshot/results/"
 
     # for local testing in pycharm:
-    results_dir = "/Users/xavermariakrueckl/PycharmProjects/BaySIDshot/baseline_results/"
+    #results_dir = "/Users/xavermariakrueckl/PycharmProjects/BaySIDshot/results/"
 
     if not os.path.exists(results_dir):
         os.makedirs(results_dir)
