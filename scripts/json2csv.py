@@ -30,7 +30,7 @@ def main():
             output_csv_file = os.path.join(output_csv_directory, f'{out_name}_{key}.csv')
             df.to_csv(output_csv_file, index=False, na_rep='')
 
-    print(f"{output_type} CSV files created successfully.")
+    print(f"{output_type} csv file for {input_json_file} successfully created.")
 
 
 if __name__ == "__main__":
