@@ -84,7 +84,7 @@ def writeResults(all_langs, baseline, dialects, experiment_name):
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print("Usage: python script.py <gold_directory> <pred_directory>")
+        print("Usage: python3 script.py <gold_directory> <pred_directory>")
         sys.exit(1)
 
     gold_dir = sys.argv[1]
