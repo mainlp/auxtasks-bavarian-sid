@@ -2,9 +2,25 @@
 
 import sys
 import torch
+import importlib.util
+import pickle
+
+# Load the dummy machamp module
+spec = importlib.util.spec_from_file_location("machamp", "./machamp.py")
+machamp = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(machamp)
+sys.modules["machamp"] = machamp
 
 def load_model(filepath):
-    return torch.load(filepath, map_location=torch.device('cuda'))
+    # Custom unpickler to handle machamp
+    class CustomUnpickler(pickle.Unpickler):
+        def find_class(self, module, name):
+            if module == 'machamp':
+                return getattr(machamp, name, machamp.DummyClass)
+            return super().find_class(module, name)
+
+    with open(filepath, 'rb') as f:
+        return CustomUnpickler(f).load()
 
 def replace_classification_head(model0_path, model1_path, model_out_path):
     # Load the first model and extract its classification layer
