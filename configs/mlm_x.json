@@ -1,5 +1,5 @@
 {
-  "Bavarian_Wiki": {
+  "MLM_Bavarian_Wiki": {
     "train_data_path": "/content/BaySIDshot/MLM_data/mlm_bar_ann_1_train.txt",
     "dev_data_path": "/content/BaySIDshot/MLM_data/mlm_bar_ann_1_dev.txt",
     "max_sents": 10000,
