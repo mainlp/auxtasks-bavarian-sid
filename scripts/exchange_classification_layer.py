@@ -27,3 +27,14 @@ if __name__ == "__main__":
 
     replace_classification_layer(sys.argv[1], sys.argv[2], sys.argv[3])
     print("Successfully replaced the classification layer and saved the modified second model.")
+
+# Extracting a model after finetuning
+# If you would like to re-use your MaChAmp finetuned model in another toolkit, you can extract the
+# `transformers` model. We provide an example script in `scripts/misc/extract_automodel.py`, which
+# needs to be ran from the root of this repo. Usage is as follows:
+
+# cp scripts/misc/extract_automodel.py .
+# python3 extract_automodel.py logs/ewt/*/model.pt mBERT_finetuned_on_EWT
+#
+# Now the models including its configuration and tokenizer will be written in a folder titled
+# `mBERT_finetuned_on_EWT`.
