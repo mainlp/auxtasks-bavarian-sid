@@ -1,16 +1,8 @@
 {
-  "MLM_Bavarian_Wiki": {
-    "train_data_path": "/content/BaySIDshot/MLM_data/mlm_bar_ann_1_train.txt",
-    "dev_data_path": "/content/BaySIDshot/MLM_data/mlm_bar_ann_1_dev.txt",
-    "max_sents": 10000,
-    "tasks": {
-      "masking": {
-        "task_type": "mlm"
-      }
-    }
-  },
-
   "UD_Bavarian_MaiBaam": {
+    // paths for manually created data if converting in notebook did not work
+    //"train_data_path": "/content/BaySIDshot/manual_data/UD_data/bar_maibaam-ud-train.conllu",
+    //"dev_data_path": "//content/BaySIDshot/manual_data/UD_data/bar_maibaam-ud-valid.conllu",
     "train_data_path": "/content/BaySIDshot/UD_data/bar_maibaam-ud-train.conllu",
     "dev_data_path": "/content/BaySIDshot/UD_data/bar_maibaam-ud-valid.conllu",
     "word_idx": 1,
@@ -36,7 +28,7 @@
     "test_data_path": "/content/BaySIDshot/BarNER/data/BarNER-final/bar-wiki-test.tsv",
     "word_idx": 0,
     "tasks": {
-      "slots_ner": {  // change to different task type as for dataset below?, then not only one NER task!
+      "slots_ner": {  // same task type as for dataset below, could be changed then two tasks
         "task_type": "seq",
         "column_idx": 1,
         "metric": "span_f1",
@@ -46,12 +38,13 @@
   },
 
   "NER_Bavarian_Tweets": {
+    // path to private NER Twitter data
     "train_data_path": "/content/drive/MyDrive/Masterarbeit/NER_data/bar-tweet-train.tsv",
     "dev_data_path": "/content/drive/MyDrive/Masterarbeit/NER_data/bar-tweet-dev.tsv",
     "test_data_path": "/content/drive/MyDrive/Masterarbeit/NER_data/bar-tweet-test.tsv",
     "word_idx": 0,
     "tasks": {
-      "slots_ner": { // change to different task type as for dataset above?, then not only one NER task!
+      "slots_ner": { // same task type as for dataset below, could be changed then two tasks
         "task_type": "seq",
         "column_idx": 1,
         "metric": "span_f1",
