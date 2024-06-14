@@ -1,13 +1,12 @@
-#!/usr/bin/python3
-
-import sys
+import os
 import torch
-from transformers import AutoModelForSequenceClassification, AutoTokenizer, AutoConfig
-from safetensors.torch import load_file
+from collections import Counter
+from transformers import AutoModelForTokenClassification, AutoTokenizer
 
-# Define intents and slots
+# Define your intents and slots (as defined in your original code)
+# add this unknown class?
 intents = [
-    "weather / find", "alarm / set_alarm", "alarm / show_alarms",
+    "@@unkORpad@@", "weather / find", "alarm / set_alarm", "alarm / show_alarms",
     "reminder / set_reminder", "alarm / modify_alarm", "weather / checkSunrise",
     "weather / checkSunset", "alarm / snooze_alarm", "alarm / cancel_alarm",
     "reminder / show_reminders", "reminder / cancel_reminder", "alarm / time_left_on_alarm",
@@ -16,7 +15,7 @@ intents = [
 ]
 
 slots = [
-    "O", "B-location", "I-location", "B-datetime", "I-datetime", "B-weather/attribute",
+    "@@unkORpad@@", "O", "B-location", "I-location", "B-datetime", "I-datetime", "B-weather/attribute",
     "B-reference", "I-weather/attribute", "B-reminder/todo", "I-reminder/todo",
     "B-alarm/alarm_modifier", "B-recurring_datetime", "I-recurring_datetime", "I-reference",
     "B-reminder/reminder_modifier", "Orecurring_datetime", "B-negation", "B-timer/attributes",
@@ -34,58 +33,61 @@ slots = [
     "I-object_location_type", "B-movie_type", "I-movie_type"
 ]
 
+# Index mappings for intents and slots
+intent_label_map = {i: intent for i, intent in enumerate(intents)}
+slot_label_map = {i: slot for i, slot in enumerate(slots)}
+
 def predict_own(model_dir):
+    print(f"Loading model from: {model_dir}")
+    # Load the model
+    model = AutoModelForTokenClassification.from_pretrained(model_dir)
+
+    print(f"Loading tokenizer from: {model_dir}")
     # Load the tokenizer
     tokenizer = AutoTokenizer.from_pretrained(model_dir)
-
-    # Load the model configuration
-    config = AutoConfig.from_pretrained(model_dir)
-
-    # Initialize the model
-    model = AutoModelForSequenceClassification.from_config(config)
-
-    # Load the state dictionary from the safetensors file
-    state_dict = load_file(f"{model_dir}/model.safetensors")
-
-    # Load the state dictionary into the model
-    model.load_state_dict(state_dict)
 
     # Set the model to evaluation mode
     model.eval()
 
     # Example input text
-    input_text = "wecka"
+    input_text = "book"
 
+    print(f"Tokenizing input text: '{input_text}'")
     # Tokenize the input text
     inputs = tokenizer(input_text, return_tensors="pt")
+
+    print(f"Input tensors shape: {inputs['input_ids'].shape}")
 
     # Make predictions
     with torch.no_grad():
         outputs = model(**inputs)
 
-    # Assume outputs contains both intent and slot logits
-    intent_logits = outputs.logits[:, :len(intents)]
-    slot_logits = outputs.logits[:, len(intents):]
+    # Extract logits from the model output
+    logits = outputs.logits
 
-    # Apply softmax to get probabilities
-    intent_probabilities = torch.nn.functional.softmax(intent_logits, dim=-1)
-    slot_probabilities = torch.nn.functional.softmax(slot_logits, dim=-1)
+    # Assuming logits structure: (batch_size, sequence_length, num_labels)
+    # You need to adjust this based on your actual model output structure
 
-    # Get the predicted class
-    predicted_intent_class = torch.argmax(intent_probabilities, dim=-1)
-    predicted_slot_class = torch.argmax(slot_probabilities, dim=-1)
+    # Get the predicted class indices for intents and slots
+    intent_predictions = torch.argmax(logits, dim=-1)[0]  # assuming single example
+    slot_predictions = torch.argmax(logits, dim=-1)[0]    # assuming single example
 
-    # Print predicted classes and probabilities
-    predicted_intent = intents[predicted_intent_class.item()]
-    predicted_slot = slots[predicted_slot_class.item()]
+    # Aggregate predictions to get single intent and slot
+    intent_counter = Counter(intent_predictions.tolist())
+    slot_counter = Counter(slot_predictions.tolist())
 
-    print(f"For {input_text}, the model predicts:")
+    # Most common intent and slot
+    predicted_intent_index = intent_counter.most_common(1)[0][0]
+    predicted_slot_index = slot_counter.most_common(1)[0][0]
+
+    predicted_intent = intent_label_map[predicted_intent_index]
+    predicted_slot = slot_label_map[predicted_slot_index]
+
     print(f"Predicted intent: {predicted_intent}")
-    print(f"Intent probabilities: {intent_probabilities}")
     print(f"Predicted slot: {predicted_slot}")
-    print(f"Slot probabilities: {slot_probabilities}")
 
 if __name__ == "__main__":
+    import sys
     if len(sys.argv) != 2:
         print("Usage: python3 predict_own.py <model_dir>")
         sys.exit(1)
