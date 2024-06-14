@@ -1,3 +1,6 @@
+
+# Todo copy this script into basic machamp/ to make it work!
+
 import argparse
 import logging
 import sys
@@ -68,5 +71,3 @@ for dataIdx in range(0, len(args.file_paths), 2):
     logger.info('predicting on ' + input_path + ', saving on ' + output_path)
     predict_with_paths(model, input_path, output_path, args.dataset, args.batch_size, args.raw_text, device, args.conn, args.sep, args.threshold)
 
-
-# copy this script into machamp/ to make it work!
