@@ -7,7 +7,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 if __name__ == "__main__":
 
     if len(sys.argv) != 4:
-        print("Usage: python3 exchange_classification_heads.py <model0_dir> <model1_dir> <model_out_dir>")
+        print("Usage: python3 exchange_classification_layer.py <model0_dir> <model1_dir> <model_out_dir>")
         sys.exit(1)
 
     model0_dir = sys.argv[1]
