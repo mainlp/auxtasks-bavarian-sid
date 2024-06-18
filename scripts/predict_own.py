@@ -3,8 +3,10 @@ import torch
 from collections import Counter
 from transformers import AutoModelForTokenClassification, AutoTokenizer
 
+# Todo: this script does not work properly - need to check in more detail how out features look like
+# guess a combination of slots and intents?
+
 # Define your intents and slots (as defined in your original code)
-# add this unknown class?
 intents = [
     "@@unkORpad@@", "weather / find", "alarm / set_alarm", "alarm / show_alarms",
     "reminder / set_reminder", "alarm / modify_alarm", "weather / checkSunrise",
