@@ -12,14 +12,21 @@ def analyze_conll_file(file_path):
     intents = defaultdict(int)
     slot_types = defaultdict(int)
     id_counter = 0
+    incorrect_example = False
 
     for line in lines:
-        if line.startswith('# id:'):
+        if line.startswith('# id:') or line.startswith('# text:'):
             id_counter += 1
-            if current_example:
-                examples.append(current_example)
-                current_example = {}
-            current_example['id'] = int(line.split(':')[1].strip())
+            if line.startswith('# id:'):
+                if current_example:
+                    examples.append(current_example)
+                    current_example = {}
+                current_example['id'] = int(line.split(':')[1].strip())
+            elif line.startswith('# text:'):
+                if current_example:
+                    examples.append(current_example)
+                    current_example = {}
+                current_example['id'] = int(id_counter)
 
         elif line.startswith('# intent:'):
             intent = line.split(':')[1].strip()
@@ -30,8 +37,9 @@ def analyze_conll_file(file_path):
             tokens = line.split('\t')
             current_example.setdefault('tokens', []).append(tokens)
             if len(tokens) != 4:
+                incorrect_example = True
                 print(
-                    f"Error: Incorrectly annotated line - more or less than 4 columns in example {current_example['id']}: \n{line}\n Slot cannot be extracted correctly.")
+                    f"Error: Incorrectly annotated line - more or less than 4 columns in example {current_example['id']}: \n{line}Slot cannot be extracted correctly.")
             else:
                 slot_type = tokens[3].strip()
                 slot_types[slot_type] += 1
@@ -39,7 +47,7 @@ def analyze_conll_file(file_path):
     if current_example:
         examples.append(current_example)
 
-    return id_counter, intents, slot_types
+    return id_counter, intents, slot_types, incorrect_example
 
 
 if __name__ == "__main__":
@@ -48,9 +56,16 @@ if __name__ == "__main__":
         sys.exit(1)
 
     file_path = sys.argv[1]
-    id_counter, intents, slot_types = analyze_conll_file(file_path)
+    id_counter, intents, slot_types, incorrect_example = analyze_conll_file(file_path)
 
+    file_name = file_path.split('/')[-1]
+
+    print(f"Infos on Eval File '{file_name}':")
     print(f"Number of examples: {id_counter}")
+    if id_counter != sum(intents.values()):
+        print("Difference between numer of examples and intents.")
+    if incorrect_example:
+        print("At least one incorrect slots example in this file.")
     print(f"Intents ({len(intents)}):")
     for intent, count in sorted(intents.items(), key=lambda item: item[1], reverse=True):
         print(f"  {intent}: {count}")
