@@ -3,8 +3,9 @@
 import os
 import sys
 from collections import defaultdict
-from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 def analyze_conll_file(file_path):
@@ -80,7 +81,7 @@ def process_files(gold_dir, pred_dir, language):
                 f"Warning: Number of intents in gold file ({language}) and pred file ({os.path.basename(pred_file_path)}) do not match.")
             return None, None
 
-        print(f"Processed {language} and {os.path.basename(pred_file_path)}")
+        print(f"Processed {language}.test.conll and {os.path.basename(pred_file_path)}")
         return gold_intents, pred_intents
     else:
         print(f"No matching pred file found for {language}")
@@ -103,6 +104,9 @@ if __name__ == "__main__":
     pred_dir = sys.argv[2]
     language = sys.argv[3]
 
+    experiment = pred_dir.split("/")[-2].split("_")[1:]
+    experiment = "_".join(experiment)
+
     if not os.path.isdir(gold_dir) or not os.path.isdir(pred_dir):
         print("Both arguments for directories must be directories.")
         sys.exit(1)
@@ -112,14 +116,12 @@ if __name__ == "__main__":
     if gold_intents and pred_intents:
         cm = create_confusion_matrix(gold_intents, pred_intents)
         unique_intents = sorted(set(gold_intents + pred_intents))
-        display = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=unique_intents)
 
-        # Increase figure size
-        plt.figure(figsize=(12, 10))
+        # Plot confusion matrix using seaborn
+        plt.figure(figsize=(12, 8))
+        sns.heatmap(cm, annot=True, cmap='viridis', fmt='d', xticklabels=unique_intents, yticklabels=unique_intents)
 
-        # Plot confusion matrix with diagonal x-axis labels
-        display.plot(cmap='viridis', xticks_rotation='vertical')
-
-        plt.title(f'Confusion Matrix for {language}')
-        plt.tight_layout()
+        plt.title(f'Confusion Matrix for {language} in experiment {experiment}')
+        plt.xlabel('Predicted')
+        plt.ylabel('Actual')
         plt.show()
