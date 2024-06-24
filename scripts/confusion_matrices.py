@@ -3,8 +3,8 @@
 import os
 import sys
 from collections import defaultdict
-import numpy as np
-import pandas as pd
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+import matplotlib.pyplot as plt
 
 
 def analyze_conll_file(file_path):
@@ -15,51 +15,41 @@ def analyze_conll_file(file_path):
     current_example = {}
     intents = defaultdict(int)
     slot_types = defaultdict(int)
-    id_counter = 0
     extracted_intents = []
+    id_counter = 0
 
     for line in lines:
-        if line.startswith('# id:') or line.startswith('# text:'):
-            id_counter += 1
-            if line.startswith('# id:'):
-                if current_example:
-                    examples.append(current_example)
-                    if 'intent' in current_example:
-                        extracted_intents.append(current_example['intent'])
-                    current_example = {}
-                current_example['id'] = int(line.split(':')[1].strip())
-            elif line.startswith('# text:'):
-                if current_example:
-                    examples.append(current_example)
-                    if 'intent' in current_example:
-                        extracted_intents.append(current_example['intent'])
-                    current_example = {}
-                current_example['id'] = int(id_counter)
+        line = line.strip()
 
-        elif line.startswith('# intent:'):
+        if line.startswith('# intent:'):
+            if current_example:
+                examples.append(current_example)
+                if 'intent' in current_example:
+                    extracted_intents.append(current_example['intent'])
+                current_example = {}
             intent = line.split(':')[1].strip()
             intents[intent] += 1
+            current_example['id'] = id_counter
             current_example['intent'] = intent
+            id_counter += 1
 
-        elif line.strip() and not line.startswith('#'):
+        elif line and not line.startswith('#'):
             tokens = line.split('\t')
             current_example.setdefault('tokens', []).append(tokens)
-            #if len(tokens) != 4:
-                #print(f"Error: Incorrectly annotated line - more or less than 4 columns in example {current_example['id']}: \n{line}Slot cannot be extracted correctly.")
-            #else:
-            slot_type = tokens[3].strip()
-            slot_types[slot_type] += 1
+            if len(tokens) == 4:
+                slot_type = tokens[3].strip()
+                slot_types[slot_type] += 1
+            else:
+                continue
 
     if current_example:
         examples.append(current_example)
-        if 'intent' in current_example:
-            extracted_intents.append(current_example['intent'])
 
-    return examples, intents, slot_types, extracted_intents
+    return examples
 
 
-def get_matching_pred_file(gold_file, pred_dir):
-    pred_file = gold_file + ".out"
+def get_matching_pred_file(language, pred_dir):
+    pred_file = language + ".test.conll.out"
     pred_file_path = os.path.join(pred_dir, pred_file)
     return pred_file_path if os.path.exists(pred_file_path) else None
 
@@ -69,73 +59,67 @@ def read_file(file_path):
         return f.readlines()
 
 
-def process_files(gold_dir, pred_dir):
-    gold_files = os.listdir(gold_dir)
-    gold_files = [gold_file for gold_file in gold_files if gold_file.endswith('test.conll')]
+def process_files(gold_dir, pred_dir, language):
+    gold_file_path = os.path.join(gold_dir + '/' + language + ".test.conll")
 
-    gold_intents = []
-    pred_intents = []
+    if not os.path.isfile(gold_file_path):
+        print(f"File for {language}.test.conll does not exist.")
+        return None, None
 
-    for gold_file in gold_files:
-        print(gold_file)
-        gold_file_path = os.path.join(gold_dir, gold_file)
+    pred_file_path = get_matching_pred_file(language, pred_dir)
 
-        if not os.path.isfile(gold_file_path):
-            continue
+    if pred_file_path:
+        gold_examples = analyze_conll_file(gold_file_path)
+        pred_examples = analyze_conll_file(pred_file_path)
 
-        pred_file_path = get_matching_pred_file(gold_file, pred_dir)
+        gold_intents = [example['intent'] for example in gold_examples]
+        pred_intents = [example['intent'] for example in pred_examples]
 
-        if pred_file_path:
-            gold_result = analyze_conll_file(gold_file_path)
-            pred_result = analyze_conll_file(pred_file_path)
+        if len(gold_intents) != len(pred_intents):
+            print(
+                f"Warning: Number of intents in gold file ({language}) and pred file ({os.path.basename(pred_file_path)}) do not match.")
+            return None, None
 
-            _, gold_intents_dict, _, gold_extracted_intents = gold_result
-            _, pred_intents_dict, _, pred_extracted_intents = pred_result
-
-            if len(gold_extracted_intents) != len(pred_extracted_intents):
-                print(
-                    f"Warning: Number of intents in gold file ({gold_file}) and pred file ({os.path.basename(pred_file_path)}) do not match.")
-                continue
-
-            gold_intents.extend(gold_extracted_intents)
-            pred_intents.extend(pred_extracted_intents)
-
-            print(f"Processed {gold_file} and {os.path.basename(pred_file_path)}")
-        else:
-            print(f"No matching pred file found for {gold_file}")
-
-    return gold_intents, pred_intents
+        print(f"Processed {language} and {os.path.basename(pred_file_path)}")
+        return gold_intents, pred_intents
+    else:
+        print(f"No matching pred file found for {language}")
+        return None, None
 
 
 def create_confusion_matrix(gold_intents, pred_intents):
     unique_intents = sorted(set(gold_intents + pred_intents))
-    intent_to_index = {intent: idx for idx, intent in enumerate(unique_intents)}
-
-    confusion_matrix = np.zeros((len(unique_intents), len(unique_intents)), dtype=int)
-
-    for gold_intent, pred_intent in zip(gold_intents, pred_intents):
-        i = intent_to_index[gold_intent]
-        j = intent_to_index[pred_intent]
-        confusion_matrix[i, j] += 1
-
-    df_confusion = pd.DataFrame(confusion_matrix, index=unique_intents, columns=unique_intents)
-    return df_confusion
+    cm = confusion_matrix(gold_intents, pred_intents, labels=unique_intents)
+    return cm
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python3 evaluate_files.py <gold_dir> <pred_dir>")
+    if len(sys.argv) != 4:
+        print("Usage: python3 evaluate_files.py <gold_dir> <pred_dir> <language>")
+        print("Language can be 'en', 'de', 'de-ba', 'de-by', 'de-st', 'gsw', ...")
         sys.exit(1)
 
     gold_dir = sys.argv[1]
     pred_dir = sys.argv[2]
+    language = sys.argv[3]
 
     if not os.path.isdir(gold_dir) or not os.path.isdir(pred_dir):
-        print("Both arguments must be directories.")
+        print("Both arguments for directories must be directories.")
         sys.exit(1)
 
-    gold_intents, pred_intents = process_files(gold_dir, pred_dir)
-    confusion_matrix = create_confusion_matrix(gold_intents, pred_intents)
+    gold_intents, pred_intents = process_files(gold_dir, pred_dir, language)
 
-    print("Confusion Matrix:")
-    print(confusion_matrix)
+    if gold_intents and pred_intents:
+        cm = create_confusion_matrix(gold_intents, pred_intents)
+        unique_intents = sorted(set(gold_intents + pred_intents))
+        display = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=unique_intents)
+
+        # Increase figure size
+        plt.figure(figsize=(12, 10))
+
+        # Plot confusion matrix with diagonal x-axis labels
+        display.plot(cmap='viridis', xticks_rotation='vertical')
+
+        plt.title(f'Confusion Matrix for {language}')
+        plt.tight_layout()
+        plt.show()
