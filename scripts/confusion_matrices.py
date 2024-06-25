@@ -104,8 +104,14 @@ if __name__ == "__main__":
     pred_dir = sys.argv[2]
     language = sys.argv[3]
 
-    experiment = pred_dir.split("/")[-2].split("_")[1:]
-    experiment = "_".join(experiment)
+    experiment_name = input("Enter Experiment Name to be Set as Plot Title: ")
+
+    if experiment_name:
+        experiment = experiment_name
+    else:
+        experiment = pred_dir.split("/")[-1].split("_")[1:]
+        experiment = "_".join(experiment)
+
 
     if not os.path.isdir(gold_dir) or not os.path.isdir(pred_dir):
         print("Both arguments for directories must be directories.")
@@ -119,9 +125,17 @@ if __name__ == "__main__":
 
         # Plot confusion matrix using seaborn
         plt.figure(figsize=(12, 8))
-        sns.heatmap(cm, annot=True, cmap='viridis', fmt='d', xticklabels=unique_intents, yticklabels=unique_intents)
+        sns.heatmap(cm, annot=True, cmap='Greys', fmt='d', xticklabels=unique_intents, yticklabels=unique_intents)
 
-        plt.title(f'Confusion Matrix for {language} in experiment {experiment}')
-        plt.xlabel('Predicted')
-        plt.ylabel('Actual')
-        plt.show()
+        plt.title(f'Confusion Matrix over Intents for {language} in Experiment {experiment}\n', fontsize=20, fontweight="bold")
+        plt.xlabel('Predicted Intents', fontsize=16, fontweight="bold")
+        plt.ylabel('Actual Intents', fontsize=16, fontweight="bold")
+        plt.tight_layout()
+
+        desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
+        if os.path.exists(desktop_path):
+            plt.savefig(os.path.join(desktop_path, language + '_' + experiment + '.png'), dpi=300)
+            print(f"Figure saved to {os.path.join(desktop_path, language + '_' + experiment + '.png')}")
+        else:
+            print("Desktop path does not exist. Figure was not be saved but is displayed.")
+            plt.show()
