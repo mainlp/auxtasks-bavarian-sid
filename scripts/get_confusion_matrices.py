@@ -36,6 +36,7 @@ def analyze_conll_file(file_path):
 
         elif line and not line.startswith('#'):
             tokens = line.split('\t')
+            # maybe use defaultdict for current_example as well
             current_example.setdefault('tokens', []).append(tokens)
             if len(tokens) == 4:
                 slot_type = tokens[3].strip()
