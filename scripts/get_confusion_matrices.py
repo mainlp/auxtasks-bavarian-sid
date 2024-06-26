@@ -97,14 +97,15 @@ def create_confusion_matrix(gold_intents, pred_intents):
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
-        print("Usage: python3 evaluate_files.py <gold_dir> <pred_dir> <language>")
-        print("Language can be 'en', 'de', 'de-ba', 'de-by', 'de-st', 'gsw', ...")
+        print("Usage: python3 get_confusion_matrices.py <gold_dir> <pred_dir> <language>")
+        print("Language can be 'en', 'de', 'de-ba', 'de-by', 'de-st', 'gsw', ... depending on content of gold/pred dir!")
         sys.exit(1)
 
     gold_dir = sys.argv[1]
     pred_dir = sys.argv[2]
     language = sys.argv[3]
 
+    #input the experiment name to be set in title - if not name from pred_dir is taken
     experiment_name = input("Enter Experiment Name to be Set as Plot Title: ")
 
     if experiment_name:
@@ -113,24 +114,29 @@ if __name__ == "__main__":
         experiment = pred_dir.split("/")[-1].split("_")[1:]
         experiment = "_".join(experiment)
 
-
     if not os.path.isdir(gold_dir) or not os.path.isdir(pred_dir):
         print("Both arguments for directories must be directories.")
         sys.exit(1)
 
     gold_intents, pred_intents = process_files(gold_dir, pred_dir, language)
 
+    # Create confusion matrix
     if gold_intents and pred_intents:
         cm = create_confusion_matrix(gold_intents, pred_intents)
         unique_intents = sorted(set(gold_intents + pred_intents))
 
         # Plot confusion matrix using seaborn
         plt.figure(figsize=(12, 8))
-        sns.heatmap(cm, annot=True, cmap='Greys', fmt='d', xticklabels=unique_intents, yticklabels=unique_intents)
+        ax = sns.heatmap(cm, annot=True, cmap='Greys', fmt='d', xticklabels=unique_intents, yticklabels=unique_intents,
+                         annot_kws={"fontweight": "bold"})
 
-        plt.title(f'Confusion Matrix over Intents for {language} in Experiment {experiment}\n', fontsize=20, fontweight="bold")
-        plt.xlabel('Predicted Intents', fontsize=16, fontweight="bold")
-        plt.ylabel('Actual Intents', fontsize=16, fontweight="bold")
+        # Set x and y axis labels to bold
+        ax.set_xticklabels(ax.get_xticklabels(), fontweight='bold')
+        ax.set_yticklabels(ax.get_yticklabels(), fontweight='bold')
+
+        plt.title(f'Confusion Matrix over Intents for {language} in Experiment {experiment}\n', fontsize=18, fontweight="bold")
+        plt.xlabel('Predicted Intents', fontsize=14, fontweight="bold")
+        plt.ylabel('Actual Intents', fontsize=14, fontweight="bold")
         plt.tight_layout()
 
         desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
