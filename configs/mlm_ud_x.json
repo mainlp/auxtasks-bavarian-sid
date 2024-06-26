@@ -1,0 +1,36 @@
+{
+  "MLM_Bavarian_Wiki": {
+    "train_data_path": "/content/BaySIDshot/MLM_data/mlm_bar_ann_1_train.txt",
+    "dev_data_path": "/content/BaySIDshot/MLM_data/mlm_bar_ann_1_dev.txt",
+    "max_sents": 10000,
+    "tasks": {
+      "masking": {
+        "task_type": "mlm"
+      }
+    }
+  },
+
+    "UD_Bavarian_MaiBaam": {
+        // paths for manually created data if converting in notebook did not work
+        //"train_data_path": "/content/BaySIDshot/manual_data/UD_data/bar_maibaam-ud-train.conllu",
+        //"dev_data_path": "//content/BaySIDshot/manual_data/UD_data/bar_maibaam-ud-valid.conllu",
+        "train_data_path": "/content/BaySIDshot/UD_data/bar_maibaam-ud-train.conllu",
+        "dev_data_path": "/content/BaySIDshot/UD_data/bar_maibaam-ud-valid.conllu",
+        "word_idx": 1,
+        "tasks": {
+
+            "upos": {
+                "task_type": "seq",
+                "column_idx": 3,
+                "metric": "accuracy",
+                "additional_metrics": ["f1_micro", "f1_macro"]
+               },
+
+            "deprel": {"task_type": "dependency",
+                "column_idx": 6,
+                "metric": "las",
+                "additional_metrics": ["uas"]
+            }
+        }
+    }
+}
