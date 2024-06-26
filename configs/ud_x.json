@@ -15,7 +15,8 @@
                 "additional_metrics": ["f1_micro", "f1_macro"]
                },
 
-            "deprel": {"task_type": "dependency",
+            "deprel": {
+                "task_type": "dependency",
                 "column_idx": 6,
                 "metric": "las",
                 "additional_metrics": ["uas"]
