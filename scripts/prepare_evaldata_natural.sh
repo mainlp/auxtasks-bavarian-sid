@@ -6,7 +6,7 @@
 # in Colab
 mkdir -p /content/BaySIDshot/natural_eval_data
 cp /content/BaySIDshot/NaLiBaSID/data/data.zip /content/BaySIDshot/natural_eval_data/
-unzip -P MaiNLP /content/BaySIDshot/Raw_data/data.zip -d /content/BaySIDshot/natural_eval_data/
+unzip -P MaiNLP /content/BaySIDshot/natural_eval_data/data.zip -d /content/BaySIDshot/natural_eval_data/
 rm -f /content/BaySIDshot/natural_eval_data/data.zip
 
 
