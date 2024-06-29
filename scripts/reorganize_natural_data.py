@@ -1,35 +1,52 @@
 #!/usr/bin/python3
+
 import sys
+from collections import defaultdict
 
 # script to reorganize the natural Bavarian test data so that it fits the eval script
 # main reason: de-ba.nat.conll contains an un-annotated example for slots in base version (215)
-def reorganize_examples(input_file, output_file):
-    with open(input_file, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+def analyze_conll_file(file_path):
+    examples = []
+    current_example = defaultdict(list)  # Initialize current_example as defaultdict with list
 
-    with open(output_file, 'w', encoding='utf-8') as f:
-        i = 0
-        while i < len(lines):
-            if lines[i].startswith("# id"):
-                example_id = lines[i].strip()
-                intent = lines[i + 1].strip()
-                text_en = lines[i + 2].strip()
-                text = lines[i + 3].strip()
+    with open(file_path, 'r') as f:
+        for line in f:
+            line = line.strip()
 
-                # write the example with reorganized structure
-                f.write(example_id.replace("id = ", "id: ") + '\n')
-                f.write(text_en.replace("text-en = ", "text-en: ") + '\n')
-                f.write(text.replace("text = ", "text: ") + '\n')
-                f.write(intent.replace("intent = ", "intent: ") + '\n')
-                i += 4
+            if line.startswith('# id:'):
+                id = line.split(':')[-1].strip()
+                current_example['id'] = id
 
-                while i < len(lines) and not lines[i].startswith("# id"):
-                    f.write(lines[i])
-                    i += 1
-            else:
-                i += 1
+            elif line.startswith('# intent:'):
+                intent = line.split(':')[-1].strip()
+                current_example['intent'] = intent
 
-        f.write('\n')
+            elif line.startswith('# text:'):
+                text = line.split(':')[-1].strip()
+                current_example['text'] = text
+
+            elif line.startswith('#'):
+                continue  # Skip other lines starting with #
+
+            elif line and line[0].isdigit():  # Check if line starts with a digit
+                tokens = line.split('\t')
+                current_example['tokens'].append(tokens)
+
+            elif not line:
+                if current_example:  # Append current_example if it's not empty
+                    examples.append(dict(current_example))  # Convert defaultdict to regular dict
+                    current_example = defaultdict(list)  # Reset current_example for next example
+
+
+    print(examples[:5])
+
+    return examples
+
+def write_examples(examples):
+    with open(sys.argv[1], 'w') as f:
+        for example in examples:
+            f.write(example + '\n')
+            #Todo
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
@@ -38,4 +55,5 @@ if __name__ == "__main__":
 
     input_file = sys.argv[1]
     output_file = sys.argv[1]
-    reorganize_examples(input_file, output_file)
+    analyze_conll_file(input_file)
+    #write_examples(analyze_conll_file(output_file))

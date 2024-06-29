@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 import sys
 
 # script to reorganize xSID test/valid data so that it fits the eval script
