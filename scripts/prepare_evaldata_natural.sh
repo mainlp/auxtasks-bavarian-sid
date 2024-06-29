@@ -6,7 +6,17 @@
 # in Colab
 mkdir -p /content/BaySIDshot/natural_eval_data
 cp /content/BaySIDshot/NaLiBaSID/data/data.zip /content/BaySIDshot/natural_eval_data/
-unzip -P MaiNLP /content/BaySIDshot/natural_eval_data/data.zip -d /content/BaySIDshot/natural_eval_data/
+unzip -P MaiNLP -o /content/BaySIDshot/natural_eval_data/data.zip -d /content/BaySIDshot/natural_eval_data/
+mv -f /content/BaySIDshot/natural_eval_data/de-ba.MAS.test.conll /content/BaySIDshot/natural_eval_data/de-ba-MAS.test.conll
+mv -f /content/BaySIDshot/natural_eval_data/de-ba.xMAS.test.conll /content/BaySIDshot/natural_eval_data/de-ba-xMAS.test.conll
+mv -f /content/BaySIDshot/natural_eval_data/de-ba.nat.conll /content/BaySIDshot/natural_eval_data/de-ba-nat.test.conll
+rm -f /content/BaySIDshot/natural_eval_data/de-ba.MAS.valid.conll
+rm -f /content/BaySIDshot/natural_eval_data/de-ba.xMAS.valid.conll
+rm -f /content/BaySIDshot/natural_eval_data/de-ba.valid.conll
+rm -f /content/BaySIDshot/natural_eval_data/de-ba.test.conll
+rm -f /content/BaySIDshot/natural_eval_data/lt.nat.conll
+rm -f /content/BaySIDshot/natural_eval_data/lt.test.conll
+rm -f /content/BaySIDshot/natural_eval_data/lt.valid.conll
 rm -f /content/BaySIDshot/natural_eval_data/data.zip
 
 
