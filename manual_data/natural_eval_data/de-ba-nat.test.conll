@@ -1,6 +1,6 @@
 # id: 1
+# text: Dua ma des Liad in die Playlist Dua ma des Liad in die Playlist
 # intent: AddToPlaylist
-# text: Dua ma des Liad in die Playlist
 1	Dua	AddToPlaylist	O
 2	ma	AddToPlaylist	O
 3	des	AddToPlaylist	O
@@ -10,8 +10,8 @@
 7	Playlist	AddToPlaylist	B-playlist
 
 # id: 2
+# text: Mach des Liad in mei Party-Playlist. Mach des Liad in mei Party-Playlist .
 # intent: AddToPlaylist
-# text: Mach des Liad in mei Party-Playlist.
 1	Mach	AddToPlaylist	O
 2	des	AddToPlaylist	O
 3	Liad	AddToPlaylist	B-music_item
@@ -21,8 +21,8 @@
 7	.	AddToPlaylist	O
 
 # id: 3
+# text: Spui Ma des liad vom Elvis "Return to sender" Spui Ma des liad vom Elvis Return to sender
 # intent: AddToPlaylist
-# text: Spui Ma des liad vom Elvis "Return to sender"
 1	Spui	AddToPlaylist	O
 2	Ma	AddToPlaylist	O
 3	des	AddToPlaylist	O
@@ -34,23 +34,23 @@
 9	sender	AddToPlaylist	I-entity_name
 
 # id: 4
+# text: Dua "bloody valentine" vo Maschine Gun Kelly zua meina Playlist. Dua bloody valentine vo Maschine Gun Kelly zua meina Playlist .
 # intent: AddToPlaylist
-# text: Dua "bloody valentine" vo Maschine Gun Kelly zua meina Playlist.
-1 	Dua	AddToPlaylist	O
-2 	bloody	AddToPlaylist	B-entity_name
-3 	valentine	AddToPlaylist	I-entity_name
-4 	vo	AddToPlaylist	O
-5 	Maschine	AddToPlaylist	B-artist
-6 	Gun	AddToPlaylist	I-artist
-7 	Kelly	AddToPlaylist	I-artist
-8 	zua	AddToPlaylist	O
-9 	meina	AddToPlaylist	B-reference
-10 	Playlist	AddToPlaylist	B-playlist
+1	Dua	AddToPlaylist	O
+2	bloody	AddToPlaylist	B-entity_name
+3	valentine	AddToPlaylist	I-entity_name
+4	vo	AddToPlaylist	O
+5	Maschine	AddToPlaylist	B-artist
+6	Gun	AddToPlaylist	I-artist
+7	Kelly	AddToPlaylist	I-artist
+8	zua	AddToPlaylist	O
+9	meina	AddToPlaylist	B-reference
+10	Playlist	AddToPlaylist	B-playlist
 11	.	AddToPlaylist	O
 
 # id: 5
+# text: Dua „Cover me in Sunshine“ vo Pink in mei Gute Laune Playlist Dua Cover me in Sunshine vo Pink in mei Gute Laune Playlist
 # intent: AddToPlaylist
-# text: Dua „Cover me in Sunshine“ vo Pink in mei Gute Laune Playlist
 1	Dua	AddToPlaylist	O
 2	Cover	AddToPlaylist	B-entity_name
 3	me	AddToPlaylist	I-entity_name
@@ -65,8 +65,8 @@
 12	Playlist	AddToPlaylist	I-playlist
 
 # id: 6
+# text: machst moi "Dance Now" vo JID in de Hiphop Playlist? machst moi Dance Now vo JID in de Hiphop Playlist ?
 # intent: AddToPlaylist
-# text: machst moi "Dance Now" vo JID in de Hiphop Playlist?
 1	machst	AddToPlaylist	O
 2	moi	AddToPlaylist	O
 3	Dance	AddToPlaylist	B-entity_name
@@ -80,8 +80,8 @@
 11	?	AddToPlaylist	O
 
 # id: 7
+# text: bitte des liadl a nu dazua doa bitte des liadl a nu dazua doa
 # intent: AddToPlaylist
-# text: bitte des liadl a nu dazua doa
 1	bitte	AddToPlaylist	O
 2	des	AddToPlaylist	O
 3	liadl	AddToPlaylist	B-music_item
@@ -91,8 +91,8 @@
 7	doa	AddToPlaylist	O
 
 # id: 8
+# text: giab bitte "stupid horse" von 100 gecs zua meina Party-Listn giab bitte stupid horse von 100 gecs zua meina Party-Listn
 # intent: AddToPlaylist
-# text: giab bitte "stupid horse" von 100 gecs zua meina Party-Listn
 1	giab	AddToPlaylist	O
 2	bitte	AddToPlaylist	O
 3	stupid	AddToPlaylist	B-entity_name
@@ -105,8 +105,8 @@
 10	Party-Listn	AddToPlaylist	B-playlist
 
 # id: 9
+# text: füg des Lied zu meiner Playlist dazu füg des Lied zu meiner Playlist dazu
 # intent: AddToPlaylist
-# text: füg des Lied zu meiner Playlist dazu
 1	füg	AddToPlaylist	O
 2	des	AddToPlaylist	O
 3	Lied	AddToPlaylist	B-music_item
@@ -116,8 +116,8 @@
 7	dazu	AddToPlaylist	O
 
 # id: 10
+# text: speicha moi "Lost" von Linkin Park in mei Playlist! speicha moi Lost von Linkin Park in mei Playlist !
 # intent: AddToPlaylist
-# text: speicha moi "Lost" von Linkin Park in mei Playlist!
 1	speicha	AddToPlaylist	O
 2	moi	AddToPlaylist	O
 3	Lost	AddToPlaylist	B-entity_name
@@ -130,8 +130,8 @@
 10	!	AddToPlaylist	O
 
 # id: 11
+# text: Füg Lost von Linkin Park zu meina Playlist dazua Füg Lost von Linkin Park zu meina Playlist dazua
 # intent: AddToPlaylist
-# text: Füg Lost von Linkin Park zu meina Playlist dazua 
 1	Füg	AddToPlaylist	O
 2	Lost	AddToPlaylist	B-entity_name
 3	von	AddToPlaylist	O
@@ -143,41 +143,41 @@
 9	dazua	AddToPlaylist	O
 
 # id: 12
+# text: Dads ma „I sing a Liad fia di“ vom Andreas Gabalier ind Playlist einedoa Dads ma I sing a Liad fia di vom Andreas Gabalier ind Playlist einedoa
 # intent: AddToPlaylist
-# text: Dads ma „I sing a Liad fia di“ vom Andreas Gabalier ind Playlist einedoa 
-1 	Dads	AddToPlaylist	O
-2 	ma	AddToPlaylist	O
-3 	I	AddToPlaylist	B-entity_name
-4 	sing	AddToPlaylist	I-entity_name
-5 	a	AddToPlaylist	I-entity_name
-6 	Liad	AddToPlaylist	I-entity_name
-7 	fia	AddToPlaylist	I-entity_name
-8 	di	AddToPlaylist	I-entity_name
-9 	vom 	AddToPlaylist	O
-10 	Andreas	AddToPlaylist	B-artist
-11 	Gabalier	AddToPlaylist	I-artist
-12 	ind	AddToPlaylist	O
-13 	Playlist	AddToPlaylist	B-playlist
-14 	einedoa	AddToPlaylist	O
+1	Dads	AddToPlaylist	O
+2	ma	AddToPlaylist	O
+3	I	AddToPlaylist	B-entity_name
+4	sing	AddToPlaylist	I-entity_name
+5	a	AddToPlaylist	I-entity_name
+6	Liad	AddToPlaylist	I-entity_name
+7	fia	AddToPlaylist	I-entity_name
+8	di	AddToPlaylist	I-entity_name
+9	vom	AddToPlaylist	O
+10	Andreas	AddToPlaylist	B-artist
+11	Gabalier	AddToPlaylist	I-artist
+12	ind	AddToPlaylist	O
+13	Playlist	AddToPlaylist	B-playlist
+14	einedoa	AddToPlaylist	O
 
 # id: 13
+# text: dua "Dreh den Swag auf" von Moneyboy in mei Spotify-Playlist. dua Dreh den Swag auf von Moneyboy in mei Spotify-Playlist .
 # intent: AddToPlaylist
-# text: dua "Dreh den Swag auf" von Moneyboy in mei Spotify-Playlist.
 1	dua	AddToPlaylist	O
-2 	Dreh	AddToPlaylist	B-entity_name
-3 	den	AddToPlaylist	I-entity_name
-4 	Swag	AddToPlaylist	I-entity_name
-5 	auf	AddToPlaylist	I-entity_name
-6 	von	AddToPlaylist	O
-7 	Moneyboy	AddToPlaylist	B-artist
-8 	in	AddToPlaylist	O
-9 	mei	AddToPlaylist	B-reference
-10 	Spotify-Playlist	AddToPlaylist	B-playlist
-11 	. 	AddToPlaylist	O
+2	Dreh	AddToPlaylist	B-entity_name
+3	den	AddToPlaylist	I-entity_name
+4	Swag	AddToPlaylist	I-entity_name
+5	auf	AddToPlaylist	I-entity_name
+6	von	AddToPlaylist	O
+7	Moneyboy	AddToPlaylist	B-artist
+8	in	AddToPlaylist	O
+9	mei	AddToPlaylist	B-reference
+10	Spotify-Playlist	AddToPlaylist	B-playlist
+11	.	AddToPlaylist	O
 
 # id: 14
+# text: I mächad gean an disch resavieren I mächad gean an disch resavieren
 # intent: BookRestaurant
-# text: I mächad gean an disch resavieren 
 1	I	BookRestaurant	O
 2	mächad	BookRestaurant	O
 3	gean	BookRestaurant	O
@@ -186,8 +186,8 @@
 6	resavieren	BookRestaurant	O
 
 # id: 15
+# text: I dad gern an Disch in Rimbach für 4 Leid reservieren. I dad gern an Disch in Rimbach für 4 Leid reservieren .
 # intent: BookRestaurant
-# text: I dad gern an Disch in Rimbach für 4 Leid reservieren.
 1	I	BookRestaurant	O
 2	dad	BookRestaurant	O
 3	gern	BookRestaurant	O
@@ -202,8 +202,8 @@
 12	.	BookRestaurant	O
 
 # id: 16
+# text: I mechad gern an disch reservieren für 4 leid auf 19.00 I mechad gern an disch reservieren für 4 leid auf 19.00
 # intent: BookRestaurant
-# text: I mechad gern an disch reservieren für 4 leid auf 19.00
 1	I	BookRestaurant	O
 2	mechad	BookRestaurant	O
 3	gern	BookRestaurant	O
@@ -217,24 +217,23 @@
 11	19.00	BookRestaurant	B-datetime
 
 # id: 17
+# text: Reservier mia an Disch für 4 Leid in da Pizzeria Antonio. mia an Disch für 4 Leid in da Pizzeria Antonio .
 # intent: BookRestaurant
-# text: Reservier mia an Disch für 4 Leid in da Pizzeria Antonio.
-1 	Reservier	BookRestaurant O
-2 	mia	BookRestaurant	O
-3 	an	BookRestaurant	O
-4 	Disch	BookRestaurant	O
-5 	für	BookRestaurant	O
-6 	4	BookRestaurant	B-party_size_number
-7 	Leid	BookRestaurant	O
-8 	in	BookRestaurant	O
-9 	da	BookRestaurant	O
-10 	Pizzeria	BookRestaurant	B-restaurant_type
-11 	Antonio	BookRestaurant	B-restaurant_name
-12 	.	BookRestaurant	O
+2	mia	BookRestaurant	O
+3	an	BookRestaurant	O
+4	Disch	BookRestaurant	O
+5	für	BookRestaurant	O
+6	4	BookRestaurant	B-party_size_number
+7	Leid	BookRestaurant	O
+8	in	BookRestaurant	O
+9	da	BookRestaurant	O
+10	Pizzeria	BookRestaurant	B-restaurant_type
+11	Antonio	BookRestaurant	B-restaurant_name
+12	.	BookRestaurant	O
 
 # id: 18
+# text: I dad gern an Disch für 6 Leid um Simme beim Sale e Pepe in Hirten reservieren. I dad gern an Disch für 6 Leid um Simme beim Sale e Pepe in Hirten reservieren .
 # intent: BookRestaurant
-# text: I dad gern an Disch für 6 Leid um Simme beim Sale e Pepe in Hirten reservieren.
 1	I	BookRestaurant	O
 2	dad	BookRestaurant	O
 3	gern	BookRestaurant	O
@@ -255,18 +254,18 @@
 18	.	BookRestaurant	O
 
 # id: 19
+# text: reservierst ma bitte an Disch im Zeitlos fürn Brunch? Um 11 für 4 Personen, wenns gehd. reservierst ma bitte an Disch im Zeitlos fürn Brunch ? Um 11 für 4 Personen , wenns gehd .
 # intent: BookRestaurant
-# text: reservierst ma bitte an Disch im Zeitlos fürn Brunch? Um 11 für 4 Personen, wenns gehd.
 1	reservierst	BookRestaurant	O
 2	ma	BookRestaurant	O
 3	bitte	BookRestaurant	O
 4	an	BookRestaurant	O
-5	Disch	BookRestaurant	O	
+5	Disch	BookRestaurant	O
 6	im	BookRestaurant	O
 7	Zeitlos	BookRestaurant	B-restaurant_name
 8	fürn	BookRestaurant	O
 9	Brunch	BookRestaurant	B-meal_type
-10 	?	BookRestaurant	O
+10	?	BookRestaurant	O
 11	Um	BookRestaurant	O
 12	11	BookRestaurant	B-datetime
 13	für	BookRestaurant	O
@@ -278,16 +277,16 @@
 19	.	BookRestaurant	O
 
 # id: 20
+# text: ruaf bitte beim mings in oidäding a und buach an diesch für fünf leid aufara sechse sowos ruaf bitte beim mings in oidäding a und buach an diesch für fünf leid aufara sechse sowos
 # intent: BookRestaurant
-# text: ruaf bitte beim mings in oidäding a und buach an diesch für fünf leid aufara sechse sowos
 1	ruaf	BookRestaurant	O
 2	bitte	BookRestaurant	O
 3	beim	BookRestaurant	O
 4	mings	BookRestaurant	B-restaurant_name
 5	in	BookRestaurant	O
 6	oidäding	BookRestaurant	B-location
-7	a	BookRestaurant	O	
-8	und	BookRestaurant	O	
+7	a	BookRestaurant	O
+8	und	BookRestaurant	O
 9	buach	BookRestaurant	O
 10	an	BookRestaurant	O
 11	diesch	BookRestaurant	O
@@ -299,13 +298,12 @@
 17	sowos	BookRestaurant	O
 
 # id: 21
+# text: I darat gearn an Disch im Steirawirt in Riad für 3 Leid resavieren I darat gearn an im Steirawirt in Riad für 3 Leid resavieren
 # intent: BookRestaurant
-# text: I darat gearn an Disch im Steirawirt in Riad für 3 Leid resavieren
 1	I	BookRestaurant	O
 2	darat	BookRestaurant	O
 3	gearn	BookRestaurant	O
 4	an	BookRestaurant	O
-5	Disch		BookRestaurant	O
 6	im	BookRestaurant	O
 7	Steirawirt	BookRestaurant	B-restaurant_name
 8	in	BookRestaurant	O
@@ -316,8 +314,8 @@
 13	resavieren	BookRestaurant	O
 
 # id: 22
+# text: reservier ma an Disch für vier Leid reservier ma an Disch für vier Leid
 # intent: BookRestaurant
-# text: reservier ma an Disch für vier Leid
 1	reservier	BookRestaurant	O
 2	ma	BookRestaurant	O
 3	an	BookRestaurant	O
@@ -327,8 +325,8 @@
 7	Leid	BookRestaurant	O
 
 # id: 23
+# text: reservier ma moi an Tiesch im Restaurant im Rimback für 4 Leid. reservier ma moi an Tiesch im Restaurant im Rimback für 4 Leid .
 # intent: BookRestaurant
-# text: reservier ma moi an Tiesch im Restaurant im Rimback für 4 Leid.
 1	reservier	BookRestaurant	O
 2	ma	BookRestaurant	O
 3	moi	BookRestaurant	O
@@ -344,8 +342,8 @@
 13	.	BookRestaurant	O
 
 # id: 24
+# text: Reservier ma bitte an Disch im Zeitsprung fia zwoa Leid auf viere Reservier ma bitte an Disch im Zeitsprung fia zwoa Leid auf viere
 # intent: BookRestaurant
-# text: Reservier ma bitte an Disch im Zeitsprung fia zwoa Leid auf viere
 1	Reservier	BookRestaurant	O
 2	ma	BookRestaurant	O
 3	bitte	BookRestaurant	O
@@ -360,8 +358,8 @@
 12	viere	BookRestaurant	B-datetime
 
 # id: 25
+# text: kaunst ma du an tisch um zwa bei da edith reserviern. kaunst ma du an tisch um zwa bei da edith reserviern .
 # intent: BookRestaurant
-# text: kaunst ma du an tisch um zwa bei da edith reserviern.
 1	kaunst	BookRestaurant	O
 2	ma	BookRestaurant	O
 3	du	BookRestaurant	O
@@ -373,11 +371,11 @@
 9	da	BookRestaurant	B-restaurant_name
 10	edith	BookRestaurant	I-restaurant_name
 11	reserviern	BookRestaurant	O
-12 	.	BookRestaurant	O
+12	.	BookRestaurant	O
 
 # id: 26
+# text: Spui Ma lost von linkin park Spui Ma lost von linkin park
 # intent: PlayMusic
-# text: Spui Ma lost von linkin park 
 1	Spui	PlayMusic	O
 2	Ma	PlayMusic	O
 3	lost	PlayMusic	B-entity_name
@@ -386,23 +384,23 @@
 6	park	PlayMusic	I-artist
 
 # id: 27
+# text: Spui ma Rockmusik. Spui ma Rockmusik .
 # intent: PlayMusic
-# text: Spui ma Rockmusik.
 1	Spui	PlayMusic	O
 2	ma	PlayMusic	O
 3	Rockmusik	PlayMusic	B-genre
 4	.	PlayMusic	O
 
 # id: 28
+# text: Spui Reggae musi Spui Reggae musi
 # intent: PlayMusic
-# text: Spui Reggae musi
 1	Spui	PlayMusic	O
 2	Reggae	PlayMusic	B-genre
 3	musi	PlayMusic	O
 
 # id: 29
+# text: Spui "bloody valentine" vo Machine Gun Kelly auf Spotify. Spui bloody valentine vo Machine Gun Kelly auf Spotify .
 # intent: PlayMusic
-# text: Spui "bloody valentine" vo Machine Gun Kelly auf Spotify.
 1	Spui	PlayMusic	O
 2	bloody	PlayMusic	B-track
 3	valentine	PlayMusic	I-track
@@ -415,8 +413,8 @@
 10	.	PlayMusic	O
 
 # id: 30
+# text: Spui Bologna vo Wanda. Spui Bologna vo Wanda .
 # intent: PlayMusic
-# text: Spui Bologna vo Wanda.
 1	Spui	PlayMusic	O
 2	Bologna	PlayMusic	B-track
 3	vo	PlayMusic	O
@@ -424,8 +422,8 @@
 5	.	PlayMusic	O
 
 # id: 31
+# text: spui HipHop Radio auf Spotify. spui HipHop Radio auf Spotify .
 # intent: PlayMusic
-# text: spui HipHop Radio auf Spotify.
 1	spui	PlayMusic	O
 2	HipHop	PlayMusic	B-music_item
 3	Radio	PlayMusic	I-music_item
@@ -434,8 +432,8 @@
 6	.	PlayMusic	O
 
 # id: 32
+# text: Dua bitte mei meistgspuids liadl her Dua bitte mei meistgspuids liadl her
 # intent: PlayMusic
-# text: Dua bitte mei meistgspuids liadl her
 1	Dua	PlayMusic	O
 2	bitte	PlayMusic	O
 3	mei	PlayMusic	B-reference
@@ -444,8 +442,8 @@
 6	her	PlayMusic	O
 
 # id: 33
+# text: Spü ma bitte irgendwos von SOPHIE Spü ma bitte irgendwos von SOPHIE
 # intent: PlayMusic
-# text: Spü ma bitte irgendwos von SOPHIE
 1	Spü	PlayMusic	O
 2	ma	PlayMusic	O
 3	bitte	PlayMusic	O
@@ -454,15 +452,15 @@
 6	SOPHIE	PlayMusic	B-artist
 
 # id: 34
+# text: spui Bayern 3 spui Bayern 3
 # intent: PlayMusic
-# text: spui Bayern 3
 1	spui	PlayMusic	O
 2	Bayern	PlayMusic	B-music_item
 3	3	PlayMusic	I-music_item
 
 # id: 35
+# text: spui ma moi Rockmusik. spui ma moi Rockmusik .
 # intent: PlayMusic
-# text: spui ma moi Rockmusik.
 1	spui	PlayMusic	O
 2	ma	PlayMusic	O
 3	moi	PlayMusic	O
@@ -470,24 +468,24 @@
 5	.	PlayMusic	O
 
 # id: 36
+# text: Spui Radio Bayern 3 Spui Radio Bayern 3
 # intent: PlayMusic
-# text: Spui Radio Bayern 3
 1	Spui	PlayMusic	O
 2	Radio	PlayMusic	O
 3	Bayern	PlayMusic	B-music_item
 4	3	PlayMusic	I-music_item
 
 # id: 37
+# text: spui ebs vom Gabalier spui ebs vom Gabalier
 # intent: PlayMusic
-# text: spui ebs vom Gabalier
 1	spui	PlayMusic	O
 2	ebs	PlayMusic	O
 3	vom	PlayMusic	O
 4	Gabalier	PlayMusic	B-artist
 
 # id: 38
+# text: spü moi rummelplatz von moneyboy spü moi rummelplatz von moneyboy
 # intent: PlayMusic
-# text: spü moi rummelplatz von moneyboy
 1	spü	PlayMusic	O
 2	moi	PlayMusic	O
 3	rummelplatz	PlayMusic	B-track
@@ -495,8 +493,8 @@
 5	moneyboy	PlayMusic	B-artist
 
 # id: 39
+# text: I Mechad des buch auf 4 Sterne bewerta I Mechad des buch auf 4 Sterne bewerta
 # intent: RateBook
-# text: I Mechad des buch auf 4 Sterne bewerta 
 1	I	RateBook	O
 2	Mechad	RateBook	O
 3	des	RateBook	B-object_select
@@ -507,8 +505,8 @@
 8	bewerta	RateBook	O
 
 # id: 40
+# text: Gib dem Buach "Harry Potter" 5 Sterne. Gib dem Buach Harry Potter 5 Sterne .
 # intent: RateBook
-# text: Gib dem Buach "Harry Potter" 5 Sterne.
 1	Gib	RateBook	O
 2	dem	RateBook	O
 3	Buach	RateBook	B-object_type
@@ -519,8 +517,8 @@
 8	.	RateBook	O
 
 # id: 41
+# text: Gib dem biache vom "Herr der Ringe" 5 sterndl Gib dem biache vom Herr der Ringe 5 sterndl
 # intent: RateBook
-# text: Gib dem biache vom "Herr der Ringe" 5 sterndl
 1	Gib	RateBook	O
 2	dem	RateBook	O
 3	biache	RateBook	B-object_type
@@ -532,8 +530,8 @@
 9	sterndl	RateBook	B-rating_unit
 
 # id: 42
+# text: Bewert amoi des Buach "Harry Potter" mit 5 Sterne. Bewert amoi des Buach Harry Potter mit 5 Sterne .
 # intent: RateBook
-# text: Bewert amoi des Buach "Harry Potter" mit 5 Sterne.
 1	Bewert	RateBook	O
 2	amoi	RateBook	O
 3	des	RateBook	O
@@ -546,8 +544,8 @@
 10	.	RateBook	O
 
 # id: 43
+# text: Gib dem Buach „Playlist“ vo Sebastian Fitzek 5 Sterne. Gib dem Buach Playlist vo Sebastian Fitzek 5 Sterne .
 # intent: RateBook
-# text: Gib dem Buach „Playlist“ vo Sebastian Fitzek 5 Sterne.
 1	Gib	RateBook	O
 2	dem	RateBook	O
 3	Buach	RateBook	B-object_type
@@ -560,8 +558,8 @@
 10	.	RateBook	O
 
 # id: 44
+# text: gib "Iphigenie auf Taurus" oan Stern, des war richtig schlecht. gib Iphigenie auf Taurus oan Stern , des war richtig schlecht .
 # intent: RateBook
-# text: gib "Iphigenie auf Taurus" oan Stern, des war richtig schlecht.
 1	gib	RateBook	O
 2	Iphigenie	RateBook	B-object_name
 3	auf	RateBook	I-object_name
@@ -576,8 +574,8 @@
 12	.	RateBook	O
 
 # id: 45
+# text: Gib dem dumma buach de minimale Anzahl an sterne Gib dem dumma buach de minimale Anzahl an sterne
 # intent: RateBook
-# text: Gib dem dumma buach de minimale Anzahl an sterne
 1	Gib	RateBook	O
 2	dem	RateBook	O
 3	dumma	RateBook	O
@@ -589,8 +587,8 @@
 9	sterne	RateBook	B-rating_unit
 
 # id: 46
+# text: Gib "Harry Potter" 0 Sterne Gib Harry Potter 0 Sterne
 # intent: RateBook
-# text: Gib "Harry Potter" 0 Sterne
 1	Gib	RateBook	O
 2	Harry	RateBook	B-object_name
 3	Potter	RateBook	I-object_name
@@ -598,8 +596,8 @@
 5	Sterne	RateBook	B-rating_unit
 
 # id: 47
+# text: gib dem Buach a Bewertung vo 5 Sterne Gib dem Buach a Bewertung vo 5 Sterne
 # intent: RateBook
-# text: gib dem Buach a Bewertung vo 5 Sterne
 1	Gib	RateBook	O
 2	dem	RateBook	B-object_select
 3	Buach	RateBook	B-object_type
@@ -610,8 +608,8 @@
 8	Sterne	RateBook	B-rating_unit
 
 # id: 48
+# text: i mog a Buach bewerten. Gib dem Buach "..." 5 Sterndal. i mog a Buach bewerten . Gib dem Buach ... 5 Sterndal .
 # intent: RateBook
-# text: i mog a Buach bewerten. Gib dem Buach "..." 5 Sterndal.
 1	i	RateBook	O
 2	mog	RateBook	O
 3	a	RateBook	O
@@ -627,8 +625,8 @@
 13	.	RateBook	O
 
 # id: 49
+# text: Mach a Bewertung von 5 Sterne für des Buach Mach a Bewertung von 5 Sterne für des Buach
 # intent: RateBook
-# text: Mach a Bewertung von 5 Sterne für des Buach 
 1	Mach	RateBook	O
 2	a	RateBook	O
 3	Bewertung	RateBook	O
@@ -640,8 +638,8 @@
 9	Buach	RateBook	B-object_type
 
 # id: 50
+# text: dua des Buach „Harry Potter“ mit oam Stern bewerten dua des Buach Harry Potter mit oam Stern bewerten
 # intent: RateBook
-# text: dua des Buach „Harry Potter“ mit oam Stern bewerten
 1	dua	RateBook	O
 2	des	RateBook	O
 3	Buach	RateBook	B-object_type
@@ -653,8 +651,8 @@
 9	bewerten	RateBook	O
 
 # id: 51
+# text: bewert amoi des buach "Harry Potter" mit anem stern bewert amoi des buach Harry Potter mit anem Stern
 # intent: RateBook
-# text: bewert amoi des buach "Harry Potter" mit anem stern
 1	bewert	RateBook	O
 2	amoi	RateBook	O
 3	des	RateBook	O
@@ -666,8 +664,8 @@
 9	Stern	RateBook	B-rating_unit
 
 # id: 52
+# text: reservier an Disch für 4 Leid im Noah in Garching. reservier an Disch für 4 Leid im Noah in Garching .
 # intent: BookRestaurant
-# text: reservier an Disch für 4 Leid im Noah in Garching. 
 1	reservier	BookRestaurant	O
 2	an	BookRestaurant	O
 3	Disch	BookRestaurant	O
@@ -681,8 +679,8 @@
 11	.	BookRestaurant	O
 
 # id: 53
+# text: Suach nach Game of Thrones Such nach Game of Thrones
 # intent: SearchCreativeWork
-# text: Suach nach Game of Thrones 
 1	Such	SearchCreativeWork	O
 2	nach	SearchCreativeWork	O
 3	Game	SearchCreativeWork	B-object_name
@@ -690,8 +688,8 @@
 5	Thrones	SearchCreativeWork	I-object_name
 
 # id: 54
+# text: Suach nach "Game of Thrones". Such nach Game of Thrones .
 # intent: SearchCreativeWork
-# text: Suach nach "Game of Thrones".
 1	Such	SearchCreativeWork	O
 2	nach	SearchCreativeWork	O
 3	Game	SearchCreativeWork	B-object_name
@@ -700,24 +698,24 @@
 6	.	SearchCreativeWork	O
 
 # id: 55
+# text: Suach nach boogie musi Suach nach boogie musi
 # intent: SearchCreativeWork
-# text: Suach nach boogie musi
 1	Suach	SearchCreativeWork	O
 2	nach	SearchCreativeWork	O
 3	boogie	SearchCreativeWork	B-object_name
 4	musi	SearchCreativeWork	B-object_type
 
 # id: 56
+# text: Suach nach "Wednesday". Suach nach Wednesday .
 # intent: SearchCreativeWork
-# text: Suach nach "Wednesday".
 1	Suach	SearchCreativeWork	O
 2	nach	SearchCreativeWork	O
 3	Wednesday	SearchCreativeWork	B-object_name
 4	.	SearchCreativeWork	O
 
 # id: 57
+# text: Suach nach dem neia Album von Madeline Juno. Suach nach dem neia Album von Madeline Juno .
 # intent: SearchCreativeWork
-# text: Suach nach dem neia Album von Madeline Juno.
 1	Suach	SearchCreativeWork	O
 2	nach	SearchCreativeWork	O
 3	dem	SearchCreativeWork	O
@@ -729,8 +727,8 @@
 9	.	SearchCreativeWork	O
 
 # id: 58
+# text: schau moi nach dem neia Kendrick Lamar Album schau moi nach dem neia Kendrick Lamar Album
 # intent: SearchCreativeWork
-# text: schau moi nach dem neia Kendrick Lamar Album
 1	schau	SearchCreativeWork	O
 2	moi	SearchCreativeWork	O
 3	nach	SearchCreativeWork	O
@@ -741,8 +739,8 @@
 8	Album	SearchCreativeWork	B-object_type
 
 # id: 59
+# text: suach den neia Patrick Dempsey film suach den neia Patrick Dempsey film
 # intent: SearchCreativeWork
-# text: suach den neia Patrick Dempsey film
 1	suach	SearchCreativeWork	O
 2	den	SearchCreativeWork	O
 3	neia	SearchCreativeWork	O
@@ -751,16 +749,16 @@
 6	film	SearchCreativeWork	B-object_type
 
 # id: 60
+# text: suach des Spui. suach des Spui .
 # intent: SearchCreativeWork
-# text: suach des Spui.
 1	suach	SearchCreativeWork	O
 2	des	SearchCreativeWork	O
 3	Spui	SearchCreativeWork	B-object_type
 4	.	SearchCreativeWork	O
 
 # id: 61
+# text: suach moi nach "Stranger Things". suach moi nach Stranger Things .
 # intent: SearchCreativeWork
-# text: suach moi nach "Stranger Things".
 1	suach	SearchCreativeWork	O
 2	moi	SearchCreativeWork	O
 3	nach	SearchCreativeWork	O
@@ -769,16 +767,16 @@
 6	.	SearchCreativeWork	O
 
 # id: 62
+# text: Suach nach de "Simpsons" Suach nach de Simpsons
 # intent: SearchCreativeWork
-# text: Suach nach de "Simpsons"
 1	Suach	SearchCreativeWork	O
 2	nach	SearchCreativeWork	O
 3	de	SearchCreativeWork	O
 4	Simpsons	SearchCreativeWork	B-object_name
 
 # id: 63
+# text: schau wia des neie Album vom Gabalier hoaßt schau wia des neie Album vom Gabalier hoaßt
 # intent: SearchCreativeWork
-# text: schau wia des neie Album vom Gabalier hoaßt
 1	schau	SearchCreativeWork	O
 2	wia	SearchCreativeWork	O
 3	des	SearchCreativeWork	O
@@ -789,16 +787,16 @@
 8	hoaßt	SearchCreativeWork	O
 
 # id: 64
+# text: suach moi noch moneyboy suach moi noch moneyboy
 # intent: SearchCreativeWork
-# text: suach moi noch moneyboy
 1	suach	SearchCreativeWork	O
 2	moi	SearchCreativeWork	O
 3	noch	SearchCreativeWork	O
 4	moneyboy	SearchCreativeWork	B-object_name
 
 # id: 65
+# text: Wann Kimtn der Film A? Wann Kimtn der Film A ?
 # intent: SearchScreeningEvent
-# text: Wann Kimtn der Film A?
 1	Wann	SearchScreeningEvent	O
 2	Kimtn	SearchScreeningEvent	O
 3	der	SearchScreeningEvent	O
@@ -807,8 +805,8 @@
 6	?	SearchScreeningEvent	O
 
 # id: 66
+# text: Wo und wann kimmt "Avatar" im Kino? Wo und wann kimmt Avatar im Kino ?
 # intent: SearchScreeningEvent
-# text: Wo und wann kimmt "Avatar" im Kino?
 1	Wo	SearchScreeningEvent	O
 2	und	SearchScreeningEvent	O
 3	wann	SearchScreeningEvent	O
@@ -819,8 +817,8 @@
 8	?	SearchScreeningEvent	O
 
 # id: 67
+# text: Wann lafft da neie eberhofer Krimi im kino Wann lafft da neie eberhofer Krimi im kino
 # intent: SearchScreeningEvent
-# text: Wann lafft da neie eberhofer Krimi im kino
 1	Wann	SearchScreeningEvent	O
 2	lafft	SearchScreeningEvent	O
 3	da	SearchScreeningEvent	O
@@ -831,8 +829,8 @@
 8	kino	SearchScreeningEvent	B-object_location_type
 
 # id: 68
+# text: Wo und wann werd "Avatar" in Kino kemma? Wo und wann werd Avatar in Kino kemma ?
 # intent: SearchScreeningEvent
-# text: Wo und wann werd "Avatar" in Kino kemma?
 1	Wo	SearchScreeningEvent	O
 2	und	SearchScreeningEvent	O
 3	wann	SearchScreeningEvent	O
@@ -844,8 +842,8 @@
 9	?	SearchScreeningEvent	O
 
 # id: 69
+# text: Wann und wo laffd „Indiana Jones“? Wann und wo laffd Indiana Jones ?
 # intent: SearchScreeningEvent
-# text: Wann und wo laffd „Indiana Jones“?
 1	Wann	SearchScreeningEvent	O
 2	und	SearchScreeningEvent	O
 3	wo	SearchScreeningEvent	O
@@ -855,8 +853,8 @@
 7	?	SearchScreeningEvent	O
 
 # id: 70
+# text: wann kimmd "Minions" im Cineplex wann kimmd Minions im Cineplex
 # intent: SearchScreeningEvent
-# text: wann kimmd "Minions" im Cineplex 
 1	wann	SearchScreeningEvent	O
 2	kimmd	SearchScreeningEvent	O
 3	Minions	SearchScreeningEvent	B-movie_name
@@ -864,8 +862,8 @@
 5	Cineplex	SearchScreeningEvent	B-location
 
 # id: 71
+# text: wo und wann kann i des Theater aschaun wo und wann kann i des Theater aschaun
 # intent: SearchScreeningEvent
-# text: wo und wann kann i des Theater aschaun
 1	wo	SearchScreeningEvent	O
 2	und	SearchScreeningEvent	O
 3	wann	SearchScreeningEvent	O
@@ -876,8 +874,8 @@
 8	aschaun	SearchScreeningEvent	O
 
 # id: 72
+# text: Waun lauftn da "Avatar" im Kino? Waun lauftn da Avatar im Kino ?
 # intent: SearchScreeningEvent
-# text: Waun lauftn da "Avatar" im Kino?
 1	Waun	SearchScreeningEvent	O
 2	lauftn	SearchScreeningEvent	O
 3	da	SearchScreeningEvent	O
@@ -887,8 +885,8 @@
 7	?	SearchScreeningEvent	O
 
 # id: 73
+# text: wann kimmt Avatar in Burghausen im Kino? wann kimmt Avatar in Burghausen im Kino ?
 # intent: SearchScreeningEvent
-# text: wann kimmt Avatar in Burghausen im Kino?
 1	wann	SearchScreeningEvent	O
 2	kimmt	SearchScreeningEvent	O
 3	Avatar	SearchScreeningEvent	B-movie_name
@@ -899,8 +897,8 @@
 8	?	SearchScreeningEvent	O
 
 # id: 74
+# text: was laft grod im Theater? was laft grod im Theater ?
 # intent: SearchScreeningEvent
-# text: was laft grod im Theater?
 1	was	SearchScreeningEvent	O
 2	laft	SearchScreeningEvent	O
 3	grod	SearchScreeningEvent	O
@@ -909,8 +907,8 @@
 6	?	SearchScreeningEvent	O
 
 # id: 75
+# text: Wann laft Avatar im Kino Wann laft Avatar im Kino
 # intent: SearchScreeningEvent
-# text: Wann laft Avatar im Kino
 1	Wann	SearchScreeningEvent	O
 2	laft	SearchScreeningEvent	O
 3	Avatar	SearchScreeningEvent	B-movie_name
@@ -918,8 +916,8 @@
 5	Kino	SearchScreeningEvent	B-object_location_type
 
 # id: 76
+# text: wo und um wia vui Uhr ko I „Titanic“ im Kino oschaun? wo und um wia vui Uhr ko I Titanic im Kino oschaun ?
 # intent: SearchScreeningEvent
-# text: wo und um wia vui Uhr ko I „Titanic“ im Kino oschaun?
 1	wo	SearchScreeningEvent	O
 2	und	SearchScreeningEvent	O
 3	um	SearchScreeningEvent	O
@@ -929,14 +927,14 @@
 7	ko	SearchScreeningEvent	O
 8	I	SearchScreeningEvent	O
 9	Titanic	SearchScreeningEvent	B-movie_name
-10 	im	SearchScreeningEvent	O
+10	im	SearchScreeningEvent	O
 11	Kino	SearchScreeningEvent	B-object_location_type
 12	oschaun	SearchScreeningEvent	O
 13	?	SearchScreeningEvent	O
 
 # id: 77
+# text: wo und waun spüd "The whale" in minga wo und waun spüd The whale in minga
 # intent: SearchScreeningEvent
-# text: wo und waun spüd "The whale" in minga
 1	wo	SearchScreeningEvent	O
 2	und	SearchScreeningEvent	O
 3	waun	SearchScreeningEvent	O
@@ -947,8 +945,8 @@
 8	minga	SearchScreeningEvent	B-location
 
 # id: 78
+# text: Lösch mein Wecka um 7. Lösch mein Wecka um 7 .
 # intent: alarm/cancel_alarm
-# text: Lösch mein Wecka um 7.
 1	Lösch	alarm/cancel_alarm	O
 2	mein	alarm/cancel_alarm	B-reference
 3	Wecka	alarm/cancel_alarm	O
@@ -957,8 +955,8 @@
 6	.	alarm/cancel_alarm	O
 
 # id: 79
+# text: Lösch mein wegga um 6.00 Lösch mein wegga um 6.00
 # intent: alarm/cancel_alarm
-# text: Lösch mein wegga um 6.00
 1	Lösch	alarm/cancel_alarm	O
 2	mein	alarm/cancel_alarm	B-reference
 3	wegga	alarm/cancel_alarm	O
@@ -966,16 +964,16 @@
 5	6.00	alarm/cancel_alarm	B-datetime
 
 # id: 80
+# text: Lösch ma mein wecka Lösch ma mein wecka
 # intent: alarm/cancel_alarm
-# text: Lösch ma mein wecka 
 1	Lösch	alarm/cancel_alarm	O
 2	ma	alarm/cancel_alarm	O
 3	mein	alarm/cancel_alarm	B-reference
 4	wecka	alarm/cancel_alarm	O
 
 # id: 81
+# text: Lösch den Wecker um Simme. Lösch den Wecker um Simme .
 # intent: alarm/cancel_alarm
-# text: Lösch den Wecker um Simme.
 1	Lösch	alarm/cancel_alarm	O
 2	den	alarm/cancel_alarm	O
 3	Wecker	alarm/cancel_alarm	O
@@ -984,8 +982,8 @@
 6	.	alarm/cancel_alarm	O
 
 # id: 82
+# text: Lösch mein Wegga um 6. Lösch mein Wegga um 6 .
 # intent: alarm/cancel_alarm
-# text: Lösch mein Wegga um 6.
 1	Lösch	alarm/cancel_alarm	O
 2	mein	alarm/cancel_alarm	B-reference
 3	Wegga	alarm/cancel_alarm	O
@@ -994,8 +992,8 @@
 6	.	alarm/cancel_alarm	.
 
 # id: 83
+# text: weck mi moing doch ned weck mi moing doch ned
 # intent: alarm/cancel_alarm
-# text: weck mi moing doch ned
 1	weck	alarm/cancel_alarm	O
 2	mi	alarm/cancel_alarm	O
 3	moing	alarm/cancel_alarm	B-datetime
@@ -1003,16 +1001,16 @@
 5	ned	alarm/cancel_alarm	O
 
 # id: 84
+# text: lösch mein wegga wieder lösch mein wegga wieder
 # intent: alarm/cancel_alarm
-# text: lösch mein wegga wieder
 1	lösch	alarm/cancel_alarm	O
 2	mein	alarm/cancel_alarm	B-reference
 3	wegga	alarm/cancel_alarm	O
 4	wieder	alarm/cancel_alarm	O
 
 # id: 85
+# text: Lösch bitta mein Wecka morgn um 8 Lösch bitta mein Wecka morgn um 8
 # intent: alarm/cancel_alarm
-# text: Lösch bitta mein Wecka morgn um 8
 1	Lösch	alarm/cancel_alarm	O
 2	bitta	alarm/cancel_alarm	O
 3	mein	alarm/cancel_alarm	B-reference
@@ -1022,16 +1020,16 @@
 7	8	alarm/cancel_alarm	I-datetime
 
 # id: 86
+# text: Lösch mein Wecker. Lösch mein Wecker .
 # intent: alarm/cancel_alarm
-# text: Lösch mein Wecker.
 1	Lösch	alarm/cancel_alarm	O
 2	mein	alarm/cancel_alarm	B-reference
 3	Wecker	alarm/cancel_alarm	O
 4	.	alarm/cancel_alarm	O
 
 # id: 87
+# text: lösch amoi den bläden Wecka! lösch amoi den bläden Wecka !
 # intent: alarm/cancel_alarm
-# text: lösch amoi den bläden Wecka!
 1	lösch	alarm/cancel_alarm	O
 2	amoi	alarm/cancel_alarm	O
 3	den	alarm/cancel_alarm	O
@@ -1040,8 +1038,8 @@
 6	!	alarm/cancel_alarm	O
 
 # id: 88
+# text: Lösch den Wecka um Simme Lösch den Wecka um Simme
 # intent: alarm/cancel_alarm
-# text: Lösch den Wecka um Simme
 1	Lösch	alarm/cancel_alarm	O
 2	den	alarm/cancel_alarm	O
 3	Wecka	alarm/cancel_alarm	O
@@ -1049,17 +1047,17 @@
 5	Simme	alarm/cancel_alarm	B-datetime
 
 # id: 89
+# text: Lösch mein Wecka fia sime Lösch mein Wecka fia sime
 # intent: alarm/cancel_alarm
-# text: Lösch mein Wecka fia sime
 1	Lösch	alarm/cancel_alarm	O
 2	mein	alarm/cancel_alarm	B-reference
-3	Wecka	alarm/cancel_alarm	O	
+3	Wecka	alarm/cancel_alarm	O
 4	fia	alarm/cancel_alarm	O
 5	sime	alarm/cancel_alarm	B-datetime
 
 # id: 90
+# text: dua mein wecker um zwöfi ausi dua mein wecker um zwöfi ausi
 # intent: alarm/cancel_alarm
-# text: dua mein wecker um zwöfi ausi
 1	dua	alarm/cancel_alarm	O
 2	mein	alarm/cancel_alarm	B-reference
 3	wecker	alarm/cancel_alarm	O
@@ -1068,8 +1066,8 @@
 6	ausi	alarm/cancel_alarm	O
 
 # id: 91
+# text: I mog mein Wecker ändern I mog mein Wecker ändern
 # intent: alarm/modify_alarm
-# text: I mog mein Wecker ändern 
 1	I	alarm/modify_alarm	O
 2	mog	alarm/modify_alarm	O
 3	mein	alarm/modify_alarm	B-reference
@@ -1077,8 +1075,8 @@
 5	ändern	alarm/modify_alarm	O
 
 # id: 92
+# text: Änder mein Wecka von 7 auf 8. Änder mein Wecka von 7 auf 8 .
 # intent: alarm/modify_alarm
-# text: Änder mein Wecka von 7 auf 8.
 1	Änder	alarm/modify_alarm	O
 2	mein	alarm/modify_alarm	B-reference
 3	Wecka	alarm/modify_alarm	O
@@ -1089,8 +1087,8 @@
 8	.	alarm/modify_alarm	O
 
 # id: 93
+# text: Änder mein wegga vo 6 auf 7 Änder mein wegga vo 6 auf 7
 # intent: alarm/modify_alarm
-# text: Änder mein wegga vo 6 auf 7
 1	Änder	alarm/modify_alarm	O
 2	mein	alarm/modify_alarm	B-reference
 3	wegga	alarm/modify_alarm	O
@@ -1100,8 +1098,8 @@
 7	7	alarm/modify_alarm	B-datetime
 
 # id: 94
+# text: Änder den Wecker um Simme auf achte. Änder den Wecker um Simme auf achte .
 # intent: alarm/modify_alarm
-# text: Änder den Wecker um Simme auf achte.
 1	Änder	alarm/modify_alarm	O
 2	den	alarm/modify_alarm	O
 3	Wecker	alarm/modify_alarm	O
@@ -1112,8 +1110,8 @@
 8	.	alarm/modify_alarm	O
 
 # id: 95
+# text: Änder mein Wegga vo 5 auf 6. Änder mein Wegga vo 5 auf 6 .
 # intent: alarm/modify_alarm
-# text: Änder mein Wegga vo 5 auf 6.
 1	Änder	alarm/modify_alarm	O
 2	mein	alarm/modify_alarm	B-reference
 3	Wegga	alarm/modify_alarm	O
@@ -1124,8 +1122,8 @@
 8	.	alarm/modify_alarm	O
 
 # id: 96
+# text: weck mi moing doch liaba um 9 weck mi moing doch liaba um 9
 # intent: alarm/modify_alarm
-# text: weck mi moing doch liaba um 9
 1	weck	alarm/modify_alarm	O
 2	mi	alarm/modify_alarm	O
 3	moing	alarm/modify_alarm	B-datetime
@@ -1135,8 +1133,8 @@
 7	9	alarm/modify_alarm	B-datetime
 
 # id: 97
+# text: Stei mein wegga von 10e doch liaba auf viadl noch Stei mein wegga von 10e doch liaba auf viadl noch
 # intent: alarm/modify_alarm
-# text: Stei mein wegga von 10e doch liaba auf viadl noch
 1	Stei	alarm/modify_alarm	O
 2	mein	alarm/modify_alarm	B-reference
 3	wegga	alarm/modify_alarm	O
@@ -1146,11 +1144,11 @@
 7	liaba	alarm/modify_alarm	O
 8	auf	alarm/modify_alarm	B-alarm/alarm_modifier
 9	viadl	alarm/modify_alarm	B-datetime
-10 	noch	alarm/modify_alarm	I-datetime
+10	noch	alarm/modify_alarm	I-datetime
 
 # id: 98
+# text: Änder bitte mein Wecka morgen um achte auf neine Änder bitte mein Wecka morgen um achte auf neine
 # intent: alarm/modify_alarm
-# text: Änder bitte mein Wecka morgen um achte auf neine
 1	Änder	alarm/modify_alarm	O
 2	bitte	alarm/modify_alarm	O
 3	mein	alarm/modify_alarm	B-reference
@@ -1162,8 +1160,8 @@
 9	neine	alarm/modify_alarm	B-datetime
 
 # id: 99
+# text: stoi mein Wecker vo Simme auf Achte stoi mein Wecker vo Simme auf Achte
 # intent: alarm/modify_alarm
-# text: stoi mein Wecker vo Simme auf Achte
 1	stoi	alarm/modify_alarm	O
 2	mein	alarm/modify_alarm	B-reference
 3	Wecker	alarm/modify_alarm	O
@@ -1173,10 +1171,10 @@
 7	Achte	alarm/modify_alarm	B-datetime
 
 # id: 100
+# text: stei den Wecka nei auf achte in der Fria. stei den Wecka nei auf achte in der Fria .
 # intent: alarm/modify_alarm
-# text: stei den Wecka nei auf achte in der Fria.
 1	stei	alarm/modify_alarm	O
-2	den	alarm/modify_alarm	O	
+2	den	alarm/modify_alarm	O
 3	Wecka	alarm/modify_alarm	O
 4	nei	alarm/modify_alarm	O
 5	auf	alarm/modify_alarm	B-alarm/alarm_modifier
@@ -1187,8 +1185,8 @@
 10	.	alarm/modify_alarm	O
 
 # id: 101
+# text: Stei den Wecka von Simme auf Achte Stei den Wecka von Simme auf Achte
 # intent: alarm/modify_alarm
-# text: Stei den Wecka von Simme auf Achte
 1	Stei	alarm/modify_alarm	O
 2	den	alarm/modify_alarm	O
 3	Wecka	alarm/modify_alarm	O
@@ -1198,8 +1196,8 @@
 7	Achte	alarm/modify_alarm	B-datetime
 
 # id: 102
+# text: Stoi mein Wecka vo Sime auf Achte Stoi mein Wecka vo Sime auf Achte
 # intent: alarm/modify_alarm
-# text: Stoi mein Wecka vo Sime auf Achte
 1	Stoi	alarm/modify_alarm	O
 2	mein	alarm/modify_alarm	B-reference
 3	Wecka	alarm/modify_alarm	O
@@ -1209,8 +1207,8 @@
 7	Achte	alarm/modify_alarm	B-datetime
 
 # id: 103
+# text: ända mein wecka, der um ochti is, auf siemi ända mein wecka , der um ochti is , auf siemi
 # intent: alarm/modify_alarm
-# text: ända mein wecka, der um ochti is, auf siemi
 1	ända	alarm/modify_alarm	O
 2	mein	alarm/modify_alarm	B-reference
 3	wecka	alarm/modify_alarm	O
@@ -1224,8 +1222,8 @@
 11	siemi	alarm/modify_alarm	B-datetime
 
 # id: 104
+# text: I mog an wecka stein I mog an wecka stein
 # intent: alarm/set_alarm
-# text: I mog an wecka stein 
 1	I	alarm/set_alarm	O
 2	mog	alarm/set_alarm	O
 3	an	alarm/set_alarm	O
@@ -1233,8 +1231,8 @@
 5	stein	alarm/set_alarm	O
 
 # id: 105
+# text: Stei ma an Wecka auf 8 Uhr. Stei ma an Wecka auf 8 Uhr .
 # intent: alarm/set_alarm
-# text: Stei ma an Wecka auf 8 Uhr.
 1	Stei	alarm/set_alarm	O
 2	ma	alarm/set_alarm	O
 3	an	alarm/set_alarm	O
@@ -1245,8 +1243,8 @@
 8	.	alarm/set_alarm	O
 
 # id: 106
+# text: Stell mein wegga auf 6.00 Stell mein wegga auf 6.00
 # intent: alarm/set_alarm
-# text: Stell mein wegga auf 6.00
 1	Stell	alarm/set_alarm	O
 2	mein	alarm/set_alarm	B-reference
 3	wegga	alarm/set_alarm	O
@@ -1254,8 +1252,8 @@
 5	6.00	alarm/set_alarm	B-datetime
 
 # id: 107
+# text: Stei ma an Wecker auf achte. Stei ma an Wecker auf achte .
 # intent: alarm/set_alarm
-# text: Stei ma an Wecker auf achte.
 1	Stei	alarm/set_alarm	O
 2	ma	alarm/set_alarm	O
 3	an	alarm/set_alarm	O
@@ -1265,8 +1263,8 @@
 7	.	alarm/set_alarm	O
 
 # id: 108
+# text: Stoi ma an Wegga auf 7 Uhr. Stoi ma an Wegga auf 7 Uhr .
 # intent: alarm/set_alarm
-# text: Stoi ma an Wegga auf 7 Uhr.
 1	Stoi	alarm/set_alarm	O
 2	ma	alarm/set_alarm	O
 3	an	alarm/set_alarm	O
@@ -1277,8 +1275,8 @@
 8	.	alarm/set_alarm	O
 
 # id: 109
+# text: weck mi moing um hoibe acht weck mi moing um hoibe acht
 # intent: alarm/set_alarm
-# text: weck mi moing um hoibe acht
 1	weck	alarm/set_alarm	O
 2	mi	alarm/set_alarm	O
 3	moing	alarm/set_alarm	B-datetime
@@ -1287,8 +1285,8 @@
 6	acht	alarm/set_alarm	I-datetime
 
 # id: 110
+# text: mach an wegga für 8e mach an wegga für 8e
 # intent: alarm/set_alarm
-# text: mach an wegga für 8e
 1	mach	alarm/set_alarm	O
 2	an	alarm/set_alarm	O
 3	wegga	alarm/set_alarm	O
@@ -1296,8 +1294,8 @@
 5	8e	alarm/set_alarm	B-datetime
 
 # id: 111
+# text: Stöh man an Wecka morgn um siebane Stöh man an Wecka morgn um siebane
 # intent: alarm/set_alarm
-# text: Stöh man an Wecka morgn um siebane
 1	Stöh	alarm/set_alarm	O
 2	man	alarm/set_alarm	O
 3	an	alarm/set_alarm	O
@@ -1307,18 +1305,18 @@
 7	siebane	alarm/set_alarm	I-datetime
 
 # id: 112
+# text: Stoi ma an Wecker um 7e Stoi ma an Wecker um 7e
 # intent: alarm/set_alarm
-# text: Stoi ma an Wecker um 7e
 1	Stoi	alarm/set_alarm	O
-2	ma	alarm/set_alarm	O	
+2	ma	alarm/set_alarm	O
 3	an	alarm/set_alarm	O
 4	Wecker	alarm/set_alarm	O
 5	um	alarm/set_alarm	O
 6	7e	alarm/set_alarm	B-datetime
 
 # id: 113
+# text: stei ma den Wecka auf achte in der Fria. stei ma den Wecka auf achte in der Fria .
 # intent: alarm/set_alarm
-# text: stei ma den Wecka auf achte in der Fria.
 1	stei	alarm/set_alarm	O
 2	ma	alarm/set_alarm	O
 3	den	alarm/set_alarm	O
@@ -1331,8 +1329,8 @@
 10	.	alarm/set_alarm	O
 
 # id: 114
+# text: Stei an Wecker auf Achte Stei an Wecker auf Achte
 # intent: alarm/set_alarm
-# text: Stei an Wecker auf Achte
 1	Stei	alarm/set_alarm	O
 2	an	alarm/set_alarm	O
 3	Wecker	alarm/set_alarm	O
@@ -1340,8 +1338,8 @@
 5	Achte	alarm/set_alarm	B-datetime
 
 # id: 115
+# text: Stoi ma an Wecka auf Sime Stoi ma an Wecka auf Sime
 # intent: alarm/set_alarm
-# text: Stoi ma an Wecka auf Sime
 1	Stoi	alarm/set_alarm	O
 2	ma	alarm/set_alarm	O
 3	an	alarm/set_alarm	O
@@ -1350,8 +1348,8 @@
 6	Sime	alarm/set_alarm	B-datetime
 
 # id: 116
+# text: stö ma an wecka auf neini stö ma an wecka auf neini
 # intent: alarm/set_alarm
-# text: stö ma an wecka auf neini
 1	stö	alarm/set_alarm	O
 2	ma	alarm/set_alarm	O
 3	an	alarm/set_alarm	O
@@ -1360,16 +1358,16 @@
 6	neini	alarm/set_alarm	B-datetime
 
 # id: 117
+# text: Zoag Ma meine wecka Zoag Ma meine wecka
 # intent: alarm/show_alarms
-# text: Zoag Ma meine wecka 
 1	Zoag	alarm/show_alarms	O
 2	Ma	alarm/show_alarms	O
 3	meine	alarm/show_alarms	B-reference
 4	wecka	alarm/show_alarms	O
 
 # id: 118
+# text: Zoag ma meine Wecka. Zoag ma meine wecka .
 # intent: alarm/show_alarms
-# text: Zoag ma meine Wecka.
 1	Zoag	alarm/show_alarms	O
 2	ma	alarm/show_alarms	O
 3	meine	alarm/show_alarms	B-reference
@@ -1377,8 +1375,8 @@
 5	.	alarm/show_alarms	O
 
 # id: 119
+# text: Wann is mei wegga gsdäidt? Wann is mei wegga gsdäidt ?
 # intent: alarm/show_alarms
-# text: Wann is mei wegga gsdäidt?
 1	Wann	alarm/show_alarms	O
 2	is	alarm/show_alarms	O
 3	mei	alarm/show_alarms	B-reference
@@ -1387,8 +1385,8 @@
 6	?	alarm/show_alarms	O
 
 # id: 120
+# text: Zoag ma olle aktiven Wecka. Zoag ma olle aktiven Wecka .
 # intent: alarm/show_alarms
-# text: Zoag ma olle aktiven Wecka.
 1	Zoag	alarm/show_alarms	O
 2	ma	alarm/show_alarms	O
 3	olle	alarm/show_alarms	B-reference
@@ -1397,17 +1395,17 @@
 6	.	alarm/show_alarms	O
 
 # id: 121
+# text: Zoag ma meine Wegga. Zoag ma meine Wegga .
 # intent: alarm/show_alarms
-# text: Zoag ma meine Wegga.
 1	Zoag	alarm/show_alarms	O
-2	ma	alarm/show_alarms	O	
+2	ma	alarm/show_alarms	O
 3	meine	alarm/show_alarms	B-reference
 4	Wegga	alarm/show_alarms	O
 5	.	alarm/show_alarms	O
 
 # id: 122
+# text: wos für Wecker hob i? wos für Wecker hob i?
 # intent: alarm/show_alarms
-# text: wos für Wecker hob i?
 1	wos	alarm/show_alarms	O
 2	für	alarm/show_alarms	O
 3	Wecker	alarm/show_alarms	O
@@ -1415,8 +1413,8 @@
 5	i?	alarm/show_alarms	O
 
 # id: 123
+# text: zoag ma olle meine wegga zoag ma olle meine wegga
 # intent: alarm/show_alarms
-# text: zoag ma olle meine wegga
 1	zoag	alarm/show_alarms	O
 2	ma	alarm/show_alarms	O
 3	olle	alarm/show_alarms	B-reference
@@ -1424,8 +1422,8 @@
 5	wegga	alarm/show_alarms	O
 
 # id: 124
+# text: Zag ma amoi olle meine Wecka Zag ma amoi olle meine Wecka
 # intent: alarm/show_alarms
-# text: Zag ma amoi olle meine Wecka
 1	Zag	alarm/show_alarms	O
 2	ma	alarm/show_alarms	O
 3	amoi	alarm/show_alarms	O
@@ -1434,8 +1432,8 @@
 6	Wecka	alarm/show_alarms	O
 
 # id: 125
+# text: woichane Wecker hab i gstoid? woichane Wecker hob i gstoid ?
 # intent: alarm/show_alarms
-# text: woichane Wecker hab i gstoid?
 1	woichane	alarm/show_alarms	O
 2	Wecker	alarm/show_alarms	O
 3	hob	alarm/show_alarms	O
@@ -1444,8 +1442,8 @@
 6	?	alarm/show_alarms	O
 
 # id: 126
+# text: auf wia fui Uhr isn der Wecka steid? auf wia fui Uhr isn der Wecka steid ?
 # intent: alarm/show_alarms
-# text: auf wia fui Uhr isn der Wecka steid?
 1	auf	alarm/show_alarms	O
 2	wia	alarm/show_alarms	O
 3	fui	alarm/show_alarms	O
@@ -1457,8 +1455,8 @@
 9	?	alarm/show_alarms	O
 
 # id: 127
+# text: Wann san meine Wecker gstellt Wann san meine Wecker gstellt
 # intent: alarm/show_alarms
-# text: Wann san meine Wecker gstellt 
 1	Wann	alarm/show_alarms	O
 2	san	alarm/show_alarms	O
 3	meine	alarm/show_alarms	B-reference
@@ -1466,15 +1464,15 @@
 5	gstellt	alarm/show_alarms	O
 
 # id: 128
+# text: Zoag meine Wecka Zoag meine Wecka
 # intent: alarm/show_alarms
-# text: Zoag meine Wecka
 1	Zoag	alarm/show_alarms	O
 2	meine	alarm/show_alarms	B-reference
 3	Wecka	alarm/show_alarms	O
 
 # id: 129
+# text: wechan wecka hob i drinnen wechan wecka hob i drinnen
 # intent: alarm/show_alarms
-# text: wechan wecka hob i drinnen
 1	wechan	alarm/show_alarms	O
 2	wecka	alarm/show_alarms	O
 3	hob	alarm/show_alarms	O
@@ -1482,8 +1480,8 @@
 5	drinnen	alarm/show_alarms	O
 
 # id: 130
+# text: Dua den wecka auf schlumman Dua den wecka auf schlumman
 # intent: alarm/snooze_alarm
-# text: Dua den wecka auf schlumman 
 1	Dua	alarm/snooze_alarm	O
 2	den	alarm/snooze_alarm	O
 3	wecka	alarm/snooze_alarm	O
@@ -1491,32 +1489,32 @@
 5	schlumman	alarm/snooze_alarm	O
 
 # id: 131
+# text: Snooze an Wecka. Snooze an Wecka .
 # intent: alarm/snooze_alarm
-# text: Snooze an Wecka.
 1	Snooze	alarm/snooze_alarm	O
 2	an	alarm/snooze_alarm	O
 3	Wecka	alarm/snooze_alarm	O
 4	.	alarm/snooze_alarm	O
 
 # id: 132
+# text: Schdäi an wegga weider Schdäi an wegga weider
 # intent: alarm/snooze_alarm
-# text: Schdäi an wegga weider 
 1	Schdäi	alarm/snooze_alarm	O
 2	an	alarm/snooze_alarm	O
 3	wegga	alarm/snooze_alarm	O
 4	weider	alarm/snooze_alarm	O
 
 # id: 133
+# text: Snooze den Wecka. Snooze den Wecka .
 # intent: alarm/snooze_alarm
-# text: Snooze den Wecka.
 1	Snooze	alarm/snooze_alarm	O
 2	den	alarm/snooze_alarm	O
 3	Wecka	alarm/snooze_alarm	O
 4	.	alarm/snooze_alarm	O
 
 # id: 134
+# text: loss an Wegga schlummern. loss an Wegga schlummern .
 # intent: alarm/snooze_alarm
-# text: loss an Wegga schlummern.
 1	loss	alarm/snooze_alarm	O
 2	an	alarm/snooze_alarm	O
 3	Wegga	alarm/snooze_alarm	O
@@ -1524,30 +1522,30 @@
 5	.	alarm/snooze_alarm	O
 
 # id: 135
+# text: lass mi schlaffa lass mi schlaffa
 # intent: alarm/snooze_alarm
-# text: lass mi schlaffa
 1	lass	alarm/snooze_alarm	O
 2	mi	alarm/snooze_alarm	O
 3	schlaffa	alarm/snooze_alarm	O
 
 # id: 136
+# text: druck auf schlummern druck auf schlummern
 # intent: alarm/snooze_alarm
-# text: druck auf schlummern
 1	druck	alarm/snooze_alarm	O
 2	auf	alarm/snooze_alarm	O
 3	schlummern	alarm/snooze_alarm	O
 
 # id: 137
+# text: Snooze mein Wecker. Snooze mein Wecker .
 # intent: alarm/snooze_alarm
-# text: Snooze mein Wecker.
 1	Snooze	alarm/snooze_alarm	O
 2	mein	alarm/snooze_alarm	B-reference
 3	Wecker	alarm/snooze_alarm	O
 4	.	alarm/snooze_alarm	O
 
 # id: 138
+# text: lass den Wecka no a bissl schlummern. lass den Wecka no a bissl schlummern .
 # intent: alarm/snooze_alarm
-# text: lass den Wecka no a bissl schlummern.
 1	lass	alarm/snooze_alarm	O
 2	den	alarm/snooze_alarm	O
 3	Wecka	alarm/snooze_alarm	O
@@ -1558,22 +1556,22 @@
 8	.	alarm/snooze_alarm	O
 
 # id: 139
+# text: Snooze den Wecker Snooze den Wecker
 # intent: alarm/snooze_alarm
-# text: Snooze den Wecker
 1	Snooze	alarm/snooze_alarm	O
 2	den	alarm/snooze_alarm	O
 3	Wecker	alarm/snooze_alarm	O
 
 # id: 140
+# text: Snooze an Wecka Snooze an Wecka
 # intent: alarm/snooze_alarm
-# text: Snooze an Wecka
 1	Snooze	alarm/snooze_alarm	O
 2	an	alarm/snooze_alarm	O
 3	Wecka	alarm/snooze_alarm	O
 
 # id: 141
+# text: snooza mein wecka oba zackig snooza mein wecka oba zackig
 # intent: alarm/snooze_alarm
-# text: snooza mein wecka oba zackig
 1	snooza	alarm/snooze_alarm	O
 2	mein	alarm/snooze_alarm	B-reference
 3	wecka	alarm/snooze_alarm	O
@@ -1581,8 +1579,8 @@
 5	zackig	alarm/snooze_alarm	O
 
 # id: 142
+# text: Wia Long no bis dea wecka klingelt Wia Long no bis dea wecka klingelt
 # intent: alarm/time_left_on_alarm
-# text: Wia Long no bis dea wecka klingelt 
 1	Wia	alarm/time_left_on_alarm	O
 2	Long	alarm/time_left_on_alarm	O
 3	no	alarm/time_left_on_alarm	O
@@ -1592,8 +1590,8 @@
 7	klingelt	alarm/time_left_on_alarm	O
 
 # id: 143
+# text: Wia lang no bis da Wecka klingelt? Wia lang no bis da Wecka klingelt ?
 # intent: alarm/time_left_on_alarm
-# text: Wia lang no bis da Wecka klingelt?
 1	Wia	alarm/time_left_on_alarm	O
 2	lang	alarm/time_left_on_alarm	O
 3	no	alarm/time_left_on_alarm	O
@@ -1604,8 +1602,8 @@
 8	?	alarm/time_left_on_alarm	O
 
 # id: 144
+# text: Wann leid mei wegga? Wann leid mei wegga ?
 # intent: alarm/time_left_on_alarm
-# text: Wann leid mei wegga?
 1	Wann	alarm/time_left_on_alarm	O
 2	leid	alarm/time_left_on_alarm	O
 3	mei	alarm/time_left_on_alarm	B-reference
@@ -1613,8 +1611,8 @@
 5	?	alarm/time_left_on_alarm	O
 
 # id: 145
+# text: Wia lang is no bis da Wecka klingelt? Wia lang is no bis da Wecka klingelt ?
 # intent: alarm/time_left_on_alarm
-# text: Wia lang is no bis da Wecka klingelt?
 1	Wia	alarm/time_left_on_alarm	O
 2	lang	alarm/time_left_on_alarm	O
 3	is	alarm/time_left_on_alarm	O
@@ -1626,8 +1624,8 @@
 9	?	alarm/time_left_on_alarm	O
 
 # id: 146
+# text: Wia lang hob i no bis mei Wegga leit? Wia lang hob i no bis mei Wegga leit ?
 # intent: alarm/time_left_on_alarm
-# text: Wia lang hob i no bis mei Wegga leit?
 1	Wia	alarm/time_left_on_alarm	O
 2	lang	alarm/time_left_on_alarm	O
 3	hob	alarm/time_left_on_alarm	O
@@ -1640,16 +1638,16 @@
 10	?	alarm/time_left_on_alarm	O
 
 # id: 147
+# text: wann klingelt da Wecker wann klingelt da Wecker
 # intent: alarm/time_left_on_alarm
-# text: wann klingelt da Wecker
 1	wann	alarm/time_left_on_alarm	O
 2	klingelt	alarm/time_left_on_alarm	O
 3	da	alarm/time_left_on_alarm	O
 4	Wecker	alarm/time_left_on_alarm	O
 
 # id: 148
+# text: wie lang nu bis da wegga losgeht wie lang nu bis da wegga losgeht
 # intent: alarm/time_left_on_alarm
-# text: wie lang nu bis da wegga losgeht
 1	wie	alarm/time_left_on_alarm	O
 2	lang	alarm/time_left_on_alarm	O
 3	nu	alarm/time_left_on_alarm	O
@@ -1659,8 +1657,8 @@
 7	losgeht	alarm/time_left_on_alarm	O
 
 # id: 149
+# text: Waun is denn mei Wecka Waun is denn mei Wecka
 # intent: alarm/time_left_on_alarm
-# text: Waun is denn mei Wecka
 1	Waun	alarm/time_left_on_alarm	O
 2	is	alarm/time_left_on_alarm	O
 3	denn	alarm/time_left_on_alarm	O
@@ -1668,8 +1666,8 @@
 5	Wecka	alarm/time_left_on_alarm	O
 
 # id: 150
+# text: Wie lang dauerts no bis mei Wecker klingelt Wie lang dauerts no bis mei Wecker klingelt
 # intent: alarm/time_left_on_alarm
-# text: Wie lang dauerts no bis mei Wecker klingelt
 1	Wie	alarm/time_left_on_alarm	O
 2	lang	alarm/time_left_on_alarm	O
 3	dauerts	alarm/time_left_on_alarm	O
@@ -1680,8 +1678,8 @@
 8	klingelt	alarm/time_left_on_alarm	O
 
 # id: 151
+# text: wie fui Uhr is? Wie lang no bis der bläde Wecka klingelt? wie fui Uhr is ? Wie lang no bis der bläde Wecka klingelt ?
 # intent: alarm/time_left_on_alarm
-# text: wie fui Uhr is? Wie lang no bis der bläde Wecka klingelt?
 1	wie	alarm/time_left_on_alarm	O
 2	fui	alarm/time_left_on_alarm	O
 3	Uhr	alarm/time_left_on_alarm	O
@@ -1698,16 +1696,16 @@
 14	?	alarm/time_left_on_alarm	O
 
 # id: 152
+# text: Wann klinglt da Wecka Wann klinglt da Wecka
 # intent: alarm/time_left_on_alarm
-# text: Wann klinglt da Wecka 
 1	Wann	alarm/time_left_on_alarm	O
 2	klinglt	alarm/time_left_on_alarm	O
 3	da	alarm/time_left_on_alarm	O
 4	Wecka	alarm/time_left_on_alarm	O
 
 # id: 153
+# text: Wia lang dauerts no bis mei Wecka klingelt? Wia lang dauerts no bis mei Wecka klingelt ?
 # intent: alarm/time_left_on_alarm
-# text: Wia lang dauerts no bis mei Wecka klingelt?
 1	Wia	alarm/time_left_on_alarm	O
 2	lang	alarm/time_left_on_alarm	O
 3	dauerts	alarm/time_left_on_alarm	O
@@ -1719,8 +1717,8 @@
 9	?	alarm/time_left_on_alarm	O
 
 # id: 154
+# text: wie lang kaun i nu im bett liegn wie lang kaun i nu im bett liegn
 # intent: alarm/time_left_on_alarm
-# text: wie lang kaun i nu im bett liegn
 1	wie	alarm/time_left_on_alarm	O
 2	lang	alarm/time_left_on_alarm	O
 3	kaun	alarm/time_left_on_alarm	O
@@ -1731,40 +1729,40 @@
 8	liegn	alarm/time_left_on_alarm	O
 
 # id: 155
+# text: Lösch de Erinnerung. Lösch de Erinnerung .
 # intent: reminder/cancel_reminder
-# text: Lösch de Erinnerung.
 1	Lösch	reminder/cancel_reminder	O
 2	de	reminder/cancel_reminder	O
 3	Erinnerung	reminder/cancel_reminder	O
 4	.	reminder/cancel_reminder	O
 
 # id: 156
+# text: Lösch mei letzte Erinnerung Lösch mei letzte Erinnerung
 # intent: reminder/cancel_reminder
-# text: Lösch mei letzte Erinnerung 
 1	Lösch	reminder/cancel_reminder	O
 2	mei	reminder/cancel_reminder	B-reference
 3	letzte	reminder/cancel_reminder	I-reference
 4	Erinnerung	reminder/cancel_reminder	O
 
 # id: 157
+# text: Lösch de Erinnerung. Lösch de Erinnerung .
 # intent: reminder/cancel_reminder
-# text: Lösch de Erinnerung.
 1	Lösch	reminder/cancel_reminder	O
 2	de	reminder/cancel_reminder	O
 3	Erinnerung	reminder/cancel_reminder	O
 4	.	reminder/cancel_reminder	O
 
 # id: 158
+# text: Lösch mei Erinnerung. Lösch mei Erinnerung .
 # intent: reminder/cancel_reminder
-# text: Lösch mei Erinnerung.
 1	Lösch	reminder/cancel_reminder	O
 2	mei	reminder/cancel_reminder	B-reference
 3	Erinnerung	reminder/cancel_reminder	O
 4	.	reminder/cancel_reminder	O
 
 # id: 159
+# text: lösch die letzte Erinnerung, die i erstellt hob lösch die letzte Erinnerung , die i erstellt hob
 # intent: reminder/cancel_reminder
-# text: lösch die letzte Erinnerung, die i erstellt hob
 1	lösch	reminder/cancel_reminder	O
 2	die	reminder/cancel_reminder	O
 3	letzte	reminder/cancel_reminder	B-reference
@@ -1776,22 +1774,22 @@
 9	hob	reminder/cancel_reminder	O
 
 # id: 160
+# text: lösch de erinnerung lösch de erinnerung
 # intent: reminder/cancel_reminder
-# text: lösch de erinnerung
 1	lösch	reminder/cancel_reminder	O
 2	de	reminder/cancel_reminder	O
 3	erinnerung	reminder/cancel_reminder	O
 
 # id: 161
+# text: Lösch mei Erinnerung Lösch mei Erinnerung
 # intent: reminder/cancel_reminder
-# text: Lösch mei Erinnerung
 1	Lösch	reminder/cancel_reminder	O
 2	mei	reminder/cancel_reminder	B-reference
 3	Erinnerung	reminder/cancel_reminder	O
 
 # id: 162
+# text: mach amoi die Erinnerung raus. mach amoi die Erinnerung raus .
 # intent: reminder/cancel_reminder
-# text: mach amoi die Erinnerung raus.
 1	mach	reminder/cancel_reminder	O
 2	amoi	reminder/cancel_reminder	O
 3	die	reminder/cancel_reminder	O
@@ -1800,21 +1798,21 @@
 6	.	reminder/cancel_reminder	O
 
 # id: 163
+# text: Erinnerung löschen Erinnerung löschen
 # intent: reminder/cancel_reminder
-# text: Erinnerung löschen
 1	Erinnerung	reminder/cancel_reminder	O
 2	löschen	reminder/cancel_reminder	O
 
 # id: 164
+# text: Lösch de Erinnerung Lösch de Erinnerung
 # intent: reminder/cancel_reminder
-# text: Lösch de Erinnerung
 1	Lösch	reminder/cancel_reminder	O
 2	de	reminder/cancel_reminder	O
 3	Erinnerung	reminder/cancel_reminder	O
 
 # id: 165
+# text: lösch mei erinnerung fir moneyboy horchn lösch mei erinnerung fir moneyboy horchn
 # intent: reminder/cancel_reminder
-# text: lösch mei erinnerung fir moneyboy horchn
 1	lösch	reminder/cancel_reminder	O
 2	mei	reminder/cancel_reminder	B-reference
 3	erinnerung	reminder/cancel_reminder	O
@@ -1823,8 +1821,8 @@
 6	horchn	reminder/cancel_reminder	I-reminder/todo
 
 # id: 166
+# text: I mechad gean a Erinnerung setza I mechad gean a Erinnerung setza
 # intent: reminder/set_reminder
-# text: I mechad gean a Erinnerung setza 
 1	I	reminder/set_reminder	O
 2	mechad	reminder/set_reminder	O
 3	gean	reminder/set_reminder	O
@@ -1833,8 +1831,8 @@
 6	setza	reminder/set_reminder	O
 
 # id: 167
+# text: Mach a Erinnerung, dass i an Papa in 10 Minuten oruafa muas. Mach a Erinnerung , dass i an Papa in 10 Minuten oruafa muas .
 # intent: reminder/set_reminder
-# text: Mach a Erinnerung, dass i an Papa in 10 Minuten oruafa muas.
 1	Mach	reminder/set_reminder	O
 2	a	reminder/set_reminder	O
 3	Erinnerung	reminder/set_reminder	O
@@ -1851,8 +1849,8 @@
 14	.	reminder/set_reminder	O
 
 # id: 168
+# text: Erinner mi in 10 Minuten das i telefoniern muass Erinner mi in 10 Minuten das i telefoniern muass
 # intent: reminder/set_reminder
-# text: Erinner mi in 10 Minuten das i telefoniern muass
 1	Erinner	reminder/set_reminder	O
 2	mi	reminder/set_reminder	O
 3	in	reminder/set_reminder	O
@@ -1864,8 +1862,8 @@
 9	muass	reminder/set_reminder	O
 
 # id: 169
+# text: Erinner mi in 10 Minudn, dass i eikaffa geh wuid. Erinner mi in 10 Minudn , dass i eikaffa geh wuid .
 # intent: reminder/set_reminder
-# text: Erinner mi in 10 Minudn, dass i eikaffa geh wuid.
 1	Erinner	reminder/set_reminder	O
 2	mi	reminder/set_reminder	O
 3	in	reminder/set_reminder	O
@@ -1880,8 +1878,8 @@
 12	.	reminder/set_reminder	O
 
 # id: 170
+# text: Erstoi ma a Erinnerung, dass i um 5 an Tobi obhoin muas. Erstoi ma a Erinnerung , dass i um 5 an Tobi obhoin muas .
 # intent: reminder/set_reminder
-# text: Erstoi ma a Erinnerung, dass i um 5 an Tobi obhoin muas.
 1	Erstoi	reminder/set_reminder	O
 2	ma	reminder/set_reminder	O
 3	a	reminder/set_reminder	O
@@ -1898,8 +1896,8 @@
 14	.	reminder/set_reminder	O
 
 # id: 171
+# text: erinner mi dro, dass i am Niklas am 8. April zum Geburtstag gratulier erinner mi dro , dass i am Niklas am 8 . April zum Geburtstag gratulier
 # intent: reminder/set_reminder
-# text: erinner mi dro, dass i am Niklas am 8. April zum Geburtstag gratulier
 1	erinner	reminder/set_reminder	O
 2	mi	reminder/set_reminder	O
 3	dro	reminder/set_reminder	O
@@ -1917,8 +1915,8 @@
 15	gratulier	reminder/set_reminder	I-reminder/todo
 
 # id: 172
+# text: mach a erinnerung für mein Auflauf in 25 min mach a erinnerung für mein Auflauf in 25 min
 # intent: reminder/set_reminder
-# text: mach a erinnerung für mein Auflauf in 25 min
 1	mach	reminder/set_reminder	O
 2	a	reminder/set_reminder	O
 3	erinnerung	reminder/set_reminder	O
@@ -1930,8 +1928,8 @@
 9	min	reminder/set_reminder	I-datetime
 
 # id: 173
+# text: Stoi a Erinnerung, dass i zur Bank muas Stoi a Erinnerung , dass i zur Bank muas
 # intent: reminder/set_reminder
-# text: Stoi a Erinnerung, dass i zur Bank muas
 1	Stoi	reminder/set_reminder	O
 2	a	reminder/set_reminder	O
 3	Erinnerung	reminder/set_reminder	O
@@ -1943,31 +1941,31 @@
 9	muas	reminder/set_reminder	O
 
 # id: 174
+# text: mach a neie Erinnerung in mein Kalender, dass i morgen erst um zehne ind Uni nei muas. mach a neie Erinnerung in mein Kalender , dass i morgen erst um zehne ind Uni nei muas .
 # intent: reminder/set_reminder
-# text: mach a neie Erinnerung in mein Kalender, dass i morgen erst um zehne ind Uni nei muas.
 1	mach	reminder/set_reminder	O
 2	a	reminder/set_reminder	O
-3	neie 	reminder/set_reminder	O
-4	Erinnerung 	reminder/set_reminder	O
-5	in 	reminder/set_reminder	O
-6	mein 	reminder/set_reminder	B-reference
+3	neie	reminder/set_reminder	O
+4	Erinnerung	reminder/set_reminder	O
+5	in	reminder/set_reminder	O
+6	mein	reminder/set_reminder	B-reference
 7	Kalender	reminder/set_reminder	O
 8	,	reminder/set_reminder	O
-9	dass 	reminder/set_reminder	O
-10	i 	reminder/set_reminder	O
-11	morgen 	reminder/set_reminder	B-datetime
-12	erst 	reminder/set_reminder	O
-13	um 	reminder/set_reminder	O
-14	zehne 	reminder/set_reminder	B-datetime
-15	ind 	reminder/set_reminder	B-reminder/todo
-16	Uni 	reminder/set_reminder	I-reminder/todo
-17	nei 	reminder/set_reminder	I-reminder/todo
+9	dass	reminder/set_reminder	O
+10	i	reminder/set_reminder	O
+11	morgen	reminder/set_reminder	B-datetime
+12	erst	reminder/set_reminder	O
+13	um	reminder/set_reminder	O
+14	zehne	reminder/set_reminder	B-datetime
+15	ind	reminder/set_reminder	B-reminder/todo
+16	Uni	reminder/set_reminder	I-reminder/todo
+17	nei	reminder/set_reminder	I-reminder/todo
 18	muas	reminder/set_reminder	O
 19	.	reminder/set_reminder	O
 
 # id: 175
+# text: Erinnerungen heid um hoibe Simme für Muich und Butta eikaufa Erinnerungen heid um hoibe Simme für Muich und Butta eikaufa
 # intent: reminder/set_reminder
-# text: Erinnerungen heid um hoibe Simme für Muich und Butta eikaufa 
 1	Erinnerungen	reminder/set_reminder	O
 2	heid	reminder/set_reminder	B-datetime
 3	um	reminder/set_reminder	I-datetime
@@ -1980,8 +1978,8 @@
 10	eikaufa	reminder/set_reminder	I-reminder/todo
 
 # id: 176
+# text: setz a Erinnerung, dass i in 15 Minuten meine Medikamente nehma muas setz a Erinnerung , dass i in 15 Minuten meine Medikamente nehma muas
 # intent: reminder/set_reminder
-# text: setz a Erinnerung, dass i in 15 Minuten meine Medikamente nehma muas 
 1	setz	reminder/set_reminder	O
 2	a	reminder/set_reminder	O
 3	Erinnerung	reminder/set_reminder	O
@@ -1997,8 +1995,8 @@
 13	muas	reminder/set_reminder	O
 
 # id: 177
+# text: moch ma erinnerung, dassi mein vota um zwa aurufn muas moch ma erinnerung , dassi mein vota um zwa aurufn muas
 # intent: reminder/set_reminder
-# text: moch ma erinnerung, dassi mein vota um zwa aurufn muas
 1	moch	reminder/set_reminder	O
 2	ma	reminder/set_reminder	O
 3	erinnerung	reminder/set_reminder	O
@@ -2012,16 +2010,16 @@
 11	muas	reminder/set_reminder	O
 
 # id: 178
+# text: Zoag ma eine Erinnerungen Zoag ma eine Erinnerungen
 # intent: reminder/show_reminders
-# text: Zoag ma eine Erinnerungen 
 1	Zoag	reminder/show_reminders	O
 2	ma	reminder/show_reminders	O
 3	eine	reminder/show_reminders	B-reference
 4	Erinnerungen	reminder/show_reminders	O
 
 # id: 179
+# text: Weiche Erinnerungen hob i? Weiche Erinnerungen hob i ?
 # intent: reminder/show_reminders
-# text: Weiche Erinnerungen hob i?
 1	Weiche	reminder/show_reminders	O
 2	Erinnerungen	reminder/show_reminders	O
 3	hob	reminder/show_reminders	O
@@ -2029,8 +2027,8 @@
 5	?	reminder/show_reminders	O
 
 # id: 180
+# text: Wäiche Erinnerungen san gspeichert? Wäiche Erinnerungen san gspeichert ?
 # intent: reminder/show_reminders
-# text: Wäiche Erinnerungen san gspeichert?
 1	Wäiche	reminder/show_reminders	O
 2	Erinnerungen	reminder/show_reminders	O
 3	san	reminder/show_reminders	O
@@ -2038,8 +2036,8 @@
 5	?	reminder/show_reminders	O
 
 # id: 181
+# text: Zoag ma olle Erinnerungen. Zoag ma olle Erinnerungen .
 # intent: reminder/show_reminders
-# text: Zoag ma olle Erinnerungen.
 1	Zoag	reminder/show_reminders	O
 2	ma	reminder/show_reminders	O
 3	olle	reminder/show_reminders	B-reference
@@ -2047,8 +2045,8 @@
 5	.	reminder/show_reminders	O
 
 # id: 182
+# text: Zoag ma meine Erinnerungen. Zoag ma meine Erinnerungen .
 # intent: reminder/show_reminders
-# text: Zoag ma meine Erinnerungen.
 1	Zoag	reminder/show_reminders	O
 2	ma	reminder/show_reminders	O
 3	meine	reminder/show_reminders	B-reference
@@ -2056,8 +2054,8 @@
 5	.	reminder/show_reminders	O
 
 # id: 183
+# text: Wos für Erinnerungen hob i Wos für Erinnerungen hob i
 # intent: reminder/show_reminders
-# text: Wos für Erinnerungen hob i
 1	Wos	reminder/show_reminders	O
 2	für	reminder/show_reminders	O
 3	Erinnerungen	reminder/show_reminders	O
@@ -2065,8 +2063,8 @@
 5	i	reminder/show_reminders	O
 
 # id: 184
-# intent: reminder/show_reminders	
-# text: zoag ma olle meine erinnerungen
+# text: zoag ma olle meine erinnerungen zoag ma olle meine erinnerungen
+# intent: reminder/show_reminders
 1	zoag	reminder/show_reminders	O
 2	ma	reminder/show_reminders	O
 3	olle	reminder/show_reminders	I-reference
@@ -2074,8 +2072,8 @@
 5	erinnerungen	reminder/show_reminders	O
 
 # id: 185
+# text: Woichane Erinnerungen hob i? Woichane Erinnerungen hob i ?
 # intent: reminder/show_reminders
-# text: Woichane Erinnerungen hob i?
 1	Woichane	reminder/show_reminders	O
 2	Erinnerungen	reminder/show_reminders	O
 3	hob	reminder/show_reminders	O
@@ -2083,8 +2081,8 @@
 5	?	reminder/show_reminders	O
 
 # id: 186
+# text: weiche Erinnerungen san für heid geplant? weiche Erinnerungen san für heid geplant ?
 # intent: reminder/show_reminders
-# text: weiche Erinnerungen san für heid geplant?
 1	weiche	reminder/show_reminders	O
 2	Erinnerungen	reminder/show_reminders	O
 3	san	reminder/show_reminders	O
@@ -2094,40 +2092,40 @@
 7	?	reminder/show_reminders	O
 
 # id: 187
+# text: Zoag ma meine Erinnerungen Zoag ma meine Erinnerungen
 # intent: reminder/show_reminders
-# text: Zoag ma meine Erinnerungen 
 1	Zoag	reminder/show_reminders	O
 2	ma	reminder/show_reminders	O
 3	meine	reminder/show_reminders	B-reference
 4	Erinnerungen	reminder/show_reminders	O
 
 # id: 188
+# text: Zoag ma meine Erinnerungen Zoag ma meine Erinnerungen
 # intent: reminder/show_reminders
-# text: Zoag ma meine Erinnerungen 
 1	Zoag	reminder/show_reminders	O
 2	ma	reminder/show_reminders	O
 3	meine	reminder/show_reminders	B-reference
 4	Erinnerungen	reminder/show_reminders	O
 
 # id: 189
+# text: wöchi erinnungen hobi grod wöchi erinnungen hobi grod
 # intent: reminder/show_reminders
-# text: wöchi erinnungen hobi grod
 1	wöchi	reminder/show_reminders	O
 2	erinnungen	reminder/show_reminders	O
 3	hobi	reminder/show_reminders	O
 4	grod	reminder/show_reminders	O
 
 # id: 190
+# text: Wia isn des wedda Wia isn des wedda
 # intent: weather/find
-# text: Wia isn des wedda
 1	Wia	weather/find	O
 2	isn	weather/find	O
 3	des	weather/find	O
 4	wedda	weather/find	O
 
 # id: 191
+# text: Wia is des Weda grod in Minga? Wia is des Weda grod in Minga ?
 # intent: weather/find
-# text: Wia is des Weda grod in Minga?
 1	Wia	weather/find	O
 2	is	weather/find	O
 3	des	weather/find	O
@@ -2138,8 +2136,8 @@
 8	?	weather/find	O
 
 # id: 192
+# text: Wos is grod für a weda in äding? Wos is grod für a weda in äding ?
 # intent: weather/find
-# text: Wos is grod für a weda in äding?
 1	Wos	weather/find	O
 2	is	weather/find	O
 3	grod	weather/find	B-datetime
@@ -2151,8 +2149,8 @@
 9	?	weather/find	O
 
 # id: 193
+# text: Wia is as Weda heid in Minga? Wia is as Weda heid in Minga ?
 # intent: weather/find
-# text: Wia is as Weda heid in Minga?
 1	Wia	weather/find	O
 2	is	weather/find	O
 3	as	weather/find	O
@@ -2163,8 +2161,8 @@
 8	?	weather/find	O
 
 # id: 194
+# text: Wia is as Weda grod in Burghausen? Wia is as Weda grod in Burghausen ?
 # intent: weather/find
-# text: Wia is as Weda grod in Burghausen?
 1	Wia	weather/find	O
 2	is	weather/find	O
 3	as	weather/find	O
@@ -2175,8 +2173,8 @@
 8	?	weather/find	O
 
 # id: 195
-# intent: weather/find	
-# text: wia is' Weda?
+# text: wia is' Weda? wia is ' Weda ?
+# intent: weather/find
 1	wia	weather/find	O
 2	is	weather/find	O
 3	'	weather/find	O
@@ -2184,8 +2182,8 @@
 5	?	weather/find	O
 
 # id: 196
+# text: wie wirds weda moang in rotholz wie wirds weda moang in rotholz
 # intent: weather/find
-# text: wie wirds weda moang in rotholz
 1	wie	weather/find	O
 2	wirds	weather/find	O
 3	weda	weather/find	O
@@ -2194,8 +2192,8 @@
 6	rotholz	weather/find	B-location
 
 # id: 197
+# text: Wia isn grod des Wetta in Rosnheim? Wia isn grod des Wetta in Rosnheim ?
 # intent: weather/find
-# text: Wia isn grod des Wetta in Rosnheim?
 1	Wia	weather/find	O
 2	isn	weather/find	O
 3	grod	weather/find	B-datetime
@@ -2206,8 +2204,8 @@
 8	?	weather/find	O
 
 # id: 198
+# text: Wie is as Wedda auf Malle? Wie is as Wedda auf Malle ?
 # intent: weather/find
-# text: Wie is as Wedda auf Malle?
 1	Wie	weather/find	O
 2	is	weather/find	O
 3	as	weather/find	O
@@ -2217,8 +2215,8 @@
 7	?	weather/find	O
 
 # id: 199
+# text: wie isn des Weda drausn? wie isn des Weda drausn?
 # intent: weather/find
-# text: wie isn des Weda drausn?
 1	wie	weather/find	O
 2	isn	weather/find	O
 3	des	weather/find	O
@@ -2226,8 +2224,8 @@
 5	drausn?	weather/find	B-location
 
 # id: 200
+# text: Wia is a Weda in Deging Wia is a Weda in Deging
 # intent: weather/find
-# text: Wia is a Weda in Deging 
 1	Wia	weather/find	O
 2	is	weather/find	O
 3	a	weather/find	O
@@ -2236,8 +2234,8 @@
 6	Deging	weather/find	B-location
 
 # id: 201
+# text: Wia vui Grod werds heid wern? Wia vui Grod werds heid wern ?
 # intent: weather/find
-# text: Wia vui Grod werds heid wern? 
 1	Wia	weather/find	O
 2	vui	weather/find	O
 3	Grod	weather/find	B-weather/attribute
@@ -2247,8 +2245,8 @@
 7	?	weather/find	O
 
 # id: 202
+# text: wecha weda hods grod in minga wecha weda hods grod in minga
 # intent: weather/find
-# text: wecha weda hods grod in minga
 1	wecha	weather/find	O
 2	weda	weather/find	O
 3	hods	weather/find	O
@@ -2257,8 +2255,8 @@
 6	minga	weather/find	B-location
 
 # id: 203
+# text: dua "Marie" von de Draufgänger in mei Duid-Playlist. dua Marie von de Draufgänger in mei Duid-Playlist .
 # intent: AddToPlaylist
-# text: dua "Marie" von de Draufgänger in mei Duid-Playlist. 
 1	dua	AddToPlaylist	O
 2	Marie	AddToPlaylist	B-entity_name
 3	von	AddToPlaylist	O
@@ -2270,8 +2268,8 @@
 9	.	AddToPlaylist	O
 
 # id: 204
+# text: Reservier an Disch beim Müllerbräu z'Deging für 5 Leid um 7e auf Nacht Reservier an Disch beim Müllerbräu z' Deging für 5 Leid um 7e auf Nacht
 # intent: BookRestaurant
-# text: Reservier an Disch beim Müllerbräu z'Deging für 5 Leid um 7e auf Nacht 
 1	Reservier	BookRestaurant	O
 2	an	BookRestaurant	O
 3	Disch	BookRestaurant	O
@@ -2288,16 +2286,16 @@
 14	Nacht	BookRestaurant	I-datetime
 
 # id: 205
+# text: spui Back in Black spui Back in Black
 # intent: PlayMusic
-# text: spui Back in Black 
 1	spui	PlayMusic	O
 2	Back	PlayMusic	B-track
 3	in	PlayMusic	I-track
 4	Black	PlayMusic	I-track
 
 # id: 206
+# text: Dua des Liad zu meina Plailist dazua. Dua des Liad zu meina Plailist dazua .
 # intent: AddToPlaylist
-# text: Dua des Liad zu meina Plailist dazua.
 1	Dua	AddToPlaylist	O
 2	des	AddToPlaylist	O
 3	Liad	AddToPlaylist	B-music_item
@@ -2308,10 +2306,10 @@
 8	.	AddToPlaylist	O
 
 # id: 207
+# text: dua "Lost" von Linkin Park auf mei Party-Playlist dua Lost von Linkin Park auf mei Party-Playlist
 # intent: AddToPlaylist
-# text: dua "Lost" von Linkin Park auf mei Party-Playlist
-1	dua 	AddToPlaylist 	O
-2 	Lost	AddToPlaylist	B-entity_name
+1	dua	AddToPlaylist	O
+2	Lost	AddToPlaylist	B-entity_name
 3	von	AddToPlaylist	O
 4	Linkin	AddToPlaylist	B-artist
 5	Park	AddToPlaylist	I-artist
@@ -2320,8 +2318,8 @@
 8	Party-Playlist	AddToPlaylist	B-playlist
 
 # id: 208
+# text: Dua "Hobafeiddreiba" in mei Voike-Playlist. Dua Hobafeiddreiba in mei Voike-Playlist
 # intent: AddToPlaylist
-# text: Dua "Hobafeiddreiba" in mei Voike-Playlist.
 1	Dua	AddToPlaylist	O
 2	Hobafeiddreiba	AddToPlaylist	B-entity_name
 3	in	AddToPlaylist	O
@@ -2329,8 +2327,8 @@
 5	Voike-Playlist	AddToPlaylist	B-playlist
 
 # id: 209
+# text: füg "dancing in the moonlight" zur Aufsteh-Playlist dazua füg dancing in the moonlight zur Aufsteh-Playlist dazua
 # intent: AddToPlaylist
-# text: füg "dancing in the moonlight" zur Aufsteh-Playlist dazua
 1	füg	AddToPlaylist	O
 2	dancing	AddToPlaylist	B-entity_name
 3	in	AddToPlaylist	I-entity_name
@@ -2341,8 +2339,8 @@
 8	dazua	AddToPlaylist	O
 
 # id: 210
+# text: spui moi des Liadl von Elvis "Love me Tender" spui moi des Liadl von Elvis Love me Tender
 # intent: AddToPlaylist
-# text: spui moi des Liadl von Elvis "Love me Tender"
 1	spui	AddToPlaylist	O
 2	moi	AddToPlaylist	O
 3	des	AddToPlaylist	O
@@ -2354,26 +2352,25 @@
 9	Tender	AddToPlaylist	I-entity_name
 
 # id: 211
+# text: Dua des Liadl des grod laft in mei Party Palylist Dua des Liadl des grod laft in mei Party Palylist
 # intent: AddToPlaylist
-# text: Dua des Liadl des grod laft in mei Party Palylist
-1 	Dua	AddToPlaylist	O
-2 	des	AddToPlaylist	O
-3 	Liadl	AddToPlaylist	B-music_item
-4 	des	AddToPlaylist	O
-5 	grod	AddToPlaylist	O
-6 	laft	AddToPlaylist	O
-7 	in	AddToPlaylist	O
-8 	mei	AddToPlaylist	B-reference
-9 	Party	AddToPlaylist	B-playlist
-10 	Palylist	AddToPlaylist	I-playlist
+1	Dua	AddToPlaylist	O
+2	des	AddToPlaylist	O
+3	Liadl	AddToPlaylist	B-music_item
+4	des	AddToPlaylist	O
+5	grod	AddToPlaylist	O
+6	laft	AddToPlaylist	O
+7	in	AddToPlaylist	O
+8	mei	AddToPlaylist	B-reference
+9	Party	AddToPlaylist	B-playlist
+10	Palylist	AddToPlaylist	I-playlist
 
 # id: 212
+# text: Reservier Ma doch an Disch in Oiching am für uns fünfe Ma doch an Disch in Oiching am für uns fünfe
 # intent: BookRestaurant
-# text: Reservier Ma doch an Disch in Oiching am für uns fünfe 
-1	Reservier	BookRestaurant O
 2	Ma	BookRestaurant	O
 3	doch	BookRestaurant	O
-4	an	BookRestaurant	O	
+4	an	BookRestaurant	O
 5	Disch	BookRestaurant	O
 6	in	BookRestaurant	O
 7	Oiching	BookRestaurant	B-location
@@ -2383,8 +2380,8 @@
 11	fünfe	BookRestaurant	I-party_size_description
 
 # id: 213
+# text: I mechat gern an Disch im Tuderinger füa 2 Leid reserviern. I mechat gern an Disch im Tuderinger füa 2 Leid reserviern .
 # intent: BookRestaurant
-# text: I mechat gern an Disch im Tuderinger füa 2 Leid reserviern.
 1	I	BookRestaurant	O
 2	mechat	BookRestaurant	O
 3	gern	BookRestaurant	O
@@ -2399,8 +2396,8 @@
 12	.	BookRestaurant	O
 
 # id: 214
+# text: reservier für 4 Leid moang um 12 beim Bartsch reservier für 4 Leid moang um 12 beim Bartsch
 # intent: BookRestaurant
-# text: reservier für 4 Leid moang um 12 beim Bartsch 
 1	reservier	BookRestaurant	O
 2	für	BookRestaurant	O
 3	4	BookRestaurant	B-party_size_number
@@ -2412,42 +2409,42 @@
 9	Bartsch	BookRestaurant	B-restaurant_name
 
 # id: 215
+# text: reservier am Sonndog um Zwoa an Disch für 6 Leid beim Steber in Massing. reservier am Sonndog um Zwoa an Disch für 6 Leid beim Steber in Massing .
 # intent: BookRestaurant
-# text: reservier am Sonndog um Zwoa an Disch für 6 Leid beim Steber in Massing.
-1	reservier	BookRestaurant
-2	am	BookRestaurant
-3	Sonndog	BookRestaurant
-4	um	BookRestaurant	
-5	Zwoa	BookRestaurant
-6	an	BookRestaurant
-7	Disch	BookRestaurant
-8	für	BookRestaurant
-9	6	BookRestaurant
-10	Leid	BookRestaurant
-11	beim	BookRestaurant
-12	Steber	BookRestaurant
-13	in	BookRestaurant
-14	Massing	BookRestaurant
-15	.	BookRestaurant
+1	reservier	BookRestaurant	O
+2	am	BookRestaurant	O
+3	Sonndog	BookRestaurant	O
+4	um	BookRestaurant	O
+5	Zwoa	BookRestaurant	O
+6	an	BookRestaurant	O
+7	Disch	BookRestaurant	O
+8	für	BookRestaurant	O
+9	6	BookRestaurant	O
+10	Leid	BookRestaurant	O
+11	beim	BookRestaurant	O
+12	Steber	BookRestaurant	O
+13	in	BookRestaurant	O
+14	Massing	BookRestaurant	O
+15	.	BookRestaurant	O
 
 # id: 216
+# text: bstoi ma an Disch beim Inder füa sechs Leid um achte bstoi ma an Disch beim Inder füa sechs Leid um achte
 # intent: BookRestaurant
-# text: bstoi ma an Disch beim Inder füa sechs Leid um achte
-1 	bstoi	BookRestaurant	O
-2 	ma	BookRestaurant	O
-3 	an	BookRestaurant	O
-4 	Disch	BookRestaurant	O
-5 	beim	BookRestaurant	O
-6 	Inder	BookRestaurant	B-restaurant_type
-7 	füa	BookRestaurant	O
-8 	sechs	BookRestaurant	B-party_size_description
-9 	Leid	BookRestaurant	O
-10 	um	BookRestaurant	O
-11 	achte	BookRestaurant	B-datetime
+1	bstoi	BookRestaurant	O
+2	ma	BookRestaurant	O
+3	an	BookRestaurant	O
+4	Disch	BookRestaurant	O
+5	beim	BookRestaurant	O
+6	Inder	BookRestaurant	B-restaurant_type
+7	füa	BookRestaurant	O
+8	sechs	BookRestaurant	B-party_size_description
+9	Leid	BookRestaurant	O
+10	um	BookRestaurant	O
+11	achte	BookRestaurant	B-datetime
 
 # id: 217
+# text: Resavia mia an Disch um sechse in Jettenbach. Resavia mia an Disch um sechse in Jettenbach .
 # intent: BookRestaurant
-# text: Resavia mia an Disch um sechse in Jettenbach.
 1	Resavia	BookRestaurant	O
 2	mia	BookRestaurant	O
 3	an	BookRestaurant	O
@@ -2459,8 +2456,8 @@
 9	.	BookRestaurant	O
 
 # id: 218
+# text: Spui Ma wos von de Foofighters Spui Ma wos von de Foofighters
 # intent: PlayMusic
-# text: Spui Ma wos von de Foofighters
 1	Spui	PlayMusic	O
 2	Ma	PlayMusic	O
 3	wos	PlayMusic	O
@@ -2469,8 +2466,8 @@
 6	Foofighters	PlayMusic	B-artist
 
 # id: 219
+# text: Spui moi a boa Oldies Spui moi a boa Oldies
 # intent: PlayMusic
-# text: Spui moi a boa Oldies
 1	Spui	PlayMusic	O
 2	moi	PlayMusic	O
 3	a	PlayMusic	O
@@ -2478,15 +2475,15 @@
 5	Oldies	PlayMusic	B-genre
 
 # id: 220
+# text: Spui bitte Musicals Spui bitte Musicals
 # intent: PlayMusic
-# text: Spui bitte Musicals 
 1	Spui	PlayMusic	O
 2	bitte	PlayMusic	O
 3	Musicals	PlayMusic	B-genre
 
 # id: 221
+# text: spui des neie Album vo de Fäaschtbänkler. spui des neie Album vo de Fäaschtbänkler .
 # intent: PlayMusic
-# text: spui des neie Album vo de Fäaschtbänkler.
 1	spui	PlayMusic	O
 2	des	PlayMusic	O
 3	neie	PlayMusic	B-sort
@@ -2497,23 +2494,23 @@
 8	.	PlayMusic	O
 
 # id: 222
+# text: Spui ma wos romantisches Spui ma wos romantisches
 # intent: PlayMusic
-# text: Spui ma wos romantisches
 1	Spui	PlayMusic	O
 2	ma	PlayMusic	O
 3	wos	PlayMusic	O
 4	romantisches	PlayMusic	B-genre
 
 # id: 223
+# text: Spey Austropop. Spey Austropop .
 # intent: PlayMusic
-# text: Spey Austropop.
 1	Spey	PlayMusic	O
 2	Austropop	PlayMusic	B-genre
 3	.	PlayMusic	O
 
 # id: 224
+# text: Gib am Guinnessbuach oan Stern Gib am Guinessbuach oan Stern
 # intent: RateBook
-# text: Gib am Guinnessbuach oan Stern 
 1	Gib	RateBook	O
 2	am	RateBook	O
 3	Guinessbuach	RateBook	B-object_name
@@ -2521,8 +2518,8 @@
 5	Stern	RateBook	B-rating_unit
 
 # id: 225
+# text: Des Buch vom Irlmayer griagt von mia 5 Sterndal Des Buch vom Irlmayer griagt von mia 5 Sterndal
 # intent: RateBook
-# text: Des Buch vom Irlmayer griagt von mia 5 Sterndal
 1	Des	RateBook	O
 2	Buch	RateBook	B-object_type
 3	vom	RateBook	O
@@ -2534,8 +2531,8 @@
 9	Sterndal	RateBook	B-rating_unit
 
 # id: 226
+# text: bewert des Buach "der Märchenerzähler" mit 5 Sternen. bewert des Buach der Märchenerzähler mit 5 Sternen .
 # intent: RateBook
-# text: bewert des Buach "der Märchenerzähler" mit 5 Sternen.
 1	bewert	RateBook	O
 2	des	RateBook	O
 3	Buach	RateBook	B-object_type
@@ -2547,8 +2544,8 @@
 9	.	RateBook	O
 
 # id: 227
+# text: Bewerte des neie Buach vo da Moyes mit 4 Sterne Bewerte des neie Buach vo da Moyes mit 4 Sterne
 # intent: RateBook
-# text: Bewerte des neie Buach vo da Moyes mit 4 Sterne 
 1	Bewerte	RateBook	O
 2	des	RateBook	O
 3	neie	RateBook	B-object_select
@@ -2561,8 +2558,8 @@
 10	Sterne	RateBook	B-rating_unit
 
 # id: 228
+# text: I mecht Herr der Ringe mit sehr guad bewertn. I mecht Herr der Ringe mit sehr guad bewertn .
 # intent: RateBook
-# text: I mecht Herr der Ringe mit sehr guad bewertn.
 1	I	RateBook	O
 2	mecht	RateBook	O
 3	Herr	RateBook	B-object_name
@@ -2575,8 +2572,8 @@
 10	.	RateBook	O
 
 # id: 229
+# text: bewert des Buach mit fünf Sterne bewert des Buach mit fünf Sterne
 # intent: RateBook
-# text: bewert des Buach mit fünf Sterne  
 1	bewert	RateBook	O
 2	des	RateBook	B-object_select
 3	Buach	RateBook	B-object_type
@@ -2585,8 +2582,8 @@
 6	Sterne	RateBook	B-rating_unit
 
 # id: 230
+# text: Suach nach m Harry G Suach nach m Harry G
 # intent: SearchCreativeWork
-# text: Suach nach m Harry G
 1	Suach	SearchCreativeWork	O
 2	nach	SearchCreativeWork	O
 3	m	SearchCreativeWork	O
@@ -2594,8 +2591,8 @@
 5	G	SearchCreativeWork	I-object_name
 
 # id: 231
+# text: I suchat de Serie Vampire Diaries auf DVD. I suchat de Serie Vampire Diaries auf DVD .
 # intent: SearchCreativeWork
-# text: I suchat de Serie Vampire Diaries auf DVD.
 1	I	SearchCreativeWork	O
 2	suchat	SearchCreativeWork	O
 3	de	SearchCreativeWork	O
@@ -2607,8 +2604,8 @@
 9	.	SearchCreativeWork	O
 
 # id: 232
+# text: suach nach der neisten Sims-Erweiterung suach nach der neisten Sims-Erweiterung
 # intent: SearchCreativeWork
-# text: suach nach der neisten Sims-Erweiterung
 1	suach	SearchCreativeWork	O
 2	nach	SearchCreativeWork	O
 3	der	SearchCreativeWork	O
@@ -2616,8 +2613,8 @@
 5	Sims-Erweiterung	SearchCreativeWork	B-object_name
 
 # id: 233
+# text: suach nach da neien Serie mit Albrecht Schuch. suach nach da neien Serie mit Albrecht Schuch .
 # intent: SearchCreativeWork
-# text: suach nach da neien Serie mit Albrecht Schuch.
 1	suach	SearchCreativeWork	O
 2	nach	SearchCreativeWork	O
 3	da	SearchCreativeWork	O
@@ -2629,8 +2626,8 @@
 9	.	SearchCreativeWork	O
 
 # id: 234
+# text: Suach ma de Serie mit da Lilly Collins Suach ma de Serie mit da Lilly Collins
 # intent: SearchCreativeWork
-# text: Suach ma de Serie mit da Lilly Collins
 1	Suach	SearchCreativeWork	O
 2	ma	SearchCreativeWork	O
 3	de	SearchCreativeWork	O
@@ -2641,8 +2638,8 @@
 8	Collins	SearchCreativeWork	I-object_name
 
 # id: 235
+# text: Wia vui Folgn vo de Rosenheimcops gibts? Wia vui Folgn vo de Rosenheimcops gibts ?
 # intent: SearchCreativeWork
-# text: Wia vui Folgn vo de Rosenheimcops gibts?
 1	Wia	SearchCreativeWork	O
 2	vui	SearchCreativeWork	O
 3	Folgn	SearchCreativeWork	B-object_type
@@ -2653,8 +2650,8 @@
 8	?	SearchCreativeWork	O
 
 # id: 236
+# text: suach bitte de Serie "Hubert und Staller. suach bitte de Serie Hubert und Staller .
 # intent: SearchCreativeWork
-# text: suach bitte de Serie "Hubert und Staller. 
 1	suach	SearchCreativeWork	O
 2	bitte	SearchCreativeWork	O
 3	de	SearchCreativeWork	O
@@ -2665,8 +2662,8 @@
 8	.	SearchCreativeWork	O
 
 # id: 237
+# text: Wann spuid d Gruaberin wieda Wann spuid d Gruaberin wieda
 # intent: SearchScreeningEvent
-# text: Wann spuid d Gruaberin wieda
 1	Wann	SearchScreeningEvent	O
 2	spuid	SearchScreeningEvent	O
 3	d	SearchScreeningEvent	O
@@ -2674,8 +2671,8 @@
 5	wieda	SearchScreeningEvent	O
 
 # id: 238
+# text: In wecham Kino lafft den der neie Star Wars  Fuim und um wia fui Uhr fangt a o? In wecham Kino lafft den der neie Star Wars Fuim und um wia fui Uhr fangt a o ?
 # intent: SearchScreeningEvent
-# text: In wecham Kino lafft den der neie Star Wars  Fuim und um wia fui Uhr fangt a o?
 1	In	SearchScreeningEvent	O
 2	wecham	SearchScreeningEvent	O
 3	Kino	SearchScreeningEvent	B-object_location_type
@@ -2685,7 +2682,7 @@
 7	neie	SearchScreeningEvent	O
 8	Star	SearchScreeningEvent	B-movie_name
 9	Wars	SearchScreeningEvent	I-movie_name
-10 	Fuim	SearchScreeningEvent	B-movie_type
+10	Fuim	SearchScreeningEvent	B-movie_type
 11	und	SearchScreeningEvent	O
 12	um	SearchScreeningEvent	O
 13	wia	SearchScreeningEvent	O
@@ -2697,8 +2694,8 @@
 19	?	SearchScreeningEvent	O
 
 # id: 239
+# text: Auf woicham Kanal und wann kimmd "Sendung mit der Maus"? Auf woicham Kanal und wann kimmd Sendung mit der Maus ?
 # intent: SearchScreeningEvent
-# text: Auf woicham Kanal und wann kimmd "Sendung mit der Maus"?
 1	Auf	SearchScreeningEvent	O
 2	woicham	SearchScreeningEvent	O
 3	Kanal	SearchScreeningEvent	O
@@ -2712,8 +2709,8 @@
 11	?	SearchScreeningEvent	O
 
 # id: 240
+# text: wann lauft da Reiba Hotzenplotz in Eggenfeldn im Kino? wann lauft da Reiba Hotzenplotz in Eggenfeldn im Kino ?
 # intent: SearchScreeningEvent
-# text: wann lauft da Reiba Hotzenplotz in Eggenfeldn im Kino?
 1	wann	SearchScreeningEvent	O
 2	lauft	SearchScreeningEvent	O
 3	da	SearchScreeningEvent	O
@@ -2726,8 +2723,8 @@
 10	?	SearchScreeningEvent	O
 
 # id: 241
+# text: Wo werd grod Romeo und Julia im Theater gspuit Wo werd grod Romeo und Julia im Theater gspuit
 # intent: SearchScreeningEvent
-# text: Wo werd grod Romeo und Julia im Theater gspuit
 1	Wo	SearchScreeningEvent	O
 2	werd	SearchScreeningEvent	O
 3	grod	SearchScreeningEvent	O
@@ -2739,8 +2736,8 @@
 9	gspuit	SearchScreeningEvent	O
 
 # id: 242
+# text: Wann is wieda Musicalneit in Oideding? Wann is wieda Musicalneit in Oideding ?
 # intent: SearchScreeningEvent
-# text: Wann is wieda Musicalneit in Oideding?
 1	Wann	SearchScreeningEvent	O
 2	is	SearchScreeningEvent	O
 3	wieda	SearchScreeningEvent	O
@@ -2750,8 +2747,8 @@
 7	?	SearchScreeningEvent	O
 
 # id: 243
+# text: wann lauft Super Mario nächste Woch im Kino? wann lauft Super Mario nächste Woch im Kino ?
 # intent: SearchScreeningEvent
-# text: wann lauft Super Mario nächste Woch im Kino? 
 1	wann	SearchScreeningEvent	O
 2	lauft	SearchScreeningEvent	O
 3	Super	SearchScreeningEvent	B-movie_name
@@ -2763,8 +2760,8 @@
 9	?	SearchScreeningEvent	O
 
 # id: 244
+# text: Weck mi morgn um sime ned auf Weck mi morgn um sime ned auf
 # intent: alarm/cancel_alarm
-# text: Weck mi morgn um sime ned auf
 1	Weck	alarm/cancel_alarm	O
 2	mi	alarm/cancel_alarm	O
 3	morgn	alarm/cancel_alarm	B-datetime
@@ -2774,8 +2771,8 @@
 7	auf	alarm/cancel_alarm	O
 
 # id: 245
+# text: mach moi mein Wecka um fünfe aus. mach moi mein Wecka um fünfe aus .
 # intent: alarm/cancel_alarm
-# text: mach moi mein Wecka um fünfe aus.
 1	mach	alarm/cancel_alarm	O
 2	moi	alarm/cancel_alarm	O
 3	mein	alarm/cancel_alarm	B-reference
@@ -2786,8 +2783,8 @@
 8	.	alarm/cancel_alarm	O
 
 # id: 246
+# text: Mach den Wecka um 7 aus Mach den Wecka um 7 aus
 # intent: alarm/cancel_alarm
-# text: Mach den Wecka um 7 aus
 1	Mach	alarm/cancel_alarm	O
 2	den	alarm/cancel_alarm	O
 3	Wecka	alarm/cancel_alarm	O
@@ -2796,8 +2793,8 @@
 6	aus	alarm/cancel_alarm	O
 
 # id: 247
+# text: dua mein Wecka für moang ausa. dua mein Wecka für moang ausa .
 # intent: alarm/cancel_alarm
-# text: dua mein Wecka für moang ausa.
 1	dua	alarm/cancel_alarm	O
 2	mein	alarm/cancel_alarm	B-reference
 3	Wecka	alarm/cancel_alarm	O
@@ -2807,8 +2804,8 @@
 7	.	alarm/cancel_alarm	O
 
 # id: 248
+# text: Lösch mein Wecka füa morng Lösch mein Wecka füa morng
 # intent: alarm/cancel_alarm
-# text: Lösch mein Wecka füa morng
 1	Lösch	alarm/cancel_alarm	O
 2	mein	alarm/cancel_alarm	B-reference
 3	Wecka	alarm/cancel_alarm	O
@@ -2816,16 +2813,16 @@
 5	morng	alarm/cancel_alarm	B-datetime
 
 # id: 249
+# text: Lesch mein Wecka! Lesch mein Wecka !
 # intent: alarm/cancel_alarm
-# text: Lesch mein Wecka!
 1	Lesch	alarm/cancel_alarm	O
 2	mein	alarm/cancel_alarm	B-reference
 3	Wecka	alarm/cancel_alarm	O
 4	!	alarm/cancel_alarm	O
 
 # id: 250
+# text: lösch bitte den Wecka um hoibe fünfe. lösch bitte den Wecka um hoibe fünfe .
 # intent: alarm/cancel_alarm
-# text: lösch bitte den Wecka um hoibe fünfe.
 1	lösch	alarm/cancel_alarm	O
 2	bitte	alarm/cancel_alarm	O
 3	den	alarm/cancel_alarm	O
@@ -2836,8 +2833,8 @@
 8	.	alarm/cancel_alarm	O
 
 # id: 251
+# text: Weck mi morgn erst um achte auf Weck mi morgn erst um achte auf
 # intent: alarm/modify_alarm
-# text: Weck mi morgn erst um achte auf
 1	Weck	alarm/modify_alarm	O
 2	mi	alarm/modify_alarm	O
 3	morgn	alarm/modify_alarm	B-datetime
@@ -2847,8 +2844,8 @@
 7	auf	alarm/modify_alarm	O
 
 # id: 252
+# text: stai moi dne Wecka von 5 auf 6 um. stai moi dne Wecka von 5 auf 6 um .
 # intent: alarm/modify_alarm
-# text: stai moi dne Wecka von 5 auf 6 um.
 1	stai	alarm/modify_alarm	O
 2	moi	alarm/modify_alarm	O
 3	dne	alarm/modify_alarm	O
@@ -2861,8 +2858,8 @@
 10	.	alarm/modify_alarm	O
 
 # id: 253
+# text: Vastoi mein Wecka von 7 auf 8 Vastoi mein Wecka von 7 auf 8
 # intent: alarm/modify_alarm
-# text: Vastoi mein Wecka von 7 auf 8
 1	Vastoi	alarm/modify_alarm	O
 2	mein	alarm/modify_alarm	B-reference
 3	Wecka	alarm/modify_alarm	O
@@ -2872,8 +2869,8 @@
 7	8	alarm/modify_alarm	B-datetime
 
 # id: 254
+# text: verschiab mein Wecker vo 7 auf hoibe 8e. verschiab mein Wecker vo 7 auf hoibe 8e .
 # intent: alarm/modify_alarm
-# text: verschiab mein Wecker vo 7 auf hoibe 8e.
 1	verschiab	alarm/modify_alarm	O
 2	mein	alarm/modify_alarm	B-reference
 3	Wecker	alarm/modify_alarm	O
@@ -2885,8 +2882,8 @@
 9	.	alarm/modify_alarm	O
 
 # id: 255
+# text: Stoi mein Wecka füa morng erst auf neine Stoi mein Wecka füa morng erst auf neine
 # intent: alarm/modify_alarm
-# text: Stoi mein Wecka füa morng erst auf neine
 1	Stoi	alarm/modify_alarm	O
 2	mein	alarm/modify_alarm	B-reference
 3	Wecka	alarm/modify_alarm	O
@@ -2897,8 +2894,8 @@
 8	neine	alarm/modify_alarm	B-datetime
 
 # id: 256
+# text: Stei den Wecka vo sechse auf hoibe simme. Stei den Wecka vo sechse auf hoibe simme .
 # intent: alarm/modify_alarm
-# text: Stei den Wecka vo sechse auf hoibe simme.
 1	Stei	alarm/modify_alarm	O
 2	den	alarm/modify_alarm	O
 3	Wecka	alarm/modify_alarm	O
@@ -2910,8 +2907,8 @@
 9	.	alarm/modify_alarm	O
 
 # id: 257
+# text: änder mein Wecka vo sechse auf simme bitte änder mein Wecka vo sechse auf simme bitte
 # intent: alarm/modify_alarm
-# text: änder mein Wecka vo sechse auf simme bitte
 1	änder	alarm/modify_alarm	O
 2	mein	alarm/modify_alarm	B-reference
 3	Wecka	alarm/modify_alarm	O
@@ -2922,8 +2919,8 @@
 8	bitte	alarm/modify_alarm	O
 
 # id: 258
+# text: Weck mi morgn um achte auf Weck mi morgn um achte auf
 # intent: alarm/set_alarm
-# text: Weck mi morgn um achte auf
 1	Weck	alarm/set_alarm	O
 2	mi	alarm/set_alarm	O
 3	morgn	alarm/set_alarm	B-datetime
@@ -2932,8 +2929,8 @@
 6	auf	alarm/set_alarm	O
 
 # id: 259
+# text: Stei ma moi den Wecka auf hoibe zehne. Stei ma moi den Wecka auf hoibe zehne .
 # intent: alarm/set_alarm
-# text: Stei ma moi den Wecka auf hoibe zehne.
 1	Stei	alarm/set_alarm	O
 2	ma	alarm/set_alarm	O
 3	moi	alarm/set_alarm	O
@@ -2945,8 +2942,8 @@
 9	.	alarm/set_alarm	O
 
 # id: 260
+# text: Stoi mein Wecka auf 8 Stoi mein Wecka auf 8
 # intent: alarm/set_alarm
-# text: Stoi mein Wecka auf 8
 1	Stoi	alarm/set_alarm	O
 2	mein	alarm/set_alarm	B-reference
 3	Wecka	alarm/set_alarm	O
@@ -2954,8 +2951,8 @@
 5	8	alarm/set_alarm	B-datetime
 
 # id: 261
+# text: schoid an Wecka auf 8e ei. schoid an Wecka auf 8e ei .
 # intent: alarm/set_alarm
-# text: schoid an Wecka auf 8e ei.
 1	schoid	alarm/set_alarm	O
 2	an	alarm/set_alarm	O
 3	Wecka	alarm/set_alarm	O
@@ -2965,8 +2962,8 @@
 7	.	alarm/set_alarm	O
 
 # id: 262
+# text: Stoi mein Wecka auf neine Stoi mein Wecka auf neine
 # intent: alarm/set_alarm
-# text: Stoi mein Wecka auf neine
 1	Stoi	alarm/set_alarm	O
 2	mein	alarm/set_alarm	B-reference
 3	Wecka	alarm/set_alarm	O
@@ -2974,8 +2971,8 @@
 5	neine	alarm/set_alarm	B-datetime
 
 # id: 263
+# text: Stei an Wecka auf hoibe achte. Stei an Wecka auf hoibe achte .
 # intent: alarm/set_alarm
-# text: Stei an Wecka auf hoibe achte.
 1	Stei	alarm/set_alarm	O
 2	an	alarm/set_alarm	O
 3	Wecka	alarm/set_alarm	O
@@ -2985,8 +2982,8 @@
 7	.	alarm/set_alarm	O
 
 # id: 264
+# text: stoi an Wecka auf fünfe stoi an Wecka auf fünfe
 # intent: alarm/set_alarm
-# text: stoi an Wecka auf fünfe
 1	stoi	alarm/set_alarm	O
 2	an	alarm/set_alarm	O
 3	Wecka	alarm/set_alarm	O
@@ -2994,8 +2991,8 @@
 5	fünfe	alarm/set_alarm	B-datetime
 
 # id: 265
+# text: Sog Ma wannst mi auweckn konnst Sog Ma wannst mi auweckn konnst
 # intent: alarm/show_alarms
-# text: Sog Ma wannst mi auweckn konnst 
 1	Sog	alarm/show_alarms	O
 2	Ma	alarm/show_alarms	O
 3	wannst	alarm/show_alarms	O
@@ -3004,8 +3001,8 @@
 6	konnst	alarm/show_alarms	O
 
 # id: 266
+# text: Wia fui Uhr ham mas den grod? Wia fui Uhr ham mas den grod?
 # intent: alarm/show_alarms
-# text: Wia fui Uhr ham mas den grod?
 1	Wia	alarm/show_alarms	O
 2	fui	alarm/show_alarms	O
 3	Uhr	alarm/show_alarms	O
@@ -3015,16 +3012,16 @@
 7	grod?	alarm/show_alarms	O
 
 # id: 267
+# text: Zoag meine Wecka o Zoag meine Wecka o
 # intent: alarm/show_alarms
-# text: Zoag meine Wecka o
 1	Zoag	alarm/show_alarms	O
 2	meine	alarm/show_alarms	B-reference
 3	Wecka	alarm/show_alarms	O
 4	o	alarm/show_alarms	O
 
 # id: 268
+# text: wann leid mei Wecka? wann leid mei Wecka ?
 # intent: alarm/show_alarms
-# text: wann leid mei Wecka?
 1	wann	alarm/show_alarms	O
 2	leid	alarm/show_alarms	O
 3	mei	alarm/show_alarms	B-reference
@@ -3032,8 +3029,8 @@
 5	?	alarm/show_alarms	O
 
 # id: 269
+# text: Wann geht mei Wecka morng Wann geht mei Wecka morng
 # intent: alarm/show_alarms
-# text: Wann geht mei Wecka morng
 1	Wann	alarm/show_alarms	O
 2	geht	alarm/show_alarms	O
 3	mei	alarm/show_alarms	B-reference
@@ -3041,8 +3038,8 @@
 5	morng	alarm/show_alarms	O
 
 # id: 270
+# text: Wos fia Wecka hob i? Wos fia Wecka hob i ?
 # intent: alarm/show_alarms
-# text: Wos fia Wecka hob i?
 1	Wos	alarm/show_alarms	O
 2	fia	alarm/show_alarms	O
 3	Wecka	alarm/show_alarms	O
@@ -3051,8 +3048,8 @@
 6	?	alarm/show_alarms	O
 
 # id: 271
+# text: zoag ma mein Wecka. zoag ma mein Wecka .
 # intent: alarm/show_alarms
-# text: zoag ma mein Wecka. 
 1	zoag	alarm/show_alarms	O
 2	ma	alarm/show_alarms	O
 3	mein	alarm/show_alarms	B-reference
@@ -3060,8 +3057,8 @@
 5	.	alarm/show_alarms	O
 
 # id: 272
+# text: Weck mi in zehn Minutn no amoi Weck mi in zehn Minutn no amoi
 # intent: alarm/snooze_alarm
-# text: Weck mi in zehn Minutn no amoi
 1	Weck	alarm/snooze_alarm	O
 2	mi	alarm/snooze_alarm	O
 3	in	alarm/snooze_alarm	O
@@ -3071,8 +3068,8 @@
 7	amoi	alarm/snooze_alarm	O
 
 # id: 273
+# text: mach moi den Wecka no für a bo Minuten aus mach moi den Wecka no für a bo Minuten aus
 # intent: alarm/snooze_alarm
-# text: mach moi den Wecka no für a bo Minuten aus
 1	mach	alarm/snooze_alarm	O
 2	moi	alarm/snooze_alarm	O
 3	den	alarm/snooze_alarm	O
@@ -3085,30 +3082,30 @@
 10	aus	alarm/snooze_alarm	O
 
 # id: 274
+# text: Snooze mein Wecka Snooze mein Wecka
 # intent: alarm/snooze_alarm
-# text: Snooze mein Wecka
 1	Snooze	alarm/snooze_alarm	O
 2	mein	alarm/snooze_alarm	B-reference
 3	Wecka	alarm/snooze_alarm	O
 
 # id: 275
+# text: Schlummern um 5 Minudn Schlummern um 5 Minudn
 # intent: alarm/snooze_alarm
-# text: Schlummern um 5 Minudn
 1	Schlummern	alarm/snooze_alarm	O
 2	um	alarm/snooze_alarm	O
 3	5	alarm/snooze_alarm	B-datetime
 4	Minudn	alarm/snooze_alarm	I-datetime
 
 # id: 276
+# text: Snooze an Wecka Snooze an Wecka
 # intent: alarm/snooze_alarm
-# text: Snooze an Wecka
 1	Snooze	alarm/snooze_alarm	O
 2	an	alarm/snooze_alarm	O
 3	Wecka	alarm/snooze_alarm	O
 
 # id: 277
+# text: Stei an Wecka zehn Minuten weida. Stei an Wecka zehn Minuten weida .
 # intent: alarm/snooze_alarm
-# text: Stei an Wecka zehn Minuten weida.
 1	Stei	alarm/snooze_alarm	O
 2	an	alarm/snooze_alarm	O
 3	Wecka	alarm/snooze_alarm	O
@@ -3118,8 +3115,8 @@
 7	.	alarm/snooze_alarm	O
 
 # id: 278
+# text: stoi an Wecker in Schlummermodus stoi an Wecker in Schlummermodus
 # intent: alarm/snooze_alarm
-# text: stoi an Wecker in Schlummermodus 
 1	stoi	alarm/snooze_alarm	O
 2	an	alarm/snooze_alarm	O
 3	Wecker	alarm/snooze_alarm	O
@@ -3127,16 +3124,16 @@
 5	Schlummermodus	alarm/snooze_alarm	O
 
 # id: 279
+# text: Wann leit mei Wecker Wann leit mei Wecker
 # intent: alarm/time_left_on_alarm
-# text: Wann leit mei Wecker
 1	Wann	alarm/time_left_on_alarm	O
 2	leit	alarm/time_left_on_alarm	O
 3	mei	alarm/time_left_on_alarm	B-reference
 4	Wecker	alarm/time_left_on_alarm	O
 
 # id: 280
+# text: wia lang dauerts no bis da Wecka leit? wia lang dauerts no bis da Wecka leit ?
 # intent: alarm/time_left_on_alarm
-# text: wia lang dauerts no bis da Wecka leit?
 1	wia	alarm/time_left_on_alarm	O
 2	lang	alarm/time_left_on_alarm	O
 3	dauerts	alarm/time_left_on_alarm	O
@@ -3148,8 +3145,8 @@
 9	?	alarm/time_left_on_alarm	O
 
 # id: 281
+# text: Wia lang is no bis mei Wecka klingelt? Wia lang is no bis mei Wecka klingelt ?
 # intent: alarm/time_left_on_alarm
-# text: Wia lang is no bis mei Wecka klingelt?
 1	Wia	alarm/time_left_on_alarm	O
 2	lang	alarm/time_left_on_alarm	O
 3	is	alarm/time_left_on_alarm	O
@@ -3161,8 +3158,8 @@
 9	?	alarm/time_left_on_alarm	O
 
 # id: 282
+# text: wann leid da Wecka? wann leid da Wecka ?
 # intent: alarm/time_left_on_alarm
-# text: wann leid da Wecka?
 1	wann	alarm/time_left_on_alarm	O
 2	leid	alarm/time_left_on_alarm	O
 3	da	alarm/time_left_on_alarm	O
@@ -3170,8 +3167,8 @@
 5	?	alarm/time_left_on_alarm	O
 
 # id: 283
+# text: Wann geht mei nächster Wecka Wann geht mei nächster Wecka
 # intent: alarm/time_left_on_alarm
-# text: Wann geht mei nächster Wecka
 1	Wann	alarm/time_left_on_alarm	O
 2	geht	alarm/time_left_on_alarm	O
 3	mei	alarm/time_left_on_alarm	B-reference
@@ -3179,8 +3176,8 @@
 5	Wecka	alarm/time_left_on_alarm	O
 
 # id: 284
+# text: Wia lang dauerts no bis da Wecka leit? Wia lang dauerts no bis da Wecka leit ?
 # intent: alarm/time_left_on_alarm
-# text: Wia lang dauerts no bis da Wecka leit?
 1	Wia	alarm/time_left_on_alarm	O
 2	lang	alarm/time_left_on_alarm	O
 3	dauerts	alarm/time_left_on_alarm	O
@@ -3192,8 +3189,8 @@
 9	?	alarm/time_left_on_alarm	O
 
 # id: 285
+# text: in wia vui Minutn klinglt mei Wecka in wia vui Minutn klingelt mei Wecka
 # intent: alarm/time_left_on_alarm
-# text: in wia vui Minutn klinglt mei Wecka
 1	in	alarm/time_left_on_alarm	O
 2	wia	alarm/time_left_on_alarm	O
 3	vui	alarm/time_left_on_alarm	O
@@ -3203,8 +3200,8 @@
 7	Wecka	alarm/time_left_on_alarm	O
 
 # id: 286
+# text: Lösch ma doch de Erinnerung Lösch ma doch de Erinnerung
 # intent: reminder/cancel_reminder
-# text: Lösch ma doch de Erinnerung 
 1	Lösch	reminder/cancel_reminder	O
 2	ma	reminder/cancel_reminder	O
 3	doch	reminder/cancel_reminder	O
@@ -3212,8 +3209,8 @@
 5	Erinnerung	reminder/cancel_reminder	O
 
 # id: 287
+# text: Lösch ma de Erinnerung de i gsetzt hob Lösch ma de Erinnerung de i gsetzt hob
 # intent: reminder/cancel_reminder
-# text: Lösch ma de Erinnerung de i gsetzt hob 
 1	Lösch	reminder/cancel_reminder	O
 2	ma	reminder/cancel_reminder	O
 3	de	reminder/cancel_reminder	O
@@ -3224,8 +3221,8 @@
 8	hob	reminder/cancel_reminder	O
 
 # id: 288
+# text: lösch moi den Termin füa moang Nachmidog um fünfe. lösch moi den Termin füa moang Nachmidog um fünfe .
 # intent: reminder/cancel_reminder
-# text: lösch moi den Termin füa moang Nachmidog um fünfe.
 1	lösch	reminder/cancel_reminder	O
 2	moi	reminder/cancel_reminder	O
 3	den	reminder/cancel_reminder	O
@@ -3238,15 +3235,15 @@
 10	.	reminder/cancel_reminder	O
 
 # id: 289
+# text: Lösch de Erinnerung Lösch de Erinnerung
 # intent: reminder/cancel_reminder
-# text: Lösch de Erinnerung 
 1	Lösch	reminder/cancel_reminder	O
 2	de	reminder/cancel_reminder	O
 3	Erinnerung	reminder/cancel_reminder	O
 
 # id: 290
+# text: lösch mei letzte Erinnerung. lösch mei letzte Erinnerung .
 # intent: reminder/cancel_reminder
-# text: lösch mei letzte Erinnerung.
 1	lösch	reminder/cancel_reminder	O
 2	mei	reminder/cancel_reminder	B-reference
 3	letzte	reminder/cancel_reminder	I-reference
@@ -3254,34 +3251,34 @@
 5	.	reminder/cancel_reminder	O
 
 # id: 291
+# text: Dua de Erinnerung löschn Dua de Erinnerung löschn
 # intent: reminder/cancel_reminder
-# text: Dua de Erinnerung löschn
 1	Dua	reminder/cancel_reminder	O
 2	de	reminder/cancel_reminder	O
 3	Erinnerung	reminder/cancel_reminder	O
 4	löschn	reminder/cancel_reminder	O
 
 # id: 292
+# text: Erinnerung leschn. Erinnerung leschn .
 # intent: reminder/cancel_reminder
-# text: Erinnerung leschn.
 1	Erinnerung	reminder/cancel_reminder	O
 2	leschn	reminder/cancel_reminder	O
 3	.	reminder/cancel_reminder	O
 
 # id: 293
+# text: lösch de Erinnerung vor moang zum Eikaufa lösch de Erinnerung vor moang zum Eikaufa
 # intent: reminder/cancel_reminder
-# text: lösch de Erinnerung vor moang zum Eikaufa
 1	lösch	reminder/cancel_reminder	O
 2	de	reminder/cancel_reminder	O
 3	Erinnerung	reminder/cancel_reminder	O
-4	vor	reminder/cancel_reminder	O	
+4	vor	reminder/cancel_reminder	O
 5	moang	reminder/cancel_reminder	B-datetime
 6	zum	reminder/cancel_reminder	O
 7	Eikaufa	reminder/cancel_reminder	B-reminder/todo
 
 # id: 294
+# text: Erinner mi dass i in zehn Minutn an Vater oruafa muas Erinner mi dass i in zehn Minutn an Vater oruafa muas
 # intent: reminder/set_reminder
-# text: Erinner mi dass i in zehn Minutn an Vater oruafa muas 
 1	Erinner	reminder/set_reminder	O
 2	mi	reminder/set_reminder	O
 3	dass	reminder/set_reminder	O
@@ -3295,8 +3292,8 @@
 11	muas	reminder/set_reminder	O
 
 # id: 295
+# text: erinner mi moi in a viatl Stund das i bei da Nachbarin klingln muas erinner mi moi in a viatl Stund das i bei da Nachbarin klingln muas
 # intent: reminder/set_reminder
-# text: erinner mi moi in a viatl Stund das i bei da Nachbarin klingln muas
 1	erinner	reminder/set_reminder	O
 2	mi	reminder/set_reminder	O
 3	moi	reminder/set_reminder	O
@@ -3313,8 +3310,8 @@
 14	muas	reminder/set_reminder	O
 
 # id: 296
+# text: Erinner mi am Mondog, dass i an Zahnarzttermin ausmacha muas Erinner mi am Mondog , dass i an Zahnarzttermin ausmacha muas
 # intent: reminder/set_reminder
-# text: Erinner mi am Mondog, dass i an Zahnarzttermin ausmacha muas
 1	Erinner	reminder/set_reminder	O
 2	mi	reminder/set_reminder	O
 3	am	reminder/set_reminder	O
@@ -3328,8 +3325,8 @@
 11	muas	reminder/set_reminder	O
 
 # id: 297
+# text: moang muss i zum Zahnarzt. Erinner mi dro moang muss i zum Zahnarzt . Erinner mi dro
 # intent: reminder/set_reminder
-# text: moang muss i zum Zahnarzt. Erinner mi dro
 1	moang	reminder/set_reminder	B-datetime
 2	muss	reminder/set_reminder	O
 3	i	reminder/set_reminder	O
@@ -3341,8 +3338,8 @@
 9	dro	reminder/set_reminder	O
 
 # id: 298
+# text: Erinner mi, dass i in 5 Minuten d'wasch ausm Keller huin muas Erinner mi , dass i in 5 Minuten d'wasch ausm Keller huin muas
 # intent: reminder/set_reminder
-# text: Erinner mi, dass i in 5 Minuten d'wasch ausm Keller huin muas
 1	Erinner	reminder/set_reminder	O
 2	mi	reminder/set_reminder	O
 3	,	reminder/set_reminder	O
@@ -3358,8 +3355,8 @@
 13	muas	reminder/set_reminder	O
 
 # id: 299
+# text: Erinnert mi in a hoiben Stund dass i an Grill ohoazn muss! Erinnert mi in a hoiben Stund dass i an Grill ohoazn muss !
 # intent: reminder/set_reminder
-# text: Erinnert mi in a hoiben Stund dass i an Grill ohoazn muss!
 1	Erinnert	reminder/set_reminder	O
 2	mi	reminder/set_reminder	O
 3	in	reminder/set_reminder	O
@@ -3375,8 +3372,8 @@
 13	!	reminder/set_reminder	O
 
 # id: 300
+# text: erstoina Erinnerung, dass i de Überweisung macha muas erstoina Erinnerung , dass i de Überweisung macha muas
 # intent: reminder/set_reminder
-# text: erstoina Erinnerung, dass i de Überweisung macha muas
 1	erstoina	reminder/set_reminder	O
 2	Erinnerung	reminder/set_reminder	O
 3	,	reminder/set_reminder	O
@@ -3388,8 +3385,8 @@
 9	muas	reminder/set_reminder	O
 
 # id: 301
+# text: Wos steht auf meiner Erinnerungslistn Wos steht auf meiner Erinnerungslistn
 # intent: reminder/show_reminders
-# text: Wos steht auf meiner Erinnerungslistn
 1	Wos	reminder/show_reminders	O
 2	steht	reminder/show_reminders	O
 3	auf	reminder/show_reminders	O
@@ -3397,8 +3394,8 @@
 5	Erinnerungslistn	reminder/show_reminders	O
 
 # id: 302
+# text: wos war den am letzten Freidog um achte im Kalenda gstandn? wos war den am letzten Freidog um achte im Kalenda gstandn ?
 # intent: reminder/show_reminders
-# text: wos war den am letzten Freidog um achte im Kalenda gstandn?
 1	wos	reminder/show_reminders	O
 2	war	reminder/show_reminders	O
 3	den	reminder/show_reminders	O
@@ -3413,8 +3410,8 @@
 12	?	reminder/show_reminders	O
 
 # id: 303
+# text: Woiche Erinnerungen san gspeichert? Woiche Erinnerungen san gspeichert ?
 # intent: reminder/show_reminders
-# text: Woiche Erinnerungen san gspeichert?
 1	Woiche	reminder/show_reminders	O
 2	Erinnerungen	reminder/show_reminders	O
 3	san	reminder/show_reminders	O
@@ -3422,8 +3419,8 @@
 5	?	reminder/show_reminders	O
 
 # id: 304
+# text: weiche Erinnerungen stehn heid o? weiche Erinnerungen stehn heid o ?
 # intent: reminder/show_reminders
-# text: weiche Erinnerungen stehn heid o?
 1	weiche	reminder/show_reminders	O
 2	Erinnerungen	reminder/show_reminders	O
 3	stehn	reminder/show_reminders	O
@@ -3432,8 +3429,8 @@
 6	?	reminder/show_reminders	O
 
 # id: 305
+# text: Wos steht heit im kalenda Wos steht heit im kalenda
 # intent: reminder/show_reminders
-# text: Wos steht heit im kalenda
 1	Wos	reminder/show_reminders	O
 2	steht	reminder/show_reminders	O
 3	heit	reminder/show_reminders	B-datetime
@@ -3441,8 +3438,8 @@
 5	kalenda	reminder/show_reminders	O
 
 # id: 306
+# text: Sog mia meine Erinnerungen. Sog mia meine Erinnerungen .
 # intent: reminder/show_reminders
-# text: Sog mia meine Erinnerungen.
 1	Sog	reminder/show_reminders	O
 2	mia	reminder/show_reminders	O
 3	meine	reminder/show_reminders	B-reference
@@ -3450,16 +3447,16 @@
 5	.	reminder/show_reminders	O
 
 # id: 307
+# text: zoag ma meine Erinnerungen zoag ma meine Erinnerungen
 # intent: reminder/show_reminders
-# text: zoag ma meine Erinnerungen
 1	zoag	reminder/show_reminders	O
 2	ma	reminder/show_reminders	O
 3	meine	reminder/show_reminders	B-reference
 4	Erinnerungen	reminder/show_reminders	O
 
 # id: 308
+# text: Wia is n draußen grod in da Stod Wia is n draußen grod in da Stod
 # intent: weather/find
-# text: Wia is n draußen grod in da Stod
 1	Wia	weather/find	O
 2	is	weather/find	O
 3	n	weather/find	O
@@ -3470,8 +3467,8 @@
 8	Stod	weather/find	I-location
 
 # id: 309
+# text: Wia wird den des Weda moang fria in München? Wia wird den es Weda moang fria in München ?
 # intent: weather/find
-# text: Wia wird den des Weda moang fria in München?
 1	Wia	weather/find	O
 2	wird	weather/find	O
 3	den	weather/find	O
@@ -3484,8 +3481,8 @@
 10	?	weather/find	O
 
 # id: 310
+# text: Wia werd des Weda moang in Rengschbuag? Wia werd des Weda moang in Rengschbuag ?
 # intent: weather/find
-# text: Wia werd des Weda moang in Rengschbuag?
 1	Wia	weather/find	O
 2	werd	weather/find	O
 3	des	weather/find	O
@@ -3496,8 +3493,8 @@
 8	?	weather/find	O
 
 # id: 311
+# text: Wie isn des Weda heid in Neimarkt? Wie isn des Weda heid in Neimarkt ?
 # intent: weather/find
-# text: Wie isn des Weda heid in Neimarkt?
 1	Wie	weather/find	O
 2	isn	weather/find	O
 3	des	weather/find	O
@@ -3508,8 +3505,8 @@
 8	?	weather/find	O
 
 # id: 312
+# text: Werd’s Weda heid warm oda koid? Werd ' s Weda heid warm oda koid ?
 # intent: weather/find
-# text: Werd’s Weda heid warm oda koid?
 1	Werd	weather/find	O
 2	'	weather/find	O
 3	s	weather/find	O
@@ -3521,8 +3518,8 @@
 9	?	weather/find	O
 
 # id: 313
+# text: Scheint in Mallorca grod Sunn? Scheint in Mallorca grod Sunn ?
 # intent: weather/find
-# text: Scheint in Mallorca grod Sunn?
 1	Scheint	weather/find	B-weather/attribute
 2	in	weather/find	O
 3	Mallorca	weather/find	B-location
@@ -3531,8 +3528,8 @@
 6	?	weather/find	O
 
 # id: 314
+# text: Wia werd moang s Weda? Wia werd moang s Weda ?
 # intent: weather/find
-# text: Wia werd moang s Weda?
 1	Wia	weather/find	O
 2	werd	weather/find	O
 3	moang	weather/find	B-datetime
@@ -3540,14 +3537,3 @@
 5	Weda	weather/find	O
 6	?	weather/find	O
 
-# id: 315
-# intent: weather/find
-# text: wia werd as Weda in Oidäding moang? 
-1	wia	weather/find	O
-2	werd	weather/find	O
-3	as	weather/find	O
-4	Weda	weather/find	O
-5	in	weather/find	O
-6	Oidäding	weather/find	B-location
-7	moang	weather/find	B-datetime
-8	?
