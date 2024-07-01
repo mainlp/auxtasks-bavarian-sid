@@ -4,17 +4,14 @@ import statistics
 
 
 def calculate_stats(name, values):
-    # Calculate average
     avg = sum(values) / len(values)
 
-    # Calculate standard deviation
     std_dev = statistics.stdev(values)
 
-    # Print results
     print(f"Data: {name}")
     print(f"Average: {avg:.1f}")
     print(f"Standard Deviation: {std_dev:.1f}")
-    print()  # Blank line for separation
+    print("\n ---------------------------------------\n")
 
 
 # baseline
