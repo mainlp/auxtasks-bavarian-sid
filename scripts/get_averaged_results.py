@@ -183,7 +183,7 @@ if __name__ == "__main__":
         print("Usage: python3 get_averaged_results.py <files_directory_path>")
         sys.exit(1)
 
-    # for local testing in pycharm should be '~/PycharmProjects/BaySIDshot/baseline_results/'
+    # for local testing in pycharm should be '~/PycharmProjects/BaySIDshot/results_baseline/'
     directory = sys.argv[1]
     # for testing in Colab and with access to drive directory = '/content/drive/MyDrive/Masterarbeit/results/'
 
