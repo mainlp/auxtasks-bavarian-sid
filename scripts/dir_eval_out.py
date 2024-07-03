@@ -2,6 +2,7 @@
 
 import os, sys
 import json
+from sklearn.metrics import f1_score
 
 def readNlu(path):
     slots = []
@@ -60,10 +61,10 @@ def writeResults(all_langs, baseline, dialects, experiment_name):
     # in colab this will be deleted when connection to runtime is quit ->
     # built in a copy command into script.sh to copy results to drive - path  does not work there
 
-    #results_dir = "/content/BaySIDshot/results/"
+    results_dir = "/content/BaySIDshot/results/"
 
     # for local testing in pycharm:
-    results_dir = "/Users/xavermariakrueckl/PycharmProjects/BaySIDshot/results/"
+    #results_dir = "/Users/xavermariakrueckl/PycharmProjects/BaySIDshot/results/"
 
     if not os.path.exists(results_dir):
         os.makedirs(results_dir)
@@ -216,6 +217,15 @@ if __name__ == '__main__':
         print("Intents:")
         print(f"intent accuracy:\t{corIntents / len(goldSlots)}")
         intent_accurracy = round((corIntents / len(goldSlots) * 100.0), 1)
+
+        f1_macro = f1_score(goldIntents, predIntents, average='macro')
+        print(f"Macro-Averaged F1 Score: {f1_macro:.2f}")
+
+        f1_micro = f1_score(goldIntents, predIntents, average='micro')
+        print(f"Micro-Averaged F1 Score: {f1_micro:.2f}")
+
+        f1_weighted = f1_score(goldIntents, predIntents, average='weighted')
+        print(f"Weighted-Averaged F1 Score: {f1_weighted:.2f}")
 
         if save_baseline:
             data_baseline['intents'].append(intent_accurracy)
