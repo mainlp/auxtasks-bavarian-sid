@@ -60,10 +60,10 @@ def writeResults(all_langs, baseline, dialects, experiment_name):
     # in colab this will be deleted when connection to runtime is quit ->
     # built in a copy command into script.sh to copy results to drive - path  does not work there
 
-    results_dir = "/content/BaySIDshot/results/"
+    #results_dir = "/content/BaySIDshot/results/"
 
     # for local testing in pycharm:
-    #results_dir = "/Users/xavermariakrueckl/PycharmProjects/BaySIDshot/results/"
+    results_dir = "/Users/xavermariakrueckl/PycharmProjects/BaySIDshot/results/"
 
     if not os.path.exists(results_dir):
         os.makedirs(results_dir)
@@ -96,14 +96,21 @@ if __name__ == '__main__':
     # sorted by filename to zip them together correctly later on!
     gold_files = [file for file in os.listdir(gold_dir) if file.endswith(".test.conll")]
     gold_files = sorted(gold_files, key=lambda x: (x.split("."))[0])
-    print("Gold files: ", gold_files)
     pred_files = [file for file in os.listdir(pred_dir) if file.endswith(".test.conll.out")]
     pred_files = sorted(pred_files, key=lambda x: (x.split("."))[0])
+    # make sure that only existing pred and gold files combinations are evaluated!
+    gold_base_names = {file.split(".")[0] for file in gold_files}
+    pred_base_names = {file.split(".")[0] for file in pred_files}
+    common_base_names = gold_base_names & pred_base_names
+    gold_files = [file for file in gold_files if file.split(".")[0] in common_base_names]
+    pred_files = [file for file in pred_files if file.split(".")[0] in common_base_names]
+
+    print("Gold files: ", gold_files)
     print("Pred files: ", pred_files)
 
 
     # initializing result dicts:
-    baseline_langs = ['en', 'de-st', 'de', 'da', 'nl', 'it', 'sr', 'id', 'ar', 'zh', 'kk', 'tr', 'ja']
+    baseline_langs = ['ar', 'da', 'de', 'de-st', 'en', 'id', 'it', 'ja', 'kk', 'nl', 'sr', 'tr', 'zh']
     data_baseline = {
         'Language': [],
         'slots': [],
@@ -146,11 +153,11 @@ if __name__ == '__main__':
             save_baseline = True
             data_baseline['Language'].append(name)
 
-        if name in dialect_langs:
+        if str(name) in dialect_langs:
             save_dialects = True
             data_dialects['Language'].append(name)
 
-        if name in all_langs:
+        if str(name) in all_langs:
             save_all = True
             data_all_langs['Language'].append(name)
     
