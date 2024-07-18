@@ -60,7 +60,7 @@
 # text-en: what alarms do I have set?
 # text: weiche wecka hob i gsteid?
 # intent: alarm/show_alarms
-1	weiche	alarm/show_alarms	O                                           # B-reference ? was not in English version
+1	weiche	alarm/show_alarms	O
 2	wecka	alarm/show_alarms	O
 3	hob	alarm/show_alarms	O
 4	i	alarm/show_alarms	O
@@ -347,7 +347,7 @@
 11	end	reminder/set_reminder	I-recurring_datetime
 12	vom	reminder/set_reminder	I-recurring_datetime
 13	dog	reminder/set_reminder	I-recurring_datetime
-14	obgib	reminder/set_reminder	B-reminder/todo                                 # 2 times B-reminder/todo - that possible?
+14	obgib	reminder/set_reminder	B-reminder/todo
 
 # id: 33
 # text-en: how hot is it going to be today
@@ -365,7 +365,7 @@
 # intent: alarm/cancel_alarm
 1	Lösch	alarm/cancel_alarm	O
 2	olle	alarm/cancel_alarm	B-reference
-3	gsteidn	alarm/cancel_alarm	O                                 # I-reference?
+3	gsteidn	alarm/cancel_alarm	O
 4	wecka	alarm/cancel_alarm	O
 5	.	alarm/cancel_alarm	O
 
@@ -487,7 +487,7 @@
 5	?	weather/find	O
 
 # id: 46
-# text-en: set alarm for 615am                                  # typo?!
+# text-en: set alarm for 615am
 # text: stei an wecka fia 6:15 in da fria
 # intent: alarm/set_alarm
 1	stei	alarm/set_alarm	O
@@ -1039,7 +1039,7 @@
 3	erinnarung	reminder/show_reminders	O
 
 # id: 97
-# text-en: Stop alarm for 6:00 am												# Fehler hier, nach 4 kam 7 ?!
+# text-en: Stop alarm for 6:00 am
 # text: Schoit an wecka fia 6:00 in da fria aus
 # intent: alarm/cancel_alarm
 1	Schoit	alarm/cancel_alarm	O
@@ -1242,7 +1242,7 @@
 # text: Werds am Samstog renga?
 # intent: weather/find
 1	Werds	weather/find	O
-2	am	weather/find	O                                     # already B-datetime here? but was not in original as well
+2	am	weather/find	O
 3	Samstog	weather/find	B-datetime
 4	renga	weather/find	B-weather/attribute
 5	?	weather/find	O
@@ -1526,7 +1526,7 @@
 5	?	weather/find	O
 
 # id: 141
-# text-en: Set eh alarm to 7:20am for the shoe release.                 # incorrect spelling here was also reflected below
+# text-en: Set eh alarm to 7:20am for the shoe release.
 # text: Stei an wecka auf 7:20 in da fria fia de schua vaöffntlichung.
 # intent: alarm/set_alarm
 1	Stei	alarm/set_alarm	O
@@ -1658,7 +1658,7 @@
 4	aus	alarm/cancel_alarm	O
 
 # id: 151
-# text-en: I would give Half a Life 3 out of 6              ################################ new intents ###########
+# text-en: I would give Half a Life 3 out of 6
 # text: I dad Half a Life a 3 vo 6 gem
 # intent: RateBook
 1	I	RateBook	O
@@ -1732,7 +1732,7 @@
 13	nacht	BookRestaurant	I-datetime
 
 # id: 156
-# text-en: add bob klose to la mejor música para tus fiestas                    # la mejor música para tus fiestas - translate?
+# text-en: add bob klose to la mejor música para tus fiestas
 # text: dua an bob klose zua la mejor música para tus fiestas dazua
 # intent: AddToPlaylist
 1	dua	AddToPlaylist	O
@@ -1900,7 +1900,7 @@
 6	stern	RateBook	B-rating_unit
 
 # id: 168
-# text-en: add track 70s smash hits to my                                                   # something missing here?!
+# text-en: add track 70s smash hits to my
 # text: dua de tracks 70s smash hits zua meina
 # intent: AddToPlaylist
 1	dua	AddToPlaylist	O
@@ -1913,7 +1913,7 @@
 8	meina	AddToPlaylist	B-reference
 
 # id: 169
-# text-en: book near Montana restaurant serving sri lankan food for 6 that is highly rated on tues.         # also strange
+# text-en: book near Montana restaurant serving sri lankan food for 6 that is highly rated on tues.
 # text: buach nebam Montana restaurant des sri lankischs essn serviert fia 6 des guad bewert is am dienstog.
 # intent: BookRestaurant
 1	buach	BookRestaurant	O
@@ -1962,7 +1962,7 @@
 7	de	AddToPlaylist	O
 8	waschkich	AddToPlaylist	B-playlist
 9	playlist	AddToPlaylist	O
-10	.	AddToPlaylist	O                                                               # added . here, was not
+10	.	AddToPlaylist	O
 
 # id: 172
 # text-en: what is the PW forecast for stormy weather
@@ -1989,7 +1989,7 @@
 6	fia	weather/find	O
 7	mein	weather/find	O
 8	bloz	weather/find	B-location
-9	grod	weather/find	I-location                                  # is this part of location or time? was loc in english
+9	grod	weather/find	I-location
 10	nächstn	weather/find	B-datetime
 11	monat	weather/find	I-datetime
 12	?	weather/find	O
@@ -2410,7 +2410,7 @@
 11	?	weather/find	O
 
 # id: 203
-# text-en: Find me a table for 8 somewhee in Hollenberg in nine weeks                       # typo somewhee?
+# text-en: Find me a table for 8 somewhee in Hollenberg in nine weeks
 # text: Suach ma an disch fia 8 wurscht wo in Hollenberg in nein wocha
 # intent: BookRestaurant
 1	Suach	BookRestaurant	O
@@ -2465,7 +2465,7 @@
 6	Limit	SearchCreativeWork	B-object_name
 7	of	SearchCreativeWork	I-object_name
 8	Love	SearchCreativeWork	I-object_name
-9	:	SearchCreativeWork	I-object_name                                       # took : as a separate token
+9	:	SearchCreativeWork	I-object_name
 10	Umizaru	SearchCreativeWork	I-object_name
 
 # id: 207
@@ -2741,7 +2741,7 @@
 4	kino	SearchScreeningEvent	I-object_location_type
 5	des	SearchScreeningEvent	O
 6	Operation	SearchScreeningEvent	B-movie_name
-7	:	SearchScreeningEvent	I-movie_name                                               # took : as a separate token
+7	:	SearchScreeningEvent	I-movie_name
 8	Kingdom	SearchScreeningEvent	I-movie_name
 9	zoagt	SearchScreeningEvent	O
 
@@ -3668,7 +3668,7 @@
 14	playlist	AddToPlaylist	O
 
 # id: 289
-# text-en: show of From South Africa to South Carolina									# weird example
+# text-en: show of From South Africa to South Carolina
 # text: zoag From South Africa to South Carolina
 # intent: SearchCreativeWork
 1	zoag	SearchCreativeWork	O
@@ -3714,7 +3714,7 @@
 13	?	SearchScreeningEvent	O
 
 # id: 292
-# text-en: Find a restaurant in FM that servec quiche								# typo
+# text-en: Find a restaurant in FM that servec quiche
 # text: Suach a restaurant in FM des quiche hod
 # intent: BookRestaurant
 1	Suach	BookRestaurant	O
@@ -3777,7 +3777,7 @@
 4	Itunes	PlayMusic	B-service
 
 # id: 297
-# text-en: show book name Straight No Chase												# also weird example
+# text-en: show book name Straight No Chase
 # text: zoag buach des Straight No Chase hoaßt
 # intent: SearchCreativeWork
 1	zoag	SearchCreativeWork	O
