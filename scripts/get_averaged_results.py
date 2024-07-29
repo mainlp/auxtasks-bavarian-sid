@@ -1,5 +1,11 @@
 #!/usr/bin/python3
 
+# a script that averages the results of two or more .json dir_eval_out files
+# for usage see the main method below
+# averages on slot and intent detection as well as for the fully correct metric are calculated
+# this is based on specific languages for specific evaluation groups only
+# also calculated the difference in average performance to the mDeBERTa baseline approach
+
 import os
 import sys
 import json

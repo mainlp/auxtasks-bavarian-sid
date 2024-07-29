@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# a short script to get information on evaluation data sets but also English training data
+
 import sys
 from collections import defaultdict
 

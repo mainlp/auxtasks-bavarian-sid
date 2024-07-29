@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # script to prepare the UD_Bavarian-MaiBaam data to be used with MaChAmp and as train and dev 90-10 split
 # command from BaySIDshot:  bash scripts/prepare_ud_data.sh
 

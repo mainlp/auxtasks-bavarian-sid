@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # script to prepare the natural bavarian evaluation data from NaLiBaSID
 # needs to be and gets removed when quitting runtime of notebook!
 # command from BaySIDshot:  bash scripts/prepare_evaldata_natural.sh

@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# a short script to reorganize the Bavarian evaluation data de-ba to fit to the evaluation method of this work
+
 import sys
 
 # script to reorganize Miriams Bavarian test/valid data so that it fits the eval script

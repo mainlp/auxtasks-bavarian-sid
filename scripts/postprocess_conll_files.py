@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# a short script to post-process annotated evaluation sets for possible annotation errors
+
 import sys
 import re
 

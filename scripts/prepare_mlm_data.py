@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# a short script to prepare the mlm data in order to include as many structurally different sentences to the training data as possible
+
 import sys
 import pandas as pd
 

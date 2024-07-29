@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # script to prepare the mlm bavarian data from dialect-BLI to be used in my experiments here
 # command from BaySIDshot:  bash scripts/prepare_mlm_data.sh
 

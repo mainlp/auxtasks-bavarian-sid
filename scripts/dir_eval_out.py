@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 
+# the main evaluation script that performs an evaluation on a whole directory of predicted files
+# for usage see main method below
+# returns a json file of objects depending on the evaluation files in the predicted directory
+
 import os, sys
 import json
 from sklearn.metrics import f1_score

@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 
+# a short script to train-dev split cleaned bar_maibaam-ud-test.conllu data with a 90-10 split for aux task training
+
+
 import sys
 import os
 import random
 
-
-# script to train-dev split cleaned bar_maibaam-ud-test.conllu data with a 90-10 split for aux task training
 
 def read_conllu_file(filename):
     with open(filename, 'r', encoding='utf-8') as f:

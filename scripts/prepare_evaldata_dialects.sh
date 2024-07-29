@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # script to prepare dialects evaluation data in Colab (gets removed when quitting runtime of notebook)
 
 mkdir -p /content/BaySIDshot/dialects_eval_data/

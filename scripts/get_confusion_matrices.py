@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+# a script to calculate and plot confusion matrices for intent detection of certain predictions on evaluation languages
+# for usage see the main method below
+
 import os
 import sys
 from collections import defaultdict

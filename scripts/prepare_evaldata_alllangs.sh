@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # script to prepare evaluation data for all languages in Colab (gets removed when quitting runtime of notebook)
 
 mkdir -p /content/BaySIDshot/alllangs_eval_data/

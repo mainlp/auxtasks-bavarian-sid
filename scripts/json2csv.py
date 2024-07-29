@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# a script to turn json objects for certain evaluation sets into a csv to be easily used in a tables generator
+
 import sys
 import os
 import json

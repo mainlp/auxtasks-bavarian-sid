@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# a short script to reorganize the Bavarian natural evaluation data to fit to the evaluation method of this work
+
 import sys
 from collections import defaultdict
 

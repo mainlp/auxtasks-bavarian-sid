@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# a short script to pre-process conll files for translation and evaluation purposes in the xSID style
+
 import sys
 
 # Check if both filename arguments are provided

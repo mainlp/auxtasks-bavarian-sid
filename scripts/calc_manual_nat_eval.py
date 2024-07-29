@@ -2,6 +2,8 @@
 
 import statistics
 
+# a quick script that calculates the average numbers and standard deviations
+# for the retrospectively evaluated natural Bavarian data
 
 def calculate_stats(name, values):
     avg = sum(values) / len(values)
