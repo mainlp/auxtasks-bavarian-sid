@@ -21,7 +21,7 @@ Starting the notebooks will establish a mount on Google Drive and then clones th
 If required, data preparation scripts from the respecitve [scripts](https://github.com/XaverKrueckl/BaySIDshot/tree/main/scripts) directory are run.
 The created datasets, for which the paths are set accordingly in the [configurations](https://github.com/XaverKrueckl/BaySIDshot/tree/main/configs) for _MaChAmp_ are only present during runtime.
 If their creation fails, data which needs to be pre-processed but is openly available is given in a [manual data](https://github.com/XaverKrueckl/BaySIDshot/tree/main/manual_data) directory.
-In order to use this data, the paths to the data in the [configuration files](https://github.com/XaverKrueckl/BaySIDshot/tree/main/configs) need to be adjusted, though.
+In order to use this data, the paths to the data in the [configuration files](https://github.com/XaverKrueckl/BaySIDshot/tree/main/configs) need to be adjusted, though. Also please cite the respective data source in this case!
 
 After installing the required modules for _MaChAmp_, the notebook then checks for GPU access and general operability.
 For each experiment, the respective [configuration and parameter files](https://github.com/XaverKrueckl/BaySIDshot/tree/main/configs) are inspected before the train command is started.
