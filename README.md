@@ -3,6 +3,7 @@
 This repository contains both code and submodules used for my Masters Thesis entitled _Analyzing Slot and Intent Detection for Upper German Dialects via Zero-Shot Transfer Learning_.
 
 The origin of the portmanteau *BaySIDshot* is rooted in the creation of a new additional Bavarian test and validation set depicting the dialect spoken in the Munich region in order to further analyze zero-shot transfer learning performance on slot and intent detection (SID) for this and other Upper German dialects.
+Both _de-by_ test and validation .conll files can be found at the root of this directory.
 Thus, this work presents a parallel extension to the Upper Bavarian dataset translated and annotated by [Winkler et al. (2024)](https://aclanthology.org/2024.lrec-main.1297/), similarly building on and extending the [xSID](https://github.com/mainlp/xsid) approach and data format initiated by [van der Goot et al. (2021b)](https://aclanthology.org/2021.naacl-main.197/). 
 For running the baseline and extended experiments, recursively cloning all submodules and especially [_MaChAmp_](https://github.com/machamp-nlp/machamp) by [van der Goot et al. (2021a)](https://aclanthology.org/2021.eacl-demos.22/) is necessary.
 Performing the following command will load all submodules, including those containing auxiliary task data.
