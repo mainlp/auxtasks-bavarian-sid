@@ -31,6 +31,8 @@ In a rather complex evaluation cell, a script is prepared that evaluates the fin
 The predicted output files are saved to the respective model on Google Drive.
 Similarly, a separate evaluation [script](https://github.com/XaverKrueckl/BaySIDshot/tree/main/scripts) is run to get the results in a clear json file containing three objects depending on the extent of the evaluation set.
 After having run an experiment on multiple random seed, further [scripts](https://github.com/XaverKrueckl/BaySIDshot/tree/main/scripts) can be used to get the average over these runs, to turn this into a .csv document for usage in a LaTex tables generator and to produce confusion matrices on the results of intent classification.
+In their current state, the notebooks run all experiments on random_seed=1234. 
+The other two seeds that were used are 6543 and 8446. These need to be set for each experiment and in the respective model names!
 
 Finally, please find the Tex and Bib files as well as styleguide, figures and the final thesis pdf produced using the cloud based LaTex editor Overleaf [here](https://github.com/XaverKrueckl/BaySIDshot/tree/main/thesis).
 
