@@ -107,8 +107,8 @@
 # text: Werds heid renga?
 # intent: weather/find
 1	Werds	weather/find	O
-2	heid	weather/find	O
-3	renga	weather/find	O
+2	heid	weather/find	B-datetime
+3	renga	weather/find	B-weather/attribute
 4	?	weather/find	O
 
 # id: 12
@@ -2342,7 +2342,7 @@
 3	erinnarung	reminder/cancel_reminder	O
 4	fia	reminder/cancel_reminder	O
 5	des	reminder/cancel_reminder	O
-6	spui	reminder/cancel_reminder	O
+6	spui	reminder/cancel_reminder	B-reminder/todo
 7	heid	reminder/cancel_reminder	B-datetime
 8	ombd	reminder/cancel_reminder	I-datetime
 
@@ -5235,7 +5235,7 @@
 
 # id: 417
 # text-en: Please search for the television show , Episodi di The Blacklist .
-# text: Bitte suach nach dera fernseh show ,  Episodi di The Blacklist .
+# text: Bitte suach nach dera fernseh show , Episodi di The Blacklist .
 # intent: SearchCreativeWork
 1	Bitte	SearchCreativeWork	O
 2	suach	SearchCreativeWork	O
@@ -5808,7 +5808,7 @@
 
 # id: 459
 # text-en: Is Without Witness playing twenty two hours from now
-# text: Spuin Without Witness  in zwoarazwanzg stund vo jetz
+# text: Spuin Without Witness in zwoarazwanzg stund vo jetz
 # intent: SearchScreeningEvent
 1	Spuin	SearchScreeningEvent	O
 2	Without	SearchScreeningEvent	B-movie_name
@@ -6305,7 +6305,7 @@
 
 # id: 493
 # text-en: phyllis ward and veronica need a table at a restaurant in 152 days
-# text:  phyllis ward und d veronica brauchan an disch in am restaurant in 152 dog
+# text: phyllis ward und d veronica brauchan an disch in am restaurant in 152 dog
 # intent: BookRestaurant
 1	phyllis	BookRestaurant	B-party_size_description
 2	ward	BookRestaurant	I-party_size_description
