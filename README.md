@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the code for the paper _Improving Dialectal Slot and Intent Detection with Auxiliary Tasks: A Multi-Dialectal Bavarian Case Study_ (Xaver Maria Krückl*, Verena Blaschke*, Barbara Plank; VarDial 2025).
+This repository contains the code for the paper [_Improving Dialectal Slot and Intent Detection with Auxiliary Tasks: A Multi-Dialectal Bavarian Case Study_](https://aclanthology.org/2025.vardial-1.10/) (Xaver Maria Krückl*, Verena Blaschke*, Barbara Plank; VarDial 2025).
 
 ### Abstract
 
