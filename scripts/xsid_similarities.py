@@ -122,6 +122,12 @@ def pair_stats(lang1, lang2, lang2sent_id2slot2words, lang2sent_id2slot_order, l
     print("slot_order_diffs", slot_order_diffs / len(lang2sent_id2slot2words[lang1]))
 
 
+lang2sent_id2slot2words, lang2sent_id2slot_order, lang2sent_id2text = {}, {}, {}
+langs = ["en", "de", "de-ba", "de-by", "de-st", "gsw"]
+for lang in langs:
+    lang2sent_id2slot2words[lang], lang2sent_id2slot_order[lang], lang2sent_id2text[lang] = stats(
+        "../auxtasks-bavarian-sid/manual_data/dialects_eval_data/" + lang + ".test.conll")
+
 for i in range(len(langs) - 1):
     for j in range(len(langs) - 1 - i):
         pair_stats(langs[i], langs[i + j + 1], lang2sent_id2slot2words, lang2sent_id2slot_order, lang2sent_id2text)
