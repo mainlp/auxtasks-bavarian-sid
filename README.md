@@ -32,7 +32,7 @@ If you use this code, please cite:
 ### Munich Bavarian xSID
 The new Munich Bavarian development and test sets will be included in an official [xSID](https://github.com/mainlp/xsid) release. You can already find them in the root of this repository.
 
-**NOTE:** In the paper (and the official xSID release), the new dataset is called *de-muc*. In the subforlders and scripts of this repository, it is called *de-by*.
+**NOTE:** In the paper (and the official xSID release), the new dataset is called *de-muc*. In the subfolders and scripts of this repository, it is called *de-by*.
 
 ### Other datasets
 
@@ -73,3 +73,5 @@ After having run an experiment on multiple random seed, further [scripts](https:
 
 In their current state, the notebooks run all experiments on random_seed=1234. 
 The two further seeds that were used are 6543 and 8446. These need to be set for each experiment and in the respective model names!
+
+The script we used for comparing the distances between xSID translations is `scripts/xsid_distances.py`.
