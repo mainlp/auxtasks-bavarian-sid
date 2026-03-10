@@ -96,10 +96,6 @@ def pair_stats(lang1, lang2, lang2sent_id2slot2words, lang2sent_id2slot_order, l
                 entry1 = " ".join(lang2sent_id2slot2words[lang1][sent_id][slot])
                 entry2 = " ".join(lang2sent_id2slot2words[lang2][sent_id][slot])
             except KeyError:
-#                 print(sent_id, slot, "-")
-#                 print(lang2sent_id2slot2words[lang1][sent_id])
-#                 print(lang2sent_id2slot2words[lang2][sent_id])
-#                 print()
                 slot_diffs += 1
                 continue
             dist = nltk.edit_distance(entry1, entry2)
@@ -112,29 +108,19 @@ def pair_stats(lang1, lang2, lang2sent_id2slot2words, lang2sent_id2slot_order, l
         try:
             for slot in lang2sent_id2slot2words[lang2][sent_id]:
                 if slot not in lang2sent_id2slot2words[lang1][sent_id]:
-#                     print(sent_id, "-", slot)
-#                     print(lang2sent_id2slot2words[lang1][sent_id])
-#                     print(lang2sent_id2slot2words[lang2][sent_id])
-#                     print()
                     slot_diffs += 1
         except KeyError:
             print(lang2, sent_id)
             print(lang2sent_id2slot2words[lang2])
 
     print(lang1, lang2)
-    print("mean dist", np.mean(distances))
-    print("mean dist (lower)", np.mean(distances_lower))
-    print("mean dist (sent)", np.mean(distances_sent))
-    print("mean dist (sent, lower)", np.mean(distances_sent_lower))
+    print("mean sim", 1 - np.mean(distances))
+    print("mean sim (lower)", 1 - np.mean(distances_lower))
+    print("mean sim (sent)", 1 - np.mean(distances_sent))
+    print("mean sim (sent, lower)", 1 - np.mean(distances_sent_lower))
     print("slot_diffs", slot_diffs)
     print("slot_order_diffs", slot_order_diffs / len(lang2sent_id2slot2words[lang1]))
 
-
-lang2sent_id2slot2words, lang2sent_id2slot_order, lang2sent_id2text = {}, {}, {}
-langs = ["en", "de", "de-ba", "de-by", "de-st", "gsw"]
-for lang in langs:
-    lang2sent_id2slot2words[lang], lang2sent_id2slot_order[lang], lang2sent_id2text[lang] = stats(
-        "../auxtasks-bavarian-sid/manual_data/dialects_eval_data/" + lang + ".test.conll")
 
 for i in range(len(langs) - 1):
     for j in range(len(langs) - 1 - i):

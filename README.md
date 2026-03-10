@@ -74,4 +74,4 @@ After having run an experiment on multiple random seed, further [scripts](https:
 In their current state, the notebooks run all experiments on random_seed=1234. 
 The two further seeds that were used are 6543 and 8446. These need to be set for each experiment and in the respective model names!
 
-The script we used for comparing the distances between xSID translations is `scripts/xsid_distances.py`.
+The script we used for comparing how similar the xSID translations are is `scripts/xsid_similarities.py` (results in `results/xsid_similarities.txt`).

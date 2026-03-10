@@ -1,0 +1,155 @@
+en.test.conll
+avg sentence length 7.582 3.082089550937805
+avg word length 4.055921920337642
+avg slot length 1.7047817047817049
+split slot freq 0.024494142705005325
+
+de.test.conll
+avg sentence length 7.582 3.1854789278850992
+avg word length 4.763914534423635
+avg slot length 1.7396694214876034
+split slot freq 0.033084311632870865
+
+de-ba.test.conll
+avg sentence length 7.56 3.2184468303826304
+avg word length 4.243915343915344
+avg slot length 1.7484536082474227
+split slot freq 0.035218783351120594
+
+de-muc.test.conll
+avg sentence length 7.852 3.365426570287933
+avg word length 4.010697911360163
+avg slot length 1.8459152016546019
+split slot freq 0.03091684434968017
+
+de-st.test.conll
+avg sentence length 7.46 3.3015753815413635
+avg word length 4.45656836461126
+avg slot length 1.7656731757451183
+split slot freq 0.032908704883227176
+
+gsw.test.conll
+avg sentence length 8.14 3.2453659269795754
+avg word length 4.035872235872236
+avg slot length 1.6524008350730688
+split slot freq 0.030107526881720432
+
+en de
+mean sim 0.5054548990414349
+mean sim (lower) 0.5336597076049838
+mean sim (sent) 0.1457015704883352
+mean sim (sent, lower) 0.1666540121643063
+slot_diffs 6
+slot_order_diffs 0.192
+
+en de-ba
+mean sim 0.505498658098702
+mean sim (lower) 0.5301271076589149
+mean sim (sent) 0.16373831037383657
+mean sim (sent, lower) 0.1969648189529769
+slot_diffs 12
+slot_order_diffs 0.182
+
+en de-muc
+mean sim 0.5532651121959762
+mean sim (lower) 0.5539918907314281
+mean sim (sent) 0.22139721226485942
+mean sim (sent, lower) 0.22501229162993863
+slot_diffs 1
+slot_order_diffs 0.184
+
+en de-st
+mean sim 0.4847943538177789
+mean sim (lower) 0.5071803392358261
+mean sim (sent) 0.1405246322305147
+mean sim (sent, lower) 0.16180765198853442
+slot_diffs 33
+slot_order_diffs 0.262
+
+en gsw
+mean sim 0.4171013297941609
+mean sim (lower) 0.4451692893896364
+mean sim (sent) 0.08796449824685126
+mean sim (sent, lower) 0.10199921157274094
+slot_diffs 23
+slot_order_diffs 0.254
+
+de de-ba
+mean sim 0.6945534525231701
+mean sim (lower) 0.7028489617107467
+mean sim (sent) 0.2653868557311282
+mean sim (sent, lower) 0.27523870388297633
+slot_diffs 18
+slot_order_diffs 0.144
+
+de de-muc
+mean sim 0.6644161037364158
+mean sim (lower) 0.7003496772803808
+mean sim (sent) 0.19839476063152528
+mean sim (sent, lower) 0.22971799458711228
+slot_diffs 7
+slot_order_diffs 0.168
+
+de de-st
+mean sim 0.7303971380646297
+mean sim (lower) 0.7356079809431126
+mean sim (sent) 0.318149116320556
+mean sim (sent, lower) 0.3222657108371504
+slot_diffs 35
+slot_order_diffs 0.15
+
+de gsw
+mean sim 0.578079822996473
+mean sim (lower) 0.5875950032857233
+mean sim (sent) 0.1380957619178207
+mean sim (sent, lower) 0.1478729799612153
+slot_diffs 25
+slot_order_diffs 0.17
+
+de-ba de-muc
+mean sim 0.7717389867411827
+mean sim (lower) 0.8078565452060784
+mean sim (sent) 0.4226146996965884
+mean sim (sent, lower) 0.5148283227092825
+slot_diffs 13
+slot_order_diffs 0.138
+
+de-ba de-st
+mean sim 0.6810962922560482
+mean sim (lower) 0.6882893518636612
+mean sim (sent) 0.29626080118711706
+mean sim (sent, lower) 0.3156454776217934
+slot_diffs 45
+slot_order_diffs 0.2
+
+de-ba gsw
+mean sim 0.5639840457447693
+mean sim (lower) 0.5753759100683635
+mean sim (sent) 0.1168233098944399
+mean sim (sent, lower) 0.12362113429226429
+slot_diffs 31
+slot_order_diffs 0.204
+
+de-muc de-st
+mean sim 0.6692121336764465
+mean sim (lower) 0.7028618450028711
+mean sim (sent) 0.25088204180580354
+mean sim (sent, lower) 0.28962585436579236
+slot_diffs 34
+slot_order_diffs 0.21
+
+de-muc gsw
+mean sim 0.5097100364971321
+mean sim (lower) 0.5445158677138753
+mean sim (sent) 0.11526959919165802
+mean sim (sent, lower) 0.13348037338478524
+slot_diffs 24
+slot_order_diffs 0.222
+
+de-st gsw
+mean sim 0.5455204997094166
+mean sim (lower) 0.5540534491360196
+mean sim (sent) 0.12549613780612234
+mean sim (sent, lower) 0.13220555616554064
+slot_diffs 50
+slot_order_diffs 0.22
